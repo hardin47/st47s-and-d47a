@@ -248,7 +248,7 @@ Next, use `blogdown::hugo_version()` to check your local Hugo version:
 
 ```r
 > blogdown::hugo_version()
-[1] ‘0.80.0’
+[1] ‘0.84.0’
 ```
 
 Make sure you have at least version 0.80.0 installed. If not, try `blogdown::install_hugo()`. To pin this Hugo version to your website project, use:

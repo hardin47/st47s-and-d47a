@@ -141,7 +141,7 @@ And ensure your current version is at least as high as:
 
 ```r
 > blogdown::hugo_version()
-[1] ‘0.80.0’
+[1] ‘0.84.0’
 ```
 
 ## Markdown review
