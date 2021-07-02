@@ -2,7 +2,7 @@
 title: RR and OR
 author: ''
 date: '2021-06-10'
-slug: rr-and-or
+slug: rror
 categories: []
 tags: []
 subtitle: ''

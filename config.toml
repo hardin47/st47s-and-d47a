@@ -105,8 +105,8 @@ enableEmoji = true
 
 [menu]
   [[menu.header]]
-    name = "research"
-    title = "research projects"
+    name = "about"
+    title = "about"
     url = "/about/"
     weight = 1
   [[menu.header]]
@@ -120,8 +120,8 @@ enableEmoji = true
     url = "/learn/"
     weight = 3
   [[menu.header]]
-    name = "Projects"
-    title = "Project Portfolio"
+    name = "projects"
+    title = "research and other projects"
     url = "/project/"
     weight = 4
   [[menu.header]]
