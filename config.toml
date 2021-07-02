@@ -96,7 +96,7 @@ enableEmoji = true
   [[params.social]]
       icon      = "envelope" # icon name without the 'fa-'
       icon_pack = "far"
-      url       = ""
+      url       = "https://hardin47.netlify.app/contact/"
 
 [taxonomies]
   category = "categories"
@@ -105,18 +105,18 @@ enableEmoji = true
 
 [menu]
   [[menu.header]]
-    name = "About"
-    title = "About Apéro"
+    name = "research"
+    title = "research projects"
     url = "/about/"
     weight = 1
   [[menu.header]]
-    name = "Get started"
-    title = "Get started using the Hugo Apéro theme"
+    name = "courses"
+    title = "course materials"
     url = "/get-started/"
     weight = 2
   [[menu.header]]
-    name = "Learn"
-    title = "learn more about using the Hugo Apéro theme"
+    name = "letters of recommendation"
+    title = "if you'd like a letter of recommendation"
     url = "/learn/"
     weight = 3
   [[menu.header]]
@@ -125,20 +125,11 @@ enableEmoji = true
     url = "/project/"
     weight = 4
   [[menu.header]]
-    name = "Talks"
-    title = "Talks"
-    url = "/talk/"
+    name = "blogs"
+    title = "blogs"
+    url = "/blog/"
     weight = 5
-  # [[menu.header]]
-   # name = "A collection"
-   # title = "A collection"
-   # url = "/collection/"
-   # weight = 5
-  [[menu.header]]
-    name = "Elements"
-    title = "Element Page"
-    url = "/elements/"
-    weight = 6
+
 
   # Configure footer  
   [[menu.footer]]
