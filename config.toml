@@ -84,19 +84,19 @@ enableEmoji = true
   [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://github.com/hugo-apero/"
+      url       = "https://github.com/hardin47/"
   [[params.social]]
       icon      = "twitter" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://twitter.com/apreshill"
+      url       = "https://twitter.com/jo_hardin47"
   [[params.social]]
-      icon      = "youtube" # icon name without the 'fa-'
+      icon      = "linkedin" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://youtube.com/playlist?list=PLzxicn7kBeay3kTPuTQ9lSi7I5jfWmEwc"
+      url       = "https://www.linkedin.com/in/jo-hardin-b91a4b55/"
   [[params.social]]
-      icon      = "lemon" # icon name without the 'fa-'
+      icon      = "envelope" # icon name without the 'fa-'
       icon_pack = "far"
-      url       = "https://hugo-apero.netlify.app/"
+      url       = ""
 
 [taxonomies]
   category = "categories"
@@ -151,11 +151,7 @@ enableEmoji = true
     title = "Contact form"
     url = "/contact/"
     weight = 2
-  [[menu.footer]]
-    name = "Contributors"
-    title = "Contributors"
-    url = "/contributors/"
-    weight = 3
+
 
 # see https://gohugo.io/about/hugo-and-gdpr/    
 [privacy]
@@ -166,16 +162,16 @@ enableEmoji = true
     anonymizeIP = true
     respectDoNotTrack = true
   [privacy.instagram]
-    disable = false
+    disable = true
     simple = true
   [privacy.twitter]
     disable = false
     enableDNT = true
     simple = false
   [privacy.vimeo]
-    disable = false
+    disable = true
     enableDNT = true
     simple = true
   [privacy.youtube]
-    disable = false
+    disable = true
     privacyEnhanced = true
