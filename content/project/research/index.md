@@ -26,25 +26,20 @@ links:
 
 
 
+## my background
 
-### education:
+I have been at [Pomona College](https://www.pomona.edu/academics/departments/mathematics) since 2002 where I teach lots of different kinds of statistics, taught a little bit of math once, love teaching writing with statistics, and hope to soon teach some data science.
 
-* Ph.D., Statistics, University of California, Davis, 2000
-* M.S., Statistics, University of California, Davis, 1997
-* B.A., Mathematics, Pomona College, 1995
+My undergraduate degree is also from Pomona College, in Mathematics where I worked with Don Bentley.  I did my PhD in Statistics at [UC Davis](https://statistics.ucdavis.edu/) with [David Rocke](http://dmrocke.ucdavis.edu/).  
+
+My current research interests include:
+
+<h3><i class="fas fa-chart-line"></i> &nbsp; Statistical methods for high-throughput data</h3>
+<h3><i class="fas fa-sitemap"></i> &nbsp; Inference in machine learning</h3>
+<h3><i class="fas fa-chalkboard-teacher"></i> &nbsp; Statistics and data science education</h3>
+<h3><i class="fas fa-equals"></i> &nbsp; Equity and flourising in statistics and data science</h3> 
 
 
-## research interests:
 
-I chose to become a statistician because of the myriad of different mathematical applications to the real world available in the field.
-In particular, I've been able to work with molecular biologists thinking about new ways to work with high throughput data.  
-I've also recently My work involves analysis of different types of microarray (genetic) data that don’t conform to the usual assumptions needed for statistical analyses. Currently, I am developing new statistical techniques to analyze such data with particular interest in clustering, correlation, and outlier detection.
-
-Statistics
-Bioinformatics
-Analysis of Microarrays
-Clustering
-Correlation
-Outlier Detection
 
 
