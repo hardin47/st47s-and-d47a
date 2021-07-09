@@ -7,11 +7,14 @@ author: "Jo Hardin"
 draft: false
 # layout options: single or single-sidebar
 layout: single-sidebar
+images:
+  - /project/research/featured.jpg
 links:
 - icon: google-scholar
   icon_pack: ai
   name: google scholar citations
-  url: https://scholar.google.com/citations?user=c5Y77poAAAAJ&hl=en
+  url: https://scholar.google.com/citations?user=c5Y77poAAAAJ&hl=en  
+  
 - icon: github
   icon_pack: fab
   name: https://github.com/hardin47
@@ -20,7 +23,7 @@ links:
 
 
 <figure>
-<img style = "padding: 10px;float: right;" alt = 'hrdag' width='300' src='ims.jpg' />
+<img style = "padding: 10px;float: right;" alt = 'hrdag' width='300' src='featured.jpg' />
 </figure>
 
 
