@@ -15,16 +15,18 @@ layout: single-sidebar
 
 ## Department of Mathematics & Statistics
 
-AWM
-PAYS
-PSM
-EDGE
-MAD pages
-Edray's summer program
+* PSM
+* PAYS
+* AWM
+* EDGE
+* MAD pages
+* Edray's summer program
 
 ## Pomona College
 
-Institute
+Institute for Equity and Inclusion
+
+> The mission of the Institute for Equity and Inclusion will be to advance the practice of inclusive excellence at Pomona College. The Institute will achieve this mission through faculty professional development in inclusive teaching and mentorship, and through research that informs decision making and drives institutional change to further equity initiatives at the College.
 
 ## American Statistical Association
 
@@ -34,3 +36,4 @@ https://magazine.amstat.org/blog/2021/05/01/the-origins-of-jedi/
 
 https://twitter.com/DataSciJedi
 
+statfest
