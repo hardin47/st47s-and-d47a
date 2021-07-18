@@ -1,0 +1,117 @@
+---
+title: RR and OR
+author: 'Jo Hardin'
+date: '2021-06-10'
+slug: rror
+categories: []
+tags: []
+subtitle: ''
+summary: 'Why relative risk should not be calculated on data sampled using a case control study.'
+authors: []
+lastmod: '2021-06-10T13:26:57-07:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+## Motivation
+
+There are many good reasons to choose a case control study as the experimental design.  Most notably, in many scenarios, cases are somewhat difficult to come by, and if observations are determined by treatment / control (i.e., a cohort study) then the study can end up with too few cases observed for any type of conclusion (i.e., the study will be under-powered).  See recent case-control studies [here](https://pubmed.ncbi.nlm.nih.gov/32931726/) and [here](https://pubmed.ncbi.nlm.nih.gov/33052324/) and [here](https://pubmed.ncbi.nlm.nih.gov/34273049/). 
+
+However, when teaching about case-control studies, it is paramount to include a thorough dive into odds ratios and the need to use odds ratios (instead of relative risk or differences in proportions) to summarize case-control studies.  There are many good resources for learning about case-control studies (e.g., [here](https://sphweb.bumc.bu.edu/otlt/mph-modules/ep/ep713_analyticoverview/ep713_analyticoverview5.html) and [here](https://sphweb.bumc.bu.edu/otlt/mph-modules/ep/ep713_association/EP713_Association8.html) and [here](https://pubmed.ncbi.nlm.nih.gov/6613982/) and [here](https://www.karger.com/Article/FullText/334180) and [here](https://www.gfmer.ch/Books/Reproductive_health/Cohort_and_case_control_studies.htm)), but many of the ideas below come from the excellent introductory statistics textbook, [Introduction to Statistical Concepts, Applications, and Methods](http://www.rossmanchance.com/iscam3/) by Chance and Rossman.
+
+##  Definitions
+
+A case-control study is one in which the **observational units are selected in such a way that there are a set number of cases and a set number of controls**.  (As compared with a cohort study where the observational units are selected in such a way that there are a set number in treatment group 1 and a set number in treatment group 2.)
+
+#### Types of Studies
+
+* **Explanatory variable** is one that is a potential explanation for any changes in the response variable.
+
+* **Response variable** is the measured outcome of interest.
+
+* **Case-control study:** identify observational units by response (i.e., case or control).
+
+* **Cohort study:** identify observational units by explanatory variable (i.e., treatment or placebo).
+
+* **Cross-classification study:** identify observational units regardless of levels of the variable.
+
+#### **Relative Risk**  
+The relative risk (RR) is the ratio of risks for each group.  We say, "The risk of success is **RR** times higher for those in group 1 compared to those in group 2."
+
+$$
+`\begin{aligned}
+\mbox{relative risk} &= \frac{\mbox{risk group 1}}{\mbox{risk group 2}}\\
+&=  \frac{\mbox{proportion of successes in group 1}}{\mbox{proportion of successes in group 2}}\\
+\mbox{RR} &= \frac{p_1}{p_2} = \frac{p_1}{p_2}\\
+\hat{\mbox{RR}} &= \frac{\hat{p}_1}{\hat{p}_2}
+\end{aligned}`
+$$
+
+#### **Odds Ratio** 
+A related concept to risk is odds.  It is often used in horse racing, where "success" is typically defined as losing.  So, if the odds are 3 to 1 we would expect to lose 3/4 of the time.  The odds ratio (OR) is the ratio of odds for each group.  We say, "The odds of success is **OR** times higher for those in group 1 compared to those group 2."
+
+
+`\begin{eqnarray*}
+\mbox{odds} &=& \frac{\mbox{proportion of successes}}{\mbox{proportion of failures}}\\
+&=& \frac{\mbox{number of successes}}{\mbox{number of failures}} = \theta\\
+\hat{\mbox{odds}} &=& \hat{\theta}\\
+\mbox{odds ratio} &=& \frac{\mbox{odds group 1}}{\mbox{odds group 2}} \\
+\mbox{OR} &=& \frac{\theta_1}{\theta_2} = \frac{p_1/(1-p_1)}{p_2/(1-p_2)}= \frac{p_1/(1-p_1)}{p_2/(1-p_2)}\\
+\hat{\mbox{OR}} &=& \frac{\hat{\theta}_1}{\hat{\theta}_2} = \frac{\hat{p}_1/(1-\hat{p}_1)}{\hat{p}_2/(1-\hat{p}_2)}\\
+\end{eqnarray*}`
+
+
+## Are odds difficult to understand?
+
+If you, like me, grew up in a world of proportions and percentages, the first time you encounter odds, it might seem like an *odd* statistic.  However, I'd like to argue that, fundamentally, the idea of odds is no different from the idea or risk (or proportion).  The cognitive difficulty in remembering and communicating about odds comes with the fact that we've wired our brains so completely to think primarily about proportions.  
+
+But what if you had grown up thinking about odds?  What if you had had a placement at your kitchen table describing the odds of an event (instead of the proportion of the event)?  You might find that the odds are actually easier to interpret than a proportion.
+
+I posit that if you (or your students) had grown up with a kitchen table placemat as seen below, you would find risk to be the *odd* concept and odds to be the intuitive idea.
+
+<div class="figure">
+<img src="riskplacemat.png" alt="Six different pie charts are shown, each with a different number of equivalently sized pie pieces colored either blue or orange.  For example, one pie has three blue and two orange pieces.  Below that particular pie is written 3/5 = 0.6 which is the risk or the proportion of blue pie pieces." width="1059" />
+<p class="caption">Figure 1: A child's kitchen placemat designed to teach proportions, often called risk in medical studies.</p>
+</div>
+
+<div class="figure">
+<img src="riskplacemat.png" alt="Six different pie charts are shown, each with a different number of equivalently sized pie pieces colored either blue or orange.  For example, one pie has three blue and two orange pieces.  Below that particular pie is written 3/2 = 1.5 which is the odds of the blue pie pieces." width="1059" />
+<p class="caption">Figure 2: An alternative child's kitchen placemat designed to teach odds.</p>
+</div>
+
+##  Case-control studies, one more time
+
+##  Can we force the RR to be anything we want?
+
+
+<iframe height="800" width="100%" frameborder="no" src="https://hardin47.shinyapps.io/RROR/"> </iframe>
+
+### Are OR and RR ever numerically similar / equivalent?
+
+If `\(p_1\)` and `\(p_2\)` are both very small, then 
+`$$1-p_1 \approx 1- p_2 \approx 1$$`
+which gives:
+
+`$$RR = \frac{p_1}{p_2} \approx \frac{p_1 / (1 - p_1)}{p_2/(1-p_2)} = OR.$$`
+
+In situations of extremely rare diseases (and case-control studies), it makes sense to calculate the odds ratio and interpret the number as if it was relative risk.
+
+#### OR is always more extreme than RR
+
+Without loss of generality, assume the true `\(RR > 1\)`, implying `\(p_1 / p_2 > 1\)` and `\(p_1 > p_2\)`.
+
+Note the following sequence of consequences:
+
+`\begin{eqnarray*}
+RR = \frac{p_1}{p_2} &>& 1\\
+\frac{1 - p_1}{1 - p_2} &<& 1\\
+\frac{ 1 / (1 - p_1)}{1 / (1 - p_2)} &>& 1\\
+\frac{p_1}{p_2} \cdot \frac{ 1 / (1 - p_1)}{1 / (1 - p_2)} &>& \frac{p_1}{p_2}\\
+OR &>& RR
+\end{eqnarray*}`
