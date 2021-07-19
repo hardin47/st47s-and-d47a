@@ -41,7 +41,7 @@ enableEmoji = true
   socialInFooter = true
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
-  sharing_image = "/img/st57s.png"
+  sharing_image = "/img/st47s.png"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
   twitter = "jo_hardin47"
   
@@ -112,7 +112,7 @@ enableEmoji = true
   [[menu.header]]
     name = "courses"
     title = "course materials"
-    url = "/get-started/"
+    url = "/courses/"
     weight = 2
   [[menu.header]]
     name = "projects"
@@ -127,7 +127,7 @@ enableEmoji = true
   [[menu.header]]
     name = "rec letters"
     title = "if you'd like a letter of recommendation"
-    url = "/learn/"
+    url = "/letter/"
     weight = 5
 
   # Configure footer  

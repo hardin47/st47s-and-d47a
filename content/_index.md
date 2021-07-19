@@ -1,7 +1,7 @@
 ---
 title: "Jo Hardin"
 subtitle: "st47s, d47a, and educ47ion."
-description: "Welcome to the documentation site for the Hugo Apéro (*a-pay-ROH*) theme! Inside, you'll find how to get started building a new site with this theme. You'll learn a bit about Hugo, and a lot about what makes this theme unique and, we hope, fun to get to know. Bon apéro!"
+description: "Welcome to my website!  I'm a Professor of Mathematics & Statistics at Pomona College.  I love data and teaching.  Find out about my interests by perusing the site."
 images:
   - img/johex.png
 image_left: false

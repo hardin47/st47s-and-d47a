@@ -1,8 +1,8 @@
 ---
-title: Learn about Hugo Apéro
+title: Letters of recommendation
 description: |
   Learn how to use Hugo Apéro to build a personal website.
-author: "Alisson Hill"
+author: "Jo Hardin"
 show_post_thumbnail: true
 show_author_byline: true
 show_post_date: true

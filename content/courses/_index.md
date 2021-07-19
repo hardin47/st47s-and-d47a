@@ -2,10 +2,10 @@
 aliases:
   - get-started
 type: collection
-title: Get started
+title: Courses 
 description: |
-  Start using Hugo Apéro with GitHub, Netlify, and the blogdown R package with RStudio.
-author: Alison Hill
+  Links to course materials and recent educational projects.
+author: Jo Hardin
 show_post_thumbnail: false
 thumbnail_left: true # for list-sidebar only
 show_author_byline: false
@@ -15,24 +15,24 @@ layout: list-sidebar # list, list-sidebar, list-grid
 
 # for list-sidebar layout
 sidebar: 
-  title: Get started
-  author: Alison Hill
+  title: Where can I find things?
+  author: Jo Hardin
   description: |
-    Start using Hugo Apéro with GitHub, Netlify, and the blogdown R package with RStudio.
-  text_link_label: "Visit the demo site"
-  text_link_url: "https://hugo-apero.netlify.app/"
+    Most of the course materials are here.  For many classes, there is also a textbook (typically available online for free).  All solutions (HW, exams, etc.) will be posted on Sakai.  Please join the class Discord chanel (see sign-up information on Sakai).
+  text_link_label: ""
+  text_link_url: ""
   show_sidebar_adunit: false # show ad container
 
 # set up common front matter for all individual pages in series
 cascade:
   type: collection
   layout: single-series       # for a series, do not change
-  author: Alison Hill
+  author: Jo Hardin
   show_author_byline: true
   show_post_date: true
   sidebar:
-    text_link_label: "Visit the demo site"
-    text_link_url: "https://hugo-apero.netlify.app/"
+    text_link_label: ""
+    text_link_url: ""
     show_sidebar_adunit: false # show ad container
     text_series_label: "In this series" 
     text_contents_label: "On this page" 
