@@ -11,7 +11,7 @@ layout: list-sidebar # list, list-sidebar, list-grid
 
 # for list-sidebar layout
 sidebar: 
-  title: Would you like a letter of recommendation?
+  title: 
   description: |
     I love being a statistician, and I love working with data.  There is no end of super interesting problems to work on -- from methods development to applied collaborations to projects in education.  
   author: "Jo Hardin"
