@@ -1,7 +1,7 @@
 ---
-title: Letters of recommendation
+title: Research projects
 description: |
-  almost surely, I would be happy to write you a letter of recommendation
+  so many fun projects, so little time
 author: "Jo Hardin"
 show_post_thumbnail: true
 show_author_byline: true
@@ -13,7 +13,7 @@ layout: list-sidebar # list, list-sidebar, list-grid
 sidebar: 
   title: Would you like a letter of recommendation?
   description: |
-    almost surely, no problem.  I would be happy to write you a letter.  Help me, help you.  The more information you can provide for me, the better my letter will be.  Also, send the same information about your situation to your other letter writers.  It will make their letters better, too.
+    I love being a statistician, and I love working with data.  There is no end of super interesting problems to work on -- from methods development to applied collaborations to projects in education.  
   author: "Jo Hardin"
   show_sidebar_adunit: false # show ad container
 
