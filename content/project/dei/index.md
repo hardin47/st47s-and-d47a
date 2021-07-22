@@ -24,7 +24,7 @@ layout: single-sidebar
 
 ## Pomona College
 
-Institute for Equity and Inclusion
+Institute for Diversity, Equity, and Inclusion
 
 > The mission of the Institute for Equity and Inclusion will be to advance the practice of inclusive excellence at Pomona College. The Institute will achieve this mission through faculty professional development in inclusive teaching and mentorship, and through research that informs decision making and drives institutional change to further equity initiatives at the College.
 

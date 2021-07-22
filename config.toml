@@ -33,7 +33,7 @@ enableEmoji = true
   description = "A web site to pull together all the things."
   favicon = "/img/favicon.ico"
   logo = "/img/st47s.png"
-  mainSections = ["blog", "project", "courses"]
+  mainSections = ["courses", "research", "project", "blog", "project"]
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
