@@ -4,7 +4,7 @@ weight: 1
 slug: setup
 subtitle: "."
 excerpt: "Computational Statistics can be thought of as an advanced data science course.  We will work with many different types of data to become fluent in wrangling, visualizing, modeling, predicting, and most importantly communicating results."
-date: "Fall 2021""
+date: "Fall 2021"
 draft: false
 ---
 
@@ -34,7 +34,7 @@ The main course website is at [Computational Statistics](https://m154-comp-stats
 
 #### GitHub Classroom
 
-As part of the learning goals of the class, we will be working with GitHub for all of the course assignments. Many of the assignments will be individual, but some of the homework assignments and the semester project will be done collaboratively.  The [course GitHub site]() is private, and you should send me your GitHub username so that you can be added to the site.
+As part of the learning goals of the class, we will be working with GitHub for all of the course assignments. Many of the assignments will be individual, but some of the homework assignments and the semester project will be done collaboratively.  The [course GitHub site]() is private; please send me your GitHub username so that you can be added to the site.
 
 #### Sakai
 

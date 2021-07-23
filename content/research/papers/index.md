@@ -1,72 +1,15 @@
 ---
-title: "Customize your about page"
-subtitle: "Use your about page to tell visitors more about you. More stable than a twitter page, but less frozen than a resume or CV."
-excerpt: "This theme includes a proper 'about' page- something that not a lot of Hugo themes provide! This page is meant to compliment your homepage. A good about page lets you keep your homepage brief and inviting, while still giving you the space to give your visitors the 'cooks tour' of your site."
-date: 2021-03-14
-author: "Alison Hill"
+title: "Papers + Projects"
+subtitle: "."
+excerpt: "."
+date: 2021
+author: "Jo Hardin"
 draft: false
 # layout options: single, single-sidebar
 layout: single
-categories:
-- evergreen
 ---
 
-There are three main sections to the about page.
 
-![](about-sections.png)
-
-The **header** is on top, and includes a headline and subheadline. This section is *optional*.
-
-The **sidebar**, which can appear on either the left or the right, is a narrow column with the option to include an avatar, audio file, social icons, and a quick list of links.
-
-The **main** section is the wide column that appears next to the sidebar. It allows you to add an intro and outro, with featured content sandwiched between. Featured content can be scoped in a few different ways: you can control which content sections of your site get featured, how many you want to feature on the about page, and whether to use the most recent content or filter based on a `featured: true` flag added to the YAML of individual content pages. 
-
-So, where to start?
-
-## Set up your about page sections
-
-Start customizing your Hugo Apéro about page by opening up `content/about/_index.md`. When you open this file, you'll see a long-ish section of YAML with a series of key-value pairs fenced in by three dashes (`---`). There is no content on this page below the YAML.
-
-The underscore in the filename is important, and so is the filename, so don't change this! But do focus on changing the YAML values. 
-
-The `title` and `description` fields are important for populating the metadata for this page, but changing these two fields may not change anything you see right away. But please do it anyway!
-
-```yaml
----
-title: "About"
-description: |
-  A website template for Hugo developed by RStudio & Formspree and available for free.
----
-```
-
-Next, decide if you want to show the header or not, and whether you want to show the sidebar on the left or the right:
-
-```yaml
----
-show_header: true
-sidebar_left: true
----
-```
-
-Close `content/about/_index.md`- you are done in there for now.
-
-## Set up the header
-
-Open up `content/about/header/index.md` to customize, if you are showing it. Here is the full YAML:
-
-```yaml
----
-## Configure header of page
-text_align_right: false
-show_title_as_headline: false
-headline: |
-  Hi, my name is Hugo Apéro. Nice to meet you.
----
-```
-
-If you don't want to set a custom headline, and would like to use your title from `content/about/_index.md` instead as the headline, set `show_title_as_headline: true`. 
-
-Use the text below the YAML to fill in your subheadline. You may use markdown formatting and [emojis](https://gohugo.io/functions/emojify/).
 
 ## Set up the sidebar
 
