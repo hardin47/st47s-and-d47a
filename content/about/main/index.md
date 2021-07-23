@@ -1,12 +1,12 @@
 ---
 ## Configure page content in wide column
 title: "" # leave blank to exclude
-number_featured: 1 # pulling from mainSections in config.toml
-number_categories: 3 # set to zero to exclude
-use_featured: false
+number_featured: 2 # pulling from mainSections in config.toml
+number_categories: 0 # set to zero to exclude
+use_featured: true
 show_intro: true
 intro: |
-   Below are links to some of the current projects which are keeping me busy.
+   Current projects which are keeping me busy.
 outro: |
   <i class="fas fa-glass-cheers pr2"></i> Cheers!
 ---
