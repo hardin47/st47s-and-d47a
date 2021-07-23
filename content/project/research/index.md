@@ -35,7 +35,7 @@ I have been at [Pomona College](https://www.pomona.edu/academics/departments/mat
 
 My undergraduate degree is also from Pomona College, in Mathematics where I worked with Don Bentley.  I did my PhD in Statistics at [UC Davis](https://statistics.ucdavis.edu/) with [David Rocke](http://dmrocke.ucdavis.edu/).  
 
-My current research interests include:
+My current [research](/research/) interests include:
 
 <h3><i class="fas fa-chart-line"></i> &nbsp; Statistical methods for high-throughput data</h3>
 <h3><i class="fas fa-sitemap"></i> &nbsp; Inference in machine learning</h3>

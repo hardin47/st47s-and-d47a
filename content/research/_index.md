@@ -7,7 +7,7 @@ show_post_thumbnail: true
 show_author_byline: true
 show_post_date: true
 # for listing page layout
-layout: list # list, list-sidebar, list-grid
+layout: list # list, list-sidebar
 
 # for list-sidebar layout
 sidebar: 
@@ -19,7 +19,7 @@ sidebar:
 
 # set up common front matter for all pages inside blog/
 cascade:
-  type: talk
+  type: blog
   author: "Jo Hardin"
   show_author_byline: true
   show_post_date: false
