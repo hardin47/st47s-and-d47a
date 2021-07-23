@@ -121,7 +121,7 @@ enableEmoji = true
     weight = 3
   [[menu.header]]
     name = "projects"
-    title = "awesome & fun data adventures"
+    title = "awesome & fun adventures"
     url = "/project/"
     weight = 4
   [[menu.header]]
