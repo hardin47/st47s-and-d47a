@@ -5,6 +5,7 @@ excerpt: ""
 weight: 1
 author: "Mine Çentinkaya-Rundel and Jo Hardin"
 draft: false
+featured: true
 # layout options: single or single-sidebar
 layout: single-sidebar
 links:

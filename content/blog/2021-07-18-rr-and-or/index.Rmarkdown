@@ -9,7 +9,7 @@ subtitle: ''
 summary: 'Why relative risk should not be calculated on data sampled using a case control study.'
 authors: []
 lastmod: '2021-06-10T13:26:57-07:00'
-featured: no
+featured: true
 image:
   caption: ''
   focal_point: ''

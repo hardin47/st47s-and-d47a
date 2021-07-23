@@ -9,7 +9,7 @@ subtitle: ''
 summary: 'Why relative risk should not be calculated on data sampled using a case control study.'
 authors: []
 lastmod: '2021-06-10T13:26:57-07:00'
-featured: no
+featured: true
 image:
   caption: ''
   focal_point: ''
@@ -81,7 +81,7 @@ We say, "The odds of success is **OR** times for those in group 1 as compared to
 ## Are odds difficult to understand?
 
 If you, like me, grew up in a world of proportions and percentages, the first time you encounter odds, it might seem like an *odd* statistic. 
-However, I'd like to argue that, fundamentally, the idea of odds is no different from the idea or risk (or proportion). 
+However, I'd like to argue that, fundamentally, the idea of odds is no different from the idea of risk (or proportion). 
 The cognitive difficulty in remembering and communicating about odds comes with the fact that we've wired our brains so completely to think primarily about proportions.  
 
 But what if you had grown up thinking about odds? 

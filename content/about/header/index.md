@@ -11,8 +11,6 @@ Hi and welcome to my site!
 
 I have been at <a href = "https://www.pomona.edu/academics/departments/mathematics">Pomona College</a> since 2002 where I teach lots of different kinds of statistics, taught a little bit of math once, love teaching writing with statistics, and hope to soon teach some data science.
 
-My current research interest
-
 <h4> Background </h4>
 My undergraduate degree in Mathematics is also from <a href = "https://www.pomona.edu/academics/departments/mathematics">Pomona College</a>, where I worked with Don Bentley.  I did my PhD in Statistics at <a href="https://statistics.ucdavis.edu/">UC Davis</a> with <a href = "http://dmrocke.ucdavis.edu/">David Rocke</a>.
 
@@ -26,4 +24,4 @@ I've also written an <a href="https://www.openintro.org/">OpenIntro </a> textboo
 One of the best things about being a statistician is the many different subject areas to pursue.  My <a href="/research/">research projects</a> are posted, but if you have time, it's really my <a href="/research/">students' research projects</a> that are worth investigating.  I highly recommend working with undergraduates on research as it is among the most fun and rewarding parts of my day.
 
 <h4>Want to know what I'm up to?</h4>
-Beyond teaching and research, I am fortunate to be able to fit in a few hours here and there on some of my <a href="/project/">passion projects</a>.  Almost every Tuesday, I wrangle a bit of <a href="project/tidytuesday">TidyTuesday</a> data.  I'm also compiling a <a href="/project/curv">list of scholars</a> who are traditionally underrepresented in the statistics and data science curriculum.  Feel free to use the list for your own "scholar of the day" classroom activity.  And please submit a pull request or a GitHub issue if you have names ot add to the database!
+Beyond teaching and research, I am fortunate to be able to fit in a few hours here and there on some of my <a href="/project/">passion projects</a>.  Almost every Tuesday, I wrangle a bit of <a href="/project/tidytuesday">TidyTuesday</a> data.  I'm also compiling a <a href="/project/curv">list of scholars</a> who are traditionally underrepresented in the statistics and data science curriculum.  Feel free to use the list for your own "scholar of the day" classroom activity.  And please submit a pull request or a GitHub issue if you have names ot add to the database!

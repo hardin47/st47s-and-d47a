@@ -33,7 +33,7 @@ enableEmoji = true
   description = "A web site to pull together all the things."
   favicon = "/img/favicon.ico"
   logo = "/img/st47s.png"
-  mainSections = ["courses", "research", "project", "blog", "project"]
+  mainSections = ["courses", "research", "project", "blog"]
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
@@ -133,7 +133,7 @@ enableEmoji = true
     name = "rec letters"
     title = "I will happily write you a letter..."
     url = "/letter/"
-    weight = 5
+    weight = 6
 
   # Configure footer  
   [[menu.footer]]
