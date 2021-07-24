@@ -27,6 +27,9 @@ enableEmoji = true
     # one of: https://xyproto.github.io/splash/docs/ 
     style = "github"
     
+[permalinks]
+  research = "/talk/:filename/"
+  
 [params]
   orgName = "Jo Hardin"
   orgLocal = "Claremont, CA"

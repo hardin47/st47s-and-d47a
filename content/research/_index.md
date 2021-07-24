@@ -1,11 +1,12 @@
 ---
+type: talks
 title: Research projects
 description: |
   so many fun projects, so little time
 author: "Jo Hardin"
 show_post_thumbnail: true
 show_author_byline: true
-show_post_date: false
+show_post_date: true
 show_post_time: false
 # for listing page layout
 layout: list # list, list-sidebar
@@ -18,22 +19,22 @@ sidebar:
     Check out the _index.md file in the /research folder 
     to edit this content. 
   author: "Jo Hardin"
-  text_link_label: 
-  text_link_url: 
-  show_sidebar_adunit: false # show ad container
+  text_link_label: research
+  text_link_url: /research/index.xml
+  show_sidebar_adunit: true # show ad container
 
 # set up common front matter for all pages inside blog/
 cascade:
   type: talks
   author: "Jo Hardin"
   show_author_byline: true
-  show_post_date: false
+  show_post_date: true
   show_post_time: false
   show_comments: false # see site config to choose Disqus or Utterances
   # for single-sidebar layout
   sidebar:
     text_link_label: View recent talks
-    text_link_url: /talk/
+    text_link_url: /research/
     show_sidebar_adunit: false # show ad container
 ---
 
