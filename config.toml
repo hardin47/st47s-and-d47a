@@ -97,7 +97,7 @@ enableEmoji = true
       icon      = "envelope" # icon name without the 'fa-'
       icon_pack = "far"
       url       = "https://hardin47.netlify.app/contact/"
-
+  
 [taxonomies]
   category = "categories"
   series = "series"

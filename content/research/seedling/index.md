@@ -1,72 +1,15 @@
 ---
-title: "Using panelsets"
-subtitle: "How to add panelsets in plain markdown posts."
-excerpt: "Add tabbed sections to your posts."
-date: 2021-01-02
+title: "A seedling"
+subtitle: "Testing"
+excerpt: "Another idea"
+date: 2020-01-13T14:15:59-06:00
+date_end: "2020-01-15T14:45:59-06:00"
 author: "Alison Hill"
+location: "Online"
 draft: false
 # layout options: single, single-sidebar
 layout: single
 categories:
-- Theme features
+- meetup
 ---
 
-Courtesy of panelset.js by Garrick Aden-Buie, from his xaringanExtra package: https://pkg.garrickadenbuie.com/xaringanExtra/#/panelset
-
-For example, this panelset:
-
-{{< panelset class="greetings" >}}
-{{< panel name="Hello! :wave:" >}}
-  hello
-{{< /panel >}}
-{{< panel name="Goodbye :dash:" >}}
-  goodbye
-{{< /panel >}}
-{{< /panelset  >}}
-
-Was created by combining this theme's `panelset` and `panel` shortcodes:
-
-```go
-{{</* panelset class="greetings" */>}}
-{{</* panel name="Hello! :wave:" */>}}
-  hello
-{{</* /panel */>}}
-{{</* panel name="Goodbye :dash:" */>}}
-  goodbye
-{{</* /panel */>}}
-{{</* /panelset */>}}
-```
-
-
-You could also revert to HTML as well. For example, this panelset:
-
-
-<div class="panelset">
-  <div class="panel">
-    <div class="panel-name">Question</div>
-    <!-- Panel content -->
-    <p>Which came first: the :chicken: or the :egg:?</p>
-  </div>
-  <div class="panel">
-    <div class="panel-name">Answer :hatching_chick:</div>
-    <!-- Panel content -->
-    <p>Team :egg: FTW!</p>
-  </div>
-</div>
-
-Was created with this HTML code:
-
-```html
-<div class="panelset">
-  <div class="panel">
-    <div class="panel-name">Question</div>
-    <!-- Panel content -->
-    <p>Which came first: the :chicken: or the :egg:?</p>
-  </div>
-  <div class="panel">
-    <div class="panel-name">Answer :hatching_chick:</div>
-    <!-- Panel content -->
-    <p>Team :egg: FTW!</p>
-  </div>
-</div>
-```
