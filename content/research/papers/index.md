@@ -2,7 +2,7 @@
 title: "Papers + Projects"
 subtitle: "so many fun projects, so little time"
 excerpt: "A collection of research papers, many of which were done primarily by undergraduate collaborators."
-date: 2021
+date: 2021-08-01
 author: "Jo Hardin"
 draft: false
 # layout options: single, single-sidebar

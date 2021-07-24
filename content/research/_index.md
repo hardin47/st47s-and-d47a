@@ -5,8 +5,8 @@ description: |
 author: "Jo Hardin"
 show_post_thumbnail: true
 show_author_byline: true
-show_post_date: true
-show_post_time: true
+show_post_date: false
+show_post_time: false
 # for listing page layout
 layout: list # list, list-sidebar
 
@@ -14,7 +14,7 @@ layout: list # list, list-sidebar
 sidebar: 
   title: Research projects
   description: |
-    
+  
     Check out the _index.md file in the /research folder 
     to edit this content. 
   author: "Jo Hardin"
@@ -27,8 +27,8 @@ cascade:
   type: talks
   author: "Jo Hardin"
   show_author_byline: true
-  show_post_date: true
-  show_post_time: true
+  show_post_date: false
+  show_post_time: false
   show_comments: false # see site config to choose Disqus or Utterances
   # for single-sidebar layout
   sidebar:
