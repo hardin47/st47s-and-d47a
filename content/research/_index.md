@@ -24,6 +24,7 @@ sidebar:
 
 # set up common front matter for all pages inside blog/
 cascade:
+  type: talks
   author: "Jo Hardin"
   show_author_byline: true
   show_post_date: true
