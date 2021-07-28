@@ -21,6 +21,9 @@ Many of the methods have been developed within the last few years.
 
 ## Course Materials
 
+The course notes for Math 154 are available at
+
+<iframe scrolling = "auto" src="http://st47s.com/Math154/Notes/"> </iframe>
 
 #### Course website
 
