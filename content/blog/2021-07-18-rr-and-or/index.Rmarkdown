@@ -30,8 +30,10 @@ library(knitr)
 ```
 
 ```{r echo = FALSE}
-knitr::include_url("http://st47s.com/Math154/Notes/")
+knitr::include_url("https://st47s.com/Math154/Notes/")
 ```
+
+<iframe scrolling = "auto" src="https://st47s.com/Math154/Notes/"> </iframe>
 
 ## Introduction
 

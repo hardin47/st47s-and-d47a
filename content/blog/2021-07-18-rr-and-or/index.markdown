@@ -23,7 +23,9 @@ header-includes:
 
 
 
-<iframe src="http://st47s.com/Math154/Notes/" width="672" height="400px"></iframe>
+<iframe src="https://st47s.com/Math154/Notes/" width="672" height="400px"></iframe>
+
+<iframe scrolling = "auto" src="https://st47s.com/Math154/Notes/"> </iframe>
 
 ## Introduction
 
