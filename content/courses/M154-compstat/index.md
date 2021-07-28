@@ -19,11 +19,6 @@ The last part of the course will focus on machine learning ideas such as classif
 Some of the methods were invented before the ubiquitous use of personal computers, but only because the calculus used to solve the problem was relatively straightforward (or because the method wasn't actually ever used). 
 Many of the methods have been developed within the last few years.
 
-## Course Materials
-
-The course notes for Math 154 are available at
-
-<iframe scrolling = "auto" src="http://st47s.com/Math154/Notes/"> </iframe>
 
 #### Course website
 

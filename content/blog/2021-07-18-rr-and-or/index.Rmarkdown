@@ -29,6 +29,10 @@ library(tidyverse)
 library(knitr)
 ```
 
+```{r echo = FALSE}
+knitr::include_url("http://st47s.com/Math154/Notes/")
+```
+
 ## Introduction
 
 There are many good reasons to choose a case control study as the experimental design.

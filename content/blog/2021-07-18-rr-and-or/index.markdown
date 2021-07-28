@@ -23,6 +23,8 @@ header-includes:
 
 
 
+<iframe src="http://st47s.com/Math154/Notes/" width="672" height="400px"></iframe>
+
 ## Introduction
 
 There are many good reasons to choose a case control study as the experimental design.
