@@ -23,9 +23,6 @@ header-includes:
 
 
 
-<iframe src="https://st47s.com/Math154/Notes/" width="672" height="400px"></iframe>
-
-<iframe height="800" width="100%" frameborder="no" src="https://st47s.com/Math154/Notes/"> </iframe>
 
 ## Introduction
 

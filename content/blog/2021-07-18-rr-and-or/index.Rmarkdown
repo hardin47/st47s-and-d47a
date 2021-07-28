@@ -29,11 +29,6 @@ library(tidyverse)
 library(knitr)
 ```
 
-```{r echo = FALSE}
-knitr::include_url("https://st47s.com/Math154/Notes/")
-```
-
-<iframe height="800" width="100%" frameborder="no" src="https://st47s.com/Math154/Notes/"> </iframe>
 
 ## Introduction
 
