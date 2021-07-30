@@ -1,4 +1,5 @@
 ---
+type: courses
 aliases:
   - get-started
 type: collection
@@ -25,7 +26,7 @@ sidebar:
 
 # set up common front matter for all individual pages in series
 cascade:
-  type: collection
+  type: courses
   layout: single-series       # for a series, do not change
   author: Jo Hardin
   show_author_byline: true

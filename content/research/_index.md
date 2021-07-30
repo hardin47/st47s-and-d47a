@@ -1,5 +1,5 @@
 ---
-type: talks
+type: research
 title: Research projects
 description: |
   so many fun projects, so little time
@@ -20,12 +20,12 @@ sidebar:
     to edit this content. 
   author: "Jo Hardin"
   text_link_label: research
-  text_link_url: /research/index.xml
+  text_link_url: /research/_index.md
   show_sidebar_adunit: true # show ad container
 
 # set up common front matter for all pages inside blog/
 cascade:
-  type: talks
+  type: research
   author: "Jo Hardin"
   show_author_byline: true
   show_post_date: true
