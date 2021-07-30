@@ -24,9 +24,9 @@ layout: single-sidebar
 
 ## Pomona College
 
-Institute for Diversity, Equity, and Inclusion
+Inclusive Excellence Committee
 
-> The mission of the Institute for Equity and Inclusion will be to advance the practice of inclusive excellence at Pomona College. The Institute will achieve this mission through faculty professional development in inclusive teaching and mentorship, and through research that informs decision making and drives institutional change to further equity initiatives at the College.
+> The mission of the Inclusive Excellence Committee will be to advance the practice of inclusive excellence at Pomona College. The Institute will achieve this mission through faculty professional development in inclusive teaching and mentorship, and through research that informs decision making and drives institutional change to further equity initiatives at the College.
 
 ## American Statistical Association
 
