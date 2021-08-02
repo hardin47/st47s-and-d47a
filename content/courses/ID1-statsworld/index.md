@@ -6,6 +6,7 @@ subtitle: "Headline: 'Company Charged with Gender Bias in Hiring.' Is the compan
 date: "Fall 2021"
 draft: false
 featured: true
+type: courses
 ---
 
 ## The Course

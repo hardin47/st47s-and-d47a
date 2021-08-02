@@ -7,6 +7,7 @@ excerpt: "Computational Statistics can be thought of as an advanced data science
 date: "Fall 2021"
 draft: false
 featured: true
+type: courses
 ---
 
 

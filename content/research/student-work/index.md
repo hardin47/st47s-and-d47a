@@ -4,6 +4,7 @@ subtitle: "nice job everyone!"
 excerpt: "Undergraduate projects are the most fun and the most rewarding part of my day."
 author: "Jo Hardin"
 date: 2021-08-02
+show_post_time: false
 draft: false
 # layout options: single, single-sidebar
 layout: single
