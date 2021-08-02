@@ -131,43 +131,52 @@ type: research
   </div>
   <div class="panel">
     <div class="panel-name">Student Successes</div>
-<p>    
-“Data Exploration of US Police Stops” 2020
-Amber Lee, Arm Wonghirundacha, Emma Godfrey, Ethan Ong, Ivy Yuan, Oliver Chang, and Will Gray
-Data Science Research Circle, supervised by Jo Hardin and Ghassan Sarkis
-https://hardin47.github.io/TrafficRC2020/Report/
-DataFest - Judges’ Choice Award 2020
-Guy Thampakkul and Tai Xiang
-http://datafest.stat.ucla.edu/2020-results/2020-winners/
-Christina Duron, PhD Claremont Graduate University 2019
-“The Distribution of Betweenness Centrality in Exponential Random Graph Models”
-http://pages.pomona.edu/~jsh04747/Student%20Theses/christina_duron_2019.pdf
-DataFest – Best Use of External Data 2019
-Amy Watt, Adam Rees, Ethan Ashby, Connor Ford, and Madelyn Andersen (HMC).
-http://datafest.stat.ucla.edu/past-datafests/2019-asa-datafesttm-results/
-DataFest - Best Insight, honorable mention 2018
-Vedant Vohra, Zihao Xu, Madison Hobbs, Xiaotong Gui
-http://datafest.stat.ucla.edu/past-datafests/2018-asa-datafesttm-results/
-Winning Paper Undergraduate Statistics Research Project Competition 2017
-https://www.causeweb.org/usproc/usresp/2017/fall/winners
-Bag of Little Random Bootstraps, Z. Xu
-DataFest - Judges’ Choice Award 2017
-J. Carney, H. Shin, A. Starr
-http://datafest.stat.ucla.edu/past-datafests/2017-asa-datafesttm-results/
-Winning Paper Undergraduate Statistics Research Project Competition 2014
-https://www.causeweb.org/usproc/USRESP%20Winning%20Projects
-Quantifying and Comparing Centrality Measures for Network Individuals as Applied
-to the Enron Corpus, T. Kaye, D. Khatami, D. Metz, E. Proulx (Research Circle)
-Kaye, T., Khatami, D., Metz, D., Proulx, E. Quantifying and Comparing Centrality Measures for Network Individuals as Applied to the Enron Corpus; SIAM Undergraduate
-Research Online, 7: 2014.
-https://www.siam.org/publications/siuro/volume-7
-DataFest - Best Insight 2013
-J. Coleman, M. Cruz, B. DeRose, C. Evans, R. Knickerbocker, K. Lu, D. Owens-Oas,
-B. Shand, B. Williamson
-DataFest - Best Use of External Data 2012
-K. Kumbier, E. Parks, J. Replogle
-DataFest - Best Visualization, honorable mention 2012
-D. DiPalma, T. Stutz
+<p> 
+
+<h4>2020:</h4>
+<ul>
+ 	<li>Amber Lee, Arm Wonghirundacha, Emma Godfrey, Ethan Ong, Ivy Yuan, Oliver Chang, and Will Gray; <a href= "https://hardin47.github.io/TrafficRC2020/Report/"> Data Exploration of US Police Stops</a>, Data Science Research Circle, supervised by Jo Hardin and Ghassan Sarkis
+</li>
+  <li>Guy Thampakkul and Tai Xiang; <a href = "http://datafest.stat.ucla.edu/2020-results/2020-winners/">DataFest - Judges’ Choice Award</a> </li>
+</ul>
+<h4>2019:</h4>
+<ul>
+  <li>Christina Duron, PhD Claremont Graduate University 2019
+<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/christina_duron_2019.pdf">The Distribution of Betweenness Centrality in Exponential Random Graph Models</a>
+ </li>
+   <li>Amy Watt, Adam Rees, Ethan Ashby, Connor Ford, and Madelyn Andersen (HMC); 
+<a href="http://datafest.stat.ucla.edu/past-datafests/2019-asa-datafesttm-results/">DataFest – Best Use of External Data</a>
+   </li>
+   </ul>
+<h4>2018:</h4>
+<ul>
+  <li> Vedant Vohra, Zihao Xu, Madison Hobbs, Xiaotong Gui <a href = "http://datafest.stat.ucla.edu/past-datafests/2018-asa-datafesttm-results/">DataFest - Best Insight, honorable mention</a></li>
+  </ul>
+<h4>2017:</h4>
+<ul>
+  <li>Zihao Xu <a href = "https://www.causeweb.org/usproc/usresp/2017/fall/winners">Bag of Little Random Bootstraps</a> Winning Paper Undergraduate Statistics Research Project Competition </li>
+  <li> Jeff Carney, Hyong Shin, Adam Starr
+<a href = "http://datafest.stat.ucla.edu/past-datafests/2017-asa-datafesttm-results/"> DataFest - Judges’ Choice Award</a> </li>
+</ul>
+<h4>2014:</h4>
+<ul>
+  <li> Tim Kaye, David Khatami, Daniel Metz, Emily Proulx
+<a href = "https://www.causeweb.org/usproc/USRESP%20Winning%20Projects">> Quantifying and Comparing Centrality Measures for Network Individuals as Applied
+to the Enron Corpus</a> Winning Paper Undergraduate Statistics Research Project Competition, Data Science Research Circle, supervised by Jo Hardin and Ghassan Sarkis</li>
+  <li>Tim Kaye, David Khatami, Daniel Metz, Emily Proulx
+<a href = "https://www.siam.org/publications/siuro/volume-7">Quantifying and Comparing Centrality Measures for Network Individuals as Applied to the Enron Corpus</a>; <strong>SIAM Undergraduate Research Online</strong>, 7: 2014. </li>
+</ul>
+<h4>2013:</h4>
+<ul>
+  <li>Jacob Coleman, Maricela Cruz, Bill DeRose, Ciaran Evans, ob Knickerbocker, Kevin Lu, Derek Owens-Oas,
+Ben Shand, Brian Williamson; DataFest - Best Insight</li>
+</ul>
+<h4>2012:</h4>
+<ul>
+  <li>Karl Kumbier, Erika Parks, Joseph Replogle
+DataFest - Best Use of External Data</li>
+   <li> Drew DiPlama, Tim Stutz; DataFest - Best Visualization, honorable mention </li>
+   </ul>
 </p>
   </div>
 </div>
