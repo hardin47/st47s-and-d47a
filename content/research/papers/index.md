@@ -8,6 +8,7 @@ draft: false
 # layout options: single, single-sidebar
 layout: single
 featured: true
+type: research
 ---
 
 
