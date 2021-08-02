@@ -5,7 +5,7 @@ weight: 4
 subtitle: ""
 excerpt: "Netlify can build your website for you, and update it every time you push to GitHub :rocket: It's called continuous deployment, and it is a beautiful thing."
 date: 2021-05-26
-draft: false
+draft: true
 ---
 
 To preview your site locally, we have been using a blogdown function (or Add-in in RStudio):

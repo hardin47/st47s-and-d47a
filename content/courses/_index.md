@@ -2,12 +2,11 @@
 type: courses
 aliases:
   - get-started
-type: collection
 title: Courses 
 description: |
   Links to course materials and recent educational projects.
 author: Jo Hardin
-show_post_thumbnail: false
+show_post_thumbnail: true
 thumbnail_left: true # for list-sidebar only
 show_author_byline: false
 show_post_date: false
@@ -34,7 +33,7 @@ cascade:
   sidebar:
     text_link_label: ""
     text_link_url: ""
-    show_sidebar_adunit: false # show ad container
+    show_sidebar_adunit: true # show ad container
     text_series_label: "In this series" 
     text_contents_label: "On this page" 
 ---
