@@ -1,7 +1,5 @@
 ---
 type: courses
-aliases:
-  - get-started
 title: Courses 
 description: |
   Links to course materials and recent educational projects.
@@ -16,12 +14,14 @@ layout: list-sidebar # list, list-sidebar, list-grid
 # for list-sidebar layout
 sidebar: 
   title: Where can I find things?
+  type: courses
+  featured: true
   author: Jo Hardin
   description: |
-    Most of the course materials are here.  For many classes, there is also a textbook (typically available online for free).  All solutions (HW, exams, etc.) will be posted on Sakai.  Please join the class Discord chanel (see sign-up information on Sakai).
+    Most of the course materials are here.  For many classes, there is also a textbook (typically available online for free).  All solutions (HW, exams, etc.) will be posted on Sakai.  Please join the class Discord channel (see sign-up information on Sakai).
   text_link_label: ""
   text_link_url: ""
-  show_sidebar_adunit: false # show ad container
+  show_sidebar_adunit: true # show ad container
 
 # set up common front matter for all individual pages in series
 cascade:
@@ -33,7 +33,7 @@ cascade:
   sidebar:
     text_link_label: ""
     text_link_url: ""
-    show_sidebar_adunit: true # show ad container
+    show_sidebar_adunit: false # show ad container
     text_series_label: "In this series" 
     text_contents_label: "On this page" 
 ---
