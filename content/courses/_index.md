@@ -22,6 +22,7 @@ sidebar:
   text_link_label: ""
   text_link_url: ""
   show_sidebar_adunit: true # show ad container
+  sidebar_left: false
 
 # set up common front matter for all individual pages in series
 cascade:
