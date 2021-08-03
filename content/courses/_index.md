@@ -19,10 +19,9 @@ sidebar:
   author: Jo Hardin
   description: |
     Most of the course materials are here.  For many classes, there is also a textbook (typically available online for free).  All solutions (HW, exams, etc.) will be posted on Sakai.  Please join the class Discord channel (see sign-up information on Sakai).
-  text_link_label: ""
-  text_link_url: ""
+  text_link_label: all courses
+  text_link_url: /courses/
   show_sidebar_adunit: true # show ad container
-  sidebar_left: false
 
 # set up common front matter for all individual pages in series
 cascade:
@@ -32,11 +31,9 @@ cascade:
   show_author_byline: true
   show_post_date: true
   sidebar:
-    text_link_label: ""
-    text_link_url: ""
-    show_sidebar_adunit: true # show ad container
-    text_series_label: "In this series" 
-    text_contents_label: "On this page" 
+    text_link_label: all courses
+    text_link_url: /courses/
+    show_sidebar_adunit: false # show ad container
 ---
 
 ** No content below YAML for the series _index. This file is a leaf bundle, and provides settings for the listing page layout and sidebar content.**

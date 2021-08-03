@@ -4,7 +4,7 @@ weight: 1
 slug: setup
 subtitle: ""
 excerpt: "Computational Statistics can be thought of as an advanced data science course.  We will work with many different types of data to become fluent in wrangling, visualizing, modeling, predicting, and most importantly communicating results."
-date: "Fall 2021"
+date: 2021-08-31
 draft: false
 featured: true
 type: courses
