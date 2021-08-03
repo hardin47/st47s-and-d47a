@@ -10,12 +10,12 @@ show_author_byline: false
 show_post_date: false
 # for series listing page layout
 layout: list-sidebar # list, list-sidebar, list-grid
+featured: true
 
 # for list-sidebar layout
 sidebar: 
   title: Where can I find things?
   type: courses
-  featured: true
   author: Jo Hardin
   description: |
     Most of the course materials are here.  For many classes, there is also a textbook (typically available online for free).  All solutions (HW, exams, etc.) will be posted on Sakai.  Please join the class Discord channel (see sign-up information on Sakai).
@@ -33,7 +33,7 @@ cascade:
   sidebar:
     text_link_label: ""
     text_link_url: ""
-    show_sidebar_adunit: false # show ad container
+    show_sidebar_adunit: true # show ad container
     text_series_label: "In this series" 
     text_contents_label: "On this page" 
 ---
