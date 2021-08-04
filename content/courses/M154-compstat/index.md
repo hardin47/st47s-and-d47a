@@ -7,6 +7,7 @@ excerpt: "Computational Statistics can be thought of as an advanced data science
 date: 2021-08-31
 draft: false
 featured: true
+layout: single
 ---
 
 

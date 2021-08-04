@@ -1,6 +1,5 @@
 ---
 title: Courses 
-type: collection
 description: |
   compilation of course materials
 author: Jo Hardin
@@ -23,13 +22,12 @@ sidebar:
 
 # set up common front matter for all individual pages in series
 cascade:
-  layout: single-series
+  layout: single-series   # for a series, do not change
   author: Jo Hardin
   show_author_byline: true
   show_post_date: true
   show_comments: false # see site config to choose Disqus or Utterances
   # for single-sidebar layout
-  type: courses
   sidebar:
     text_link_label: all courses
     text_link_url: /courses/
