@@ -96,7 +96,7 @@ model applied to COVID-19</a>"; Currently: MS candidate, University of Michigan,
 <h4>2010:</h4>
 <ul>
  	<li>Minsoo&nbsp;Kim (2010): “<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/MinsooKim10.pdf">Statistical Classification</a>”; M.S. 2015, U Georgia, Statistics; Currently: Scientific Computing Professional Associate, Carl Vinson Institute of Government.</li>
- 	<li>Mary Owen (2010):&nbsp;“<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/MaryOwen10.pdf">Tukey’s&nbsp;Biweight&nbsp;Correlation and the Breakdown</a>”; Currently: Pastry Cook, Marta.</li>
+ 	<li>Mary Owen (2010):&nbsp;“<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/MaryOwen10.pdf">Tukey's&nbsp;Biweight&nbsp;Correlation and the Breakdown</a>”; Currently: Pastry Cook, Marta.</li>
  	<li>Mark Simon (2010): “Randomly Generating Computationally Stable Correlation Matrices”; Currently: Financial Analyst, Taal Capital Management.</li>
 </ul>
 <h4>2009:</h4>
@@ -140,12 +140,17 @@ model applied to COVID-19</a>"; Currently: MS candidate, University of Michigan,
   <div class="panel">
     <div class="panel-name">Student Successes</div>
 <p> 
-
 <h4>2020:</h4>
 <ul>
+<li>Hannah Mandel, Emily Tomz, Adeena Liang, Chloe Sun, Ian Krupkin <a href = "http://datafest.stat.ucla.edu/competition/2021-asa-datafesttm-results/">DataFest - Judges' Choice Award</a> 
+</li>
+</ul> 	
+<h4>2020:</h4>
+<ul>
+ 	<li>Amber Lee <a href = "https://www.causeweb.org/usproc/usresp/2020/fall/winners">Exploring Missingness and its Implications on Traffic Stop Data</a> 2nd place Paper Undergraduate Statistics Research Project Competition</li>
  	<li>Amber Lee, Arm Wonghirundacha, Emma Godfrey, Ethan Ong, Ivy Yuan, Oliver Chang, and Will Gray; <a href= "https://hardin47.github.io/TrafficRC2020/Report/"> Data Exploration of US Police Stops</a>, Data Science Research Circle, supervised by Jo Hardin and Ghassan Sarkis
 </li>
-  <li>Guy Thampakkul and Tai Xiang; <a href = "http://datafest.stat.ucla.edu/2020-results/2020-winners/">DataFest - Judges’ Choice Award</a> </li>
+  <li>Guy Thampakkul and Tai Xiang; <a href = "http://datafest.stat.ucla.edu/2020-results/2020-winners/">DataFest - Judges' Choice Award</a> </li>
 </ul>
 <h4>2019:</h4>
 <ul>
@@ -164,7 +169,7 @@ model applied to COVID-19</a>"; Currently: MS candidate, University of Michigan,
 <ul>
   <li>Zihao Xu <a href = "https://www.causeweb.org/usproc/usresp/2017/fall/winners">Bag of Little Random Bootstraps</a> Winning Paper Undergraduate Statistics Research Project Competition </li>
   <li> Jeff Carney, Hyong Shin, Adam Starr
-<a href = "http://datafest.stat.ucla.edu/past-datafests/2017-asa-datafesttm-results/"> DataFest - Judges’ Choice Award</a> </li>
+<a href = "http://datafest.stat.ucla.edu/past-datafests/2017-asa-datafesttm-results/"> DataFest - Judges' Choice Award</a> </li>
 </ul>
 <h4>2014:</h4>
 <ul>
