@@ -1,6 +1,6 @@
 ---
 title: Courses 
-type: courses
+type: collection
 description: |
   compilation of course materials
 author: Jo Hardin
