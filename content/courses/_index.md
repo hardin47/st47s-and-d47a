@@ -3,13 +3,14 @@ title: Courses
 type: courses
 aliases:
   - get-started
+type: collection
 description: |
   compilation of course materials
 author: Jo Hardin
-show_post_thumbnail: true
+show_post_thumbnail: false
 thumbnail_left: true # for list-sidebar only
-show_author_byline: true
-show_post_date: true
+show_author_byline: false
+show_post_date: false
 # for listing page layout
 layout: list-sidebar # list, list-sidebar, list-grid
 
@@ -30,7 +31,6 @@ cascade:
   author: Jo Hardin
   show_author_byline: true
   show_post_date: true
-  show_comments: false # see site config to choose Disqus or Utterances
   # for single-sidebar layout
   sidebar:
     text_link_label: ""
