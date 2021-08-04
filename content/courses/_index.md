@@ -1,5 +1,4 @@
 ---
-type: courses
 title: Courses 
 description: |
   compilation of course materials
