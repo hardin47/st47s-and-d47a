@@ -1,9 +1,5 @@
 ---
 title: Courses 
-type: courses_old
-aliases:
-  - get-started
-type: collection
 description: |
   compilation of course materials
 author: Jo Hardin
@@ -26,7 +22,7 @@ sidebar:
 
 # set up common front matter for all individual pages in series
 cascade:
-  type: courses
+  type: blog
   layout: single-series   # for a series, do not change
   author: Jo Hardin
   show_author_byline: true
