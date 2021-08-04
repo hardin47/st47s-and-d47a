@@ -1,13 +1,14 @@
 ---
 title: Courses 
 type: collection
+type: courses
 description: |
   compilation of course materials
 author: Jo Hardin
 show_post_thumbnail: true
 thumbnail_left: true # for list-sidebar only
 show_author_byline: true
-show_post_date: false
+show_post_date: true
 # for listing page layout
 layout: list-sidebar # list, list-sidebar, list-grid
 
@@ -25,8 +26,8 @@ sidebar:
 cascade:
   author: Jo Hardin
   show_author_byline: true
-  show_post_date: false
-  show_comments: true # see site config to choose Disqus or Utterances
+  show_post_date: true
+  show_comments: false # see site config to choose Disqus or Utterances
   # for single-sidebar layout
   sidebar:
     text_link_label: all courses
