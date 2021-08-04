@@ -17,8 +17,8 @@ sidebar:
   author: Jo Hardin
   description: |
     Most of the course materials are here.  For many classes, there is also a textbook (typically available online for free).  All solutions (HW, exams, etc.) will be posted on Sakai.  Please join the class Discord channel (see sign-up information on Sakai).
-  text_link_label: all courses
-  text_link_url: /courses/
+  text_link_label: ""
+  text_link_url: ""
   show_sidebar_adunit: false # show ad container
 
 # set up common front matter for all individual pages in series
