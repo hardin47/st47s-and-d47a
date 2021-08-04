@@ -1,6 +1,5 @@
 ---
 title: Courses 
-type: collection
 type: courses
 description: |
   compilation of course materials
@@ -29,6 +28,7 @@ cascade:
   show_post_date: true
   show_comments: false # see site config to choose Disqus or Utterances
   # for single-sidebar layout
+  type: courses
   sidebar:
     text_link_label: all courses
     text_link_url: /courses/
