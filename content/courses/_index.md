@@ -23,6 +23,7 @@ sidebar:
 
 # set up common front matter for all individual pages in series
 cascade:
+  layout: single-series
   author: Jo Hardin
   show_author_byline: true
   show_post_date: true
