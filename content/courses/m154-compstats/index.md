@@ -1,14 +1,17 @@
 ---
-title: "Math 154: Computational Statistics"
-weight: 1
-slug: setup
-subtitle: ""
+title: "Math 154:"
+subtitle: "Computational Statistics"
+date: 2021-01-27
+author: "Jo Hardin"
 excerpt: "Computational Statistics can be thought of as an advanced data science course.  We will work with many different types of data to become fluent in wrangling, visualizing, modeling, predicting, and most importantly communicating results."
-date: "Fall 2021"
 draft: false
-featured: true
+tags:
+  - style
+categories:
+  - Theme Features
+# layout options: single, single-sidebar
+layout: single
 ---
-
 
 **Computational Statistics** is an introduction to statistical methods that rely heavily on the use of computers.
 The course can be broadly broken down into three sections.
