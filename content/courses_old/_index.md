@@ -1,6 +1,6 @@
 ---
 title: Courses 
-type: courses
+type: courses_old
 aliases:
   - get-started
 type: collection
