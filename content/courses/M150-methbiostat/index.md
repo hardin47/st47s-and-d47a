@@ -1,6 +1,6 @@
 ---
 title: "03: Site configuration"
-slug: courses
+slug: math150
 weight: 3
 subtitle: ""
 excerpt: "Hugo uses the config.toml found in the site root to configure your site. In this article, we highlight key options in this file, and some options added by the Hugo Apéro theme which you can access in the `[params]` section."

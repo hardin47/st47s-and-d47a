@@ -1,7 +1,7 @@
 ---
 title: "Data Sources"
 weight: 1
-slug: courses
+slug: data
 excerpt: ""
 date: ""
 draft: false

@@ -1,6 +1,6 @@
 ---
 title: "06: Page configuration"
-slug: courses
+slug: math158
 weight: 6
 subtitle: "How to configure your single pages across content sections."
 excerpt: "The content you add to your site will all live inside single pages. Listing pages for sections help you organize your content, but the pages also can be configured to change the layout and add features."
