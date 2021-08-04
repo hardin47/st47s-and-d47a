@@ -1,6 +1,8 @@
 ---
 title: Courses 
 type: courses
+aliases:
+  - get-started
 description: |
   compilation of course materials
 author: Jo Hardin
