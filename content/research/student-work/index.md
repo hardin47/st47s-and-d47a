@@ -14,6 +14,14 @@ type: research
 <div class="panelset">
   <div class="panel">
     <div class="panel-name">Senior Thesis Projects</div>
+<h4>2021:</h4>
+<ul>
+ 	<li>Ethan Ashby (2021): "<a href="https://hardin47.github.io/st47s-and-d47a/student-work/ethan_ashby_2021.pdf">Extracting hitherto unseen variant signals from the cancer genome using data de-sparsification strategies</a>"; Currently: PhD candidate, University of Washington, Biostatistics.</li>
+ 	<li>Annie Cohen (2021, Scripps): "<a href="https://hardin47.github.io/st47s-and-d47a/student-work/annie_cohen_2021.pdf">Investigating changes in the SEIRMD
+model applied to COVID-19</a>"; Currently: MS candidate, University of Michigan, Biostatistics.</li> 	
+ 	<li>Emma Godfrey (2021): "<a href="https://hardin47.github.io/st47s-and-d47a/student-work/emma_godfrey_2021.pdf">Non-parametric Alternative Techniques for Propensity Score Estimation</a>"; Currently: Statistical Analyst, ZipRecruiter</li> 	
+ 	<li>Nat Serrurier (2021, PPA Biology): "<a href="https://hardin47.github.io/st47s-and-d47a/student-work/nat_serrurier_2021.pdf">Palliative Care and Dementia: An Underutilized Method in the Fight Against a Health Crisis</a>"; .</li>
+</ul>
 <h4>2020:</h4>
 <ul>
  	<li>Helen Lan (2020): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/helen_lan_2020.pdf">Multiple Comparison Test</a>"; Currently: Analyst, Cornerstone Research.</li>
@@ -70,7 +78,7 @@ type: research
 </ul>
 <h4>2013:</h4>
 <ul>
- 	<li>Melinda Borello (Pitzer, 2013): “<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/MelindaBorello_Pitzer13.pdf">Standardization and Singular Value Decomposition in Canonical Correlation Analysis</a>”;</li>
+ 	<li>Melinda Borello (2013, Pitzer): “<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/MelindaBorello_Pitzer13.pdf">Standardization and Singular Value Decomposition in Canonical Correlation Analysis</a>”;</li>
  	<li>Jacob Coleman (2013): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/JakeColeman13.pdf">“Robust Sparse Canonical Correlation Analysis and PITCHf/x”</a>; Ph.D. 2019, Duke University, Statistics; Currently: Senior Quantitative Analyst, Los Angeles Dodgers.</li>
  	<li>Karl Kumbier (2013): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/KarlKumbier13.pdf">“Detecting and Estimating Filamentary Structures in the Presence of Background Noise”</a>; Ph.D. 2019, UC Berkeley, Statistics; Currently: Postdoctoral researcher, UCSF.</li>
  	<li>Guy Stevens (2013): “<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/GuyStevens13.pdf">Bayesian Statistics and Baseball</a>” ; Currently: Senior Director-Research &amp; Development/Strategy, Kansas City Royals.</li>
@@ -82,8 +90,8 @@ type: research
 </ul>
 <h4>2011:</h4>
 <ul>
- 	<li>Kate Brieger (EA, independent study, 2011): “<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/KateBrieger11.doc">The Evolution of Statistics in Medicine</a>” ; M.D. / Ph.D. candidate, University of Michigan, Biostatistics.</li>
- 	<li>Christine Ju (Scripps, 2011):&nbsp;<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/ChristineJu_Scripps11.pdf">“Determining Overrepresentation of Gene Ontology Terms using the&nbsp;Hypergeometric&nbsp;Distribution”</a>; M.S. 2013, Duke, Biostatistics; Currently: Senior Biostatistician, Roche Sequencing Solutions.</li>
+ 	<li>Kate Brieger (2011, EA, independent study): “<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/KateBrieger11.doc">The Evolution of Statistics in Medicine</a>” ; M.D. / Ph.D. candidate, University of Michigan, Biostatistics.</li>
+ 	<li>Christine Ju (2011, Scripps):&nbsp;<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/ChristineJu_Scripps11.pdf">“Determining Overrepresentation of Gene Ontology Terms using the&nbsp;Hypergeometric&nbsp;Distribution”</a>; M.S. 2013, Duke, Biostatistics; Currently: Senior Biostatistician, Roche Sequencing Solutions.</li>
 </ul>
 <h4>2010:</h4>
 <ul>
@@ -99,7 +107,7 @@ type: research
 </ul>
 <h4>2008:</h4>
 <ul>
- 	<li>Brianna Pasco (Scripps, Dec 2008): “A Basic Introduction and Comparison of Linear Discriminant Analysis and Support Vector Machines”.</li>
+ 	<li>Brianna Pasco (2008, Scripps): “A Basic Introduction and Comparison of Linear Discriminant Analysis and Support Vector Machines”.</li>
  	<li>Nick Conway (2008):&nbsp;“<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/Nick%20Conway%2008.pdf">A Resistant Measure of Distance in DNA Microarrays</a>”.</li>
  	<li>Austen Head (2008):&nbsp;“<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/Thesis-AustenHead08.pdf">Correlation Correction of Sample Measures from Bivariate Distributions</a>”; Ph.D. 2014, Stanford, Statistics; Currently: Head of Data Science, PayJoy.</li>
  	<li>Robert Kurtzman (2008):&nbsp;“<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/KURTFINAL_08.pdf">The Advantages of a Biweight Metric in Clustering Microarray Data</a>”; Ph.D. 2015, UCLA, Economics; Currently:&nbsp; Senior Economist, Federal Reserve Board.</li>
@@ -112,7 +120,7 @@ type: research
 </ul>
 <h4>2006:</h4>
 <ul>
- 	<li>Aya Mitani (Pitzer, 2006): “Biweight Correlation as a Measure of Distance between Genes on a Microarray” (<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/Aya's%20abstract.pdf">abstract</a>,&nbsp;<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/Aya's%20presentation.pdf">presentation</a>); MPH 2008, Yale, Biostatistics; Ph.D. 2019, Boston University, Biostatistics; Currently: postdoc with Sebastien Haneuse, Harvard Biostatistics.</li>
+ 	<li>Aya Mitani (2006, Pitzer): “Biweight Correlation as a Measure of Distance between Genes on a Microarray” (<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/Aya's%20abstract.pdf">abstract</a>,&nbsp;<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/Aya's%20presentation.pdf">presentation</a>); MPH 2008, Yale, Biostatistics; Ph.D. 2019, Boston University, Biostatistics; Currently: postdoc with Sebastien Haneuse, Harvard Biostatistics.</li>
 </ul>
 <h4>2005:</h4>
 <ul>
@@ -121,7 +129,7 @@ type: research
 </ul>
 <h4>2004:</h4>
 <ul>
- 	<li>Lee (Strassenburg) Shanahan (Dec 2004):&nbsp;“<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/Lee.Strassenburg_Thesis.pdf">A Statistical Comparison of the Average Waiting Times Between Flares in Lupus Patients</a>”, Currently: Innovation Consultant, American Family Insurance.</li>
+ 	<li>Lee (Strassenburg) Shanahan (2004):&nbsp;“<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/Lee.Strassenburg_Thesis.pdf">A Statistical Comparison of the Average Waiting Times Between Flares in Lupus Patients</a>”, Currently: Innovation Consultant, American Family Insurance.</li>
 </ul>
 <h4>2003:</h4>
 <ul>
