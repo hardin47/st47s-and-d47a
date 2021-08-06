@@ -1,7 +1,7 @@
 ---
 title: "Teach Data Science"
-subtitle: "data science blog - 2019 & 2020"
-excerpt: ""
+subtitle: "a data science blog - 2019 & 2020"
+excerpt: "a data science blog - 2019 & 2020"
 weight: 7
 author: "Hunter Glanz, Jo Hardin, and Nick Horton"
 draft: false

@@ -1,7 +1,7 @@
 ---
 title: "TidyTuesday adventures"
-subtitle: "collection of TidyTuesday plots and models"
-excerpt: ""
+subtitle: "a collection of TidyTuesday plots and models"
+excerpt: "a collection of TidyTuesday plots and models"
 weight: 2
 author: "Jo Hardin"
 draft: false

@@ -1,7 +1,7 @@
 ---
 title: "research interests"
 subtitle: ""
-excerpt: ""
+excerpt: "so many fun problems, so little time"
 weight: 3
 author: "Jo Hardin"
 draft: false

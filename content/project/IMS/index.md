@@ -1,7 +1,7 @@
 ---
 title: "IMS"
 subtitle: "Introduction to Modern Statistics"
-excerpt: ""
+excerpt: "Introduction to Modern Statistics puts a heavy emphasis on exploratory data analysis (specifically exploring multivariate relationships using visualization, summarization, and descriptive models) and provides a thorough discussion of simulation-based inference using randomization and bootstrapping, followed by a presentation of the related Central Limit Theorem based approaches."
 weight: 1
 author: "Mine Çentinkaya-Rundel and Jo Hardin"
 draft: false

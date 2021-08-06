@@ -18,7 +18,7 @@ featured: true
 
 Finding Data on the Internet http://www.inside-r.org/howto/finding-data-internet
 
-### R packages for connecting to APIs:
+## R packages for connecting to APIs:
 
 * **coinmarketcapr**: Connecting to Coin Market Cap to get Cryptocurrencies Market Cap Prices (https://github.com/amrrs/coinmarketcapr).
 * **rtweet**: R client for accessing Twitter (stream and REST) API http://rtweet.info and https://github.com/mkearney/rtweet
@@ -33,7 +33,7 @@ Finding Data on the Internet http://www.inside-r.org/howto/finding-data-internet
 * **wbstats**: Women in Parliament dataset and link to worldbank: https://github.com/saghirb/Women-in-Parliament-Hex-Sticker
 
 
-### R packages containing multiple datasets:
+## R packages containing multiple datasets:
 
 * **gibboda**: Gender Isn’t Binary But Other Data Are! (https://github.com/bryandmartin/gibboda).
 * **openintro**: R package for data and supplemental functions for OpenIntro resources (https://github.com/OpenIntroStat/openintro)
@@ -42,7 +42,7 @@ Finding Data on the Internet http://www.inside-r.org/howto/finding-data-internet
 * **mosaicData**:
 * The R package **dslabs** has some great datasets, described in this [Simply Statistics blog](https://simplystatistics.org/2019/07/19/more-datasets-for-teaching-data-science-the-expanded-dslabs-package/)
 
-### Dynamic Data Sets / Databases:
+## Dynamic Data Sets / Databases:
 
 * College Scorecard (https://collegescorecard.ed.gov/).  A tremendous amount of information about all universities (though some of it collected only from students on financial aid).
 * National Park Service Visitor Use Statistics (https://irma.nps.gov/Stats/)
@@ -58,7 +58,7 @@ Finding Data on the Internet http://www.inside-r.org/howto/finding-data-internet
 * [Baby names](http://www.ssa.gov/oact/babynames/) (popularity by year and state), compiled by the Social Security Administration
  
 
-### New & Continuously Revised Static Data Sets / Databases:
+## New & Continuously Revised Static Data Sets / Databases:
 
 * hate speak corpora, particularly good for training NLP models 
 * The R package dslabs has some great datasets, described in this Simply Statistics blog
@@ -126,7 +126,7 @@ A critical element of Pokemon Go is to “evolve” Pokemon into new, stronger P
 
  
 
-Journals / Journal articles that provide corresponding data:
+## Journals / Journal articles that provide corresponding data:
 
 The GitHub site and other info for many of 538’s analyses.  
 FiveThirtyEight.com has been very forward thinking in making the data and code used in many of their articles accessible on GitHub. With consultation from Andrew Flowers and Andrei Scheinkman of FiveThirtyEight, we go one step further in our package by pre-processing the data so that it more accessible statistics and data science novices and providing ample documentation in the help files.

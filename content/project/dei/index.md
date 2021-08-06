@@ -1,12 +1,10 @@
 ---
 title: "Equity and Flourishing"
 subtitle: "a collection of resources relating to diversity, equity, and inclusion initiatives"
-excerpt: "A collection of resources relating to medical and data ethics"
+excerpt: "a collection of resources relating to diversity, equity, and inclusion initiatives"
 weight: 7
 author: "Jo Hardin"
 draft: false
-categories:
-  - example
 # layout options: single or single-sidebar
 layout: single-sidebar
 ---
