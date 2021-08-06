@@ -10,7 +10,7 @@ featured: true
 ---
 
 <figure>
-<img src="summary_statistics_featured.jpg" align="right">
+<img src="summary_statistics_featured.png" align="right">
 <figcaption>Art by @allison_horst</figcaption>
 </figure>
 
@@ -27,4 +27,25 @@ By the end of the semester, students will be able to:
 * identify ways in which graphs are effectively and ineffectively used to communicate.
 * understand the writing process and know of concrete ways they can improve as writers.
 * access various resources around campus to enhance their educational path.
+
+
+#### Course website
+
+The main course website is at [9 out of 10 seniors recommend this first year seminar](https://id1-stats-world.netlify.app/).  You will find:
+
+* syllabus
+* class notes
+* schedule
+* assignments and due dates
+* resources
+
+
+#### Sakai
+
+We will also use the Sakai course management system.  Sakai will be used for materials which are not publicly available.  This includes:
+
+* your current grades
+* submitting papers / other assignments
+* chat forums
+
 
