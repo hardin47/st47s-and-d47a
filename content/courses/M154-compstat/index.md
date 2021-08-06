@@ -9,6 +9,8 @@ draft: false
 featured: true
 ---
 
+## The Course
+
 <figure>
 <img src="cluster_single_linkage_6_featured.jpg" align="right">
 <figcaption>Art by @allison_horst</figcaption>
@@ -24,7 +26,7 @@ Some of the methods were invented before the ubiquitous use of personal computer
 Many of the methods have been developed within the last few years.
 
 
-#### Course website
+## Course website
 
 The main course website is at [Computational Statistics](https://m154-comp-stats.netlify.app/).  You will find:
 
@@ -35,11 +37,11 @@ The main course website is at [Computational Statistics](https://m154-comp-stats
 * resources
 * project information
 
-#### GitHub Classroom
+## GitHub Classroom
 
 As part of the learning goals of the class, we will be working with GitHub for all of the course assignments. Many of the assignments will be individual, but some of the homework assignments and the semester project will be done collaboratively.  The [course GitHub site]() is private; please send me your GitHub username so that you can be added to the site.
 
-#### Sakai
+## Sakai
 
 We will also use the Sakai course management system.  Sakai will be used for materials which are not publicly available.  This includes:
 
