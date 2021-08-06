@@ -18,6 +18,7 @@ type: research
 
 <strong>2021</strong>
 <ul>
+  <li><i class="fas fa-chalkboard-teacher"></i> Çetinkaya-Rundel, M., Hardin, J. <a href="https://www.openintro.org/book/ims/">Introduction to Modern Statistics</a> OpenIntro, 2021.</li>
  	<li><i class="fas fa-chalkboard-teacher"></i> Kim, A.Y., Hardin, J. <a href="https://www.tandfonline.com/doi/full/10.1080/10691898.2020.1799728"><strong>"Playing the whole game": A data collection and analysis exercise with Google Calendar</strong></a>, <em>Journal of Statistics and Data Science Education</em>, 2021.&nbsp;&nbsp;</li>
  	<li><i class="fas fa-sitemap"></i> *Lu, B., Hardin, J. <a href="https://arxiv.org/abs/1912.07435"><strong>A Unified Framework for Random Forest Prediction Error Estimation</strong></a>, <em>Journal of Machine Learning Research</em>, 2021.
 <ul>
