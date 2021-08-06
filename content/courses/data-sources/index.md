@@ -11,6 +11,11 @@ featured: true
 
 # Data Sources
 
+<figure>
+<img src="tidydata_2_featured.jpg" align="right">
+<figcaption>Art by @allison_horst</figcaption>
+</figure>
+
 Finding Data on the Internet http://www.inside-r.org/howto/finding-data-internet
 
 ### R packages for connecting to APIs:

@@ -9,6 +9,11 @@ draft: false
 featured: true
 ---
 
+<figure>
+<img src="summary_statistics_featured.jpg" align="right">
+<figcaption>Art by @allison_horst</figcaption>
+</figure>
+
 ## The Course
 
 The main idea behind this course is to get the participants (that’s you) to leave in December questioning every number you come across: in the media, at sporting events, when researching for another class, when carrying out your own research, etc. Certainly there are some good numbers out there, but I hope that you will start asking yourself questions like "where did that come from?", "what if you looked at it from another angle?", "what if we knew the rest of the information/data?" We’ll look at sources that range from journalism to scholarly writing to fiction, and we’ll see how statistics are used and misused. As in many ID1 courses, the goal is for you to become critical inquirers.

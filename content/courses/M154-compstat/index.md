@@ -9,6 +9,10 @@ draft: false
 featured: true
 ---
 
+<figure>
+<img src="cluster_single_linkage_6_featured.jpg" align="right">
+<figcaption>Art by @allison_horst</figcaption>
+</figure>
 
 **Computational Statistics** is an introduction to statistical methods that rely heavily on the use of computers.
 The course can be broadly broken down into three sections.
