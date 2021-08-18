@@ -12,6 +12,7 @@ featured: true
 type: research
 ---
 
+<p><a href="../../resume.pdf">Link to Jo Hardin's CV</a></p>
 
 <div style="text-align: start;"><strong><strong>(links&nbsp;to preprints, arXiv, or journal website)</strong></strong></div>
 <p>* Indicates work done as an undergraduate student.</p>
