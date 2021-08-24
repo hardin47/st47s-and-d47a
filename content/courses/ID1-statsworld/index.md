@@ -25,7 +25,8 @@ By the end of the semester, students will be able to:
 
 * describe the inherent and natural variability in the world around them.
 * argue thoughtfully that models produce information about trends and not individuals.
-* articular the ways in which data is hard to collect (bias, opinions change, genetic info, sparse availability,…).
+* articulate the ways in which data are hard to collect (bias, opinions change, genetic info, sparse availability,...).
+* combine current and historical documents to understand some of the negative impacts on society due to the statistical sciences.
 * identify ways in which graphs are effectively and ineffectively used to communicate.
 * understand the writing process and know of concrete ways they can improve as writers.
 * access various resources around campus to enhance their educational path.

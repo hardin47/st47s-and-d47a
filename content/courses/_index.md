@@ -15,7 +15,7 @@ sidebar:
   title: Where can I find things?
   author: Jo Hardin
   description: |
-    Most of the course materials are here.  For many classes, there is also a textbook (typically available online for free).  All solutions (HW, exams, etc.) will be posted on Sakai.  Please join the class Discord channel (see sign-up information on Sakai).
+    Most of the course materials are on the dedicated course website.  For many classes, there is also a textbook (typically available online for free).  All solutions (HW, exams, etc.) will be posted on Sakai.  Please join the class Discord channel (see sign-up information on Sakai).
   text_link_label: ""
   text_link_url: ""
   show_sidebar_adunit: false # show ad container

@@ -20,11 +20,19 @@ featured: true
 The course can be broadly broken down into three sections.
 The first section will include communicating and working with data in a modern era.
 We will cover data wrangling, data visualization, data ethics, and collaborative research (via GitHub).
-The second part of the course will focus on traditional statistical inference done through computational methods (e.g., permutation tests, bootstrapping).
+The second part of the course will focus on traditional statistical inference done through computational methods (e.g., permutation tests and bootstrapping).
 The last part of the course will focus on machine learning ideas such as classification, clustering, and (possibly) dimension reduction techniques.
 Some of the methods were invented before the ubiquitous use of personal computers, but only because the calculus used to solve the problem was relatively straightforward (or because the method wasn't actually ever used). 
-Many of the methods have been developed within the last few years.
+Many of the methods have been developed quite recently.
 
+## Student Learning Outcomes.
+By the end of the semester, students will be able to:
+
+* work through the entire computational statistics flow chart as a data analyst.
+* use graphical representations of data to communicate ideas about the data.
+* identify, understand, and describe the uses and misuses of algorithms and data collection from an ethical lens with the purpose of preventing harms from data science.
+* critically evaluate analyses / graphics of data (typically big data or dynamic data).
+* communicate results effectively.
 
 ## Course website
 
@@ -36,10 +44,11 @@ The main course website is at [Computational Statistics](https://m154-comp-stats
 * assignments and due dates
 * resources
 * project information
+* GitHub help
 
 ## GitHub Classroom
 
-As part of the learning goals of the class, we will be working with GitHub for all of the course assignments. Many of the assignments will be individual, but some of the homework assignments and the semester project will be done collaboratively.  The [course GitHub site]() is private; please send me your GitHub username so that you can be added to the site.
+As part of the learning goals of the class, we will be working with GitHub for all of the course assignments. Many of the assignments will be individual, but some of the homework assignments and the semester project will be done collaboratively.  The GitHub classroom is private; please send me your GitHub username so that you can be added to the site.
 
 ## Sakai
 
@@ -48,5 +57,6 @@ We will also use the Sakai course management system.  Sakai will be used for mat
 * your current grades
 * solutions to assignments
 * solutions to exams
+* all the important links
 
 
