@@ -38,7 +38,7 @@ model applied to COVID-19</a>"; Currently: MS candidate, University of Michigan,
 <ul>
  	<li>Alex Gui (2019): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/alex_gui_2019.pdf">Local Prediction Confidence for Classification Random Forests</a>"; Currently: MS candidate, Stanford University, Statistics: Data Science</li>
  	<li>Frances Hung (2019): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/frances_hung_2019.pdf">Active Learning Experimental Design of Bayesian Networks</a>"; Currently: PhD candidate, Duke University, Statistics</li>
- 	<li>Vedant Vohra (2019): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/vedant_vohra_2019.pdf">Estimating the proportion who benet from a treatment in a Randomized Controlled Trial</a>"; Currently: Empirical Research Fellow, Stanford Law School</li>
+ 	<li>Vedant Vohra (2019): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/vedant_vohra_2019.pdf">Estimating the proportion who benet from a treatment in a Randomized Controlled Trial</a>"; Currently: PhD candidate, UC San Diego, Economics</li>
  	<li>Justin Weltz (2019): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/justin_weltz_2019.pdf">Over-Policing and Fairness in Machine Learning</a>"; Currently: PhD candidate, Duke University, Statistics</li>
 </ul>
 <ul>
@@ -67,7 +67,7 @@ model applied to COVID-19</a>"; Currently: MS candidate, University of Michigan,
 <h4>2015:</h4>
 <ul>
  	<li>Rebecca Baiman (2015): “<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/RebeccaBaiman15.pdf">A Critical Comparison of Mathods in Statistical Inference Education</a>”; Masters of Education 2017, Math Secondary Education, Vanderbilt University; Currently: Ph.D. candidate, CU Boulder, Atmospheric Science.</li>
- 	<li>Jacob Fiksel (2015): “<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/JacobFiksel15.pdf">Differential Gene Expression Analysis with Microarray and RNA-seq Data</a>”; Ph.D. 2020, Johns Hopkins Bloomberg School of Public Health, Biostatistics;&nbsp; Currently: Senior Biostatistician, Janssen.</li>
+ 	<li>Jacob Fiksel (2015): “<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/JacobFiksel15.pdf">Differential Gene Expression Analysis with Microarray and RNA-seq Data</a>”; Ph.D. 2020, Johns Hopkins Bloomberg School of Public Health, Biostatistics;&nbsp; Currently: Postdoctoral Researcher, University of Pennsylvania DBEI</li>
 </ul>
 <p style="padding-left: 60px"><a href="https://jfiksel.github.io/">Jacob's blog</a> (about grad school and data science, among other things)</p>
 
@@ -79,7 +79,7 @@ model applied to COVID-19</a>"; Currently: MS candidate, University of Michigan,
 <ul>
  	<li>Maricela Cruz (2014): “<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/MaricelaCruz14.pdf">Long-term Averages of the Stochastic Logistic Map</a>”; Ph.D. 2019, University of California, Irvine, Statistics;&nbsp; Currently: Assistant Investigator at Kaiser Permanente Washington Health Research Institute</li>
  	<li>Thalia Rodriguez (2014): “<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/ThaliaRodriguez14.pdf">Towards a More Conceptual Way of Understanding and Implementing Inferential Rules</a>”; M.A. in Teaching 2016, the University of Southern California Rossier School of Education; Currently: Mathematics Teacher, Santa Ana Unified School District</li>
- 	<li>Brian Williamson (2014): “<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/BrianWilliamson14.pdf">Shrinkage Estimators for High-Dimensional Covariance Matrices</a>”; Ph.D. 2019, University of Washington, Biostatistics; Currently: Postdoctoral Researcher, The Fred Hutchinson Cancer Research Center</li>
+ 	<li>Brian Williamson (2014): “<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/BrianWilliamson14.pdf">Shrinkage Estimators for High-Dimensional Covariance Matrices</a>”; Ph.D. 2019, University of Washington, Biostatistics; Currently: Assistant Investigator, Kaiser Permanente Washington Health Research Institute</li>
 </ul>
 <h4>2013:</h4>
 <ul>
@@ -145,7 +145,7 @@ model applied to COVID-19</a>"; Currently: MS candidate, University of Michigan,
   <div class="panel">
     <div class="panel-name">Student Successes</div>
 <p> 
-<h4>2020:</h4>
+<h4>2021:</h4>
 <ul>
 <li>Hannah Mandel, Emily Tomz, Adeena Liang, Chloe Sun, Ian Krupkin <a href = "http://datafest.stat.ucla.edu/competition/2021-asa-datafesttm-results/">DataFest - Judges' Choice Award</a> 
 </li>
@@ -179,7 +179,7 @@ model applied to COVID-19</a>"; Currently: MS candidate, University of Michigan,
 <h4>2014:</h4>
 <ul>
   <li> Tim Kaye, David Khatami, Daniel Metz, Emily Proulx
-<a href = "https://www.causeweb.org/usproc/USRESP%20Winning%20Projects">> Quantifying and Comparing Centrality Measures for Network Individuals as Applied
+<a href = "https://www.causeweb.org/usproc/USRESP%20Winning%20Projects"> Quantifying and Comparing Centrality Measures for Network Individuals as Applied
 to the Enron Corpus</a> Winning Paper Undergraduate Statistics Research Project Competition, Data Science Research Circle, supervised by Jo Hardin and Ghassan Sarkis</li>
   <li>Tim Kaye, David Khatami, Daniel Metz, Emily Proulx
 <a href = "https://www.siam.org/publications/siuro/volume-7">Quantifying and Comparing Centrality Measures for Network Individuals as Applied to the Enron Corpus</a>; <strong>SIAM Undergraduate Research Online</strong>, 7: 2014. </li>
