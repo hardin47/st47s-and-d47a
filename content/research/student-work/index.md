@@ -11,6 +11,11 @@ layout: single
 type: research
 ---
 
+<figure>
+<img src="featured.png" align="right">
+<figcaption>Student researchers</figcaption>
+</figure>
+
 <div class="panelset">
   <div class="panel">
     <div class="panel-name">Senior Thesis Projects</div>
