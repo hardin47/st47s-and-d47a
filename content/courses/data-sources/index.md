@@ -60,12 +60,11 @@ featured: true
 ## New & Continuously Revised Static Data Sets / Databases:
 
 * <a href = "https://dataverse.harvard.edu/" target = "_blank">Harvard Dataverse</a>
-* <a href="http://hatespeechdata.com/"target = "_blank">hate speak corpora</a>, particularly good for training NLP models 
+* <a href="http://hatespeechdata.com/" target = "_blank">hate speak corpora</a>, particularly interesting for training NLP models 
 * The R package **dslabs** has some great datasets, <a href="https://simplystatistics.org/2019/07/19/more-datasets-for-teaching-data-science-the-expanded-dslabs-package/" target = "_blank">described in this Simply Statistics blog</a>
-* <a href = "https://informationisbeautiful.net/data/" target = "_blank">Information is Beautiful</a>
 * <a href="https://www.cdc.gov/nchs/" target = "_blank">CDC health datasets</a> which are freely available and formatted.  To be analyzed correctly, these survey data require proper weighting, clustering and stratification adjustments.  There are many such datasets available, including NHAMCS (OPD and ED), NAMCS, BRFSS, NSFG, NHIS, NIS-Child, NIS-Teen, NHANES, NVSS. A quick google of any of these acronyms will take you directly to each webpage.
 * <a href = "https://www.kaggle.com/" target = "_blank">kaggle.com</a> is a repository for data used in analysis competitions.
-* <a href = "http://archive.ics.uci.edu/ml/datasets.html" target = "_blank">UC Irvine’s Machine Learning Repository</a>  (huge and fantastic database!).
+* <a href = "https://archive.ics.uci.edu/ml/index.php" target = "_blank">UC Irvine’s Machine Learning Repository</a>  (huge and fantastic database!).
 * The GitHub site and other info for many of 538’s analyses.  
 <a href = "https://fivethirtyeight.com/" target = "_blank">FiveThirtyEight.com</a> has been very forward thinking in making the data and code used in many of their articles accessible on <a href = "https://github.com/fivethirtyeight/data" target = "_blank">GitHub</a>. With consultation from Andrew Flowers and Andrei Scheinkman of FiveThirtyEight, we go one step further in our package by pre-processing the data so that it more accessible statistics and data science novices and providing ample documentation in the help files.  
 See a usage example and R package called <a href = "https://github.com/rudeboybert/fivethirtyeight#installation--usage" target = "_blank">**fivethirtyeight**</a>. For a more detailed outline of all data sets and a discussion on our motivation and data guidelines, see the package vignette.  
