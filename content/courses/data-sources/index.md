@@ -47,7 +47,7 @@ featured: true
 * [National Park Service Visitor Use Statistics](https://irma.nps.gov/Stats/)
 * [Financial and Economic data](https://www.quandl.com/)
 * [Behavioral Risk Factor Surveillance System](http://www.cdc.gov/brfss/)
-* [General Social Survey](http://www3.norc.org/GSS+Website/)
+* [General Social Survey](https://gss.norc.org/get-the-data)
 * [National Health and Nutrition Examination Survey from the CDC](https://wwwn.cdc.gov/nchs/nhanes/Default.aspx)  also available in two different R pakcages: [**nhanesA**](https://cran.r-project.org/web/packages/nhanesA/vignettes/Introducing_nhanesA.html) and  [**NHANES**](https://github.com/ProjectMOSAIC/NHANES)
 * [Medicare dataset](https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Inpatient) (discussed on whitehouse.gov)
 * [State Health Facts](http://www.statehealthfacts.org/)
