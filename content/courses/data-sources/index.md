@@ -53,103 +53,74 @@ Finding Data on the Internet http://www.inside-r.org/howto/finding-data-internet
 * Medicare dataset (discussed on whitehouse.gov)
 * State Health Facts: http://www.statehealthfacts.org/
 * gapminder.org – a fascinating website with amazing graphics (social and economic data broken down by country). Click on the spreadsheet links to download the data.
-* Wolfram/Alpha (http://www.wolframalpha.com/ )– This is billed as a computational search engine. Put in "nachos" you get a detailed nutritional analysis, put in “GDP of Albania”and you get several forms of GDP, a historical graph and other economic variables, put in your favorite college and get lots of info (including number of degrees in mathematics in 2009, location on a map and link to a satellite view of campus). While the case by case data display is not so convenient for building datasets there are pretty good links to the sources that Wolfram is pulling data from. For example, the Wolfram/Alpha page of info on a college or university has a data source link at the bottom to the National Center For Educational Statistics website where you can download your own custom data files from the IPSEDS (Integrated Post Secondary Education Data System) – want to know the average faculty salary by rank for all the schools in your comparison group? or the nacho search gives a link to the USDA’s National Nutrient database and a few clicks later I’ve got a spreadsheet with data on 50+ nutrients in 7400+ foods (and that’s the abbreviated data!)
+* Wolfram/Alpha (http://www.wolframalpha.com/ )– This is billed as a computational search engine. Put in "nachos" you get a detailed nutritional analysis, put in "GDP of Albania"and you get several forms of GDP, a historical graph and other economic variables, put in your favorite college and get lots of info (including number of degrees in mathematics in 2009, location on a map and link to a satellite view of campus). While the case by case data display is not so convenient for building datasets there are pretty good links to the sources that Wolfram is pulling data from. For example, the Wolfram/Alpha page of info on a college or university has a data source link at the bottom to the National Center For Educational Statistics website where you can download your own custom data files from the IPSEDS (Integrated Post Secondary Education Data System) – want to know the average faculty salary by rank for all the schools in your comparison group? or the nacho search gives a link to the USDA’s National Nutrient database and a few clicks later I’ve got a spreadsheet with data on 50+ nutrients in 7400+ foods (and that’s the abbreviated data!)
 * [The Census Bureau](http://www.census.gov/)
 * [Baby names](http://www.ssa.gov/oact/babynames/) (popularity by year and state), compiled by the Social Security Administration
  
 
 ## New & Continuously Revised Static Data Sets / Databases:
 
-* hate speak corpora, particularly good for training NLP models 
-* The R package dslabs has some great datasets, described in this Simply Statistics blog
-Information is Beautiful: https://informationisbeautiful.net/data/  
-CDC health datasets which are freely available and formatted.  https://www.cdc.gov/nchs/To be analyzed correctly, these survey data require proper weighting, clustering and stratification adjustments.  There are many such datasets available, including NHAMCS (OPD and ED), NAMCS, BRFSS, NSFG, NHIS, NIS-Child, NIS-Teen, NHANES, NVSS. A quick google of any of these acronyms will take you directly to each webpage.
- kaggle.com is a repository for data used in analysis competitions.
-http://archive.ics.uci.edu/ml/datasets.html — UC Irvine’s Machine Learning Repository  (huge and fantastic database!).
-The GitHub site and other info for many of 538’s analyses.  
-FiveThirtyEight.com has been very forward thinking in making the data and code used in many of their articles accessible on GitHub. With consultation from Andrew Flowers and Andrei Scheinkman of FiveThirtyEight, we go one step further in our package by pre-processing the data so that it more accessible statistics and data science novices and providing ample documentation in the help files.
+* <a href = "https://dataverse.harvard.edu/" target = "_blank">Harvard Dataverse</a>
+* <a href="http://hatespeechdata.com/"target = "_blank">hate speak corpora</a>, particularly good for training NLP models 
+* The R package **dslabs** has some great datasets, <a href="https://simplystatistics.org/2019/07/19/more-datasets-for-teaching-data-science-the-expanded-dslabs-package/" target = "_blank">described in this Simply Statistics blog</a>
+* <a href = "https://informationisbeautiful.net/data/" target = "_blank">Information is Beautiful</a>
+* <a href="https://www.cdc.gov/nchs/" target = "_blank">CDC health datasets</a> which are freely available and formatted.  To be analyzed correctly, these survey data require proper weighting, clustering and stratification adjustments.  There are many such datasets available, including NHAMCS (OPD and ED), NAMCS, BRFSS, NSFG, NHIS, NIS-Child, NIS-Teen, NHANES, NVSS. A quick google of any of these acronyms will take you directly to each webpage.
+* <a href = "https://www.kaggle.com/" target = "_blank">kaggle.com</a> is a repository for data used in analysis competitions.
+* <a href = "http://archive.ics.uci.edu/ml/datasets.html" target = "_blank">UC Irvine’s Machine Learning Repository</a>  (huge and fantastic database!).
+* The GitHub site and other info for many of 538’s analyses.  
+<a href = "https://fivethirtyeight.com/" target = "_blank">FiveThirtyEight.com</a> has been very forward thinking in making the data and code used in many of their articles accessible on <a href = "https://github.com/fivethirtyeight/data" target = "_blank">GitHub</a>. With consultation from Andrew Flowers and Andrei Scheinkman of FiveThirtyEight, we go one step further in our package by pre-processing the data so that it more accessible statistics and data science novices and providing ample documentation in the help files.  
+See a usage example and R package called <a href = "https://github.com/rudeboybert/fivethirtyeight#installation--usage" target = "_blank">**fivethirtyeight**</a>. For a more detailed outline of all data sets and a discussion on our motivation and data guidelines, see the package vignette.  
+And this: <a href = "https://www.storybench.org/how-to-explore-a-dataset-from-the-fivethirtyeight-package-in-r/?utm_content=buffer3af3e&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer" target = "_blank">How to explore data from 538</a>
+* <a href = "http://tinyletter.com/data-is-plural/archive" target = "_blank">Data is Plural</a> set of fun and interesting new datasets and the <a href = "https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0" target = "_blank">spreadsheet with all relevant info</a> 
+* The StudentLife Study. In 2013, four dozen Dartmouth College students agreed to let a custom smartphone app surveil them for the StudentLife Study. During the 10 weeks of the spring academic term, the app collected data on the students’ physical activity, GPS coordinates, eating schedule, sleep habits, phone usage, and more. The study combined all that information with a slew of other data, including the students’ class deadlines, academic performance, and their responses to surveys about stress, depression, personality, and sleep quality. The study’s public (and anonymized) <a href = "http://studentlife.cs.dartmouth.edu/" target = "_blank">dataset</a> clocks in at 53 gigabytes.
+* Shonda Kuiper's (Grinnell College) <a href = "http://web.grinnell.edu/individuals/kuipers/stat2labs/DataResources.html" target = "_blank">many data resources</a>
+* <a href = "http://www.realclimate.org/index.php/data-sources/" target = "_blank">realclimate.org</a> keeps an up to date catalogue of many different types of climate data
+* An <a href = "https://github.com/rundel/Dennys_LaQuinta_Chance" target = "_blank">analysis of Denny’s vs LaQuinta</a> restaurants
+* <a href = "https://github.com/swang87/atus" target = "_blank">American Time Use survey</a> 
+* <a href="https://github.com/hadley/fec-dplyr" target = "_blank">FEC contributions data</a> (as part of Hadley Wickham’s dplyr package)
+* <a href="http://webscope.sandbox.yahoo.com/">Yahoo big data datasets</a>
+* SF OKCupid Users Everett Wetchler wrote a python script back in the day to rip the public profiles of San Francisco OkCupid users.  He pulled one <a href="https://github.com/evee746/okcupid" target = "_blank">snapshot</a> (June 26, 2012) of all OkCupid users who lived within 25 miles of San Francisco along with other caveats. It might be of interest to students given the recent press that data-driven approaches to online dating have been getting, specifically the Wired article <a href="http://www.wired.com/wiredscience/2014/01/how-to-hack-okcupid/">"How a Math Genius Hacked OkCupid to Find True Love"</a> and Amy Webb’s Ted Talk <a href="http://www.ted.com/talks/amy_webb_how_i_hacked_online_dating">"How I hacked online dating"</a>.
+* This <a href = "http://www.lerner.ccf.org/qhs/datasets/" target = "_blank">growing dataset repository</a> presents raw data from real medical studies and offers (a) a vignette summarizing the study, research question and study design; (b) a data dictionary with clear documentation of variables and codes; (c) a complete citation for the associated study publication; and (d) a variety of data formats compatible with the majority of statistical packages. 
+* <a href = "https://www.causeweb.org/tshs/category/dataset/" target = "_blank">Clinical Trials datasets</a> from Teaching Statistics in the Health Sciences 
+* <a href = "http://www.icpsr.umich.edu/icpsrweb/ICPSR/support/announcements/2013/03/icpsr-releases-new-datasets-in-r-format" target = "_blank">Data formatted to use in R </a>
+* <a href = "http://jse.amstat.org/" target = "_blank">Journal of Statistics and Data Science Education </a> (check the archive) – datasets contributed by statistics teachers. Raw data are given in a .dat file with explanations of the variables in an accompanying .doc file. 
+* <a href = "http://dasl.datadesk.com/" target = "_blank">DASL (Data and Story Library)</a> – a collection of datasets and related documentation which may be searched by data subjects or by statistical techniques
+* Jason Bryer’s <a href = "http://jason.bryer.org/" target = "_blank">website</a>, he maintains quite a few R packages which include some cool datasets
+* <a href = "https://github.com/caesar0301/awesome-public-datasets/blob/master/README.rst" target = "_blank">Awesome public datasets</a> 
+* <a href = "https://docs.google.com/document/d/1w7KhqotVi5eoKE3I_AZHbsxdr-NmcWsLTIiZrpxWx4w/pub" target = "_blank">Bessie Chu‘s compilation of datasets</a> 
+* <a hef = "https://www.dataquest.io/blog/free-datasets-for-projects/" target = "_blank"> 21 Places to Find Free Datasets for Data Science Projects</a>
+* Lots of fun data from <a href = "https://www.openintro.org/data" target = "_blank">OpenIntro</a>
 
-For a usage example, click here. For a more detailed outline of all data sets and a discussion on our motivation and data guidelines, see the package vignette.
-
-And this: How to explore data from 538
-
-Data is Plural set of fun and interesting new datasets (http://tinyletter.com/data-is-plural/archive)  and the spreadsheet with all the info is at: https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0
-The StudentLife Study. Back in 2013, four dozen Dartmouth College students agreed to let a custom smartphone app surveil them for the StudentLife Study. During the 10 weeks of the spring academic term, the app collected data on the students’ physical activity, GPS coordinates, eating schedule, sleep habits, phone usage, and more. The study combined all that information with a slew of other data, including the students’ class deadlines, academic performance, and their responses to surveys about stress, depression, personality, and sleep quality. The study’s public (and anonymized) dataset clocks in at 53 gigabytes. (http://studentlife.cs.dartmouth.edu/)
-Shonda Kuiper (Grinnell College) has put together many data resources: http://web.grinnell.edu/individuals/kuipers/stat2labs/DataResources.html
-realclimate.org keeps an up to date catalogue of many different types of climate data (http://www.realclimate.org/index.php/data-sources/)
-An analysis of Denny’s vs LaQuinta restaurants (https://github.com/rundel/Dennys_LaQuinta_Chance)
-American Time Use survey (https://github.com/swang87/atus)
-FEC contributions data (as part of Hadley Wickham’s dplyr package)
-Yahoo big data datasets
-SF OKCupid Users Everett Wetchler wrote a python script back in the day to rip the public profiles of San Francisco OkCupid users.  He pulled one snapshot (June 26, 2012) of all OkCupid users who lived within 25 miles of San Francisco along with other caveats. It might be of interest to students given the recent press that data-driven approaches to online dating have been getting, specifically the Wired article “How a Math Genius Hacked OkCupid to Find True Love” and Amy Webb’s Ted Talk “How I hacked online dating”.
-This growing dataset repository presents raw data from real medical studies and offers (a) a vignette summarizing the study, research question and study design; (b) a data dictionary with clear documentation of variables and codes; (c) a complete citation for the associated study publication; and (d) a variety of data formats compatible with the majority of statistical packages. http://www.lerner.ccf.org/qhs/datasets/
-Teaching Statistics in the Health Sciences (https://www.causeweb.org/tshs/category/dataset/)
-Data formatted to use in R http://www.icpsr.umich.edu/icpsrweb/ICPSR/support/announcements/2013/03/icpsr-releases-new-datasets-in-r-format
-Journal of Statistics Education Data Archive – datasets contributed by statistics teachers. Raw data are given in a .dat file with explanations of the variables in an accompanying .doc file. Several of these datasets are tied to longer JSE articles discussing their use in statistics classes. For example, try televisions.dat, televisions.txt, and Rossman article for some data on life expectancy and numbers of televisions in various countries.
-DASL is the Data and Story Library – a collection of datasets and related documentation which may be searched by data subjects or by statistical techniques
-Jason Bryer’s website (http://jason.bryer.org/); he maintains quite a few R packages which include some cool datasets
-Awesome public datasets…  https://github.com/caesar0301/awesome-public-datasets/blob/master/README.rst
-Bessie Chu‘s compilation of datasets: https://docs.google.com/document/d/1w7KhqotVi5eoKE3I_AZHbsxdr-NmcWsLTIiZrpxWx4w/pub
-18 places to find data sets for data science projects
-Lots of fun data from https://www.openintro.org/
-Ebay auction data for Mario Kart game on the Wii
-
-Some of the variables: total auction price, game condition, auction duration, and number of “Wii wheels” (Wii wheels are accessories used when playing the game). See Chapter 8 of the OpenIntro Statistics textbook to review a multiple regression analysis of the data set, e.g. download the textbook PDF at
-
-www.openintro.org/stat/textbook.php
-
-Professor ratings and beauty
-
-The data are gathered from end of semester student evaluations for a large sample of professors from the University of Texas at Austin. In addition, six students rated the professors’ physical appearance. Lab 8 at the link below provides a lab on multiple regression using this data set, and more info about this data set is available in the second link.
-
-www.openintro.org/stat/labs.php
-
-www.openintro.org/stat/data/evals.php
-
-50 variables for each of the 3143 US counties
-
-OpenIntro had an intern, Luke Paulsen, who did an interesting multiple regression analysis on a subset of these variables. See the “Data and Analysis” section of
-
-www.openintro.org/stat/extras.php
-
-More info on the data set:
-
-www.openintro.org/stat/data/cc.php
-
-Data for 50 companies in the S&P 500
-
-Simple random sample of 50 companies from the 500 companies listed in the S&P 500. These data focus on financial information, which was collected on March 8, 2012. The variables include company value, revenue, cash on hand, debt, profit margin, plus other information for each of the 50 companies. Access the data from the zipped file of data sets available on the textbook page above or from the OIdata R package. It could be interesting to examine how the companies’ stocks performed since the data were collected. Such performance data could be collected pretty efficiently using the getReturns() function in the stockPortfolio package.
-
-Pokemon Go! https://www.openintro.org/stat/data/?data=pokemon
-
-A critical element of Pokemon Go is to “evolve” Pokemon into new, stronger Pokemon for battle. This data set examines evolutions of 75 Pokemon covering four species, and it offers a rich set of 27 variables. The data allow for a careful examination of critical questions related to Pokemon evolutions.
-
- 
 
 ## Journals / Journal articles that provide corresponding data:
 
-The GitHub site and other info for many of 538’s analyses.  
-FiveThirtyEight.com has been very forward thinking in making the data and code used in many of their articles accessible on GitHub. With consultation from Andrew Flowers and Andrei Scheinkman of FiveThirtyEight, we go one step further in our package by pre-processing the data so that it more accessible statistics and data science novices and providing ample documentation in the help files.
+* The GitHub site and other info for many of 538’s analyses.  
+<a href = "https://fivethirtyeight.com/" target = "_blank">FiveThirtyEight.com</a> has been very forward thinking in making the data and code used in many of their articles accessible on <a href = "https://github.com/fivethirtyeight/data" target = "_blank">GitHub</a>. With consultation from Andrew Flowers and Andrei Scheinkman of FiveThirtyEight, we go one step further in our package by pre-processing the data so that it more accessible statistics and data science novices and providing ample documentation in the help files.  
+See a usage example and R package called <a href = "https://github.com/rudeboybert/fivethirtyeight#installation--usage" target = "_blank">**fivethirtyeight**</a>. For a more detailed outline of all data sets and a discussion on our motivation and data guidelines, see the package vignette.  
+And this: <a href = "https://www.storybench.org/how-to-explore-a-dataset-from-the-fivethirtyeight-package-in-r/?utm_content=buffer3af3e&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer" target = "_blank">How to explore data from 538</a>
 
-For a usage example and R package called fivethirtyeight, click here. For a more detailed outline of all data sets and a discussion on our motivation and data guidelines, see the package vignette.
+* <a href = "https://culturalanalytics.org/category/data-sets/" target = "_blank">Journal of Cultural Analytics</a>  
+* Nature – Many articles have a "Data availability" section.  See <a href = "https://www.nature.com/articles/s41586-018-0352-3" target = "_blank">Hurricane-induced selection on the morphology of an island lizard</a> which includes a <a hef = "https://datadryad.org/stash/dataset/doi:10.5061/dryad.2t41r64" target = "_blank">link to the data</a>. 
+* <a href = "http://jse.amstat.org/" target = "_blank">Journal of Statistics and Data Science Education </a> (check the archive) or <a href = "https://www.tandfonline.com/toc/ujse/current" target = "_blank">more recent papers</a>
 
-And this: How to explore data from 538
+## Static Data Sets / Databases:
 
-Journal of Cultural Analytics –   https://culturalanalytics.org/category/data-sets/
-Nature – Many articles have a “Data availability” section.  See Hurricane-induced selection on the morphology of an island lizard which includes a link to their data. 
-Journal of Statistics Education – http://jse.amstat.org/ (check the archive) or more recent papers at https://www.tandfonline.com/toc/ujse/current
-Static Data Sets / Databases:
+* <a href="http://www.statsci.org/data/" target = "_blank">DASL in Australia</a>
+* <a href="http://lib.stat.cmu.edu/datasets/" target = "_blank">Statlib Dataset Archive</a> – one of the original sources for archived data
+* <a href="http://www.itl.nist.gov/div898/education/datasets.htm" target = "_blank">National Institute of Standards and Technology</a> (NIST) education data sets
+* <a href="http://www.dartmouth.edu/~chance/teaching_aids/data.html" target = "_blank">CHANCE Project Datasets</a> – data from recent media coverage of current events. Only a few datasets here, but many excellent references to teaching applications of statistics in the news can be found at the main CHANCE page
+* A <a href = "http://www.statsci.org/datasets.html" target = "_blank">data repository from statsci.org</a> – a statistics and bioinformatics group in Australia 
 
-http://timetric.com/ — time-series data sets, uploaded by users.
-DASL in Australia
-Statlib Dataset Archive – one of the original sources for archived data
-National Institute of Standards and Technology (NIST) education data sets
-CHANCE Project Datasets – data from recent media coverage of current events. Only a few datasets here, but many excellent references to teaching applications of statistics in the news can be found at the main CHANCE page
-A data repository from statsci.org – a statistics and bioinformatics group in Australia http://www.statsci.org/datasets.html
-Websites for Visualizing Data:
 
-Information is Beautiful (http://www.informationisbeautiful.net/)
-Many Eyes (http://manyeyes.alphaworks.ibm.com/manyeyes/) This is billed as a wiki for data and visualizations of data. Users can contribute datasets and graphics as well as comment on what others have contributed. Some of the “visualizations” are pretty bizarre – others are interesting, e.g. I’m not sure where else I could find different datasets (e.g. current average home rental prices) from counties in Ireland and display the data by shading a map of Ireland with the variable I choose and have a link to the report where the data appear. A search with keyword “golf” produced 14 hits – including several of which referred to the Volkswagen Golf, a couple where individual golfers posted datasets with their own scores (and quite detailed info for each round), listings of the length and price to play golf courses in the Toronto area, the World Gold Rankings Top 250 golfers (from 2007) and data on PGA Tour golfers (from ESPN) for the 2007 season.
-From Mark Ward at Purdue http://llc.stat.purdue.edu/2014/29000/visualsites.html
-Nathan Yau’s amazing visualizations: http://flowingdata.com/ (mostly including corresponding datasets)
+## Visualizing Data:
+
+* <a href="http://www.informationisbeautiful.net/" target = "_blank">Information is Beautiful</a> 
+* <a href = "http://manyeyes.alphaworks.ibm.com/manyeyes/" target = "_blank">Many Eyes</a>  is billed as a wiki for data and visualizations of data. Users can contribute datasets and graphics as well as comment on what others have contributed. Some of the "visualizations" are pretty bizarre – others are interesting, e.g., I’m not sure where else I could find different datasets (e.g., current average home rental prices) from counties in Ireland and display the data by shading a map of Ireland with the variable I choose and have a link to the report where the data appear. A search with keyword "golf" produced 14 hits – including several of which referred to the Volkswagen Golf, a couple where individual golfers posted datasets with their own scores (and quite detailed info for each round), listings of the length and price to play golf courses in the Toronto area, the World Gold Rankings Top 250 golfers (from 2007) and data on PGA Tour golfers (from ESPN) for the 2007 season.
+
+* From Mark Ward at Purdue: <a href = "http://llc.stat.purdue.edu/2014/29000/visualsites.html" target="_blank">Websites for Visualizing Data</a>
+* Nathan Yau’s amazing visualizations: <a href = "http://flowingdata.com/" target = "_blank">FlowingData</a>, most of which include corresponding datasets.
+* Kerry Lock Morgan has posted a compilation<a href = "http://www.personal.psu.edu/klm47/visualization.htm" target = "_blank"> data visualizations</a>
+* Caitlin Hudon's GitHub site of <a href="https://github.com/caitlinhudon/data_viz_resources/blob/main/README.md" target="_blank">Data Viz Resources</a>
+* No data here, but I have to link to these <a href = "https://www.darkhorseanalytics.com/portfolio-data-looks-better-naked" target = "_blank">amazing gifs</a> which get cleaner as they go, byt Darkhorse Analytics.
+
 
