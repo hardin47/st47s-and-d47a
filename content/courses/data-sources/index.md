@@ -16,7 +16,6 @@ featured: true
 <figcaption>Art by @allison_horst</figcaption>
 </figure>
 
-Finding Data on the Internet http://www.inside-r.org/howto/finding-data-internet
 
 ## R packages for connecting to APIs:
 
@@ -99,8 +98,7 @@ And this: <a href = "https://www.storybench.org/how-to-explore-a-dataset-from-th
 See a usage example and R package called <a href = "https://github.com/rudeboybert/fivethirtyeight#installation--usage" target = "_blank">**fivethirtyeight**</a>. For a more detailed outline of all data sets and a discussion on our motivation and data guidelines, see the package vignette.  
 And this: <a href = "https://www.storybench.org/how-to-explore-a-dataset-from-the-fivethirtyeight-package-in-r/?utm_content=buffer3af3e&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer" target = "_blank">How to explore data from 538</a>
 
-* <a href = "https://culturalanalytics.org/category/data-sets/" target = "_blank">Journal of Cultural Analytics</a>  
-* Nature – Many articles have a "Data availability" section.  See <a href = "https://www.nature.com/articles/s41586-018-0352-3" target = "_blank">Hurricane-induced selection on the morphology of an island lizard</a> which includes a <a hef = "https://datadryad.org/stash/dataset/doi:10.5061/dryad.2t41r64" target = "_blank">link to the data</a>. 
+* Nature – Many articles have a "Data availability" section.  See <a href = "https://www.nature.com/articles/s41586-018-0352-3" target = "_blank">Hurricane-induced selection on the morphology of an island lizard</a> which includes a <a href = "https://datadryad.org/stash/dataset/doi:10.5061/dryad.2t41r64" target = "_blank">link to the data</a>. 
 * <a href = "http://jse.amstat.org/" target = "_blank">Journal of Statistics and Data Science Education </a> (check the archive) or <a href = "https://www.tandfonline.com/toc/ujse/current" target = "_blank">more recent papers</a>
 
 ## Static Data Sets / Databases:
@@ -115,8 +113,6 @@ And this: <a href = "https://www.storybench.org/how-to-explore-a-dataset-from-th
 ## Visualizing Data:
 
 * <a href="http://www.informationisbeautiful.net/" target = "_blank">Information is Beautiful</a> 
-* <a href = "http://manyeyes.alphaworks.ibm.com/manyeyes/" target = "_blank">Many Eyes</a>  is billed as a wiki for data and visualizations of data. Users can contribute datasets and graphics as well as comment on what others have contributed. Some of the "visualizations" are pretty bizarre – others are interesting, e.g., I’m not sure where else I could find different datasets (e.g., current average home rental prices) from counties in Ireland and display the data by shading a map of Ireland with the variable I choose and have a link to the report where the data appear. A search with keyword "golf" produced 14 hits – including several of which referred to the Volkswagen Golf, a couple where individual golfers posted datasets with their own scores (and quite detailed info for each round), listings of the length and price to play golf courses in the Toronto area, the World Gold Rankings Top 250 golfers (from 2007) and data on PGA Tour golfers (from ESPN) for the 2007 season.
-
 * From Mark Ward at Purdue: <a href = "http://llc.stat.purdue.edu/2014/29000/visualsites.html" target="_blank">Websites for Visualizing Data</a>
 * Nathan Yau’s amazing visualizations: <a href = "http://flowingdata.com/" target = "_blank">FlowingData</a>, most of which include corresponding datasets.
 * Kerry Lock Morgan has posted a compilation<a href = "http://www.personal.psu.edu/klm47/visualization.htm" target = "_blank"> data visualizations</a>
