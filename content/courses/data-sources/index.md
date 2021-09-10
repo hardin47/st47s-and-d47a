@@ -34,9 +34,9 @@ featured: true
 
 ## R packages containing multiple datasets:
 
-* **gibboda**: Gender Isn’t Binary But Other Data Are! (https://github.com/bryandmartin/gibboda).
-* **openintro**: R package for data and supplemental functions for OpenIntro resources (https://github.com/OpenIntroStat/openintro)
-* **tidyverse**: suite of R packages that contain some fantastic datasets (https://www.tidyverse.org/)
+* [**gibboda**](https://github.com/bryandmartin/gibboda): Gender Isn’t Binary But Other Data Are!
+* [**openintro**](https://github.com/OpenIntroStat/openintro) an R package for data and supplemental functions for OpenIntro resources 
+* [**tidyverse**](https://www.tidyverse.org/) is a suite of R packages that contain some fantastic datasets 
 * **fivethirtyeight**: an [R package](https://cran.r-project.org/web/packages/fivethirtyeight/vignettes/fivethirtyeight.html) that pulls in data that 538 has already [publicly posted](https://github.com/fivethirtyeight/data)
 * [**mosaicData**](https://github.com/ProjectMOSAIC/mosaicData)
 * The R package **dslabs** has some great datasets, described in this [Simply Statistics blog](https://simplystatistics.org/2019/07/19/more-datasets-for-teaching-data-science-the-expanded-dslabs-package/)
