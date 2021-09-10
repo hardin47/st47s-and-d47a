@@ -37,8 +37,8 @@ featured: true
 * **gibboda**: Gender Isn’t Binary But Other Data Are! (https://github.com/bryandmartin/gibboda).
 * **openintro**: R package for data and supplemental functions for OpenIntro resources (https://github.com/OpenIntroStat/openintro)
 * **tidyverse**: suite of R packages that contain some fantastic datasets (https://www.tidyverse.org/)
-* **fivethirtyeight**: an R package (https://cran.r-project.org/web/packages/fivethirtyeight/vignettes/fivethirtyeight.html) that pulls in data that 538 has already publicly posted (https://github.com/fivethirtyeight/data)
-* **mosaicData**:
+* **fivethirtyeight**: an [R package](https://cran.r-project.org/web/packages/fivethirtyeight/vignettes/fivethirtyeight.html) that pulls in data that 538 has already [publicly posted](https://github.com/fivethirtyeight/data)
+* [**mosaicData**](https://github.com/ProjectMOSAIC/mosaicData)
 * The R package **dslabs** has some great datasets, described in this [Simply Statistics blog](https://simplystatistics.org/2019/07/19/more-datasets-for-teaching-data-science-the-expanded-dslabs-package/)
 
 ## Dynamic Data Sets / Databases:
@@ -48,7 +48,7 @@ featured: true
 * [Financial and Economic data](https://www.quandl.com/)
 * [Behavioral Risk Factor Surveillance System](http://www.cdc.gov/brfss/)
 * [General Social Survey](http://www3.norc.org/GSS+Website/)
-* [National Health and Nutrition Examination Survey from the CDC](http://www.cdc.gov/nchs/nhanes/nhanes_questionnaires.htm)
+* [National Health and Nutrition Examination Survey from the CDC](https://wwwn.cdc.gov/nchs/nhanes/Default.aspx)  also available in two different R pakcages: [**nhanesA**](https://cran.r-project.org/web/packages/nhanesA/vignettes/Introducing_nhanesA.html) and  [**NHANES**](https://github.com/ProjectMOSAIC/NHANES)
 * [Medicare dataset](https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Inpatient) (discussed on whitehouse.gov)
 * [State Health Facts](http://www.statehealthfacts.org/)
 * [gapminder.org](https://www.gapminder.org/) – a fascinating website with amazing graphics (social and economic data broken down by country). Click on the spreadsheet links to download the data.
