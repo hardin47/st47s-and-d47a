@@ -43,16 +43,16 @@ featured: true
 
 ## Dynamic Data Sets / Databases:
 
-* College Scorecard (https://collegescorecard.ed.gov/).  A tremendous amount of information about all universities (though some of it collected only from students on financial aid).
-* National Park Service Visitor Use Statistics (https://irma.nps.gov/Stats/)
-* Financial and Economic data (https://www.quandl.com/)
-* Behavioral Risk Factor Surveillance System: http://www.cdc.gov/brfss/
-* General Social Survey (http://www3.norc.org/GSS+Website/)
-* National Health and Nutrition Examination Survey from the CDC: http://www.cdc.gov/nchs/nhanes/nhanes_questionnaires.htm
-* Medicare dataset (discussed on whitehouse.gov)
-* State Health Facts: http://www.statehealthfacts.org/
-* gapminder.org – a fascinating website with amazing graphics (social and economic data broken down by country). Click on the spreadsheet links to download the data.
-* Wolfram/Alpha (http://www.wolframalpha.com/ )– This is billed as a computational search engine. Put in "nachos" you get a detailed nutritional analysis, put in "GDP of Albania"and you get several forms of GDP, a historical graph and other economic variables, put in your favorite college and get lots of info (including number of degrees in mathematics in 2009, location on a map and link to a satellite view of campus). While the case by case data display is not so convenient for building datasets there are pretty good links to the sources that Wolfram is pulling data from. For example, the Wolfram/Alpha page of info on a college or university has a data source link at the bottom to the National Center For Educational Statistics website where you can download your own custom data files from the IPSEDS (Integrated Post Secondary Education Data System) – want to know the average faculty salary by rank for all the schools in your comparison group? or the nacho search gives a link to the USDA’s National Nutrient database and a few clicks later I’ve got a spreadsheet with data on 50+ nutrients in 7400+ foods (and that’s the abbreviated data!)
+* [College Scorecard](https://collegescorecard.ed.gov/).  A tremendous amount of information about all universities (though some of it collected only from students on financial aid).
+* [National Park Service Visitor Use Statistics](https://irma.nps.gov/Stats/)
+* [Financial and Economic data](https://www.quandl.com/)
+* [Behavioral Risk Factor Surveillance System](http://www.cdc.gov/brfss/)
+* [General Social Survey](http://www3.norc.org/GSS+Website/)
+* [National Health and Nutrition Examination Survey from the CDC](http://www.cdc.gov/nchs/nhanes/nhanes_questionnaires.htm)
+* [Medicare dataset](https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Inpatient) (discussed on whitehouse.gov)
+* [State Health Facts](http://www.statehealthfacts.org/)
+* [gapminder.org](https://www.gapminder.org/) – a fascinating website with amazing graphics (social and economic data broken down by country). Click on the spreadsheet links to download the data.
+* [Wolfram/Alpha](http://www.wolframalpha.com/)  is billed as a computational search engine. Put in "nachos" you get a detailed nutritional analysis, put in "GDP of Albania"and you get several forms of GDP, a historical graph and other economic variables, put in your favorite college and get lots of info (including number of degrees in mathematics in 2009, location on a map and link to a satellite view of campus). While the case by case data display is not so convenient for building datasets there are pretty good links to the sources that Wolfram is pulling data from. For example, the Wolfram/Alpha page of info on a college or university has a data source link at the bottom to the National Center For Educational Statistics website where you can download your own custom data files from the IPSEDS (Integrated Post Secondary Education Data System) – want to know the average faculty salary by rank for all the schools in your comparison group? or the nacho search gives a link to the USDA’s National Nutrient database and a few clicks later I’ve got a spreadsheet with data on 50+ nutrients in 7400+ foods (and that’s the abbreviated data!)
 * [The Census Bureau](http://www.census.gov/)
 * [Baby names](http://www.ssa.gov/oact/babynames/) (popularity by year and state), compiled by the Social Security Administration
  
