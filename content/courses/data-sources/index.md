@@ -42,6 +42,7 @@ featured: true
 
 ## Dynamic Data Sets / Databases:
 
+* The amazing [TidyTuesday](https://github.com/rfordatascience/tidytuesday) datasets.  For example, data on [Juneteenth](https://github.com/rfordatascience/tidytuesday/tree/master/data/2020/2020-06-16) or [Wealth Inequality](https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-02-09)
 * [College Scorecard](https://collegescorecard.ed.gov/).  A tremendous amount of information about all universities (though some of it collected only from students on financial aid).
 * [National Park Service Visitor Use Statistics](https://irma.nps.gov/Stats/)
 * [Financial and Economic data](https://www.quandl.com/)
