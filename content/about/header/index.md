@@ -27,7 +27,7 @@ My areas of expertise include statistical analysis of high-throughput genetic da
 I work on problems of normalizing data structures, clustering and classifying time course profiles, and creating metrics to measure a variety of signals.
 
 I chose to become a statistician because of the myriad potential collaborations across many fields.
-I have worked with medical doctors, biologists, geologists, and physicists in her research.  Through new ventures into data science (both research and teaching), I am currently exploring ways that today’s extensive data (both in scale and in occurrence) are shaping science and the world around us.  
+I have worked with medical doctors, biologists, geologists, and physicists in my research.  Through new ventures into data science (both research and teaching), I am currently exploring ways that today’s extensive data (both in scale and in occurrence) are shaping science and the world around us.  
 
 
 <h4>Want to know what I'm up to?</h4>
