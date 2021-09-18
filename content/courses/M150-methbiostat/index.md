@@ -1,172 +1,38 @@
 ---
-title: "03: Site configuration"
+title: "Math 150: Methods in Biostatistics"
 slug: math150
-weight: 3
+weight: 4
 subtitle: ""
-excerpt: "Hugo uses the config.toml found in the site root to configure your site. In this article, we highlight key options in this file, and some options added by the Hugo Apéro theme which you can access in the `[params]` section."
-date: 2021-05-26
-draft: true
-featured: false
+excerpt: "Methods in Biostatistics is a second course in statistics focused on topics and data found in the life sciences.  No biological background is needed, but interest in the life sciences is important."
+date: "Spring 2021"
+draft: false
+featured: true
 ---
 
+## The Course
 
-The following site configuration options are found in the `config.toml` file at the root of this Hugo site.
+<figure>
+<img src="p_value_mic_hog.jpg" align="right">
+<figcaption>Art by @allison_horst</figcaption>
+</figure>
 
-## Hugo variables
+**Methods in Biostatistics** is a second course in biostatistics, designed to follow either an Introduction to Statistics or Introduction to Biostatistics course.  No biology background is needed, but examples and methods will be focused on those found in the life sciences.  In particular, the main statistical topics covered include a logistic regression, survival analysis, and methods to ameliorate multiple comparison issues.  
 
-A few Hugo-defined variables are included the example site's `config.toml` file. You can find a complete list in the [Hugo docs](https://gohugo.io/getting-started/configuration/#all-configuration-settings). Some key ones you'll want to edit:
 
-```toml
-baseURL = "/"
-title = "Hugo Apéro"
-author = "Alison Hill"
-# set deliberately low for testing- choose your preferred number 
-paginate = 5
-```
+## Student Learning Outcomes.
+By the end of the semester, students will be able to:
 
-At a minimum, change these values.
+* evaluate quantitative information with regards to clinical and biological data. We’ll be sure to keep in mind:
+   - Careful presentation of data
+   - Consideration of variability
+   - Meaningful comparisons
+* critically evaluate the medical literature with respect to design, analysis, and interpretation of results.
+* understand the role of inherent variability and keep it in perspective when inferring results to a population.
+* critically evaluate medical results given in the mainstream media.
+* read published studies with skepticism. Some people (in all fields!) wrongly believe that all studies published in a peer review publication must be 100% accurate and/or well designed studies. In this course, you will learn the tools to recognize, interpret, and critique statistical results in medical literature.
 
-## Apéro variables
 
-The Apéro theme also defines additional site-wide, global variables. All are listed under the `[params]` section in your `config.toml` file. The most important to touch are:
+## Course website
 
-```toml
-[params]
-  orgName = "RStudio"
-  orgLocal = "Anywhere"
-  description = "A modern, beautiful, and easily configurable blog theme for Hugo."
-  favicon = "/img/favicon.ico"
-  logo = "/img/blogophonic-mark-dark.png"
-  mainSections = ["blog", "project", "talk"]
-  navallcaps = true
-  # Default image for social sharing and search engines. 
-  # Place image file in `static` folder and specify image name here.
-  sharing_image = "/img/papillons.jpg"
-  # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = "apreshill"
-```
+Methods in Biostatistics was last taught in Spring 2021, materials can be found on the <a href = "https://research.pomona.edu/johardin/math150s21/" target = "_blank">course website</a>.
 
-For all image files (`favicon`, `logo`, and `sharing_image`), the files should be placed in the `/static/` folder in your project root. The default `config.toml` file shows them inside `/static/img/`, for example:
-
-```bash
-config.toml
-static/
-└── img/
-    ├── favicon.ico 
-    ├── blogophonic-mark-dark.png
-    └── papillons.jpg
-```
-
-## Color themes
-
-You have three options for customizing colors:
-
-+ Use a [color theme](/learn/color-themes/#use-a-color-theme),
-+ Use [Tachyons colors](/learn/color-themes/#use-tachyons-named-colors), or
-+ Bring your own [hex codes](/learn/color-themes/#bring-your-own-hex-codes).
-
-Find this section in your `config.toml` file and color away:
-
-```toml
-[params]
-  # use a built-in color theme
-  # one of: forest / grayscale / peach / plum /
-  #         poppy / sky / violet / water
-  theme = "peach"
-  
-  # or, leave theme empty & make your own palette
-  # see docs at https://hugo-apero.netlify.app/learn/color-themes/
-  # the custom scss file must be in the assets/ folder
-  # add the filename name here, without extension
-  # to use hex colors instead of named tachyons colors, include "hex" in filename
-  custom_theme = "hex-colors" 
-```
-
-Read the [full docs here](/learn/color-themes/).
-
-## Font options
-
-You have three options for customizing fonts:
-
-+ Use [embedded fonts](/learn/fonts/#embedded-fonts),
-+ Use attractive [system fonts](/learn/fonts/#use-attractive-system-fonts), or
-+ Use fully [custom fonts](/learn/fonts/#use-a-custom-font).
-
-Find this section in your `config.toml` file and go to town:
-
-```toml  
-[params]
-  # use an embedded font
-  customtextFontFamily = "Commissioner"
-  customheadingFontFamily = "Fraunces"
-  
-  # or choose a system font stack
-  textFontFamily = "sans-serif"
-  headingFontFamily = "serif"
-```
-
-Read the [full docs here](/learn/fonts/).
-
-## Social icons
-
-You can use both Font Awesome and Academicons to link to your social accounts.
-
-Find this section in your `config.toml` file and link all the things:
-
-```toml
-[params]
-  # show/hide social icons in site header & footer
-  socialInHeader = false
-  socialInFooter = false
-  
-  [[params.social]]
-      icon      = "github" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://github.com/apreshill/apero"
-  [[params.social]] <!--lather, rinse, repeat-->
-```
-
-Read the [full docs here](/learn/social/).
-
-## Menus
-
-Find this section in your `config.toml` file to change the menu items in the site header:
-
-```toml
-[menu]
-  [[menu.header]]
-    name = "About"
-    title = "About Apéro"
-    url = "/about/"
-    weight = 1
-  [[menu.header]] <!--lather, rinse, repeat-->
-```
-
-Just below the header menu, you'll find the menu items for the footer as well:
-
-```toml
-  [[menu.footer]]
-    name = "License"
-    title = "License"
-    url = "/license/"
-    weight = 1
-  [[menu.footer]] <!--lather, rinse, repeat-->
-```
-
-## Check your configuration file
-
-The blogdown R package has a checking function to help you make sure that your configuration file has all the fiddly bits right. I encourage you to use it whenever you edit this file:
-
-```r
-> blogdown::check_config()
-― Checking config.toml
-| Checking "baseURL" setting for Hugo...
-● [TODO] Update "baseURL" to your actual URL when ready to publish.
-| Checking "ignoreFiles" setting for Hugo...
-○ "ignoreFiles" looks good - nothing to do here!
-| Checking setting for Hugo's Markdown renderer...
-○ All set! Found the "unsafe" setting for goldmark.
-― Check complete: config.toml
-```
-
-We have a `[TODO]` item- we need to update our `baseURL`. To get one, we'll need to [deploy our site first](../deploy).
