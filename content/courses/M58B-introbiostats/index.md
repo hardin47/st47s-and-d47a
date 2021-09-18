@@ -1,131 +1,47 @@
 ---
-title: "04: Deploy your site"
+title: "Math 58B: Introduction to Biostatistics"
 slug: math58B
 weight: 4
 subtitle: ""
-excerpt: "Netlify can build your website for you, and update it every time you push to GitHub :rocket: It's called continuous deployment, and it is a beautiful thing."
-date: 2021-05-26
-draft: true
+excerpt: "Introduction to Biostatistics is a second course in statistics focused on topics and data found in the life sciences.  No biological background is needed, but interest in the life sciences is important."
+date: "Spring 2021"
+draft: false
 featured: false
 ---
 
-To preview your site locally, we have been using a blogdown function (or Add-in in RStudio):
+## The Course
 
-```r
-blogdown::serve_site()
-```
+<figure>
+<img src="type_2_errors.jpg" align="right">
+<figcaption>Art by @allison_horst</figcaption>
+</figure>
 
-If you then push to GitHub, you are committing the source files (but not the built site) to GitHub. This is actually preferred, because we can teach Netlify how to build our site for us using the source files. 
-
-## Push to GitHub
-
-You can use the RStudio to push your current website project to GitHub. How?
-
-+ Click the "Git" tab in upper right pane
-
-+ Check "Staged" boxes for any files with changes you want to commit.
-
-    + To see more detail on what’s changed in file since the last commit, click on "Diff" for a Git pop-up
-
-+ If you’re not already in the Git pop-up, click "Commit"
-
-+ Type a message in "Commit message", such as "commit my website".
-
-+ Click "Commit"
-
-Did this work? The usethis package has a function, [`browse_github()`](https://usethis.r-lib.org/reference/browse-this.html), for easily opening a new browser window to visit the GitHub repository associated with your current website project:
-
-```r
-# install.packages("usethis")
-usethis::browse_github()
-```
-
-## Connect Netlify to GitHub repo
-
-You already have setup a free Netlify account linked to your GitHub account, [right](../setup/#sign-up-for-netlify)?
-
-{{< panelset >}}
-{{< panel name="To do :heavy_check_mark:" >}}
-
-1. Log in, and select: 
-    `New site from Git > Continuous Deployment: GitHub`.
-
-1. From there, Netlify will allow you to select from your existing GitHub repositories. You'll pick the repo you've been working from with `blogdown`. Leave all settings as they are and select **Deploy Site**.
-
-{{< /panel >}}
-{{< panel name="Screenshot :camera:" >}}
-
-![](new_netlify.png)
-
-{{< /panel >}}
-
-{{< /panelset >}}
+**Introduction to Biostatistics** is an introduction to statistical ideas using R. We will cover the majority of statistical methods which are used in standard analyses (e.g., t-tests, chi-squared analysis, regression, confidence intervals, binomial tests, etc.). The main inferential techniques will be covered using both theoretical approximations (e.g., the central limit theorem) as well as computational methods (e.g., permutation tests and bootstrapping). Focus will be on understanding he methods and interpreting results. 
 
 
-When it is done, you can click on the link to your new site! And the most magical thing of all, every time you push any changes to your site to GitHub, Netlify will detect the push, re-build, then update your published site. It's a good thing. It's called continuous deployment, and it is the main reason to use Netlify for a blogdown site.
+## Student Learning Outcomes.
+By the end of the semester, students will be able to do the following:
 
-Now, whenever you edit your site content, commit your changes and push to GitHub! Watch as your site rebuilds :tada:
-
-## Update your baseURL
-
-In your [site configuration file](../03-site-config) (`config.toml`), change the `baseURL` there to match where Netlify is publishing your site:
-
-```toml
-baseURL = "https://hugo-apero-docs.netlify.app/"
-```
-
-Commit and push this change to GitHub.
-
-## Rename your site
-
-With a new site, Netlify will deploy your site and assign you a random subdomain name of the form `random-word-12345.netlify.app`. Mine was particularly unfortunate, with the random word `garbage-collector-janice`. You should know that you can change this; I changed mine to `apreshill.netlify.app`. 
-
-{{< panelset >}}
-{{< panel name="To do :heavy_check_mark:" >}}
-
-+ Navigate to your site on Netlify
-
-+ Click on **Settings**
-
-+ Under **Site information**, click on the *Change site name* button.
-
-{{< /panel >}}
-{{< panel name="Screenshot :camera:" >}}
-
-![](netlify-site-name.png)
-
-{{< /panel >}}
-
-{{< /panelset >}}
+* Given a study, identify population, sample, parameter, statistic, observational unit, and variable.
+* Describe the differences between, benefits of each, and conclusions which can be drawn in observational studies versus experiments.
+* Given a dataset and research query, create an appropriate figure in R.
+* Given a dataset and research query, compute appropriate statistics in R.
+* Describe the difference between the distribution of a sample of data and a sampling distribution of a particular statistic.
+* For a particular research question, identify whether the task requires descriptive analysis / model, graphic, confidence interval, or hypothesis test,
+* Apply the empirical rule to as an approximation to confidence intervals and hypothesis testing in settings of means and proportions.
+* Be able to describe in words what a p-value is and what it is not.
+* Write down appropriate null and alternative hypotheses, and choose the correct analysis technique.
+* Run the hypothesis test / confidence interval analysis in R.
+* Identify when it is and when it is not appropriate to summarize the relationship between two variables using a least squares line.
+Describe the optimization procedure the leads to a least squares fit (although not necessarily to do the calculations).
+* Provide the settings in which a causal claim is warranted, and when a strong correlation is possibly due to spurious relationships.
+* Use a regression line to make predictions and distinguish between a prediction interval for an independent response as compared to a confidence interval for the slope parameter.
+* For each descriptive analysis, visualization, confidence interval, or hypothesis test, in words communicate the conclusion of the analysis in the original context of the data.
+* Use R Markdown to run reproducible analyses that include all aspects of the data analysis.
 
 
-## Netlify configuration
+## Course website
 
-You actually have most of the necessary wiring laid out for you already in your repo, which is why this worked. Our site has a `netlify.toml` file, which sets us the necessary settings for letting Netlify build our site for us and then publish it. You can check this file out using:
-
-```r
-# if exists, opens; if not, creates new
-blogdown::config_netlify()
-```
-
-Now, back in your local blogdown project, let's check this file with blogdown:
-
-```r
-> blogdown::check_netlify()
-― Checking netlify.toml...
-○ Found HUGO_VERSION = 0.80.0 in [build] context of netlify.toml.
-| Checking that Netlify & local Hugo versions match...
-○ It's a match! Blogdown and Netlify are using the same Hugo version (0.80.0).
-| Checking that Netlify & local Hugo publish directories match...
-○ Good to go - blogdown and Netlify are using the same publish directory: public
-― Check complete: netlify.toml
-```
+Introduction to Biostatistics was last taught in Spring 2021, materials can be found on the <a href = "https://research.pomona.edu/johardin/math58bs21/" target = "_blank">course website</a>.
 
 
-## Custom rbind.io subdomain
-
-To get an `*.rbind.io` URL, head over to: https://github.com/rbind/support/issues/new
-
-The issue template should lead you through the information they need to get your new url set up.
-
-Anytime you change your subdomain name, you'll need to update the `baseURL` in your `config.toml` file.
