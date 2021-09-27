@@ -3,7 +3,7 @@ title: "Jo Hardin"
 subtitle: "st47s, d47a, and educ47ion."
 description: "Welcome to my website!  I'm a Professor of Mathematics & Statistics at Pomona College.  I love data and teaching.  Find out about my interests by perusing the site."
 images:
-  - img/johex.png
+  - img/johex.jpg
 image_left: false
 text_align_left: true
 show_social_links: true # specify social accounts in site config
