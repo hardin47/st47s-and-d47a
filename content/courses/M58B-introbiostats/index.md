@@ -12,7 +12,7 @@ featured: false
 ## The Course
 
 <figure>
-<img src="type_2_errors.png" align="right">
+<img src="type_2_errors_featured.png" align="right">
 <figcaption>Art by @allison_horst</figcaption>
 </figure>
 

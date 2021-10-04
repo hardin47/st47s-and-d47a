@@ -12,7 +12,7 @@ featured: false
 ## The Course
 
 <figure>
-<img src="p_value_mic_hog.jpg" align="right">
+<img src="p_value_mic_hog_featured.jpg" align="right">
 <figcaption>Art by @allison_horst</figcaption>
 </figure>
 
