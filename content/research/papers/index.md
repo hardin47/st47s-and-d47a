@@ -26,7 +26,7 @@ type: research
  	<li><a href="http://computationalgenomics.bioinformatics.ucla.edu/portfolio-item/jo-hardin-prediction-intervals-for-random-forests-with-applications-to-high-throughput-data/" target = "_blank"><b></b>Prediction intervals for random forests with applications to high throughput data&nbsp;</a><a href="https://youtu.be/x7F1Z8pGS6Q" target="_blank" rel="noopener noreferrer"><img src="https://i1.wp.com/computationalgenomics.bioinformatics.ucla.edu/wp-content/uploads/sites/11/2016/08/icon-youtube.gif?w=1200" alt=""></a>(Computational Genomics Summer Institute @ IPAM, 2017)</li>
 </ul>
 </li>
- 	<li><i class="fas fa-chalkboard-teacher"></i> Hardin, J. <strong>9 out of 10 Seniors Recommend this First-Year Seminar: Statistics in the Real World</strong>, In <a href = "https://www.maa.org/press/ebooks/mathematical-themes-in-a-first-year-seminar" target = "_blank"><em>Mathematical Themes in a First-Year Seminar</em></a>, eds. J. Schaefer, J. Bowen, M. Kozek, and P. Pierce,<span class="Apple-converted-space">&nbsp; </span>MAA Notes Series; 2021.</li>
+ 	<li><i class="fas fa-chalkboard-teacher"></i> Hardin, J. <strong>9 out of 10 Seniors Recommend this First-Year Seminar: Statistics in the World</strong>, In <a href = "https://www.maa.org/press/ebooks/mathematical-themes-in-a-first-year-seminar" target = "_blank"><em>Mathematical Themes in a First-Year Seminar</em></a>, eds. J. Schaefer, J. Bowen, M. Kozek, and P. Pierce,<span class="Apple-converted-space">&nbsp; </span>MAA Notes Series; 2021.</li>
 </ul>
 <strong>2020</strong>
 <ul>

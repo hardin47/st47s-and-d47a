@@ -15,7 +15,7 @@ I believe that DEI work takes all of us contributing in myriad ways.  One of the
 ## <a href = "https://www.pomona.edu/academics/departments/mathematics" target = "_blank">Department of Mathematics & Statistics</a>
 
 
-As a group, we are involved in many fabulous programs.
+As a department, we are involved in many fabulous programs.
 
 * <a href = "https://www.pomona.edu/academics/academic-support-resources/academic-cohorts-pomona-college" target= "_blank">Pomona Scholars of Mathematics (PSM)</a> - PSM is a cohort program targeted at first year students who are interested in studying math or related disciplines (e.g., computer science, statistics, physics).  Intensive one-on-one faculty-student advising, weekly group lunch meetings, and within-course clusters help the group build cohesion and navigate their first year on campus.
 * <a href = "https://www.pomona.edu/academics/departments/mathematics/resources/learning-community-mathematics-licmath" target = "_blank">Learning Communities (LiCMATH)</a> - A learning community is a small group of students who are all enrolled in one particular class.  They commit to work together and to support each other throughout the semester. A learning community is meant to become a supportive and safe space to work on homework problems, to discuss the lectures, and to bounce ideas off each other.  The meetings take place outside of class times, and, at least initially, under the supervision of an upper class undergraduate student mentor. 

@@ -1,5 +1,5 @@
 ---
-title: "ID1: Statistics in the Real World"
+title: "ID1: Statistics in the World"
 weight: 3
 slug: id1
 excerpt: "The main idea behind this course is to get the participants (that’s you) to leave in December questioning every number you come across: in the media, at sporting events, when researching for another class, when carrying out your own research, etc."
