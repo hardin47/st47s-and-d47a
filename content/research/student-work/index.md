@@ -65,7 +65,7 @@ type: research
 </ul>
 <h4>2015:</h4>
 <ul>
- 	<li>Rebecca Baiman (2015): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/RebeccaBaiman15.pdf" target = "_blank">"A Critical Comparison of Mathods in Statistical Inference Education"</a>; Masters of Education 2017, Math Secondary Education, Vanderbilt University; Currently: Ph.D. candidate, CU Boulder, Atmospheric Science.</li>
+ 	<li>Rebecca Baiman (2015): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/RebeccaBaiman15.pdf" target = "_blank">"A Critical Comparison of Methods in Statistical Inference Education"</a>; Masters of Education 2017, Math Secondary Education, Vanderbilt University; Currently: Ph.D. candidate, CU Boulder, Atmospheric Science.</li>
  	<li>Jacob Fiksel (2015): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/JacobFiksel15.pdf" target = "_blank">"Differential Gene Expression Analysis with Microarray and RNA-seq Data"</a>; Ph.D. 2020, Johns Hopkins Bloomberg School of Public Health, Biostatistics;  Currently: Postdoctoral Researcher, University of Pennsylvania DBEI</li>
 </ul>
 <p style="padding-left: 60px"><a href="https://jfiksel.github.io/" target = "_blank">Jacob's blog</a> (about grad school and data science, among other things)</p>
