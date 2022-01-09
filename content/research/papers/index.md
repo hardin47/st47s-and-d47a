@@ -17,6 +17,15 @@ type: research
 <div style="text-align: start;"><strong><strong>(links&nbsp;to preprints, arXiv, or journal website)</strong></strong></div>
 <p>* Indicates work done as an undergraduate student.</p>
 
+<strong>2022</strong>
+<ul>
+ 	<li><i class="fas fa-sitemap"></i> \*Ashby, E., \*Paddock, L., \*Rollosson, L., \*Tang, E., \*Miller, G., \*Wade, S., \*Betts, H., \*Porter, A., \*Saada, C., Hardin, J., Schulz, D. <a href = "" target = "_blank"><strong>Genomic occupancy of the bromodomain protein Bdf3 is dynamic during differentiation of African trypanosomes from bloodstream to procyclic forms</strong>, submitted, 2022.</li>
+ 	<li><i class="fas fa-equals"></i> Hardin, J., Shahriari, S. <a href = "" target = "_blank"><strong>Community, Collaboration, and Climate</strong>, <em>PRIMUS: Problems, Resources, and Issues in Mathematics Undergraduate Studies</em>, in press, 2022.</li>
+
+  <li><i class="fas fa-chalkboard-teacher"></i> \c{C}etinkaya-Rundel, M., Hardin, J., Baumer, B., McNamara, A., Horton, N., Rundel, C.  <a href = "https://arxiv.org/abs/2108.03510" target = "_blank"><strong>An Educator's Perspective on the Tidyverse</strong>, <em>Technology Innovations in Statistics Education</em>, in press, 2022.</li>
+</ul>
+
+
 <strong>2021</strong>
 <ul>
   <li><i class="fas fa-chalkboard-teacher"></i> Çetinkaya-Rundel, M., Hardin, J. <a href="https://www.openintro.org/book/ims/" target = "_blank">Introduction to Modern Statistics</a> OpenIntro, 2021.</li>

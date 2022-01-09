@@ -146,7 +146,7 @@ type: research
 <p> 
 <h4>2021:</h4>
 <ul>
-<li>Ethan Ashby <a href = "https://www.causeweb.org/usproc/usclap/2021/spring/winners" target = "_blank">A Regularized Cox Regression Approach to the Health Evaluation and Linkage to Primary Care (HELP) Clinical Trial</a>2nd place Paper Undergraduate Statistics Class (intermediate) Project Competition</li>
+<li>Ethan Ashby <a href = "https://www.causeweb.org/usproc/usclap/2021/spring/winners" target = "_blank">A Regularized Cox Regression Approach to the Health Evaluation and Linkage to Primary Care (HELP) Clinical Trial</a> 2nd place Paper Undergraduate Statistics Class (intermediate) Project Competition</li>
 <li>Hannah Mandel, Emily Tomz, Adeena Liang, Chloe Sun, Ian Krupkin <a href = "http://datafest.stat.ucla.edu/competition/2021-asa-datafesttm-results/" target = "_blank">DataFest - Judges' Choice Award</a> 
 </li>
 </ul> 	

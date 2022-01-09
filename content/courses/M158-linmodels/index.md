@@ -1,13 +1,49 @@
 ---
-title: "06: Page configuration"
+title: "Math 158: Linear Models"
 slug: math158
-weight: 6
-subtitle: "How to configure your single pages across content sections."
-excerpt: "The content you add to your site will all live inside single pages. Listing pages for sections help you organize your content, but the pages also can be configured to change the layout and add features."
-date: 2021-05-26
-draft: true
+weight: 2
+subtitle: ""
+excerpt: ""
+date: "Spring 2022""
+draft: false
 featured: false
 ---
+
+---
+title: "Math 58B: Introduction to Biostatistics"
+slug: math58B
+weight: 2
+subtitle: ""
+excerpt: "Introduction to Biostatistics is a second course in statistics focused on topics and data found in the life sciences.  No biological background is needed, but interest in the life sciences is important."
+date: "Spring 2021"
+draft: false
+featured: false
+---
+
+## The Course
+
+<figure>
+<img src="type_2_errors_featured.png" align="right">
+<figcaption>Art by @allison_horst</figcaption>
+</figure>
+
+**Linear Models** is an introduction to statistical ideas using R. We will cover the majority of statistical methods which are used in standard analyses (e.g., t-tests, chi-squared analysis, regression, confidence intervals, binomial tests, etc.). The main inferential techniques will be covered using both theoretical approximations (e.g., the central limit theorem) as well as computational methods (e.g., permutation tests and bootstrapping). Focus will be on understanding he methods and interpreting results. 
+
+
+## Student Learning Outcomes.
+By the end of the semester, students will be able to do the following:
+
+* understand the basic structure of a linear model.
+* know when a linear model is appropriate and what conclusions can be drawn given a particular dataset.
+* use graphical tools to investigate models associated with the data at hand.
+* communicate results effectively.
+
+
+## Course website
+Linear Models was last taught in Spring 2022, materials can be found on the <a href = "https://m158-lin-mod.netlify.app/" target = "_blank">course website</a>.
+
+
+
 
 ## Single pages in sections
 
