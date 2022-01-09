@@ -1,12 +1,12 @@
 ---
 title: "Math 58B: Introduction to Biostatistics"
 slug: math58B
-weight: 2
+weight: 5
 subtitle: ""
 excerpt: "Introduction to Biostatistics is a first course in statistics focused on topics and data found in the life sciences.  No biological background is needed, but interest in the life sciences is important."
 date: "Spring 2022"
 draft: false
-featured: false
+featured: true
 ---
 
 ## The Course
@@ -16,7 +16,7 @@ featured: false
 <figcaption>Art by @allison_horst</figcaption>
 </figure>
 
-**Introduction to Biostatistics** is an introduction to statistical ideas using R. We will cover the majority of statistical methods which are used in standard analyses (e.g., t-tests, chi-squared analysis, regression, confidence intervals, binomial tests, etc.). The main inferential techniques will be covered using both theoretical approximations (e.g., the central limit theorem) as well as computational methods (e.g., permutation tests and bootstrapping). Focus will be on understanding he methods and interpreting results. 
+**Introduction to Biostatistics** is an introduction to statistical ideas using R. We will cover the majority of statistical methods which are used in standard analyses (e.g., t-tests, chi-squared analysis, regression, confidence intervals, binomial tests, etc.). The main inferential techniques will be covered using both theoretical approximations (e.g., the central limit theorem) as well as computational methods (e.g., permutation tests and bootstrapping). Focus will be on understanding the methods and interpreting results. 
 
 
 ## Student Learning Outcomes.
