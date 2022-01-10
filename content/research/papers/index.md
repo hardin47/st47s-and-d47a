@@ -19,16 +19,16 @@ type: research
 
 <strong>2022</strong>
 <ul>
- 	<li><i class="fas fa-sitemap"></i> \*Ashby, E., \*Paddock, L., \*Rollosson, L., \*Tang, E., \*Miller, G., \*Wade, S., \*Betts, H., \*Porter, A., \*Saada, C., Hardin, J., Schulz, D. <a href = "" target = "_blank"><strong>Genomic occupancy of the bromodomain protein Bdf3 is dynamic during differentiation of African trypanosomes from bloodstream to procyclic forms</strong></a>, submitted, 2022.</li>
+ 	<li><i class="fas fa-sitemap"></i> *Ashby, E., *Paddock, L., *Rollosson, L., *Tang, E., *Miller, G., *Wade, S., *Betts, H., *Porter, A., *Saada, C., Hardin, J., Schulz, D. <a href = "" target = "_blank"><strong>Genomic occupancy of the bromodomain protein Bdf3 is dynamic during differentiation of African trypanosomes from bloodstream to procyclic forms</strong></a>, submitted, 2022.</li>
  	<li><i class="fas fa-equals"></i> Hardin, J., Shahriari, S. <a href = "" target = "_blank"><strong>Community, Collaboration, and Climate</strong></a>, <em>PRIMUS: Problems, Resources, and Issues in Mathematics Undergraduate Studies</em>, in press, 2022.</li>
 
-  <li><i class="fas fa-chalkboard-teacher"></i> \c{C}etinkaya-Rundel, M., Hardin, J., Baumer, B., McNamara, A., Horton, N., Rundel, C.  <a href = "https://arxiv.org/abs/2108.03510" target = "_blank"><strong>An Educator's Perspective on the Tidyverse</strong></a>, <em>Technology Innovations in Statistics Education</em>, in press, 2022.</li>
+  <li><i class="fas fa-chalkboard-teacher"></i> Çetinkaya-Rundel, M., Hardin, J., Baumer, B., McNamara, A., Horton, N., Rundel, C.  <a href = "https://arxiv.org/abs/2108.03510" target = "_blank"><strong>An Educator's Perspective on the Tidyverse</strong></a>, <em>Technology Innovations in Statistics Education</em>, in press, 2022.</li>
 </ul>
 
 
 <strong>2021</strong>
 <ul>
-  <li><i class="fas fa-chalkboard-teacher"></i> Çetinkaya-Rundel, M., Hardin, J. <a href="https://www.openintro.org/book/ims/" target = "_blank">Introduction to Modern Statistics</a> OpenIntro, 2021.</li>
+  <li><i class="fas fa-chalkboard-teacher"></i> Çetinkaya-Rundel, M., Hardin, J. <a href="https://www.openintro.org/book/ims/" target = "_blank"><strong>Introduction to Modern Statistics</strong></a> OpenIntro, 2021.</li>
  	<li><i class="fas fa-chalkboard-teacher"></i> Kim, A.Y., Hardin, J. <a href="https://www.tandfonline.com/doi/full/10.1080/10691898.2020.1799728" target = "_blank"><strong>"Playing the whole game": A data collection and analysis exercise with Google Calendar</strong></a>, <em>Journal of Statistics and Data Science Education</em>, 2021.&nbsp;&nbsp;</li>
  	<li><i class="fas fa-sitemap"></i> *Lu, B., Hardin, J. <a href="https://arxiv.org/abs/1912.07435" target = "_blank"><strong>A Unified Framework for Random Forest Prediction Error Estimation</strong></a>, <em>Journal of Machine Learning Research</em>, 2021.
 <ul>
