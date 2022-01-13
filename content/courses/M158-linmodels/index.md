@@ -12,7 +12,7 @@ featured: true
 ## The Course
 
 <figure>
-<img src="dragon_regression.png" align="right">
+<img src="dragon_regression_featured.png" align="right">
 <figcaption>Art by @allison_horst</figcaption>
 </figure>
 

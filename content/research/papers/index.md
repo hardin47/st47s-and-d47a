@@ -19,7 +19,7 @@ type: research
 
 <strong>2022</strong>
 <ul>
- 	<li><i class="fas fa-chart-line"></i> *Ashby, E., *Paddock, L., *Rollosson, L., *Tang, E., *Miller, G., *Wade, S., *Betts, H., *Porter, A., *Saada, C., Hardin, J., Schulz, D. <a href = "" target = "_blank"><strong>Genomic occupancy of the bromodomain protein Bdf3 is dynamic during differentiation of African trypanosomes from bloodstream to procyclic forms</strong></a>, submitted, 2022.</li>
+ 	<li><i class="fas fa-chart-line"></i> *Ashby, E., *Paddock, L., *Rollosson, L., *Tang, E., *Miller, G., *Wade, S., *Betts, H., *Porter, A., *Saada, C., Hardin, J., Schulz, D. <a href = "https://www.biorxiv.org/content/10.1101/2022.01.11.475927v1" target = "_blank"><strong>Genomic occupancy of the bromodomain protein Bdf3 is dynamic during differentiation of African trypanosomes from bloodstream to procyclic forms</strong></a>, submitted, 2022.</li>
  	<li><i class="fas fa-equals"></i> Hardin, J., Shahriari, S. <a href = "https://arxiv.org/abs/2201.02845" target = "_blank"><strong>Community, Collaboration, and Climate</strong></a>, <em>PRIMUS: Problems, Resources, and Issues in Mathematics Undergraduate Studies</em>, in press, 2022.</li>
 
   <li><i class="fas fa-chalkboard-teacher"></i> Çetinkaya-Rundel, M., Hardin, J., Baumer, B., McNamara, A., Horton, N., Rundel, C.  <a href = "https://arxiv.org/abs/2108.03510" target = "_blank"><strong>An Educator's Perspective on the Tidyverse</strong></a>, <em>Technology Innovations in Statistics Education</em>, in press, 2022.</li>
