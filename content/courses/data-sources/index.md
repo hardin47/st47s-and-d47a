@@ -59,6 +59,7 @@ featured: true
 
 ## New & Continuously Revised Static Data Sets / Databases:
 
+* <a href = "https://www.norcalbiostat.com/data/" target = "_blank">Collection of datasets</a> compiled by <a href = "https://www.norcalbiostat.com/" target = "_blank">Robin Donatello</a> at CSU Chico.
 * <a href = "https://dataverse.harvard.edu/" target = "_blank">Harvard Dataverse</a>
 * <a href="http://hatespeechdata.com/" target = "_blank">hate speak corpora</a>, particularly interesting for training NLP models 
 * The R package **dslabs** has some great datasets, <a href="https://simplystatistics.org/2019/07/19/more-datasets-for-teaching-data-science-the-expanded-dslabs-package/" target = "_blank">described in this Simply Statistics blog</a>
