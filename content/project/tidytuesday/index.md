@@ -33,7 +33,7 @@ links:
 <br/>
 
 I try my best to put in a few Tuesday hours working on a TidyTuesday dataset when I can.
-If you are in Claremont, I hope you will join us, reach out to me for information on time and place.
+If you are in Claremont, I hope you will join us; reach out to me for information on time and place.
 
 
 * Official GitHub Repo for TidyTuesday: <a href = "https://github.com/rfordatascience/tidytuesday" target = "_blank">https://github.com/rfordatascience/tidytuesday</a>
@@ -45,7 +45,7 @@ If you are in Claremont, I hope you will join us, reach out to me for informatio
 ## Novice
 
 * Log in to <a href = "https://rstudio.cloud/" target = "_blank">https://rstudio.cloud/</a> (if you are a Pomona student, use your abc0123@mymail email address to connect on the cloud with slightly higher bandwith / support).  
-* Or download R and RStudio onto your own computer.  R is freely available at <a href="http://www.r-project.org/" target="_blank">http://www.r-project.org/</a> and is already installed on college computers. Additionally, you need to install R Studio in order to use R Markdown, <a href="http://rstudio.org/" target="_blank">http://rstudio.org/</a>.  
+* Or download R and RStudio (both free) onto your own computer.  R is available at <a href="http://www.r-project.org/" target="_blank">http://www.r-project.org/</a>. Additionally, install RStudio in order to use RMarkdown, <a href="http://rstudio.org/" target="_blank">http://rstudio.org/</a>.  
 
 To load the data in, create an R chunk and copy in the lines of code which are just below the phrase: `# Or read in the data manually` on the `tidytuesday` GitHub site for the particular day of interest.  It will look something like this:
 
