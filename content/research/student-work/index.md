@@ -144,56 +144,59 @@ type: research
   <div class="panel">
     <div class="panel-name">Student Successes</div>
 <p> 
+<h4>2022:</h4>
+<ul>
+<li>Pipi Gao '22 Finalist in the <a href = "https://medium.com/mdplusplus/inaugural-md-datathon-2022-4947b28b2181" target = "_blank">MD++ Datathon 2022</a> as part of team `WeLoveRData`.  The Datathon was founded and organized by Lathan Liou '19.</li>
+</ul>
 <h4>2021:</h4>
 <ul>
-<li>Ethan Ashby <a href = "https://www.causeweb.org/usproc/usclap/2021/spring/winners" target = "_blank">A Regularized Cox Regression Approach to the Health Evaluation and Linkage to Primary Care (HELP) Clinical Trial</a> 2nd place Paper Undergraduate Statistics Class (intermediate) Project Competition</li>
-<li>Hannah Mandel, Emily Tomz, Adeena Liang, Chloe Sun, Ian Krupkin <a href = "http://datafest.stat.ucla.edu/competition/2021-asa-datafesttm-results/" target = "_blank">DataFest - Judges' Choice Award</a> 
+<li>Ethan Ashby '21 <a href = "https://www.causeweb.org/usproc/usclap/2021/spring/winners" target = "_blank">A Regularized Cox Regression Approach to the Health Evaluation and Linkage to Primary Care (HELP) Clinical Trial</a> 2nd place Paper Undergraduate Statistics Class (intermediate) Project Competition</li>
+<li>Hannah Mandel '23, Emily Tomz '23, Adeena Liang '23, Chloe Sun '23, Ian Krupkin '23 <a href = "http://datafest.stat.ucla.edu/competition/2021-asa-datafesttm-results/" target = "_blank">DataFest - Judges' Choice Award</a> 
 </li>
 </ul> 	
 <h4>2020:</h4>
 <ul>
- 	<li>Amber Lee <a href = "https://www.causeweb.org/usproc/usresp/2020/fall/winners" target = "_blank">Exploring Missingness and its Implications on Traffic Stop Data</a> 2nd place Paper Undergraduate Statistics Research Project Competition</li>
- 	<li>Amber Lee, Arm Wonghirundacha, Emma Godfrey, Ethan Ong, Ivy Yuan, Oliver Chang, and Will Gray; <a href= "https://hardin47.github.io/TrafficRC2020/Report/" target = "_blank"> Data Exploration of US Police Stops</a>, Data Science Research Circle, supervised by Jo Hardin and Ghassan Sarkis
+ 	<li>Amber Lee '22 <a href = "https://www.causeweb.org/usproc/usresp/2020/fall/winners" target = "_blank">Exploring Missingness and its Implications on Traffic Stop Data</a> 2nd place Paper Undergraduate Statistics Research Project Competition</li>
+ 	<li>Amber Lee '22, Arm Wonghirundacha '22, Emma Godfrey '21, Ethan Ong '21, Ivy Yuan '21, Oliver Chang '22, and Will Gray '22; <a href= "https://hardin47.github.io/TrafficRC2020/Report/" target = "_blank"> Data Exploration of US Police Stops</a>, Data Science Research Circle, supervised by Jo Hardin and Ghassan Sarkis
 </li>
-  <li>Guy Thampakkul and Tai Xiang; <a href = "http://datafest.stat.ucla.edu/2020-results/2020-winners/" target = "_blank">DataFest - Judges' Choice Award</a> </li>
+  <li>Guy Thampakkul '23, Tai Xiang '23; <a href = "http://datafest.stat.ucla.edu/2020-results/2020-winners/" target = "_blank">DataFest - Judges' Choice Award</a> </li>
 </ul>
 <h4>2019:</h4>
 <ul>
   <li>Christina Duron, PhD Claremont Graduate University 2019
 <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/christina_duron_2019.pdf" target = "_blank">The Distribution of Betweenness Centrality in Exponential Random Graph Models</a>
  </li>
-   <li>Amy Watt, Adam Rees, Ethan Ashby, Connor Ford, and Madelyn Andersen (HMC); 
+   <li>Amy Watt '20, Adam Rees '20, Ethan Ashby '21, Connor Ford '20, Madelyn Andersen '22 (HMC); 
 <a href="http://datafest.stat.ucla.edu/past-datafests/2019-asa-datafesttm-results/" target = "_blank">DataFest – Best Use of External Data</a>
    </li>
    </ul>
 <h4>2018:</h4>
 <ul>
-  <li> Vedant Vohra, Zihao Xu, Madison Hobbs, Xiaotong Gui <a href = "http://datafest.stat.ucla.edu/past-datafests/2018-asa-datafesttm-results/" target = "_blank">DataFest - Best Insight, honorable mention</a></li>
+  <li> Vedant Vohra '19, Zihao Xu '19, Madison Hobbs '19 (Scripps), Xiaotong Gui '19 <a href = "http://datafest.stat.ucla.edu/past-datafests/2018-asa-datafesttm-results/" target = "_blank">DataFest - Best Insight, honorable mention</a></li>
   </ul>
 <h4>2017:</h4>
 <ul>
-  <li>Zihao Xu <a href = "https://www.causeweb.org/usproc/usresp/2017/fall/winners" target = "_blank">Bag of Little Random Bootstraps</a> Winning Paper Undergraduate Statistics Research Project Competition </li>
-  <li> Jeff Carney, Hyong Shin, Adam Starr
+  <li>Zihao Xu '19 <a href = "https://www.causeweb.org/usproc/usresp/2017/fall/winners" target = "_blank">Bag of Little Random Bootstraps</a> Winning Paper Undergraduate Statistics Research Project Competition </li>
+  <li> Jeff Carney '18, Hyeong Shin '19, Adam Starr '18
 <a href = "http://datafest.stat.ucla.edu/past-datafests/2017-asa-datafesttm-results/" target = "_blank"> DataFest - Judges' Choice Award</a> </li>
 </ul>
 <h4>2014:</h4>
 <ul>
-  <li> Tim Kaye, David Khatami, Daniel Metz, Emily Proulx
+  <li> Tim Kaye '15, David Khatami '16, Daniel Metz '16, Emily Proulx '16
 <a href = "https://www.causeweb.org/usproc/USRESP%20Winning%20Projects" target = "_blank"> Quantifying and Comparing Centrality Measures for Network Individuals as Applied
 to the Enron Corpus</a> Winning Paper Undergraduate Statistics Research Project Competition, Data Science Research Circle, supervised by Jo Hardin and Ghassan Sarkis</li>
-  <li>Tim Kaye, David Khatami, Daniel Metz, Emily Proulx
+  <li>Tim Kaye '15, David Khatami '16, Daniel Metz '16, Emily Proulx '16
 <a href = "https://www.siam.org/publications/siuro/volume-7" target = "_blank">Quantifying and Comparing Centrality Measures for Network Individuals as Applied to the Enron Corpus</a>; <strong>SIAM Undergraduate Research Online</strong>, 7: 2014. </li>
 </ul>
 <h4>2013:</h4>
 <ul>
-  <li>Jacob Coleman, Maricela Cruz, Bill DeRose, Ciaran Evans, ob Knickerbocker, Kevin Lu, Derek Owens-Oas,
-Ben Shand, Brian Williamson; DataFest - Best Insight</li>
+  <li>Jacob Coleman '13, Maricela Cruz '14, Bill DeRose '15, Ciaran Evans '15, Rob Knickerbocker '15, Kevin Lu '14, Derek Owens-Oas '13, Ben Shand '14, Brian Williamson '14; DataFest - Best Insight</li>
 </ul>
 <h4>2012:</h4>
 <ul>
-  <li>Karl Kumbier, Erika Parks, Joseph Replogle
+  <li>Karl Kumbier '13, Erika Parks '13, Joseph Replogle '13
 DataFest - Best Use of External Data</li>
-   <li> Drew DiPlama, Tim Stutz; DataFest - Best Visualization, honorable mention </li>
+   <li> Drew DiPalma '13, Tim Stutz '12; DataFest - Best Visualization, honorable mention </li>
    </ul>
 </p>
   </div>
