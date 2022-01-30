@@ -32,20 +32,52 @@ links:
 
 <br/>
 
-I try my best to put in a few Tuesday hours working on a TidyTuesday dataset when I can (easier to do outside the semester!).
-I will be moving from Discord to in-person Hacky Hours.
-Email me for time and place!
-If you are in Claremont, I hope you will join us.
+I try my best to put in a few Tuesday hours working on a TidyTuesday dataset when I can.
+If you are in Claremont, I hope you will join us, reach out to me for information on time and place.
 
 
-* Official GitHub Repo for TidyTuesday: https://github.com/rfordatascience/tidytuesday
-* Each week’s data is also posted on GitHub: https://github.com/rfordatascience/tidytuesday/tree/master/data/2021
+* Official GitHub Repo for TidyTuesday: <a href = "https://github.com/rfordatascience/tidytuesday" target = "_blank">https://github.com/rfordatascience/tidytuesday</a>
+* The week’s data is posted each Tuesday on GitHub: <a href = "https://github.com/rfordatascience/tidytuesday/tree/master/data/2022" target = "_blank">https://github.com/rfordatascience/tidytuesday/tree/master/data/2022</a>
 * My TidyTuesday adventures
-  * GitHub repo:  https://github.com/hardin47/TidyTuesday
-  * posts:  https://hardin47.github.io/TidyTuesday/
-* Great idea to get started with GitHub: https://happygitwithr.com/
-* Also good idea to get started with R:  https://education.rstudio.com/learn/ and https://rstudio.cloud/learn/primers
-* And if you want to go through the R for Data Science book (highly recommended!): https://r4ds.had.co.nz/
-* More Advanced R for data science: https://adv-r.hadley.nz/
+  * GitHub repo:  <a href = "https://github.com/hardin47/TidyTuesday" target = "_blank">https://github.com/hardin47/TidyTuesday</a>
+  * posts:  <a href = "https://hardin47.github.io/TidyTuesday/" target = "_blank">https://hardin47.github.io/TidyTuesday/</a>
+  
+## Novice
+
+* Log in to <a href = "https://rstudio.cloud/" target = "_blank">https://rstudio.cloud/</a> (if you are a Pomona student, use your abc0123@mymail email address to connect on the cloud with slightly higher bandwith / support).  
+* Or download R and RStudio onto your own computer.  R is freely available at <a href="http://www.r-project.org/" target="_blank">http://www.r-project.org/</a> and is already installed on college computers. Additionally, you need to install R Studio in order to use R Markdown, <a href="http://rstudio.org/" target="_blank">http://rstudio.org/</a>.  
+
+To load the data in, create an R chunk and copy in the lines of code which are just below the phrase: `# Or read in the data manually` on the `tidytuesday` GitHub site for the particular day of interest.  It will look something like this:
+
+````r
+```{r}
+dataset_1 <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/some_date/dataset_1.csv')
+
+dataset_2 <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/some_date/dataset_2.csv')
+```
+````
 
 
+## Beginner
+
+* Getting started with R:  <a href = "https://education.rstudio.com/learn/" target = "_blank">https://education.rstudio.com/learn/</a> and <a href = "https://rstudio.cloud/learn/primers" target = "_blank">https://rstudio.cloud/learn/primers</a>
+
+* The **introverse** package is truly meant for beginners to the **tidyverse**.  <a href = "https://spielmanlab.github.io/introverse/" target = "_blank">https://spielmanlab.github.io/introverse/</a> 
+
+* A fantastic <a href = "https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/" target = "_blank">**ggplot2** tutorial</a>
+
+## Intermediate
+
+* Go through the R for Data Science book (highly recommended!): <a href = "https://r4ds.had.co.nz/" target = "_blank">https://r4ds.had.co.nz/</a>
+
+* All of the fantastic <a href = "https://www.rstudio.com/resources/cheatsheets/" target = "_blank">cheatsheets</a>
+
+## Experienced
+
+* More Advanced R for data science: <a href = "https://adv-r.hadley.nz/" target = "_blank">https://adv-r.hadley.nz/</a>
+
+* Great idea to get started with GitHub: <a href = "https://happygitwithr.com/" target = "_blank">https://happygitwithr.com/</a>
+
+* <a href = "https://www.tmwr.org/" target = "_blank">Tidy Modeling with R</a> by Max Kuhn and Juli Silge.
+
+* <a href = "https://www.tidytextmining.com/" target = "_blank">Text Mining with R</a> by Julia Silge and David Robinson.
