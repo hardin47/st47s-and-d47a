@@ -20,6 +20,10 @@ links:
   icon_pack: fab
   name: official TidyTuesday repo - https://github.com/rfordatascience/tidytuesday
   url: https://github.com/rfordatascience/tidytuesday
+- icon: twitter
+  icon_pack: fab
+  name: search "#TidyTuesday" on twitter for really fantastic ideas!
+  url: https://twitter.com/
 ---
 
 <figure>
