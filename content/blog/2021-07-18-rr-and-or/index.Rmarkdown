@@ -108,7 +108,7 @@ include_graphics("oddsplacemat.png")
 
 ##  Can we force the RR to be anything we want?
 
-The motivation for writing this blog entry came from the Shiny App below.  It takes a little bit of thinking, but hopefully we can see that if we select observational units based on cases and controls, the individual risk (per treatment group) is not measurable. Why?  Well, if we just keep selecting more cases, the risk in each group will keep going up!  (Note: by selecting more cases, the odds will also keep going up.)
+The motivation for writing this blog entry came from the [Shiny App](https://hardin47.shinyapps.io/RROR/) below.  It takes a little bit of thinking, but hopefully we can see that if we select observational units based on cases and controls, the individual risk (per treatment group) is not measurable. Why?  Well, if we just keep selecting more cases, the risk in each group will keep going up!  (Note: by selecting more cases, the odds will also keep going up.)
 
 What about **relative risk** and **odds ratios**?  It turns out that with the case-control experimental design the calculation of the relative risk depends on which variable is explanatory and which variable is response.  HOWEVER, the calculation of the odds ratio does not depend on which variable is explanatory and which variable is response.
 
