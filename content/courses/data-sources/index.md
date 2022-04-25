@@ -62,7 +62,7 @@ featured: true
 * <a href = "https://www.norcalbiostat.com/data/" target = "_blank">Collection of datasets</a> compiled by <a href = "https://www.norcalbiostat.com/" target = "_blank">Robin Donatello</a> at CSU Chico.
 * <a href = "https://dataverse.harvard.edu/" target = "_blank">Harvard Dataverse</a>
 * <a href="http://hatespeechdata.com/" target = "_blank">hate speak corpora</a>, particularly interesting for training NLP models 
-* The R package **dslabs** has some great datasets, <a href="https://simplystatistics.org/2019/07/19/more-datasets-for-teaching-data-science-the-expanded-dslabs-package/" target = "_blank">described in this Simply Statistics blog</a>
+* The R package **dslabs** has some great datasets, <a href="https://flowingdata.com/2018/04/09/datasets-for-teaching-data-science/" target = "_blank">described in this Simply Statistics blog</a>
 * <a href="https://www.cdc.gov/nchs/" target = "_blank">CDC health datasets</a> which are freely available and formatted.  To be analyzed correctly, these survey data require proper weighting, clustering and stratification adjustments.  There are many such datasets available, including NHAMCS (OPD and ED), NAMCS, BRFSS, NSFG, NHIS, NIS-Child, NIS-Teen, NHANES, NVSS. A quick google of any of these acronyms will take you directly to each webpage.
 * <a href = "https://www.kaggle.com/" target = "_blank">kaggle.com</a> is a repository for data used in analysis competitions.
 * <a href = "https://archive.ics.uci.edu/ml/index.php" target = "_blank">UC Irvine’s Machine Learning Repository</a>  (huge and fantastic database!).
