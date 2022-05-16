@@ -16,6 +16,11 @@ featured: true
 <figcaption>Art by @allison_horst</figcaption>
 </figure>
 
+## Data for Equity & Inclusion
+
+* <a href = "https://www.slavevoyages.org/" target = "_blank"><bf>SlaveVoyages</bf></a>: "The SlaveVoyages website is a collaborative digital initiative that compiles and makes publicly accessible records of the largest slave trades in history. Search these records to learn about the broad origins and forced relocations of more than 12 million African people who were sent across the Atlantic in slave ships, and hundreds of thousands more who were trafficked within the Americas."  
+* <a href = "https://github.com/bryandmartin/gibboda" target = "_blank"><bf>gibboda</bf></a>: Gender Isn’t Binary But Other Data Are!  
+* <a href="http://hatespeechdata.com/" target = "_blank"><bf>hate speak corpora</bf></a>: particularly interesting for training NLP models 
 
 ## R packages for connecting to APIs:
 
@@ -59,6 +64,8 @@ featured: true
 
 ## New & Continuously Revised Static Data Sets / Databases:
 
+
+* <a href = "https://osf.io/gpxwa/" target = "_blank"><bf>Boston College COVID-19 Sleep and Well-Being Dataset</bf></a>
 * <a href = "https://www.norcalbiostat.com/data/" target = "_blank">Collection of datasets</a> compiled by <a href = "https://www.norcalbiostat.com/" target = "_blank">Robin Donatello</a> at CSU Chico.
 * <a href = "https://dataverse.harvard.edu/" target = "_blank">Harvard Dataverse</a>
 * <a href="http://hatespeechdata.com/" target = "_blank">hate speak corpora</a>, particularly interesting for training NLP models 
