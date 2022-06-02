@@ -5,5 +5,5 @@ header:
   image: ""
 title: blog
 show_post_thumbnail: true
-view: 2
+view: 3
 ---
