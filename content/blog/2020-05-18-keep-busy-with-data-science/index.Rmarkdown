@@ -19,7 +19,7 @@ image:
 projects: []
 ---
 
-{{% myshortcode HoneyDew "pen.svg" %}}
+{{% myshortcode HoneyDew "pen4.svg" %}}
 This entry originally appeared on May 18, 2020 at [https://teachdatascience.com/keepbusy/](https://teachdatascience.com/keepbusy/), a blog written by [Nick Horton](https://www.amherst.edu/people/facstaff/nhorton) ([twitter](https://twitter.com/askdrstats)), [Hunter Glanz](https://statistics.calpoly.edu/hunter-glanz) ([twitter](https://twitter.com/hglanz)), and [Jo Hardin](https://www.pomona.edu/directory/people/johanna-s-hardin) ([twitter](https://twitter.com/jo_hardin47)). 
 {{% /myshortcode %}}
 
