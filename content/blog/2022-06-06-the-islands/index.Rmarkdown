@@ -18,6 +18,12 @@ header-includes:
   - <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 ---
 
+```{r message = FALSE, warning = FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, 
+                      warning = FALSE,
+                      eval.after = 'fig.cap', 
+                      fig.width = 10, fig.height = 6)
+```
 
 ## The Islands
 
@@ -58,7 +64,7 @@ Additionally, from both my perspective as well as from my students' perspectives
 One of my favorite aspects of The Islands project is the ability for students to do a power analysis on pilot data.
 I find power to be a difficult concept to teach.
 Not only are the technical aspects usually pretty hard, but the intuition is also really hard (especially for students who haven't yet done any data collection of their own).
-The power analysis part of the project allows me, the intructor, to do all of the work, and the students just need to wrap their heads around what is happening.
+The power analysis part of the project allows me, the instructor, to do all of the work, and the students just need to wrap their heads around what is happening.
 I have each group post their data to a Google sheet, and then I pull in the data and run a quick power analysis assuming the difference in $\mu$ values is the same as what we saw with the pilot data (the difference in $\bar{x}$ values).
 The students then change the sample size and the effect size to come up with scenarios that would give them a power of 0.7.
 Their reflection has them questioning whether or not the effect size is real and whether or not they have the resources to collect the number of observations needed for a power of 0.7.
@@ -123,8 +129,8 @@ The $SE(\overline{X}_1 - \overline{X}_2)$ will change based on the values of $n_
 Change the values of `n1_test` and `n2_test` to see that `SE_diff` changes!
 
 ```{r}
-n1_test <- 10  # put a new number here!
-n2_test <- 10  # put a new number here!
+n1_test <- 10  # try different numbers here!
+n2_test <- 10  # try different numbers here!
 SE_diff <- sqrt(s1^2 / n1_test + s2^2/n2_test)
 SE_diff
 ```
@@ -145,15 +151,26 @@ Under the setting: $H_A: \mu_1 - \mu_2 = 0.1$
 library(mosaic)
 cutoff <- 1.96* SE_diff
 
-true_alt_diff <- 0.1
+true_alt_diff <- 0.1  # try different numbers here!
                        
-mosaic::xpnorm(cutoff, mean = 0.1, sd = SE_diff, lower.tail = FALSE) 
+mosaic::xpnorm(cutoff, mean = true_alt_diff, sd = SE_diff, lower.tail = FALSE) 
 ```
 
 With samples of size 10 each, the probability of rejecting $H_0$ is `r xpnorm(cutoff, mean = 0.1, sd = SE_diff, lower.tail = FALSE) `  (= the power!).  Re-do steps 2 and 3 with different $n_1$ and $n_2$ values.  What sample sizes produce a power of 0.7?
 
 
 ### Reproducibility
+
+All of the assignments are due as .pdf files which have been compiled from .Rmd files.
+The analyses start by pulling in the data directly from the Google sheet, and each student in the group is able to run the entire analysis from start to end.
+My students are used to working with RMarkdown, but this is the first time that their compiled analysis is a full report.
+
+The project described here is for a first course in Introductory Statistics.
+We do not use GitHub (yet!), but we do work entirely in RMarkdown documents.  We have some difficulties in getting each individual in the group to work on one .Rmd document.
+We use RStudio PRO, but we have not been able to set-up group sharing projects.
+In the future, I hope that RStudio makes it possible for groups to work simultaneously on a single document (either synchronously like a Google Doc or asynchronously like a file in Dropbox).
+
+Regardless, working together on one report that is reproducible allowed students to bring together not only the statistical ideas from the course but also the larger ideas on how data collection, analysis, and communication all combines into a single effort.
 
 ### Ethical considerations
 
@@ -167,6 +184,17 @@ https://static1.squarespace.com/static/5d2633cb0ef5e4000134fa02/t/5d72cb39445272
 * power analysis
 * t-test / ANOVA / MLR
 * connections to the real-world literature
+
+For example, you might have noticed that the data provided had gender coded with capitals and lower-case starts.
+By making mistakes with the variable coding, students deeply understand why having clean data is so important.
+
+```{r}
+pilot_data %>%
+  group_by(treatment, gender) %>%
+  summarize(mean_age = mean(age), sd_age = sd(age))
+```
+
+
 
 ## Reflections
 
@@ -206,6 +234,10 @@ https://static1.squarespace.com/static/5d2633cb0ef5e4000134fa02/t/5d72cb39445272
     - multi-stage sampling (systematically choosing a house and randomly choosing a person in a house)
 * students reflecting on whether the variables were realistic, e.g., the number of times a ball could be bounced in a minute seemed to be about half of what would be realistic for human students with a basketball
 * reinforcing working with R to code, make graphs, and present work in a reproducible format
+
+
+
+
 * recognition that the data collection part
   - takes a huge amount of time (way more than the analysis!)
   - is really hard to do well

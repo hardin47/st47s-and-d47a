@@ -19,6 +19,13 @@ header-includes:
 ---
 
 
+```r
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, 
+                      warning = FALSE,
+                      eval.after = 'fig.cap', 
+                      fig.width = 10, fig.height = 6)
+```
+
 ## The Islands
 
 The Islands are a virtual environment designed to engage students in experimental design and data collection.
@@ -58,7 +65,7 @@ Additionally, from both my perspective as well as from my students' perspectives
 One of my favorite aspects of The Islands project is the ability for students to do a power analysis on pilot data.
 I find power to be a difficult concept to teach.
 Not only are the technical aspects usually pretty hard, but the intuition is also really hard (especially for students who haven't yet done any data collection of their own).
-The power analysis part of the project allows me, the intructor, to do all of the work, and the students just need to wrap their heads around what is happening.
+The power analysis part of the project allows me, the instructor, to do all of the work, and the students just need to wrap their heads around what is happening.
 I have each group post their data to a Google sheet, and then I pull in the data and run a quick power analysis assuming the difference in `\(\mu\)` values is the same as what we saw with the pilot data (the difference in `\(\bar{x}\)` values).
 The students then change the sample size and the effect size to come up with scenarios that would give them a power of 0.7.
 Their reflection has them questioning whether or not the effect size is real and whether or not they have the resources to collect the number of observations needed for a power of 0.7.
@@ -69,56 +76,12 @@ In the sample data I've had half of the participants take 10g of Psilocybin Mush
 
 ```r
 library(tidyverse)
-```
-
-```
-## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──
-```
-
-```
-## ✔ ggplot2 3.3.6     ✔ purrr   0.3.4
-## ✔ tibble  3.1.7     ✔ dplyr   1.0.9
-## ✔ tidyr   1.2.0     ✔ stringr 1.4.0
-## ✔ readr   2.1.2     ✔ forcats 0.5.1
-```
-
-```
-## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-## ✖ dplyr::filter() masks stats::filter()
-## ✖ dplyr::lag()    masks stats::lag()
-```
-
-```r
 library(janitor)
-```
-
-```
-## 
-## Attaching package: 'janitor'
-```
-
-```
-## The following objects are masked from 'package:stats':
-## 
-##     chisq.test, fisher.test
-```
-
-```r
 library(googlesheets4)
 gs4_deauth()
 pilot_data <- googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1U0KcehbSQkEjwDaFpUSklKmIkUTUv-C_5q2kyO1vn24/edit?usp=sharing0") %>%
   janitor::clean_names()
-```
 
-```
-## ✔ Reading from "Pilot Data - The Islands".
-```
-
-```
-## ✔ Range 'Sheet1'.
-```
-
-```r
 pilot_summary <- pilot_data %>%
   group_by(treatment) %>%
   summarize(n(), mean_resp = mean(difference, na.rm = TRUE),
@@ -188,8 +151,8 @@ Change the values of `n1_test` and `n2_test` to see that `SE_diff` changes!
 
 
 ```r
-n1_test <- 10  # put a new number here!
-n2_test <- 10  # put a new number here!
+n1_test <- 10  # try different numbers here!
+n2_test <- 10  # try different numbers here!
 SE_diff <- sqrt(s1^2 / n1_test + s2^2/n2_test)
 SE_diff
 ```
@@ -213,91 +176,14 @@ Under the setting: `\(H_A: \mu_1 - \mu_2 = 0.1\)`
 
 ```r
 library(mosaic)
-```
-
-```
-## Registered S3 method overwritten by 'mosaic':
-##   method                           from   
-##   fortify.SpatialPolygonsDataFrame ggplot2
-```
-
-```
-## 
-## The 'mosaic' package masks several functions from core packages in order to add 
-## additional features.  The original behavior of these functions should not be affected by this.
-```
-
-```
-## 
-## Attaching package: 'mosaic'
-```
-
-```
-## The following object is masked from 'package:Matrix':
-## 
-##     mean
-```
-
-```
-## The following objects are masked from 'package:dplyr':
-## 
-##     count, do, tally
-```
-
-```
-## The following object is masked from 'package:purrr':
-## 
-##     cross
-```
-
-```
-## The following object is masked from 'package:ggplot2':
-## 
-##     stat
-```
-
-```
-## The following objects are masked from 'package:stats':
-## 
-##     binom.test, cor, cor.test, cov, fivenum, IQR, median, prop.test,
-##     quantile, sd, t.test, var
-```
-
-```
-## The following objects are masked from 'package:base':
-## 
-##     max, mean, min, prod, range, sample, sum
-```
-
-```r
 cutoff <- 1.96* SE_diff
 
-true_alt_diff <- 0.1
+true_alt_diff <- 0.1  # try different numbers here!
                        
-mosaic::xpnorm(cutoff, mean = 0.1, sd = SE_diff, lower.tail = FALSE) 
+mosaic::xpnorm(cutoff, mean = true_alt_diff, sd = SE_diff, lower.tail = FALSE) 
 ```
 
-```
-## 
-```
-
-```
-## If X ~ N(0.1, 6.254), then
-```
-
-```
-## 	P(X <= 12.26) = P(Z <= 1.944) = 0.9741
-```
-
-```
-## 	P(X >  12.26) = P(Z >  1.944) = 0.02595
-```
-
-```
-## 
-```
-
-<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-4-1.png" width="672" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-5-1.png" width="960" />
 
 ```
 ## [1] 0.02594708
@@ -307,6 +193,17 @@ With samples of size 10 each, the probability of rejecting `\(H_0\)` is 0.025947
 
 
 ### Reproducibility
+
+All of the assignments are due as .pdf files which have been compiled from .Rmd files.
+The analyses start by pulling in the data directly from the Google sheet, and each student in the group is able to run the entire analysis from start to end.
+My students are used to working with RMarkdown, but this is the first time that their compiled analysis is a full report.
+
+The project described here is for a first course in Introductory Statistics.
+We do not use GitHub (yet!), but we do work entirely in RMarkdown documents.  We have some difficulties in getting each individual in the group to work on one .Rmd document.
+We use RStudio PRO, but we have not been able to set-up group sharing projects.
+In the future, I hope that RStudio makes it possible for groups to work simultaneously on a single document (either synchronously like a Google Doc or asynchronously like a file in Dropbox).
+
+Regardless, working together on one report that is reproducible allowed students to bring together not only the statistical ideas from the course but also the larger ideas on how data collection, analysis, and communication all combines into a single effort.
 
 ### Ethical considerations
 
@@ -320,6 +217,32 @@ https://static1.squarespace.com/static/5d2633cb0ef5e4000134fa02/t/5d72cb39445272
 * power analysis
 * t-test / ANOVA / MLR
 * connections to the real-world literature
+
+For example, you might have noticed that the data provided had gender coded with capitals and lower-case starts.
+By making mistakes with the variable coding, students deeply understand why having clean data is so important.
+
+
+```r
+pilot_data %>%
+  group_by(treatment, gender) %>%
+  summarize(mean_age = mean(age), sd_age = sd(age))
+```
+
+```
+## # A tibble: 7 × 4
+## # Groups:   treatment [2]
+##   treatment                 gender mean_age sd_age
+##   <chr>                     <chr>     <dbl>  <dbl>
+## 1 Control                   Female     34.6   22.8
+## 2 Control                   male       50.5   27.6
+## 3 Control                   Male       42.7   33.2
+## 4 Psilocybin Mushrooms 10 g female     77     NA  
+## 5 Psilocybin Mushrooms 10 g Female     62.5   43.8
+## 6 Psilocybin Mushrooms 10 g male       63     NA  
+## 7 Psilocybin Mushrooms 10 g Male       47.5   25.7
+```
+
+
 
 ## Reflections
 
@@ -359,6 +282,10 @@ https://static1.squarespace.com/static/5d2633cb0ef5e4000134fa02/t/5d72cb39445272
     - multi-stage sampling (systematically choosing a house and randomly choosing a person in a house)
 * students reflecting on whether the variables were realistic, e.g., the number of times a ball could be bounced in a minute seemed to be about half of what would be realistic for human students with a basketball
 * reinforcing working with R to code, make graphs, and present work in a reproducible format
+
+
+
+
 * recognition that the data collection part
   - takes a huge amount of time (way more than the analysis!)
   - is really hard to do well
