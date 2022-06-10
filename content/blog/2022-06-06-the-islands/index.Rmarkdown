@@ -38,10 +38,120 @@ You will be **amazed** at the sophistication of the virtual world contained on T
 
 For the last few years, I've used The Islands as a way to tie together many of the topics I cover in my introductory statistics course at Pomona College.
 I start the project early in the semester (the first exploration is done before spring break, and the pilot study is due a week after).^[The details of each assignment as well as their due dates can be found at: https://m58-intro-stats.netlify.app/project.html.]
+When we start, there is still a lot of material left to cover, so in some ways the students are in the dark.
+One of the requirements is that they must choose a continuous response variable;
+they also need a few explanatory variables (some numeric, some categorical) and a treatment variable of interest.
+The treatment doesn't have to be randomly assigned (the study could be observational), but almost every group uses a randomly assigned treatment variable in order to be able to assess causation at the end.
 
+Among the very cool things on The Islands (really, go check it out yourself, there are way too many things to tell you about) is the Academy which includes journal articles describing studies that have taken place on The Islands in the last few years.  
+One of my students published their analysis in the <a href = "" target = "_blank">Journal of XXX</a>, and I've made a copy of the article accessible.
+(You have to login to The Islands to see the full suite of literature in the Academy.)
+In Leu et al. you can see the framework of the assignment, and a completed write-up.
+
+
+In what remains, I'll describe some of the unique aspects of the project.
+Additionally, from both my perspective as well as from my students' perspectives, I provide some of the feedback on successes and challenges of the project.
 
 
 ### Power Analysis
+
+One of my favorite aspects of The Islands project is the ability for students to do a power analysis on pilot data.
+I find power to be a difficult concept to teach.
+Not only are the technical aspects usually pretty hard, but the intuition is also really hard (especially for students who haven't yet done any data collection of their own).
+The power analysis part of the project allows me, the intructor, to do all of the work, and the students just need to wrap their heads around what is happening.
+I have each group post their data to a Google sheet, and then I pull in the data and run a quick power analysis assuming the difference in $\mu$ values is the same as what we saw with the pilot data (the difference in $\bar{x}$ values).
+The students then change the sample size and the effect size to come up with scenarios that would give them a power of 0.7.
+Their reflection has them questioning whether or not the effect size is real and whether or not they have the resources to collect the number of observations needed for a power of 0.7.
+
+Below I've laid out the code and instruction that I give to students so that they can determine the needed sample size that would give their experiment a power of 0.7.
+In the sample data I've had half of the participants take 10g of Psilocybin Mushrooms (the other half is the control), then I have the participants balance on one leg for as long as they can (before and after the treatment, the response variable is the difference in time spent balancing).
+
+```{r}
+library(tidyverse)
+library(janitor)
+library(googlesheets4)
+gs4_deauth()
+pilot_data <- googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1U0KcehbSQkEjwDaFpUSklKmIkUTUv-C_5q2kyO1vn24/edit?usp=sharing0") %>%
+  janitor::clean_names()
+
+pilot_summary <- pilot_data %>%
+  group_by(treatment) %>%
+  summarize(n(), mean_resp = mean(difference, na.rm = TRUE),
+            s_resp = sd(difference, na.rm = TRUE))
+
+pilot_summary
+```
+
+
+For use in the sample size calculations, pull out each number from the summary:
+
+```{r}
+n1 <- pilot_summary[1,2] %>% pull()
+n2 <- pilot_summary[2,2] %>% pull()
+
+xbar1 <- pilot_summary[1,3] %>% pull()
+xbar2 <- pilot_summary[2,3] %>% pull()
+
+s1 <- pilot_summary[1,4] %>% pull()
+s2 <- pilot_summary[2,4] %>% pull()
+
+# Notice that the observed difference in means is:
+
+xbar1 - xbar2
+
+# Notice that the estimated variability for the difference in sample means is:
+
+sqrt(s1^2 / n1 + s2^2/n2)
+```
+
+#### How big should the sample size be?
+
+The task is to figure out how big the sample size should be in order to reject $H_0: \mu_1 = \mu_2$ with power of 0.7.  Reasonable assumptions will be made based on the information above.
+
+##### Step 1. How far will $\overline{X}_1 - \overline{X}_2$ need to be to reject $H_0$?
+
+In order to reject $H_0$ at the 0.05 level (two-sided test), 
+
+$$Z-score > 1.96$$
+
+Which means: $$\overline{X}_1 - \overline{X}_2 > 1.96 SE$$
+
+##### Step 2. Assume that the variability is as calculated above from the data but with **new** sample sizes.
+
+The $SE(\overline{X}_1 - \overline{X}_2)$ will change based on the values of $n_1$ and $n_2$. Continue to use $s_1$ and $s_2$ calculated from the pilot data.
+
+Change the values of `n1_test` and `n2_test` to see that `SE_diff` changes!
+
+```{r}
+n1_test <- 10  # put a new number here!
+n2_test <- 10  # put a new number here!
+SE_diff <- sqrt(s1^2 / n1_test + s2^2/n2_test)
+SE_diff
+```
+
+##### Step 3. Use a normal curve to **estimate** power.
+
+For a very rough approximation, use the normal curve to find out how often the difference in means will be above the cutoff (from Steps 1 and 2) for various true alternative hypotheses.
+
+If the true alternative difference is 0.1, then `xpnorm()` **centered at 0.1**  (the curve below is not centered at zero) provides the probability that the sample difference will be above the cutoff.
+
+Under the setting: $H_A: \mu_1 - \mu_2 = 0.1$  
+
+* The alternative value of 0.1 is made up.  What types of reasonable differences are suggested by the pilot data?  Use those!
+* Do the pilot data suggest that a reasonable difference is actually negative?  If so, make sure your power calculation finds probability in the "less" direction instead of the "greater" direction  (or alternatively, subtract $\mu_2 - \mu_1$ instead of $\mu_1 - \mu_2$).
+
+
+```{r}
+library(mosaic)
+cutoff <- 1.96* SE_diff
+
+true_alt_diff <- 0.1
+                       
+mosaic::xpnorm(cutoff, mean = 0.1, sd = SE_diff, lower.tail = FALSE) 
+```
+
+With samples of size 10 each, the probability of rejecting $H_0$ is `r xpnorm(cutoff, mean = 0.1, sd = SE_diff, lower.tail = FALSE) `  (= the power!).  Re-do steps 2 and 3 with different $n_1$ and $n_2$ values.  What sample sizes produce a power of 0.7?
+
 
 ### Reproducibility
 
