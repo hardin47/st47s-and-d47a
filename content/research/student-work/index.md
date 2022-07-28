@@ -156,6 +156,8 @@ type: research
 <h4>2022:</h4>
 <ul>
 <li>Pipi Gao '22 Finalist in the <a href = "https://medium.com/mdplusplus/inaugural-md-datathon-2022-4947b28b2181" target = "_blank">MD++ Datathon 2022</a> as part of team `WeLoveRData`.  The Datathon was founded and organized by Lathan Liou '19.</li>
+<li>Xuehuai He '25, Saatvik Kher '24, Samson Zhang '25 <a href = "http://datafest.stat.ucla.edu/2022-asa-datafesttm-results/" target = "_blank">DataFest - The Don Ylvisaker Best Insight Award (Honorable Mention)</a> </li>
+<li>Aditya Bhalla '23, Alan Zhou '23 <a href = "http://datafest.stat.ucla.edu/2022-asa-datafesttm-results/" target = "_blank">DataFest - Best Use of Statistical Models (Honorable Mention)</a> </li>
 </ul>
 <h4>2021:</h4>
 <ul>
