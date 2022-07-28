@@ -11,6 +11,9 @@ layout: single
 type: research
 ---
 
+
+<!--The pdf files including the theses lives on gh-pages.  Need to switch branch, upload files,then switch back to the main branch. -->
+
 <figure>
 <img src="featured.png" align="right">
 <figcaption>Student researchers</figcaption>
