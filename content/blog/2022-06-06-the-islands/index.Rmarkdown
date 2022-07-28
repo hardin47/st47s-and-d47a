@@ -18,7 +18,7 @@ header-includes:
   - <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 ---
 
-```{r message = FALSE, warning = FALSE}
+```{r message = FALSE, warning = FALSE, echo = FALSE}
 knitr::opts_chunk$set(echo = TRUE, message = FALSE, 
                       warning = FALSE,
                       eval.after = 'fig.cap', 
@@ -27,7 +27,11 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE,
 
 ## The Islands
 
-The Islands are a virtual environment designed to engage students in experimental design and data collection.
+<figure>
+<img style = "padding: 10px;float: right;" alt = 'hrdag' width='300' src='featured.png' />
+</figure>
+
+The Islands is a virtual environment designed to engage students in experimental design and data collection.
 The basic idea is that people (and their pets!) live on villages spread out along three different islands.
 They go to school, get sick, have friends, have jobs, etc.
 The individuals are able to do tasks (e.g., drink vodka or run a mile or both!) and to answer questions.
@@ -39,6 +43,8 @@ You will be **amazed** at the sophistication of the virtual world contained on T
 * Michael Bulmer created The Islands and describes them on causeweb.org, <a href="https://www.causeweb.org/cause/resources/library/r12661" target = "_blank">The Islands -- Learning about Experiment Design on a Virtual Population</a> as well as through the <a href = "https://sites.google.com/site/islandsinschoolsprojectwebsite/home" target = "_blank">Islands in Schools Project</a>.
 * Michael Bulmer and Kimberly Haladyn (from the University of Queensland, Australia) first published their work creating the virtual world in TISE, <a href = "https://escholarship.org/uc/item/2q0740hv" target = "_blank">Life on an Island: a Simulated Population to Support Student Projects in Statistics</a>.  
 * Causeweb.org has hosts multiple past webinars describing different educators use of The Islands in their own classrooms.  Ann Brearley and Laura Le from the University of Minnesota spoke at USCOTS 2017 <a href = "https://www.causeweb.org/cause/uscots/uscots17/breakout/1G" target = "_blank">1G: Life on an Island: Using a Virtual World to Make Statistics Real<a>; Ryne VanKrevelen, Lisa Rosenberg, and Laura Taylor from Elon University gave a webinar in 2018 <a href = "https://www.causeweb.org/cause/webinar/teaching/2018-08" target = "_blank">Introductory Statistics Projects Using 'The Islands' Virtual World Versus Student-Collected Data</a>.
+
+
 
 ## Introductory Statistics Project
 
@@ -77,6 +83,7 @@ library(tidyverse)
 library(janitor)
 library(googlesheets4)
 gs4_deauth()
+# a fake data collection made up for this blog entry
 pilot_data <- googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1U0KcehbSQkEjwDaFpUSklKmIkUTUv-C_5q2kyO1vn24/edit?usp=sharing0") %>%
   janitor::clean_names()
 
@@ -102,11 +109,9 @@ s1 <- pilot_summary[1,4] %>% pull()
 s2 <- pilot_summary[2,4] %>% pull()
 
 # Notice that the observed difference in means is:
-
 xbar1 - xbar2
 
 # Notice that the estimated variability for the difference in sample means is:
-
 sqrt(s1^2 / n1 + s2^2/n2)
 ```
 
@@ -118,9 +123,9 @@ The task is to figure out how big the sample size should be in order to reject $
 
 In order to reject $H_0$ at the 0.05 level (two-sided test), 
 
-$$Z-score > 1.96$$
+$$\mbox{Z-score} > 1.96$$
 
-Which means: $$\overline{X}_1 - \overline{X}_2 > 1.96 SE$$
+Which means: $$\overline{X}_1 - \overline{X}_2 > 1.96 \mbox{ SE}$$
 
 ##### Step 2. Assume that the variability is as calculated above from the data but with **new** sample sizes.
 
@@ -137,7 +142,7 @@ SE_diff
 
 ##### Step 3. Use a normal curve to **estimate** power.
 
-For a very rough approximation, use the normal curve to find out how often the difference in means will be above the cutoff (from Steps 1 and 2) for various true alternative hypotheses.
+For a **very rough** approximation, use the normal curve to find out how often the difference in means will be above the cutoff (from Steps 1 and 2) for various true alternative hypotheses.
 
 If the true alternative difference is 0.1, then `xpnorm()` **centered at 0.1**  (the curve below is not centered at zero) provides the probability that the sample difference will be above the cutoff.
 
@@ -149,7 +154,7 @@ Under the setting: $H_A: \mu_1 - \mu_2 = 0.1$
 
 ```{r}
 library(mosaic)
-cutoff <- 1.96* SE_diff
+cutoff <- 1.96 * SE_diff
 
 true_alt_diff <- 0.1  # try different numbers here!
                        
@@ -163,30 +168,48 @@ With samples of size 10 each, the probability of rejecting $H_0$ is `r xpnorm(cu
 
 All of the assignments are due as .pdf files which have been compiled from .Rmd files.
 The analyses start by pulling in the data directly from the Google sheet, and each student in the group is able to run the entire analysis from start to end.
-My students are used to working with RMarkdown, but this is the first time that their compiled analysis is a full report.
+The students are comfortable working with RMarkdown, but this is the first time that their compiled analysis is a full report.
 
 The project described here is for a first course in Introductory Statistics.
 We do not use GitHub (yet!), but we do work entirely in RMarkdown documents.  We have some difficulties in getting each individual in the group to work on one .Rmd document.
 We use RStudio PRO, but we have not been able to set-up group sharing projects.
-In the future, I hope that RStudio makes it possible for groups to work simultaneously on a single document (either synchronously like a Google Doc or asynchronously like a file in Dropbox).
+RStudio has <a href = "https://www.rstudio.com/blog/real-time-collaborative-editing-on-rstudio-cloud/" target = "_blank">just recently described</a> products that allow groups to work simultaneously on a single document.
 
-Regardless, working together on one report that is reproducible allowed students to bring together not only the statistical ideas from the course but also the larger ideas on how data collection, analysis, and communication all combines into a single effort.
+Regardless, working on one report that is reproducible allowed students to bring together not only the statistical ideas from the course but also the larger ideas on how data collection, analysis, and communication all combines into a single effort.
 
 ### Ethical considerations
 
-data sovereignty:
-https://static1.squarespace.com/static/5d2633cb0ef5e4000134fa02/t/5d72cb394452727586b69c2e/1567804217938/policy_brief_indigenous_data_sovereignty_in_the_united_states.pdf
+While the context, people, and data are all completely fabricated, there is still room to bring ethical considerations into the project.  
+The University of Arizona Native Nations Institute has created a policy brief on <a href = "https://static1.squarespace.com/static/5d2633cb0ef5e4000134fa02/t/5d72cb394452727586b69c2e/1567804217938/policy_brief_indigenous_data_sovereignty_in_the_united_states.pdf" target = "_blank">Indigenous Data Sovereignty in the United States</a>.
+More materials can be found at <a href = "https://usindigenousdata.org/" target = "_blank">US Indigenous Data Sovereignty Network</a>.
+
+The ethical considerations may be as simple as having the class read the policy brief and talk about how, historically, data collection has disproportionately affected different groups.
+In particular, collecting data is often used as a way to sustain systems of power and privilege.
+Although the Islands do not represent actual humans, the way we talk and think about them could impact our students directly.
+Additionally, for students who are soon to be data practitioners, a conversation about the power of information can help them bring positive nuance into their future work as data scientists.
+
+Of course, one conversation about data sovereignty will not change all systems of oppression or even, necessarily, how a group of students approaches a dataset.
+However, the more often the ethical considerations can be infused as part of the data analysis, the more the students will reflect on the larger and humanistic aspects of the process.
+Indeed, the ethical considerations could be much expanded into written reflection, student presentations, or a research project.
+
+
 
 ### Pulling everything together from the entire semester
 
-* did randomization work?
-* data viz
-* power analysis
-* t-test / ANOVA / MLR
-* connections to the real-world literature
+One of the strengths of the project is its ability to pull together many of the topics covered from throughout the semester.
+The students are able to use hypothesis testing to assess whether or not their randomization scheme worked.
+They run a power analysis and see in real time what the "next" sample (i.e., the full dataset after the pilot study) looks like in terms of spread, center, and shape.
 
+The students practice making data visualizations and running tests.
+The last topic of the semester, multiple linear regression, shows up as a way for them to consider all of the variables collected.  
+
+Most students are quite curious about connections to the existing literature (both in The Islands and in the real world).
+Some of the experiments pan out as expected, and some give strikingly different result from what is seen in the literature.
+
+And last, students get a taste for what it is like to work with data in the wild.
 For example, you might have noticed that the data provided had gender coded with capitals and lower-case starts.
-By making mistakes with the variable coding, students deeply understand why having clean data is so important.
+Non-systematic data coding was ubiquitous both within individual students and across group members.
+By making mistakes with the variable coding and writing code to clean the data, students deeply understand why having clean data to start with is so important.
 
 ```{r}
 pilot_data %>%
@@ -196,61 +219,61 @@ pilot_data %>%
 
 
 
-## Reflections
+## Observations
 
-### Students
+I conclude with some feedback provided by the students (and me) on the project.
+Overall, it was an excellent experience with mostly positive comments.
+Of course, there is always room for improvement in all the things we do.
+
+### Student Reflections
 
 #### positive
 
-* so many options
-* like humans but **not** (freeing from the existing literature)
-* can make them do unethical activities
-* encouraged a mindset of curiosity and exploration
-* next time, they would collect more demographic or related variables
-* many students had personal motivation for their experiment choices
-* working together with peers
-* reinforcing skills that will transfer to other classes and future research
+* there are so many cool options for what to study in the Islands.
+* they like the idea of humans but **not** actually humans (freeing from the existing literature).
+* it was fun to make the islanders do unethical activities.
+* the project encouraged a mindset of curiosity and exploration.
+* next time, they would collect more demographic or related variables.
+* many students had personal motivation for their experiment choices.
+* the students enjoyed working together with peers.
+* the project reinforced skills that will transfer to other classes and future research.
 
 
 #### negative
 
-* power analysis was hard
-* couldn't build on the literature
-* took a long time to do tasks
-* forgot that they needed to come back to record follow-up
-* staying focused to get the right data
-* coming up with a good research question
+* the power analysis was hard.
+* because it wasn't "real-world", they couldn't necessarily build on the literature.
+* it took a long time to do tasks.
+* the students forgot that they needed to come back to record follow-up.
+* staying focused to get the right data was a challenge.
+* coming up with a good research question was hard.
 
 
-### Mine
+### My reflections
 
 #### positive
 
-* students were able to reflect on needing bigger sample sizes (although for most of the non-sig studies, H0 was probably true)
-* in-class presentations, the other students asked great questions about the experimental design or other nuances of the study.
-* investigation of many different sampling types
+* students were able to reflect on needing bigger sample sizes (although for most of the non-sig studies, $H_0$ was probably true, making sample size almost a moot point) 
+* in-class presentations, the other students asked great questions about the experimental design or other nuances of the study. 
+* across the groups, there was an investigation of many different sampling types.
     - systematic sampling by looking at every 4th house
     - random sampling by collecting all students on island in high school
     - multi-stage sampling (systematically choosing a house and randomly choosing a person in a house)
-* students reflecting on whether the variables were realistic, e.g., the number of times a ball could be bounced in a minute seemed to be about half of what would be realistic for human students with a basketball
-* reinforcing working with R to code, make graphs, and present work in a reproducible format
-
-
-
-
-* recognition that the data collection part
-  - takes a huge amount of time (way more than the analysis!)
-  - is really hard to do well
-  - matters more than the choice of analysis technique
+* students reflected on whether the variables were realistic, e.g., the number of times a ball could be bounced in a minute seemed to be about half of what would be realistic for human students with a basketball.  
+* the project reinforced working with R to code, make graphs, and present work in a reproducible format. 
+* the students were able to recognize that the data collection part: 
+  - takes a huge amount of time (way more than the analysis!),
+  - is really hard to do well, and
+  - matters more than the choice of analysis technique.
 
 
 #### negative
 
-* students want quick experiments (e.g., weight loss on a given diet isn't realistic over a few days)
-* almost all results are not significant
-* there is a tendency to do a paired analysis (before and after)
-* the power analysis above uses a Z score, but the analysis uses a t-test
-* group work / shared Rmd
+* students want quick experiments (e.g., weight loss on a given diet isn't realistic over a few days).
+* almost all the project results are not significant.
+* there is a tendency to do a paired analysis (before and after).
+* the power analysis above uses a Z score, but the analysis uses a t-test (which can be confusing for students who are only just being introduced to the topics).
+* the tools have not yet existed to synchronously do group work in a shared Rmd file.  hopefully this is changing with <a href = "https://www.rstudio.com/blog/real-time-collaborative-editing-on-rstudio-cloud/" target = "_blank">new tools from RStudio</a>.
 
 
 
