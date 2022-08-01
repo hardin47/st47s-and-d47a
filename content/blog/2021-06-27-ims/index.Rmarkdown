@@ -2,7 +2,7 @@
 title: Introduction to Modern Statistics
 author: Jo Hardin
 date: '2021-06-27'
-slug: []
+slug: ims
 categories: []
 tags: []
 summary: 'Announcing Introduction to Modern Statistics by Mine Çetinkaya-Rundel and Jo Hardin'

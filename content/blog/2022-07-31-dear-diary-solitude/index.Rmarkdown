@@ -2,7 +2,8 @@
 title: Dear Diary - Solitude
 author: Jo Hardin
 date: '2022-07-31'
-slug: []
+slug: solitude
+featured: true
 categories: []
 tags: []
 summary: 'Contribution to "Solitude", a project to display part of the permanent collection of the Benton Art Museum at Pomona College.'
