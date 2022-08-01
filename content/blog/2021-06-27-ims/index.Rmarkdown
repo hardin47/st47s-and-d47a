@@ -12,7 +12,7 @@ Super excited to share the news that <a href = "https://twitter.com/minebocek" t
 
 
  <figure>
-<img style = "padding: 5px;" alt = 'hrdag' width='500' src='ims-online.png' />
+<img style = "padding: 5px;" alt = 'hrdag' width='700' src='ims-online.png' />
 </figure>
 
 While we personally love the <a href = "https://openintro-ims.netlify.app/" target = "_blank">html version</a>, you can also get the book in <a href = "https://openintro.org/book/ims/" target = "_blank">pdf or paperback</a>.
@@ -53,7 +53,7 @@ The book aligns with many of the <a href = "https://openintro.org/book/ims/" tar
 
 
  <figure>
-<img style = "padding: 10px;float: right;" alt = 'hrdag' width='500' src='openintro.png' />
+<img style = "padding: 10px;float: right;" alt = 'hrdag' width='200' src='openintro.png' />
 </figure>
 
 The <a href = "https://github.com/openintrostat/ims" target = "_blank">source code</a> for the text of the book is available on GitHub.
@@ -70,7 +70,7 @@ Shout out to <a href = "https://www.r-project.org/" target = "_blank">#rstats</a
 And last, thanks to <a href = "https://twitter.com/minebocek" target = "_blank">`@minebocek`</a> for writing my favorite exercise of the text:
  
  <figure>
-<img style = "padding: 5px;" alt = 'hrdag' width='500' src='FandA.jpeg' />
+<img style = "padding: 5px;" alt = 'hrdag' width='700' src='FandA.jpeg' />
 </figure>
  
 We hope you enjoy using the text as much as we've enjoyed writing it.  Have fun!
