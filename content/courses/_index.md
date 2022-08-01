@@ -26,7 +26,7 @@ cascade:
   layout: single-series   # for a series, do not change
   author: Jo Hardin
   show_author_byline: true
-  show_post_date: false
+  show_post_date: true
   # for single-sidebar layout
   sidebar:
     text_link_label: ""
