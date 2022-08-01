@@ -5,6 +5,7 @@ date: '2021-06-27'
 slug: []
 categories: []
 tags: []
+summary: 'Announcing Introduction to Modern Statistics by Mine Çetinkaya-Rundel and Jo Hardin'
 ---
 
 

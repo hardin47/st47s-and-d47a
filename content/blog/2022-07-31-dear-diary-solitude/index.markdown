@@ -5,6 +5,7 @@ date: '2022-07-31'
 slug: []
 categories: []
 tags: []
+summary: 'Contribution to "Solitude", a project to display part of the permanent collection of the Benton Art Museum at Pomona College.'
 ---
 
 
@@ -13,7 +14,7 @@ tags: []
 
 ## Motivation
 
-In Spring / Summer 2022, the Benton Museum of Art at Pomona College set out to create a unique way to display the permanent collection.  
+In Spring / Summer 2022, the <a href = "https://www.pomona.edu/museum/" target = "_blank">Benton Museum of Art</a> at <a href = "https://www.pomona.edu/" target = "_blank">Pomona College</a> set out to create a unique way to display the permanent collection.  
 
 
 > **In Here: Solitude through the Benton Museum of Art at Pomona College** is an interdisciplinary creative project, culminating in a book that showcases the imagination and talents of the Pomona College community. Structured as an encyclopedia/abecedarium, the collection consists of meditations on the concept of solitude, all based in the art collection of the College and written by students, faculty, administrators, and museum staff and interns. Fresh, synthetic, and provocative, In Here is a thoughtful reflection through art on the past few years and an exploration of an ancient topic recast in contemporary terms.
