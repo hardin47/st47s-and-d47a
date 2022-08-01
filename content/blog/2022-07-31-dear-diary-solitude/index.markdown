@@ -20,6 +20,8 @@ In Spring / Summer 2022, the Benton Museum of Art at Pomona College set out to c
 
 I was asked to participate by creating an entry which focuses on something that I do in solitude.  I chose data collection / data analysis, i.e., **data**.  The presentation of the collection and analysis is inspired by a project and book called <a href = "http://www.dear-data.com/theproject" target = "_blank"><bf>Dear Data</bf></a> by Giorgia Lupi and Stefanie Posavec.  
 
+## Process
+
 I spent a few hours at the Benton collecting data on two of the current exhibits, **Known & Understood** and **Each Day Begins with the Sun Rising**.  I collected many variables, but the ones recorded here and displayed below include:
 
 
@@ -33,6 +35,8 @@ I spent a few hours at the Benton collecting data on two of the current exhibits
 |`people`| character | whether or not there were people represented in the piece|
 |`medium`| character | the art medium, mostly taken from the description, but some that I made up|
 |`color`| character | the colors in the object, either: black & white, muted colors, or bright colors|
+
+## Results
 
 
 
