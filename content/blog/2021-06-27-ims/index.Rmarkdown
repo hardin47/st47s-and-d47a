@@ -7,13 +7,12 @@ categories: []
 tags: []
 ---
 
-<a href = "https://twitter.com/" target = "_blank"></a>
 
-Super excited to share the news that <a href = "https://twitter.com/minebocek" target = "_blank">Mine \c{C}etinkaya-Rundel</a> and I have finished and published <a href = "https://openintro-ims.netlify.app/" target = "_blank">Introduction to Modern Statistics</a>, made possible by <a href = "https://twitter.com/openintroorg" target = "_blank">`@openintroorg`</a>.
+Super excited to share the news that <a href = "https://twitter.com/minebocek" target = "_blank">Mine Çetinkaya-Rundel</a> and I have finished and published <a href = "https://openintro-ims.netlify.app/" target = "_blank">Introduction to Modern Statistics</a>, made possible by <a href = "https://twitter.com/openintroorg" target = "_blank">`@openintroorg`</a>.
 
 
  <figure>
-<img style = "padding: 10px;float: right;" alt = 'hrdag' width='300' src='ims-online.png' />
+<img style = "padding: 5px;" alt = 'hrdag' width='500' src='ims-online.png' />
 </figure>
 
 While we personally love the <a href = "https://openintro-ims.netlify.app/" target = "_blank">html version</a>, you can also get the book in <a href = "https://openintro.org/book/ims/" target = "_blank">pdf or paperback</a>.
@@ -52,6 +51,11 @@ The book uses many of the <a href = "https://www.openintro.org/data/" target = "
 
 The book aligns with many of the <a href = "https://openintro.org/book/ims/" target = "_blank">OpenIntro education resources</a>. 
 
+
+ <figure>
+<img style = "padding: 10px;float: right;" alt = 'hrdag' width='500' src='openintro.png' />
+</figure>
+
 The <a href = "https://github.com/openintrostat/ims" target = "_blank">source code</a> for the text of the book is available on GitHub.
 
 While the <a href = "http://openintrostat.github.io/oilabs-tidy/" target = "_blank">Labs</a> and <a href = "https://openintrostat.github.io/ims-tutorials/" target = "_blank">Tutorials</a> are written in <a href = "https://www.r-project.org/" target = "_blank">the statistical software R</a>, the text itself is software agnostic and can be used with your favorite classroom statistical software.
@@ -66,7 +70,7 @@ Shout out to <a href = "https://www.r-project.org/" target = "_blank">#rstats</a
 And last, thanks to <a href = "https://twitter.com/minebocek" target = "_blank">`@minebocek`</a> for writing my favorite exercise of the text:
  
  <figure>
-<img style = "padding: 10px;float: right;" alt = 'hrdag' width='300' src='FandA.jpeg' />
+<img style = "padding: 5px;" alt = 'hrdag' width='500' src='FandA.jpeg' />
 </figure>
  
 We hope you enjoy using the text as much as we've enjoyed writing it.  Have fun!

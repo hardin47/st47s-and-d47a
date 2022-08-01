@@ -1,0 +1,109 @@
+---
+title: Dear Diary - Solitude
+author: Jo Hardin
+date: '2022-07-31'
+slug: []
+categories: []
+tags: []
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(treemapify)
+```
+
+## Motivation
+
+In Spring / Summer 2022, the Benton Museum of Art at Pomona College set out to create a unique way to display the permanent collection.  
+
+
+> **In Here: Solitude through the Benton Museum of Art at Pomona College** is an interdisciplinary creative project, culminating in a book that showcases the imagination and talents of the Pomona College community. Structured as an encyclopedia/abecedarium, the collection consists of meditations on the concept of solitude, all based in the art collection of the College and written by students, faculty, administrators, and museum staff and interns. Fresh, synthetic, and provocative, In Here is a thoughtful reflection through art on the past few years and an exploration of an ancient topic recast in contemporary terms.
+
+I was asked to participate by creating an entry which focuses on something that I do in solitude.  I chose data collection / data analysis, i.e., **data**.  The presentation of the collection and analysis is inspired by a project and book called <a href = "http://www.dear-data.com/theproject" target = "_blank"><bf>Dear Data</bf></a> by Giorgia Lupi and Stefanie Posavec.  
+
+I spent a few hours at the Benton collecting data on two of the current exhibits, **Known & Understood** and **Each Day Begins with the Sun Rising**.  I collected many variables, but the ones recorded here and displayed below include:
+
+
+|variable |type  |description                       |
+|:--------|:-----|:---------------------------------|
+|`title-ish`|character| mostly the title, but sometimes a description if I didn't remember to write down the title|
+|`year`|numeric| mostly the year, but a midpoint if the year was a range or a guess if the year was approximate|
+|`jo`  | character| whether I loved it, liked it, thought it was okay, or didn't get it|
+| `nature` | character| either outside, a natural setting (e.g., a movie theater), or something abstract|
+|`size` | numeric| 1 = about a 3rd of a museum wall; I scaled the piece size on a range from 0.2 to 5 |
+|`people`| character | whether or not there were people represented in the piece|
+|`medium`| character | the art medium, mostly taken from the description, but some that I made up|
+|`color`| character | the colors in the object, either: black & white, muted colors, or bright colors|
+
+```{r}
+art_data <- tribble(
+  ~`title-ish`, ~year, ~jo, ~nature, ~size, ~people, ~medium, ~color,
+  "Beautiful Limit", 2010, "I love it", "outside", 3, "no people", "crayon", "muted colors",
+  "Each Day Begins with the Sun Rising and Ends with the Sun Setting", 2021, "I love it", "abstract", 5, "no people", "sculpture", "bright colors",
+  "Melting Clay 1", 2017, "I like it", "natural", 3, "no people", "clay & water", "muted colors",
+  "Melting Clay 2", 2018, "okay", "natural", 1, "no people", "clay & water", "black & white",
+  "Indiginous 1", 1511, "okay", "natural", .4, "people", "etching", "black & white",
+  "Indiginous 2", 1400, "okay", "natural", .2, "people", "alabaster", "black & white",
+  "Indiginous 3", 1508, "okay", "natural", .2, "people", "woodcut", "black & white",
+  "Indiginous 4", 1645, "okay", "natural", .2, "people", "etching", "black & white",
+  "WWJD", 2017, "I love it", "abstract", .7, "people", "collage", "muted colors",
+  "Airbrush of Digital Image", 1988, "I don't get it", "abstract", .8, "no people", "digital", "bright colors",
+  "Gender fluid sculpture", 2017, "okay", "abstract", 0.3, "people", "silver", "black & white",
+  "Mary", 1953, "I like it", "abstract", 0.2, "people", "screenprint", "muted colors",
+  "Theater", 1948, "I like it", "realistic", 0.2, "no people", "photograph", "black & white",
+  "Forest", 1950, "okay", "outside", 0.2, "no people", "etching", "black & white",
+  "People in woods", 2009, "I love it", "outside", 1, "no people", "oil", "muted colors",
+  "Aria", 1988, "I don't get it", "outside", 0.2, "no people", "watercolor", "muted colors",
+  "Loups dans la Foret", 1950, "I love it", "outside",  0.2, "no people", "etching", "black & white",
+  "Hello, Hello", 2000, "I don't get it", "natural", 0.3, "people", "ink",  "black & white",
+  "Heaven or Hell", 2004, "I don't get it", "abstract", 1, "no people", "oil", "bright colors",
+  "Silver Horn", 1910, "okay", "natural", 0.8, "people", "ink", "muted colors",
+  "Cars buried", 1990, "I don't get it", "natural", 0.6, "no people", "photograph", "black & white",
+  "Bloom", 2017,  "I like it", "abstract", 1, "no people", "acrylics", "bright colors"
+) %>%
+  rename(year_orig = year) %>%
+  mutate(year = case_when(
+    year_orig < 1900 ~ "< 1900",
+    year_orig < 1980 ~ "1900-1980",
+    year_orig < 2000 ~ "1981 - 2000",
+    year_orig < 2023 ~ "2001-2022"
+  )) %>%
+  mutate(jo = factor(jo, levels = c("I love it", "I like it", "okay", "I don't get it")))
+```
+
+
+
+```{r fig.width = 10, fig.height = 8}
+ggplot(art_data,
+       aes(area = size, fill = year, label = medium,
+           #subgroup = people,
+           subgroup = color)) + 
+  geom_treemap() +
+  geom_treemap_text(fontface = "italic", colour = "black", place = "bottom",
+                    grow = FALSE, reflow = TRUE, min.size = 0) +
+  #geom_treemap_subgroup_text(place = "centre", alpha = 0.5, 
+  #                           colour = "black",
+  #                           min.size = 0) +
+  geom_treemap_subgroup_border(color = "blue", size = 2, alpha = 1) +
+  geom_treemap_subgroup_text(place = "top", alpha = 0.5, 
+                             colour = "blue",  
+                             min.size = 0) + 
+  #geom_treemap_subgroup_border(colour = "black", fill = "black", size = 5, alpha = 1) +
+  facet_wrap(~jo) + 
+  scale_fill_brewer(palette = 2, direction = -1) +
+  labs(title = "DearData Collection at the Benton Museum of Art",
+       subtitle = "Exhibits: Known & Understood and \nEach Day Begins with the Sun Rising")
+```
+
+Each rectangle is a single piece.  The artistic medium that was used on the piece is written in each rectangle; the year of the piece is given by color shade.  The pieces are broken down into two additional categorizations:  first they are blocked into the four categories of my reaction to each one; second, they are grouped (solid blue lines) into pieces that share a coloring scheme.
+
+One might notice that I don't really love older pieces.  
+
+
+
+
+
+
