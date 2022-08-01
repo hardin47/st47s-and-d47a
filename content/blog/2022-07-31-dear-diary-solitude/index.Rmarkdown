@@ -1,5 +1,5 @@
 ---
-title: Dear Diary - Solitude
+title: Dear Data - Solitude
 author: Jo Hardin
 date: '2022-07-31'
 slug: solitude
