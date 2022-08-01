@@ -1,0 +1,79 @@
+---
+title: Introduction to Modern Statistics
+author: Jo Hardin
+date: '2021-06-27'
+slug: []
+categories: []
+tags: []
+---
+
+<a href = "https://twitter.com/" target = "_blank"></a>
+
+Super excited to share the news that <a href = "https://twitter.com/minebocek" target = "_blank">Mine \c{C}etinkaya-Rundel</a> and I have finished and published <a href = "https://openintro-ims.netlify.app/" target = "_blank">Introduction to Modern Statistics</a>, made possible by <a href = "https://twitter.com/openintroorg" target = "_blank">`@openintroorg`</a>.
+
+
+ <figure>
+<img style = "padding: 10px;float: right;" alt = 'hrdag' width='300' src='ims-online.png' />
+</figure>
+
+While we personally love the <a href = "https://openintro-ims.netlify.app/" target = "_blank">html version</a>, you can also get the book in <a href = "https://openintro.org/book/ims/" target = "_blank">pdf or paperback</a>.
+
+
+One new aspect of the book is a focus on computational methods, presented in parallel to mathematical models.  We wrote about the approach <a href = "https://openintro.org/blog/article/2021-06-27-computational-and-mathematical-models-in-introductory-statistics/" target = "_blank">here</a>.
+
+But there are so many other fun things about the book...  including emphasis on multivariable relationships through data visualization and modeling, case studies, and compelling datasets and examples.
+
+We've organized the book into six parts: 
+1. Intro to data, 
+2. EDA, 
+3. regression modeling, 
+4. foundations of inference, 
+5. statistical inference, and 
+6. inferential modeling.
+
+The R Tutorials are written using the learnr package with much of the work due to <a href = "https://twitter.com/baumerben" target = "_blank">`@baumerben`</a>, Andrew Bray, <a href = "https://twitter.com/yabellini" target = "_blank">`@yabellini`</a>, <a href = "https://twitter.com/cantoflor_87" target = "_blank">`@cantoflor_87`</a>, <a href = "https://twitter.com/data_datum" target = "_blank">`@data_datum`</a>.
+
+
+The R Labs have been recently updated, thanks much to <a href = "https://twitter.com/benjamin_feder" target = "_blank">`@benjamin_feder`</a>.
+
+
+There are a total of 339 exercises.  Answers to the odd questions are at the end of the text, and solutions are <a href = "https://openintro.org/teachers/" target = "_blank">available for instructors</a>.
+
+
+We are extremely appreciative to <a href = "https://twitter.com/MT_statistics" target = "_blank">`@MT_statistics`</a>, Melinda Yager, and Randy Prium for their valuable feedback and review of the book.
+
+IMS builds on the <a href = "https://twitter.com/openintroorg" target = "_blank">`@openintroorg`</a>
+ text: <a href = "https://www.openintro.org/book/isrs/" target = "_blank">Introduction to Statistics with Randomization and Simulation</a>, written with David Diez and Christopher Barr.
+ 
+While we know that there is still work to do, we’ve added a first pass of alternative text tags to the diagrams in the html version of the text.
+ 
+The book uses many of the <a href = "https://www.openintro.org/data/" target = "_blank">OpenIntro datasets</a>.  The <a href = "https://github.com/OpenIntroStat/openintro" target = "_blank">OpenIntro package</a> has recently been updated on CRAN.
+
+
+The book aligns with many of the <a href = "https://openintro.org/book/ims/" target = "_blank">OpenIntro education resources</a>. 
+
+The <a href = "https://github.com/openintrostat/ims" target = "_blank">source code</a> for the text of the book is available on GitHub.
+
+While the <a href = "http://openintrostat.github.io/oilabs-tidy/" target = "_blank">Labs</a> and <a href = "https://openintrostat.github.io/ims-tutorials/" target = "_blank">Tutorials</a> are written in <a href = "https://www.r-project.org/" target = "_blank">the statistical software R</a>, the text itself is software agnostic and can be used with your favorite classroom statistical software.
+
+For their amazing art and creative vision, we are indebted to <a href = "https://meenalpatelstudio.com" target = "_blank">Meenal Patel</a>, <a href = "https://twitter.com/iowio" target = "_blank">`@iowio`</a>, <a href = "https://muge.fr" target = "_blank">Muge Cetinkaya</a>, and Will Gray.
+ 
+Thanks <a href = "https://twitter.com/rundel" target = "_blank">`@rundel`</a> for the many ways you’ve supported the project.
+ 
+Shout out to <a href = "https://www.r-project.org/" target = "_blank">#rstats</a> and 
+<a href = "https://www.rstudio.com/" target = "_blank">RStudio</a> (er, <a href = "https://posit.co/" target = "_blank">posit</a>) for making amazing products on which our work is based.
+ 
+And last, thanks to <a href = "https://twitter.com/minebocek" target = "_blank">`@minebocek`</a> for writing my favorite exercise of the text:
+ 
+ <figure>
+<img style = "padding: 10px;float: right;" alt = 'hrdag' width='300' src='FandA.jpeg' />
+</figure>
+ 
+We hope you enjoy using the text as much as we've enjoyed writing it.  Have fun!
+
+
+
+
+
+
+
