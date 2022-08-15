@@ -1,6 +1,6 @@
 ---
 title: "Math 154: Computational Statistics"
-weight: 3
+weight: 7
 slug: math154
 subtitle: ""
 excerpt: "Computational Statistics can be thought of as an advanced data science course.  We will work with many different types of data to become fluent in wrangling, visualizing, simulating, modeling, predicting, and most importantly communicating results."

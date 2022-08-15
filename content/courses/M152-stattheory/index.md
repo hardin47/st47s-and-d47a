@@ -1,12 +1,12 @@
 ---
 title: "Math 152: Statistical Theory"
 slug: math152
-weight: 3
+weight: 2
 subtitle: ""
 excerpt: ""
 date: "Fall 2022"
-draft: true
-featured: false
+draft: false
+featured: true
 ---
 
 ## The Course
@@ -17,13 +17,16 @@ featured: false
 </figure>
 
 
-**Statistical Theory** ...
-
+**Statistical Theory** is an introduction to statistics for students with a background in probability theory, calculus, and linear algebra.  There is no statistics prerequisite for this class. The course will be focused on the theoretical aspects of the material, though there will be some real world applications in class and in the homework assignments. The idea is to have a strong mathematical understanding of the concepts while also understanding how the concepts are applied in the real world.
 
 ## Student Learning Outcomes.
-By the end of the semester, students will be able to do the following:
+At the completion of this course, students will:
 
+* be able to derive the methods from introductory statistics using tools from mathematics (i.e., calculus and probability).
+* be able to justify the use of a particular method (technical conditions).
+* be able to weigh advantages and disadvantages of different estimation techniques (e.g., bias, variability, resistance to outliers).
+* know to and how to communicate results effectively.
 
 ## Course website
 
-Statistical Theory was last taught in Fall 2020, materials can be found on the <a href = "https://research.pomona.edu/johardin/math152f20/" target = "_blank">course website</a>.
+Statistical Theory was last taught in Fall 2022, materials can be found on the <a href = "https://m152-stat-theory.netlify.app/" target = "_blank">course website</a>.

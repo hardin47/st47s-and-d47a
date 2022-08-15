@@ -6,7 +6,7 @@ subtitle: ""
 excerpt: "Introduction to Biostatistics is a first course in statistics focused on topics and data found in the life sciences.  No biological background is needed, but interest in the life sciences is important."
 date: "Spring 2022"
 draft: false
-featured: true
+featured: false
 ---
 
 ## The Course
