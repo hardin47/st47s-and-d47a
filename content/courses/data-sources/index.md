@@ -1,6 +1,6 @@
 ---
 title: "Data Sources"
-weight: 3
+weight: 6
 slug: data
 excerpt: ""
 date: ""

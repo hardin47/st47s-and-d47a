@@ -1,7 +1,7 @@
 ---
 title: "Math 152: Statistical Theory"
 slug: math152
-weight: 2
+weight: 7
 subtitle: ""
 excerpt: ""
 date: "Fall 2022"
