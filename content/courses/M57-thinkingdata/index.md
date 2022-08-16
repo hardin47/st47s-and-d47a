@@ -4,9 +4,10 @@ slug: math57
 weight: 8
 subtitle: ""
 excerpt: "Thinking with Data is a general audience statistics courses taught as part of the Inside-Out Prison Exchange Program.  With half of the students coming from the Claremont Collegea and half coming from the California Rehabilitation Center, students learn statistical ideas side-by-side."
-date: "Spring 2022"
+date: ""
 draft: false
 featured: false
+show_post_date: false
 ---
 
 ## The Course
