@@ -12,7 +12,7 @@ Hi and welcome to my site!
 Since 2002, I have been at <a href = "https://www.pomona.edu/academics/departments/mathematics">Pomona College</a> where I teach lots of different kinds of statistics, taught a little bit of math once, love teaching writing with statistics, and hope to soon teach some data science.
 
 <h4> Background </h4>
-My undergraduate degree in Mathematics is also from <a href = "https://www.pomona.edu/academics/departments/mathematics">Pomona College</a>, where I worked with Don Bentley.  I did my PhD in Statistics at <a href="https://statistics.ucdavis.edu/">UC Davis</a> with <a href = "http://dmrocke.ucdavis.edu/">David Rocke</a>.
+My undergraduate degree in Mathematics is also from <a href = "https://www.pomona.edu/academics/departments/mathematics">Pomona College</a>, where I worked with Don Bentley.  I did my PhD in Statistics at <a href="https://statistics.ucdavis.edu/">UC Davis</a> with <a href = "http://dmrocke.ucdavis.edu/">David Rocke</a>.  I was interviewed (August 2020) for <a href = "https://www.pomona.edu/sagecast" target = "_blank">Pomona College's Sagecast</a> where you can hear me talk about my path.
 
 <h4>Here to learn?</h4>
 Me too!

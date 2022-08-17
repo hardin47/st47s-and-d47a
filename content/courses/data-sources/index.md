@@ -2,7 +2,7 @@
 title: "Data Sources"
 weight: 6
 slug: data
-excerpt: ""
+excerpt: "A compilation of many different types of data sources."
 date: ""
 draft: false
 featured: true
@@ -19,9 +19,27 @@ show_post_date: false
 
 ## Data for Equity & Inclusion
 
-* <a href = "https://www.slavevoyages.org/" target = "_blank"><bf>SlaveVoyages</bf></a>: "The SlaveVoyages website is a collaborative digital initiative that compiles and makes publicly accessible records of the largest slave trades in history. Search these records to learn about the broad origins and forced relocations of more than 12 million African people who were sent across the Atlantic in slave ships, and hundreds of thousands more who were trafficked within the Americas."  
+* <a href = "https://www.slavevoyages.org/" target = "_blank"><bf>SlaveVoyages</bf></a>: "The SlaveVoyages website is a collaborative digital initiative that compiles and makes publicly accessible records of the largest slave trades in history. Search these records to learn about the broad origins and forced relocation of more than 12 million African people who were sent across the Atlantic in slave ships, and hundreds of thousands more who were trafficked within the Americas."  
 * <a href = "https://github.com/bryandmartin/gibboda" target = "_blank"><bf>gibboda</bf></a>: Gender Isn’t Binary But Other Data Are!  
 * <a href="http://hatespeechdata.com/" target = "_blank"><bf>hate speak corpora</bf></a>: particularly interesting for training NLP models 
+* <a href = "https://policescorecard.org/" target = "_blank">Police Scorecard</a> is the first nationwide public evaluation of policing in the United States. The Scorecard calculates levels of police violence, accountability, racial bias and other policing outcomes for over 16,000 municipal and county law enforcement agencies, covering nearly 100% of the US population. 
+
+## Data Challenges
+
+* <a href = "https://github.com/rfordatascience/tidytuesday" target = "_blank">TidyTuesday</a> A weekly data project aimed at the R ecosystem. I've written some suggestions and included a lot of resources for <a href = "https://hardin47.netlify.app/project/tidytuesday/" target = "_blank">getting started with TidyTuesday</a>
+
+* <a href = "https://www.drivendata.org/competitions/" target = "_blank">data for social good</a> provides real data and structures (similar to Kaggle) for working through models and coming up with predictions – all on data which benefits the social good.
+
+* <a href = "https://ww2.amstat.org/education/datafest/" target = "_blank">ASA DataFest</a> The American Statistical Association (ASA) DataFest is a celebration of data in which teams of undergraduates work around the clock to find and share meaning in a large, rich, and complex data set.
+
+* <a href = "https://thisisstatistics.org/falldatachallenge/" target = "_blank">Fall Data Challenge</a>  Each year, the contest challenges undergraduate and high school students to work in teams to analyze real-world data and make recommendations to combat critical issues.
+
+* <a href = "https://community.amstat.org/dataexpo/home" target = "_blank">ASA Data Expo</a> 
+The Annual Data Challenge Expo is open to anyone who is interested in participating — including government, industry, academia, retirees, and students. Each year, this contest challenges participants to analyze a core data set using statistical and visualization tools and methods.  Student awards at three levels of $1,500, $1,000, and $500.  (An annual spring competition, with presentations at the Joint Statistical Meetings.)
+
+* <a href = "https://www.kaggle.com/competitions" target = "_blank">kaggle competitions</a>  Many different data challenges with cash prizes. Alternatively, compete in a competition that has already closed for practice creating a a full data analysis.
+
+* <a href = "https://towardsdatascience.com/top-competitive-data-science-platforms-other-than-kaggle-2995e9dad93c" target = "_blank">Other data science competitions</a>
 
 ## R packages for connecting to APIs:
 
@@ -39,39 +57,45 @@ show_post_date: false
 
 ## R packages containing multiple datasets:
 
+* <a href = "https://lter.github.io/lterdatasampler/" target = "_blank">**lterdatasampler**</a> Data samples with features that are useful in introductory environmental data science and statistics courses.
 * [**gibboda**](https://github.com/bryandmartin/gibboda): Gender Isn’t Binary But Other Data Are!
 * [**openintro**](https://github.com/OpenIntroStat/openintro) an R package for data and supplemental functions for OpenIntro resources 
 * [**tidyverse**](https://www.tidyverse.org/) is a suite of R packages that contain some fantastic datasets 
 * **fivethirtyeight**: an [R package](https://cran.r-project.org/web/packages/fivethirtyeight/vignettes/fivethirtyeight.html) that pulls in data that 538 has already [publicly posted](https://github.com/fivethirtyeight/data)
 * [**mosaicData**](https://github.com/ProjectMOSAIC/mosaicData)
-* The R package **dslabs** has some great datasets, described in this [Simply Statistics blog](https://simplystatistics.org/2019/07/19/more-datasets-for-teaching-data-science-the-expanded-dslabs-package/)
+* The R package **dslabs** has some great datasets, <a href="https://flowingdata.com/2018/04/09/datasets-for-teaching-data-science/" target = "_blank">described in this Simply Statistics blog</a>
+
+
 
 ## Dynamic Data Sets / Databases:
 
 * The amazing [TidyTuesday](https://github.com/rfordatascience/tidytuesday) datasets.  For example, data on [Juneteenth](https://github.com/rfordatascience/tidytuesday/tree/master/data/2020/2020-06-16) or [Wealth Inequality](https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-02-09)
+* <a href = "https://github.com/awesomedata/awesome-public-datasets" target = "_blank">Awesome Public Datasets</a>, a huge number of datasets automatically generated from blogs, answers, and user responses.
+* <a href = "https://worldatlas.org/" target = "_blank">World Atlas</a> is a public database with 2,500 datasets.  The datasets come from places like Gapminder, United Nations Data, Worldbank, and Open numbers, and it is <a href = "https://towardsdatascience.com/ive-built-a-public-world-atlas-with-2-500-datasets-to-explore-8b9ae799e345" target = "_blank">described here</a> in detail.
 * [College Scorecard](https://collegescorecard.ed.gov/).  A tremendous amount of information about all universities (though some of it collected only from students on financial aid).
 * [National Park Service Visitor Use Statistics](https://irma.nps.gov/Stats/)
 * [Financial and Economic data](https://www.quandl.com/)
 * [Behavioral Risk Factor Surveillance System](http://www.cdc.gov/brfss/)
 * [General Social Survey](https://gss.norc.org/get-the-data)
-* [National Health and Nutrition Examination Survey from the CDC](https://wwwn.cdc.gov/nchs/nhanes/Default.aspx)  also available in two different R pakcages: [**nhanesA**](https://cran.r-project.org/web/packages/nhanesA/vignettes/Introducing_nhanesA.html) and  [**NHANES**](https://github.com/ProjectMOSAIC/NHANES)
+* [National Health and Nutrition Examination Survey from the CDC](https://wwwn.cdc.gov/nchs/nhanes/Default.aspx)  also available in two different R packages: [**nhanesA**](https://cran.r-project.org/web/packages/nhanesA/vignettes/Introducing_nhanesA.html) and  [**NHANES**](https://github.com/ProjectMOSAIC/NHANES)
 * [Medicare dataset](https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Inpatient) (discussed on whitehouse.gov)
 * [State Health Facts](http://www.statehealthfacts.org/)
 * [gapminder.org](https://www.gapminder.org/) – a fascinating website with amazing graphics (social and economic data broken down by country). Click on the spreadsheet links to download the data.
 * [Wolfram/Alpha](http://www.wolframalpha.com/)  is billed as a computational search engine. Put in "nachos" you get a detailed nutritional analysis, put in "GDP of Albania"and you get several forms of GDP, a historical graph and other economic variables, put in your favorite college and get lots of info (including number of degrees in mathematics in 2009, location on a map and link to a satellite view of campus). While the case by case data display is not so convenient for building datasets there are pretty good links to the sources that Wolfram is pulling data from. For example, the Wolfram/Alpha page of info on a college or university has a data source link at the bottom to the National Center For Educational Statistics website where you can download your own custom data files from the IPSEDS (Integrated Post Secondary Education Data System) – want to know the average faculty salary by rank for all the schools in your comparison group? or the nacho search gives a link to the USDA’s National Nutrient database and a few clicks later I’ve got a spreadsheet with data on 50+ nutrients in 7400+ foods (and that’s the abbreviated data!)
-* [The Census Bureau](http://www.census.gov/)
+* [The Census Bureau](http://www.census.gov/) including <a href = "http://backgroundchecks.org/us-census-guide-how-to-get-the-most-out-of-census-gov.html" target = "_blank">guide to getting the most</a> out of the Census.gov website.
+
 * [Baby names](http://www.ssa.gov/oact/babynames/) (popularity by year and state), compiled by the Social Security Administration
  
 
 ## New & Continuously Revised Static Data Sets / Databases:
 
-
+* <a href = "https://www.childhealthdata.org/browse/survey" target = "_blank">National Survey of Children's Health</a> including a dozen or so variables on 85,000 kids.
 * <a href = "https://osf.io/gpxwa/" target = "_blank"><bf>Boston College COVID-19 Sleep and Well-Being Dataset</bf></a>
 * <a href = "https://www.norcalbiostat.com/data/" target = "_blank">Collection of datasets</a> compiled by <a href = "https://www.norcalbiostat.com/" target = "_blank">Robin Donatello</a> at CSU Chico.
 * <a href = "https://dataverse.harvard.edu/" target = "_blank">Harvard Dataverse</a>
 * <a href="http://hatespeechdata.com/" target = "_blank">hate speak corpora</a>, particularly interesting for training NLP models 
 * The R package **dslabs** has some great datasets, <a href="https://flowingdata.com/2018/04/09/datasets-for-teaching-data-science/" target = "_blank">described in this Simply Statistics blog</a>
-* <a href="https://www.cdc.gov/nchs/" target = "_blank">CDC health datasets</a> which are freely available and formatted.  To be analyzed correctly, these survey data require proper weighting, clustering and stratification adjustments.  There are many such datasets available, including NHAMCS (OPD and ED), NAMCS, BRFSS, NSFG, NHIS, NIS-Child, NIS-Teen, NHANES, NVSS. A quick google of any of these acronyms will take you directly to each webpage.
+* <a href="https://www.cdc.gov/nchs/" target = "_blank">CDC health datasets</a> which are freely available and formatted.  To be analyzed correctly, these survey data require proper weighting, clustering and stratification adjustments.  There are many such datasets available, including NHAMCS (OPD and ED), NAMCS, BRFSS, NSFG, NHIS, NIS-Child, NIS-Teen, NHANES, NVSS. A quick Google of any of these acronyms will take you directly to each webpage.
 * <a href = "https://www.kaggle.com/" target = "_blank">kaggle.com</a> is a repository for data used in analysis competitions.
 * <a href = "https://archive.ics.uci.edu/ml/index.php" target = "_blank">UC Irvine’s Machine Learning Repository</a>  (huge and fantastic database!).
 * The GitHub site and other info for many of 538’s analyses.  
@@ -81,7 +105,7 @@ And this: <a href = "https://www.storybench.org/how-to-explore-a-dataset-from-th
 * <a href = "http://tinyletter.com/data-is-plural/archive" target = "_blank">Data is Plural</a> set of fun and interesting new datasets and the <a href = "https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0" target = "_blank">spreadsheet with all relevant info</a> 
 * The StudentLife Study. In 2013, four dozen Dartmouth College students agreed to let a custom smartphone app surveil them for the StudentLife Study. During the 10 weeks of the spring academic term, the app collected data on the students’ physical activity, GPS coordinates, eating schedule, sleep habits, phone usage, and more. The study combined all that information with a slew of other data, including the students’ class deadlines, academic performance, and their responses to surveys about stress, depression, personality, and sleep quality. The study’s public (and anonymized) <a href = "http://studentlife.cs.dartmouth.edu/" target = "_blank">dataset</a> clocks in at 53 gigabytes.
 * Shonda Kuiper's (Grinnell College) <a href = "https://stat2labs.sites.grinnell.edu/DataResources.html" target = "_blank">many data resources</a>
-* <a href = "http://www.realclimate.org/index.php/data-sources/" target = "_blank">realclimate.org</a> keeps an up to date catalogue of many different types of climate data
+* <a href = "http://www.realclimate.org/index.php/data-sources/" target = "_blank">realclimate.org</a> keeps an up to date catalog of many different types of climate data
 * An <a href = "https://github.com/rundel/Dennys_LaQuinta_Chance" target = "_blank">analysis of Denny’s vs LaQuinta</a> restaurants
 * <a href = "https://github.com/swang87/atus" target = "_blank">American Time Use survey</a> 
 * <a href="https://github.com/hadley/fec-dplyr" target = "_blank">FEC contributions data</a> (as part of Hadley Wickham’s dplyr package)
@@ -89,9 +113,10 @@ And this: <a href = "https://www.storybench.org/how-to-explore-a-dataset-from-th
 * SF OKCupid Users Everett Wetchler wrote a python script back in the day to rip the public profiles of San Francisco OkCupid users.  He pulled one <a href="https://github.com/evee746/okcupid" target = "_blank">snapshot</a> (June 26, 2012) of all OkCupid users who lived within 25 miles of San Francisco along with other caveats. It might be of interest to students given the recent press that data-driven approaches to online dating have been getting, specifically the Wired article <a href="http://www.wired.com/wiredscience/2014/01/how-to-hack-okcupid/" target = "_blank">"How a Math Genius Hacked OkCupid to Find True Love"</a> and Amy Webb’s Ted Talk <a href="http://www.ted.com/talks/amy_webb_how_i_hacked_online_dating" target = "_blank">"How I hacked online dating"</a>.
 * This <a href = "http://www.lerner.ccf.org/qhs/datasets/" target = "_blank">growing dataset repository</a> presents raw data from real medical studies and offers (a) a vignette summarizing the study, research question and study design; (b) a data dictionary with clear documentation of variables and codes; (c) a complete citation for the associated study publication; and (d) a variety of data formats compatible with the majority of statistical packages. 
 * <a href = "https://www.causeweb.org/tshs/category/dataset/" target = "_blank">Clinical Trials datasets</a> from Teaching Statistics in the Health Sciences 
+<!-- 
 * <a href = "http://jse.amstat.org/" target = "_blank">Journal of Statistics and Data Science Education</a> (check the archive) – datasets contributed by statistics teachers. Raw data are given in a .dat file with explanations of the variables in an accompanying .doc file. 
+-->
 * <a href = "http://dasl.datadesk.com/" target = "_blank">DASL (Data and Story Library)</a> – a collection of datasets and related documentation which may be searched by data subjects or by statistical techniques
-* <a href = "https://github.com/caesar0301/awesome-public-datasets/blob/master/README.rst" target = "_blank">Awesome public datasets</a> 
 * <a href = "https://docs.google.com/document/d/1w7KhqotVi5eoKE3I_AZHbsxdr-NmcWsLTIiZrpxWx4w/pub" target = "_blank">Bessie Chu‘s compilation of datasets</a> 
 * <a href = "https://www.dataquest.io/blog/free-datasets-for-projects/" target = "_blank"> 21 Places to Find Free Datasets for Data Science Projects</a>
 * Lots of fun data from <a href = "https://www.openintro.org/data" target = "_blank">OpenIntro</a>
@@ -123,6 +148,6 @@ And this: <a href = "https://www.storybench.org/how-to-explore-a-dataset-from-th
 * Nathan Yau’s amazing visualizations: <a href = "http://flowingdata.com/" target = "_blank">FlowingData</a>, most of which include corresponding datasets.
 * Kerry Lock Morgan has posted a compilation<a href = "http://www.personal.psu.edu/klm47/visualization.htm" target = "_blank"> data visualizations</a>
 * Caitlin Hudon's GitHub site of <a href="https://github.com/caitlinhudon/data_viz_resources/blob/main/README.md" target="_blank">Data Viz Resources</a>
-* No data here, but I have to link to these <a href = "https://www.darkhorseanalytics.com/portfolio-data-looks-better-naked" target = "_blank">amazing gifs</a> which get cleaner as they go, byt Darkhorse Analytics.
+* No data here, but I have to link to these <a href = "https://www.darkhorseanalytics.com/portfolio-data-looks-better-naked" target = "_blank">amazing gifs</a> which get cleaner as they go, by Darkhorse Analytics.
 
 
