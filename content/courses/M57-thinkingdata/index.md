@@ -13,7 +13,7 @@ show_post_date: false
 ## The Course
 
 <figure>
-<img src="bakers_7.png" align="right">
+<img src="bakers_7_featured.png" align="right">
 <figcaption>Art by @allison_horst</figcaption>
 </figure>
 
