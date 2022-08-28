@@ -33,6 +33,6 @@ the goal of the course is for students to learn to critically evaluate numbers a
 
 ## Course website
 
-Thinking with Data was last taught in Fall 2022, materials can be found on the <a href = "https://m57-thinking-data.netlify.app/" target = "_blank">course website</a>.
+Thinking with Data was last taught in Fall 2022, materials can be found on the <a href = "https://m57-think-data.netlify.app/" target = "_blank">course website</a>.
 
 
