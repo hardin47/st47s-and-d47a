@@ -6,7 +6,7 @@ number_categories: 0 # set to zero to exclude
 use_featured: true
 show_intro: true
 intro: |
-   Current projects which keep me busy.
+   Current projects that keep me busy.
 outro: |
   <i class="fas fa-glass-cheers pr2"></i> Cheers!
 ---
