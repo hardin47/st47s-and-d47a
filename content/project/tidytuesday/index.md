@@ -14,8 +14,8 @@ links:
   url: https://hardin47.github.io/TidyTuesday/
 - icon: github
   icon_pack: fab
-  name: my source code -  https://github.com/hardin47/TidyTuesday
-  url: https://github.com/hardin47/TidyTuesday
+  name: my source code -  https://github.com/hardin47/TidyTuesday/tree/gh-pages
+  url: https://github.com/hardin47/TidyTuesday/tree/gh-pages
 - icon: github
   icon_pack: fab
   name: official TidyTuesday repo - https://github.com/rfordatascience/tidytuesday
@@ -43,7 +43,7 @@ If you are in Claremont, I hope you will join us; reach out to me for informatio
 * Official GitHub Repo for TidyTuesday: <a href = "https://github.com/rfordatascience/tidytuesday" target = "_blank">https://github.com/rfordatascience/tidytuesday</a>
 * The week’s data is posted each Tuesday on GitHub: <a href = "https://github.com/rfordatascience/tidytuesday/tree/master/data/2022" target = "_blank">https://github.com/rfordatascience/tidytuesday/tree/master/data/2022</a>
 * My TidyTuesday adventures
-  * GitHub repo:  <a href = "https://github.com/hardin47/TidyTuesday" target = "_blank">https://github.com/hardin47/TidyTuesday</a>
+  * GitHub repo:  <a href = "https://github.com/hardin47/TidyTuesday/tree/gh-pages" target = "_blank">https://github.com/hardin47/TidyTuesday/tree/gh-pages</a>
   * posts:  <a href = "https://hardin47.github.io/TidyTuesday/" target = "_blank">https://hardin47.github.io/TidyTuesday/</a>
   
 ## Novice
@@ -66,7 +66,7 @@ dataset_2 <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/
 
 * Getting started with R:  <a href = "https://education.rstudio.com/learn/" target = "_blank">https://education.rstudio.com/learn/</a> and <a href = "https://rstudio.cloud/learn/primers" target = "_blank">https://rstudio.cloud/learn/primers</a>
 
-* The **introverse** package is truly meant for beginners to the **tidyverse**.  <a href = "https://spielmanlab.github.io/introverse/" target = "_blank">https://spielmanlab.github.io/introverse/</a> 
+* The **introverse** package is truly meant for beginners to the **tidyverse**.  <a href = "https://sjspielman.github.io/introverse/index.html" target = "_blank">https://sjspielman.github.io/introverse/index.html</a> 
 
 * A fantastic <a href = "https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/" target = "_blank">**ggplot2** tutorial</a>
 
