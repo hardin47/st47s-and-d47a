@@ -32,7 +32,7 @@ type: research
 <ul>
  	<li>Ethan Ashby (2021): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/ethan_ashby_2021.pdf" target = "_blank">"Extracting hitherto unseen variant signals from the cancer genome using data de-sparsification strategies"</a>; Currently: PhD candidate, University of Washington, Biostatistics.</li>
  	<li>Annie Cohen (2021, Scripps): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/annie_cohen_2021.pdf" target = "_blank">"Investigating changes in the SEIRMD model applied to COVID-19"</a>; Currently: MS candidate, University of Michigan, Biostatistics.</li> 	
- 	<li>Emma Godfrey (2021): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/emma_godfrey_2021.pdf" target = "_blank">"Non-parametric Alternative Techniques for Propensity Score Estimation"</a>; Currently: Statistical Analyst, ZipRecruiter</li> 	
+ 	<li>Emma Godfrey (2021): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/emma_godfrey_draft3_2021.pdf" target = "_blank">"Non-parametric Alternative Techniques for Propensity Score Estimation"</a>; Currently: Statistical Analyst, ZipRecruiter</li> 	
  	<li>Nat Serrurier (2021, PPA Biology): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/nat_serrurier_2021.pdf" target = "_blank">"Palliative Care and Dementia: An Underutilized Method in the Fight Against a Health Crisis"</a>; .</li>
 </ul>
 <h4>2020:</h4>
