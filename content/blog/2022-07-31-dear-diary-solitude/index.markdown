@@ -46,7 +46,7 @@ I spent a few hours at the Benton collecting data on two of the current exhibits
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" width="960" />
 
-Each rectangle is a single piece.  The artistic medium that was used on the piece is written in each rectangle; the year of the piece is given by color shade.  The pieces are broken down into two additional categorizations:  first they are blocked into the four categories of my reaction to each one; second, they are grouped (solid blue lines) into pieces that share a coloring scheme.
+Each rectangle represents a single art piece; the size of the rectangle is based on the piece's actual size relative to a museum wall.  The artistic medium that was used on the piece is written in each rectangle; the year of the piece is given by color shade.  The pieces are broken down into two additional categorizations:  first they are blocked into the four categories of my reaction to each one; second, they are grouped (solid black lines) into pieces that share a coloring scheme. The data graphic uses a specific set of rules to draw rectangles which are proportional to the piece’s real life size while also arranging the pieces into creating color groups. You might notice that some of the categories are difficult to read, which is unfortunate, but true to the algorithm used to create the data visualization.
 
 One might notice that I don't really love older pieces.  
 

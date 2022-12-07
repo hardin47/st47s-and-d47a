@@ -92,7 +92,7 @@ type: research
 <strong>2011</strong>
 <ul>
  	<li>Karnovsky, N.J., *Brown, Z.W.,&nbsp;Welcker, J., Harding, A.M.A.,&nbsp;Walkusz, W.,&nbsp;Cavalcanti, A.,&nbsp;Hardin, J.,&nbsp;Kitaysky, A.,&nbsp;Gabrielsen, G.,&nbsp;Grémillet, D.&nbsp;<strong><a href="http://www.int-res.com/articles/meps_oa/m440p229.pdf" target = "_blank">Inter-colony comparison of diving behavior of an Arctic top predator: implications for warming in the Greenland Sea</a></strong>,&nbsp;<em>Marine Ecology Progress Series, 440:</em>&nbsp;229-240, 2011.&nbsp;&nbsp;DOI: 10.3354/meps0935.</li>
- 	<li>Grosfils, E.B., *Long, S.M., *Venechuk, E.M.,* Hurwitz, D.M., *Richards, J.W., *Kastl, Brian, *Drury, D.E., Hardin, J., 2011,&nbsp;<a href="http://astrogeology.usgs.gov/Projects/PlanetaryMapping/MapStatus/VenusStatus/V14.html target = "_blank""><strong>Geologic map of the&nbsp;Ganiki&nbsp;Planitia&nbsp;quadrangle (V-14), Venus: U.S. Geological Survey Scientific Investigations Map 3121</strong></a>.</li>
+ 	<li>Grosfils, E.B., *Long, S.M., *Venechuk, E.M.,* Hurwitz, D.M., *Richards, J.W., *Kastl, Brian, *Drury, D.E., Hardin, J., 2011,&nbsp;<a href="http://astrogeology.usgs.gov/Projects/PlanetaryMapping/MapStatus/VenusStatus/V14.html target = "_blank""><strong>Geologic map of the&nbsp;Ganiki&nbsp;Planitia&nbsp;quadrangle (V-14), Venus: U.S. Geological Survey Scientific Investigations Map 3121</strong></a>.Now available at USGS as an <a href= "https://usgs.maps.arcgis.com/apps/webappviewer/index.html?id=c14edac7e91b4fc5ade4042e3036ec58" target = "_blank">interactive map</a>.</li>
 </ul>
 <strong>2010</strong>
 <ul>

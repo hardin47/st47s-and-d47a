@@ -88,23 +88,26 @@ ggplot(art_data,
            #subgroup = people,
            subgroup = color)) + 
   geom_treemap() +
-  geom_treemap_text(fontface = "italic", colour = "black", place = "bottom",
+  geom_treemap_text(fontface = "italic", colour = "white", place = "bottom",
                     grow = FALSE, reflow = TRUE, min.size = 0) +
   #geom_treemap_subgroup_text(place = "centre", alpha = 0.5, 
   #                           colour = "black",
   #                           min.size = 0) +
-  geom_treemap_subgroup_border(color = "blue", size = 2, alpha = 1) +
+  geom_treemap_subgroup_border(color = "black", size = 7, alpha = 1) +
   geom_treemap_subgroup_text(place = "top", alpha = 0.5, 
-                             colour = "blue",  
+                             colour = "white",  
                              min.size = 0) + 
   #geom_treemap_subgroup_border(colour = "black", fill = "black", size = 5, alpha = 1) +
   facet_wrap(~jo) + 
-  scale_fill_brewer(palette = 2, direction = -1) +
+  scale_fill_manual(values = c("#F15754", "#50375E", "#002764", "#51AE44")) + 
   labs(title = "DearData Collection at the Benton Museum of Art",
-       subtitle = "Exhibits: Known & Understood and \nEach Day Begins with the Sun Rising")
+       subtitle = "Exhibits: Known & Understood and \nEach Day Begins with the Sun Rising") +
+  theme(plot.title = element_text(size = 40, face = "bold"),
+        plot.subtitle = element_text(size = 30),
+        strip.text.x = element_text(size = 40))
 ```
 
-Each rectangle is a single piece.  The artistic medium that was used on the piece is written in each rectangle; the year of the piece is given by color shade.  The pieces are broken down into two additional categorizations:  first they are blocked into the four categories of my reaction to each one; second, they are grouped (solid blue lines) into pieces that share a coloring scheme.
+Each rectangle represents a single art piece; the size of the rectangle is based on the piece's actual size relative to a museum wall.  The artistic medium that was used on the piece is written in each rectangle; the year of the piece is given by color shade.  The pieces are broken down into two additional categorizations:  first they are blocked into the four categories of my reaction to each one; second, they are grouped (solid black lines) into pieces that share a coloring scheme. The data graphic uses a specific set of rules to draw rectangles which are proportional to the piece’s real life size while also arranging the pieces into creating color groups. You might notice that some of the categories are difficult to read, which is unfortunate, but true to the algorithm used to create the data visualization.
 
 One might notice that I don't really love older pieces.  
 
