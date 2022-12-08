@@ -102,9 +102,9 @@ ggplot(art_data,
   scale_fill_manual(values = c("#F15754", "#50375E", "#002764", "#51AE44")) + 
   labs(title = "DearData Collection at the Benton Museum of Art",
        subtitle = "Exhibits: Known & Understood and \nEach Day Begins with the Sun Rising") +
-  theme(plot.title = element_text(size = 40, face = "bold"),
-        plot.subtitle = element_text(size = 30),
-        strip.text.x = element_text(size = 40))
+  theme(plot.title = element_text(size = 30, face = "bold"),
+        plot.subtitle = element_text(size = 20),
+        strip.text.x = element_text(size = 20))
 ```
 
 Each rectangle represents a single art piece; the size of the rectangle is based on the piece's actual size relative to a museum wall.  The artistic medium that was used on the piece is written in each rectangle; the year of the piece is given by color shade.  The pieces are broken down into two additional categorizations:  first they are blocked into the four categories of my reaction to each one; second, they are grouped (solid black lines) into pieces that share a coloring scheme. The data graphic uses a specific set of rules to draw rectangles which are proportional to the piece’s real life size while also arranging the pieces into creating color groups. You might notice that some of the categories are difficult to read, which is unfortunate, but true to the algorithm used to create the data visualization.
