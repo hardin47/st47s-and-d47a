@@ -24,6 +24,8 @@ type: research
     <div class="panel-name">Senior Thesis Projects</div>
 <h4>2022:</h4>
 <ul>
+ 	<li>Will Gray (2022): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/will_gray_2022.pdf" target = "_blank">"Detecting Rotation Periods of
+Near-Earth Asteroids: An investigation of Fourier Analysis and the Lomb-Scargle Periodogram"</a>; </li> 	
  	<li>Lauren Quesada (2022): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/lauren_quesada_2022.pdf" target = "_blank">"Permutation Tests: A Deep Dive into Applications in Multiple Linear Regression"</a>; Currently: PhD candidate, Colorado State University, Statistics.</li> 	
  	<li>Moe Sunami (2022): "Conformal Prediction Intervals"</a>; Currently: Watershed</li> 	
  	<li>Nick Waalkes (2022): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/nick_waalkes_draft4_2022.pdf" target = "_blank">"Simulation and Application Study of Online False Discovery Control Methods"</a>; Currently: Analyst, Ridgepeak Partners.</li>
