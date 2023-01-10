@@ -1,7 +1,7 @@
 ---
 title: "Math 152: Statistical Theory"
 slug: math152
-weight: 7
+weight: 6
 subtitle: ""
 excerpt: "Statistical Theory is the course where the Introductory Statistics concepts are developed using first principles, probability theory, calculus, and linear algebra. Optimality of procedures is derived and discussed:  which measure of 'best' should be used to evaluate a method?"
 date: ""

@@ -1,6 +1,6 @@
 ---
 title: "ID1: Statistics in the World"
-weight: 5
+weight: 4
 slug: id1
 excerpt: "The main idea behind this course is to get the participants (that’s you) to leave in December questioning every number you come across: in the media, at sporting events, when researching for another class, when carrying out your own research, etc."
 subtitle: "Headline: 'Company Charged with Gender Bias in Hiring.' Is the company biased?  How can we tell?  What do we measure?  The research supporting the headline is probably less definitive than you’d expect.  In this course, we will investigate the practical, ethical, and philosophical issues raised by the use of statistics and algorithmic thinking in realms such as medicine, sports, the law, genetics, and economics.  We will explore issues from the mainstream media (newspapers, webpages, TV) as well as scientific articles in peer-reviewed journals.  To do all of this, we will consider a wide range of statistical topics as well as encountering a range of uses and abuses of statistics in the world today."
@@ -35,21 +35,7 @@ By the end of the semester, students will be able to:
 
 ## Course website
 
-The main course website is at [9 out of 10 seniors recommend this first year seminar](https://id1-stats-world.netlify.app/).  You will find:
+Statistics in the World was last taught in Fall 2021, materials can be found on the <a href = "https://id1-stats-world.netlify.app/" target = "_blank">course website</a>.
 
-* syllabus
-* class notes
-* schedule
-* assignments and due dates
-* resources
-
-
-## Sakai
-
-We will also use the Sakai course management system.  Sakai will be used for materials which are not publicly available.  This includes:
-
-* your current grades
-* submitting papers / other assignments
-* chat forums
 
 

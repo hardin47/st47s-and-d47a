@@ -1,7 +1,7 @@
 ---
 title: "Math 58B: Introduction to Biostatistics"
 slug: math58B
-weight: 3
+weight: 8
 subtitle: ""
 excerpt: "Introduction to Biostatistics is a first course in statistics focused on topics and data found in the life sciences.  No biological background is needed, but interest in the life sciences is important."
 date: ""
@@ -43,6 +43,6 @@ Describe the optimization procedure the leads to a least squares fit (although n
 
 ## Course website
 
-Introduction to Biostatistics was last taught in Spring 2022, materials can be found on the <a href = "https://m58-intro-stats.netlify.app/" target = "_blank">course website</a>.
+Introduction to Biostatistics was last taught in Spring 2023, materials can be found on the <a href = "https://m58-intro-stats.netlify.app/" target = "_blank">course website</a>.
 
 

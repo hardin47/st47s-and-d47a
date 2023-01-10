@@ -1,7 +1,7 @@
 ---
 title: "Math 158: Linear Models"
 slug: math158
-weight: 1
+weight: 2
 subtitle: ""
 excerpt: "Linear models is a second course in statistics which extends a basic statistical linear model in many ways. The mathematics in the course moves quickly, and there will also be extended focus on good modeling practices and interpretation."
 date: ""

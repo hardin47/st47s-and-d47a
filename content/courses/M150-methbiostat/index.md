@@ -1,7 +1,7 @@
 ---
 title: "Math 150: Methods in Biostatistics"
 slug: math150
-weight: 3
+weight: 9
 subtitle: ""
 excerpt: "Methods in Biostatistics is a second course in statistics focused on topics and data found in the life sciences.  No biology background is needed, but interest in the life sciences is important."
 date: ""
@@ -35,5 +35,5 @@ By the end of the semester, students will be able to:
 
 ## Course website
 
-Methods in Biostatistics was last taught in Spring 2021, materials can be found on the <a href = "https://research.pomona.edu/johardin/math150s21/" target = "_blank">course website</a>.
+Methods in Biostatistics was last taught in Spring 2023, materials can be found on the <a href = "https://m150-method-biostat.netlify.app/" target = "_blank">course website</a>.
 

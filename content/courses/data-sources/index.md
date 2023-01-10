@@ -1,6 +1,6 @@
 ---
 title: "Data Sources"
-weight: 6
+weight: 7
 slug: data
 excerpt: "A compilation of many different types of data sources."
 date: ""
