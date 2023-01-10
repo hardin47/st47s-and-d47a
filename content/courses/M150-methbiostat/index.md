@@ -6,7 +6,7 @@ subtitle: ""
 excerpt: "Methods in Biostatistics is a second course in statistics focused on topics and data found in the life sciences.  No biology background is needed, but interest in the life sciences is important."
 date: ""
 draft: false
-featured: false
+featured: true
 show_post_date: false
 ---
 

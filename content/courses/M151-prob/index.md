@@ -1,6 +1,6 @@
 ---
 title: "Math 151: Probability Theory"
-slug: math152
+slug: math151
 weight: 1
 subtitle: ""
 excerpt: "Math 151 is an introduction to probability for students with a calculus background and no prerequisites of probability or statistics. Though the course will be focused on the theoretical aspects of the material, there will be some real world applications in class and in the homework assignments. The idea is to have a strong mathematical understanding of the concepts while also understanding how the concepts are applied in the real world."
