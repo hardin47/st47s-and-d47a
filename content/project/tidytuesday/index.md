@@ -49,6 +49,7 @@ If you are in Claremont, I hope you will join us; reach out to me for informatio
 ## Novice
 
 * Log in to <a href = "https://rstudio.cloud/" target = "_blank">https://rstudio.cloud/</a> (if you are a Pomona student, use your abc0123@mymail email address to connect on the cloud with slightly higher bandwith / support).  
+* If you go to Pomona College, log in to Pomona's RStudio server at <a href = "https://rstudio.pomona.edu/" target = "_blank">https://rstudio.pomona.edu/</a>
 * Or download R and RStudio (both free) onto your own computer.  R is available at <a href="http://www.r-project.org/" target="_blank">http://www.r-project.org/</a>. Additionally, install RStudio in order to use RMarkdown, <a href="http://rstudio.org/" target="_blank">http://rstudio.org/</a>.  
 
 To load the data in, create an R chunk and copy in the lines of code which are just below the phrase: `# Or read in the data manually` on the `tidytuesday` GitHub site for the particular day of interest.  It will look something like this:
