@@ -22,8 +22,8 @@ links:
   url: https://github.com/rfordatascience/tidytuesday
 - icon: twitter
   icon_pack: fab
-  name: search "#TidyTuesday" on twitter for really fantastic ideas!
-  url: https://twitter.com/
+  name: search "#TidyTuesday" on mastodon for really fantastic ideas!
+  url: https://fosstodon.org/tags/tidytuesday
 ---
 
 <figure>
