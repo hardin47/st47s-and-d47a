@@ -17,7 +17,8 @@ type: research
 <div style="text-align: start;"><strong><strong>(links&nbsp;to preprints, arXiv, or journal website)</strong></strong></div>
 <p>* Indicates work done as an undergraduate student.</p>
 
-
+<strong>2023</strong>
+<ul>
  	<li><i class="fas fa-chart-line"></i> *Adams, J., *Hoang, J., *Petroni, E., *Ashby, E., Hardin, J., Stoebel, D. <a href = "https://www.biorxiv.org/content/10.1101/2023.02.17.528066v1" target = "_blank"><strong>The timing of transcription of RpoS-dependent genes varies across multiple stresses</strong></a>, submitted, 2022.</li>
  	<li><i class="fas fa-chart-line"></i> *Ashby, E., *Paddock, L., *Rollosson, L., *Tang, E., *Miller, G., *Wade, S., *Betts, H., *Porter, A., *Saada, C., Hardin, J., Schulz, D. <a href = "https://www.biorxiv.org/content/10.1101/2022.01.11.475927v1" target = "_blank"><strong>Genomic occupancy of the bromodomain protein Bdf3 is dynamic during differentiation of African trypanosomes from bloodstream to procyclic forms</strong></a>, accepted, 2022.</li>
  	<li><i class="fas fa-equals"></i> Hardin, J., Shahriari, S. <a href = "https://www.tandfonline.com/doi/full/10.1080/10511970.2022.2082611"" target = "_blank"><strong>Community, Collaboration, and Climate</strong></a>, <em>PRIMUS: Problems, Resources, and Issues in Mathematics Undergraduate Studies</em>, in press, 2022.</li>
