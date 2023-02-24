@@ -19,9 +19,10 @@ type: research
 
 <strong>2023</strong>
 <ul>
- 	<li><i class="fas fa-chart-line"></i> *Adams, J., *Hoang, J., *Petroni, E., *Ashby, E., Hardin, J., Stoebel, D. <a href = "https://www.biorxiv.org/content/10.1101/2023.02.17.528066v1" target = "_blank"><strong>The timing of transcription of RpoS-dependent genes varies across multiple stresses</strong></a>, submitted, 2022.</li>
- 	<li><i class="fas fa-chart-line"></i> *Ashby, E., *Paddock, L., *Rollosson, L., *Tang, E., *Miller, G., *Wade, S., *Betts, H., *Porter, A., *Saada, C., Hardin, J., Schulz, D. <a href = "https://www.biorxiv.org/content/10.1101/2022.01.11.475927v1" target = "_blank"><strong>Genomic occupancy of the bromodomain protein Bdf3 is dynamic during differentiation of African trypanosomes from bloodstream to procyclic forms</strong></a>, accepted, 2022.</li>
- 	<li><i class="fas fa-equals"></i> Hardin, J., Shahriari, S. <a href = "https://www.tandfonline.com/doi/full/10.1080/10511970.2022.2082611"" target = "_blank"><strong>Community, Collaboration, and Climate</strong></a>, <em>PRIMUS: Problems, Resources, and Issues in Mathematics Undergraduate Studies</em>, in press, 2022.</li>
+  <li><i class="fas fa-chart-line"></i>*Ashby, E., Havens, J., Hardin, J., Schulz, D. <a href = "" target = "_blank"><strong>Chemical inhibition of bromodomain proteins in insect stage African trypanosomes perturbs silencing of the Variant Surface Glycoprotein repertoire and results in widespread changes in the transcriptome</strong></a>, submitted, 2023.</li>
+ 	<li><i class="fas fa-chart-line"></i> *Adams, J., *Hoang, J., *Petroni, E., *Ashby, E., Hardin, J., Stoebel, D. <a href = "https://www.biorxiv.org/content/10.1101/2023.02.17.528066v1" target = "_blank"><strong>The timing of transcription of RpoS-dependent genes varies across multiple stresses</strong></a>, submitted, 2023.</li>
+ 	<li><i class="fas fa-chart-line"></i> *Ashby, E., *Paddock, L., *Rollosson, L., *Tang, E., *Miller, G., *Wade, S., *Betts, H., *Porter, A., *Saada, C., Hardin, J., Schulz, D. <a href = "https://www.biorxiv.org/content/10.1101/2022.01.11.475927v1" target = "_blank"><strong>Genomic occupancy of the bromodomain protein Bdf3 is dynamic during differentiation of African trypanosomes from bloodstream to procyclic forms</strong></a>, accepted, 2023.</li>
+ 	<li><i class="fas fa-equals"></i> Hardin, J., Shahriari, S. <a href = "https://www.tandfonline.com/doi/full/10.1080/10511970.2022.2082611"" target = "_blank"><strong>Community, Collaboration, and Climate</strong></a>, <em>PRIMUS: Problems, Resources, and Issues in Mathematics Undergraduate Studies</em>, in press, 2023.</li>
 </ul>
 
 <strong>2022</strong>
