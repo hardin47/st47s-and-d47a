@@ -19,6 +19,7 @@ type: research
 
 <strong>2023</strong>
 <ul>
+  <li>*Cruz, M., *Wei, A., Hardin, J., Radunskaya, A. <a href = "https://arxiv.org/abs/2206.03849" target = "_blank"><strong>Long-term Averages of the Stochastic Logistic Map</strong></a>, submitted, 2023.</li>
  	<li><i class="fas fa-chart-line"></i> *Adams, J., *Hoang, J., *Petroni, E., *Ashby, E., Hardin, J., Stoebel, D. <a href = "https://www.biorxiv.org/content/10.1101/2023.02.17.528066v1" target = "_blank"><strong>The timing of transcription of RpoS-dependent genes varies across multiple stresses</strong></a>, submitted, 2023.</li>
   <li><i class="fas fa-chart-line"></i>*Ashby, E., *Havens, J., Hardin, J., Schulz, D. <a href = "https://www.biorxiv.org/content/10.1101/2023.01.09.523188v1" target = "_blank"><strong>Chemical inhibition of bromodomain proteins in insect stage African trypanosomes perturbs silencing of the Variant Surface Glycoprotein repertoire and results in widespread changes in the transcriptome</strong></a>, <em>Microbiology Spectrum</em>, accepted, 2023.</li>
  	<li><i class="fas fa-equals"></i> Hardin, J., Shahriari, S. <a href = "https://doi.org/10.1080/10511970.2022.2082611" target = "_blank"><strong>Community, Collaboration, and Climate</strong></a>, <em>PRIMUS: Problems, Resources, and Issues in Mathematics Undergraduate Studies, 33</em>(5), 2023.</li>
