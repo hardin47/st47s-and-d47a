@@ -80,6 +80,7 @@ Near-Earth Asteroids: An investigation of Fourier Analysis and the Lomb-Scargle 
  	<li>Jacob Fiksel (2015): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/JacobFiksel15.pdf" target = "_blank">"Differential Gene Expression Analysis with Microarray and RNA-seq Data"</a>; Ph.D. 2020, Johns Hopkins Bloomberg School of Public Health, Biostatistics;  Currently: Senior Preclinical Research Statistician, Vertex Pharmaceuticals.</li>
 </ul>
 <p style="padding-left: 60px"><a href="https://jfiksel.github.io/" target = "_blank">Jacob's blog</a> (about grad school and data science, among other things)</p>
+<p style="padding-left: 60px"><a href="https://www.buzzsprout.com/2125627/12447066" target = "_blank">Interview of Jacob</a> as part of the The Johns Hopkins #100 Alumni Voices Project</p>
 
 <ul>
  	<li>Chris Garnatz (2015): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/ChrisGarnatz15.pdf" target = "_blank">"Trusting the Black Box: Confidence with Bag of Little Bootstraps"</a>; Currently: Data Architect, Spring.</li>
