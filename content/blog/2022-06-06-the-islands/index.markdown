@@ -37,24 +37,24 @@ You will be **amazed** at the sophistication of the virtual world contained on T
 
 * Michael Bulmer created The Islands and describes them on causeweb.org, <a href="https://www.causeweb.org/cause/resources/library/r12661" target = "_blank">The Islands -- Learning about Experiment Design on a Virtual Population</a> as well as through the <a href = "https://sites.google.com/site/islandsinschoolsprojectwebsite/home" target = "_blank">Islands in Schools Project</a>.
 * Michael Bulmer and Kimberly Haladyn (from the University of Queensland, Australia) first published their work creating the virtual world in TISE, <a href = "https://escholarship.org/uc/item/2q0740hv" target = "_blank">Life on an Island: a Simulated Population to Support Student Projects in Statistics</a>.  
-* Causeweb.org has hosts multiple past webinars describing different educators use of The Islands in their own classrooms.  Ann Brearley and Laura Le from the University of Minnesota spoke at USCOTS 2017 <a href = "https://www.causeweb.org/cause/uscots/uscots17/breakout/1G" target = "_blank">1G: Life on an Island: Using a Virtual World to Make Statistics Real<a>; Ryne VanKrevelen, Lisa Rosenberg, and Laura Taylor from Elon University gave a webinar in 2018 <a href = "https://www.causeweb.org/cause/webinar/teaching/2018-08" target = "_blank">Introductory Statistics Projects Using 'The Islands' Virtual World Versus Student-Collected Data</a>.
+* Causeweb.org has hosts multiple past webinars describing different educators use of The Islands in their own classrooms.  Ann Brearley and Laura Le from the University of Minnesota spoke at USCOTS 2017 <a href = "https://www.causeweb.org/cause/uscots/uscots17/breakout/1G" target = "_blank">1G: Life on an Island: Using a Virtual World to Make Statistics Real</a>; Ryne VanKrevelen, Lisa Rosenberg, and Laura Taylor from Elon University gave a webinar in 2018 <a href = "https://www.causeweb.org/cause/webinar/teaching/2018-08" target = "_blank">Introductory Statistics Projects Using 'The Islands' Virtual World Versus Student-Collected Data</a>.
 
 
 
 ## Introductory Statistics Project
 
 For the last few years, I've used The Islands as a way to tie together many of the topics I cover in my introductory statistics course at Pomona College.
-I start the project early in the semester (the first exploration is done before spring break, and the pilot study is due a week after).^[The details of each assignment as well as their due dates can be found at: https://m58-intro-stats.netlify.app/project.html.]
+I start the project early in the semester (the first exploration is done before spring break, and the pilot study is due a week after).^[The details of each assignment as well as their due dates can be found at: <a href = "https://m58-intro-stats.netlify.app/project.html" target = "_blank">https://m58-intro-stats.netlify.app/project.html</a>.]
 When we start, there is still a lot of material left to cover, so in some ways the students are in the dark.
 One of the requirements is that they must choose a continuous response variable;
 they also need a few explanatory variables (some numeric, some categorical) and a treatment variable of interest.
 The treatment doesn't have to be randomly assigned (the study could be observational), but almost every group uses a randomly assigned treatment variable in order to be able to assess causation at the end.
 
 Among the very cool things on The Islands (really, go check it out yourself, there are way too many things to tell you about) is the Academy which includes journal articles describing studies that have taken place on The Islands in the last few years.  
-One of my students published their analysis in the <a href = "" target = "_blank">Journal of XXX</a>, and I've made a copy of the article accessible.
+<!---One of my students published their analysis in the <a href = "" target = "_blank">Journal of XXX</a>, and I've made a copy of the article accessible.
 (You have to login to The Islands to see the full suite of literature in the Academy.)
 In Leu et al. you can see the framework of the assignment, and a completed write-up.
-
+--->
 
 In what remains, I'll describe some of the unique aspects of the project.
 Additionally, from both my perspective as well as from my students' perspectives, I provide some of the feedback on successes and challenges of the project.
@@ -207,6 +207,7 @@ Regardless, working on one report that is reproducible allowed students to bring
 ### Ethical considerations
 
 While the context, people, and data are all completely fabricated, there is still room to bring ethical considerations into the project.  
+
 The University of Arizona Native Nations Institute has created a policy brief on <a href = "https://static1.squarespace.com/static/5d2633cb0ef5e4000134fa02/t/5d72cb394452727586b69c2e/1567804217938/policy_brief_indigenous_data_sovereignty_in_the_united_states.pdf" target = "_blank">Indigenous Data Sovereignty in the United States</a>.
 More materials can be found at <a href = "https://usindigenousdata.org/" target = "_blank">US Indigenous Data Sovereignty Network</a>.
 
@@ -251,12 +252,12 @@ pilot_data %>%
 ##   treatment                 gender mean_age sd_age
 ##   <chr>                     <chr>     <dbl>  <dbl>
 ## 1 Control                   Female     34.6   22.8
-## 2 Control                   male       50.5   27.6
-## 3 Control                   Male       42.7   33.2
-## 4 Psilocybin Mushrooms 10 g female     77     NA  
-## 5 Psilocybin Mushrooms 10 g Female     62.5   43.8
-## 6 Psilocybin Mushrooms 10 g male       63     NA  
-## 7 Psilocybin Mushrooms 10 g Male       47.5   25.7
+## 2 Control                   Male       42.7   33.2
+## 3 Control                   male       50.5   27.6
+## 4 Psilocybin Mushrooms 10 g Female     62.5   43.8
+## 5 Psilocybin Mushrooms 10 g Male       47.5   25.7
+## 6 Psilocybin Mushrooms 10 g female     77     NA  
+## 7 Psilocybin Mushrooms 10 g male       63     NA
 ```
 
 
@@ -272,7 +273,7 @@ Of course, there is always room for improvement in all the things we do.
 #### positive
 
 * there are so many cool options for what to study in the Islands.
-* they like the idea of humans but **not** actually humans (freeing from the existing literature).
+* like the idea of humans but **not** actually humans (freeing from the existing literature).
 * it was fun to make the islanders do unethical activities.
 * the project encouraged a mindset of curiosity and exploration.
 * next time, they would collect more demographic or related variables.
@@ -295,11 +296,11 @@ Of course, there is always room for improvement in all the things we do.
 
 #### positive
 
-* students were able to reflect on needing bigger sample sizes (although for most of the non-sig studies, `\(H_0\)` was probably true, making sample size almost a moot point) 
+* students were able to reflect on needing bigger sample sizes (although for most of the non-significant studies, `\(H_0\)` was probably true, making sample size almost a moot point) 
 * in-class presentations, the other students asked great questions about the experimental design or other nuances of the study. 
 * across the groups, there was an investigation of many different sampling types.
     - systematic sampling by looking at every 4th house
-    - random sampling by collecting all students on island in high school
+    - cluster sampling by collecting all students on a particular island in a particular high school
     - multi-stage sampling (systematically choosing a house and randomly choosing a person in a house)
 * students reflected on whether the variables were realistic, e.g., the number of times a ball could be bounced in a minute seemed to be about half of what would be realistic for human students with a basketball.  
 * the project reinforced working with R to code, make graphs, and present work in a reproducible format. 
@@ -315,7 +316,7 @@ Of course, there is always room for improvement in all the things we do.
 * almost all the project results are not significant.
 * there is a tendency to do a paired analysis (before and after).
 * the power analysis above uses a Z score, but the analysis uses a t-test (which can be confusing for students who are only just being introduced to the topics).
-* the tools have not yet existed to synchronously do group work in a shared Rmd file.  hopefully this is changing with <a href = "https://www.rstudio.com/blog/real-time-collaborative-editing-on-rstudio-cloud/" target = "_blank">new tools from RStudio</a>.
+* the tools do not yet exist to synchronously do group work in a shared Rmd file.  hopefully this is changing with <a href = "https://www.rstudio.com/blog/real-time-collaborative-editing-on-rstudio-cloud/" target = "_blank">new tools from RStudio</a>.
 
 
 

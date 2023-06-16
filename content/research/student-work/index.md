@@ -36,14 +36,14 @@ type: research
  	<li>Will Gray (2022): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/will_gray_2022.pdf" target = "_blank">"Detecting Rotation Periods of
 Near-Earth Asteroids: An investigation of Fourier Analysis and the Lomb-Scargle Periodogram"</a>; </li> 	
  	<li>Lauren Quesada (2022): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/lauren_quesada_2022.pdf" target = "_blank">"Permutation Tests: A Deep Dive into Applications in Multiple Linear Regression"</a>; Currently: PhD candidate, Colorado State University, Statistics.</li> 	
- 	<li>Moe Sunami (2022): "Conformal Prediction Intervals"</a>; Currently: Watershed</li> 	
+ 	<li>Moe Sunami (2022): "Conformal Prediction Intervals"</a>; Currently: Carbon Data Analyst, Watershed</li> 	
  	<li>Nick Waalkes (2022): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/nick_waalkes_draft4_2022.pdf" target = "_blank">"Simulation and Application Study of Online False Discovery Control Methods"</a>; Currently: Analyst, Ridgepeak Partners.</li>
 </ul>
 
 <h4>2021:</h4>
 <ul>
  	<li>Ethan Ashby (2021): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/ethan_ashby_2021.pdf" target = "_blank">"Extracting hitherto unseen variant signals from the cancer genome using data de-sparsification strategies"</a>; Currently: PhD candidate, University of Washington, Biostatistics.</li>
- 	<li>Annie Cohen (2021, Scripps): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/annie_cohen_2021.pdf" target = "_blank">"Investigating changes in the SEIRMD model applied to COVID-19"</a>; Currently: MS candidate, University of Michigan, Biostatistics.</li> 	
+ 	<li>Annie Cohen (2021, Scripps): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/annie_cohen_2021.pdf" target = "_blank">"Investigating changes in the SEIRMD model applied to COVID-19"</a>; Currently: PhD candidate, University of Michigan, Biostatistics.</li> 	
  	<li>Emma Godfrey (2021): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/emma_godfrey_draft3_2021.pdf" target = "_blank">"Non-parametric Alternative Techniques for Propensity Score Estimation"</a>; Currently: Statistical Analyst, ZipRecruiter</li> 	
  	<li>Nat Serrurier (2021, PPA Biology): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/nat_serrurier_2021.pdf" target = "_blank">"Palliative Care and Dementia: An Underutilized Method in the Fight Against a Health Crisis"</a>; .</li>
 </ul>
