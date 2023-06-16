@@ -44,11 +44,13 @@ You will be **amazed** at the sophistication of the virtual world contained on T
 ## Introductory Statistics Project
 
 For the last few years, I've used The Islands as a way to tie together many of the topics I cover in my introductory statistics course at Pomona College.
-I start the project early in the semester (the first exploration is done before spring break, and the pilot study is due a week after).^[The details of each assignment as well as their due dates can be found at: <a href = "https://m58-intro-stats.netlify.app/project.html" target = "_blank">https://m58-intro-stats.netlify.app/project.html</a>.]
+I start the project early in the semester (the first exploration is done before spring break, and the pilot study is due a week after).[^1]
 When we start, there is still a lot of material left to cover, so in some ways the students are in the dark.
 One of the requirements is that they must choose a continuous response variable;
 they also need a few explanatory variables (some numeric, some categorical) and a treatment variable of interest.
 The treatment doesn't have to be randomly assigned (the study could be observational), but almost every group uses a randomly assigned treatment variable in order to be able to assess causation at the end.
+
+[^1]: The details of each assignment as well as their due dates can be found at: <a href = "https://m58-intro-stats.netlify.app/project.html" target = "_blank">https://m58-intro-stats.netlify.app/project.html</a>.
 
 Among the very cool things on The Islands (really, go check it out yourself, there are way too many things to tell you about) is the Academy which includes journal articles describing studies that have taken place on The Islands in the last few years.  
 <!---One of my students published their analysis in the <a href = "" target = "_blank">Journal of XXX</a>, and I've made a copy of the article accessible.
