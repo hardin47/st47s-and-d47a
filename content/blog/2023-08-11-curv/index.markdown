@@ -152,8 +152,18 @@ knitr::include_graphics("maria_abstract.png")
 
 # CURV in the classroom
 
+While you surely have creative ideas on how to use CURV in the classroom, I have mostly used it as a "statistician of the day" project.  Once a week (or at every class period), I briefly introduce the scholar and present the different ways they have contributed to the field.  My students have been extremely positive about the engagement reporting the following about being introduced to the scholars in the CURV database.
+
+* inspiring
+* a great way to better understand the career paths of data science
+* a venue for having important conversations with peers
+* highlighted diversity in the field of statistics
+* made the classroom environment feel more inclusive
+
 
 # Contributing to CURV
+
+Please contribute!!!  Share information about the scholars you know who are aligned with the CURV goals.  If you just have a name or idea, feel free to submit an issue on the <a href = "https://github.com/hardin47/CURV/" target = "_blank">CURV GitHub repo</a>  If you have a lot of information about a particular individual, I welcome pull requests.  Thank you for helping the resource become a community efrort.
 
 # CURV aligned
 

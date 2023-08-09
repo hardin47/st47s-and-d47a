@@ -13,7 +13,7 @@ layout: single-sidebar
 
 In particular, one of the major goals of the database is to lower the barrier to presenting examples of all types of scholars to our students. You might use the database with a “Statistician of the Day” activity. Or you might have students bring into the classroom one idea connecting a scholar to the class content.
 
-See the <a href = "" target = "_blank">CURV blog entry</a> for motivation and use in the classroom.
+See the <a href = "https://hardin47.netlify.app/blog/curv/" target = "_blank">CURV blog entry</a> for motivation and use in the classroom.
 
 #### Contribute? Yes, please!
 
