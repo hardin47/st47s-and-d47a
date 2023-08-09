@@ -6,7 +6,7 @@ slug: solitude
 featured: true
 categories: []
 tags: []
-summary: 'Contribution to "Solitude", a project to display part of the permanent collection of the Benton Art Museum at Pomona College.'
+summary: 'Contribution to "In Here: Solitude", a project to display part of the permanent collection of the Benton Art Museum at Pomona College.'
 ---
 
 
@@ -22,7 +22,7 @@ library(treemapify)
 In Spring / Summer 2022, the <a href = "https://www.pomona.edu/museum/" target = "_blank">Benton Museum of Art</a> at <a href = "https://www.pomona.edu/" target = "_blank">Pomona College</a> set out to create a unique way to display the permanent collection.  
 
 
-> **In Here: Solitude through the Benton Museum of Art at Pomona College** is an interdisciplinary creative project, culminating in a book that showcases the imagination and talents of the Pomona College community. Structured as an encyclopedia/abecedarium, the collection consists of meditations on the concept of solitude, all based in the art collection of the College and written by students, faculty, administrators, and museum staff and interns. Fresh, synthetic, and provocative, In Here is a thoughtful reflection through art on the past few years and an exploration of an ancient topic recast in contemporary terms.
+> **<a href = "https://www.pomona.edu/museum/about/publications/here-conversations-solitude" target = "_blank">In Here: Solitude</a> through the Benton Museum of Art at Pomona College** is an interdisciplinary creative project, culminating in a book that showcases the imagination and talents of the Pomona College community. Structured as an encyclopedia/abecedarium, the collection consists of meditations on the concept of solitude, all based in the art collection of the College and written by students, faculty, administrators, and museum staff and interns. Fresh, synthetic, and provocative, In Here is a thoughtful reflection through art on the past few years and an exploration of an ancient topic recast in contemporary terms.
 
 I was asked to participate by creating an entry which focuses on something that I do in solitude.  I chose data collection / data analysis, i.e., **data**.  The presentation of the collection and analysis is inspired by a project and book called <a href = "http://www.dear-data.com/theproject" target = "_blank"><bf>Dear Data</bf></a> by Giorgia Lupi and Stefanie Posavec.  
 

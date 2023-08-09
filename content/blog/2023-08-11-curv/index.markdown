@@ -9,14 +9,7 @@ tags: []
 summary: 'Contribution to "Solitude", a project to display part of the permanent collection of the Benton Art Museum at Pomona College.'
 ---
 
-```{r}
-#| echo: FALSE
-#| eval: FALSE
-#| include: FALSE
 
-from the console
-> blogdown::new_post("2023-08-11-CURV")
-```
 
 
 blog entry about the CURV database
