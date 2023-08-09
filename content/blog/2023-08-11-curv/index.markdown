@@ -12,5 +12,7 @@ summary: 'CURV is a database which seeks to celebrate scholars who are tradition
 
 
 
-blog entry about the CURV database
+# Representation Matters
+
+
 
