@@ -6,7 +6,7 @@ slug: curv
 featured: true
 categories: []
 tags: []
-summary: 'Contribution to "Solitude", a project to display part of the permanent collection of the Benton Art Museum at Pomona College.'
+summary: 'CURV is a database which seeks to celebrate scholars who are traditionally under represented in statistics and data science. The scholars represent the diversity of undergraduate students; they are individuals who are working to make statistics more accessible; and their works leads to making the world a better place.'
 ---
 
 
