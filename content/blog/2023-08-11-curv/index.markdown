@@ -12,6 +12,10 @@ summary: 'CURV is a database which seeks to celebrate scholars who are tradition
 
 
 
+In most of my courses, I've introduced a weekly activity of "Statistician of the Day."  The scholars who I present are those traditionally underrepresented in statistics and data science.  Many of them are people of color, but they also represent individuals who are pushing boundaries to make statistics and data science more accessible and inclusive, often because they themselves have navigated a world which was not accessible or not inclusive.
+
+The database is called <a href = "https://hardin47.github.io/CURV/" target = "_blank">CURV - connecting, uplifting, and recognizing voices</a>.  You can see the source code and/or contribute to the database by exploring the <a href = "https://github.com/hardin47/CURV/" target = "_blank">CURV GitHub repo</a>.
+
 # Representation Matters
 
 When I think about the statisticians I encountered during my education, these four on my <a href = "https://www.etsy.com/shop/NausicaaDistribution" target = "_blank">coaster set</a> come to mind.
