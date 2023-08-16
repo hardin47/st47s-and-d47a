@@ -16,20 +16,10 @@ summary: 'CURV is a database which seeks to celebrate scholars who are tradition
 
 When I think about the statisticians I encountered during my education, these four on my <a href = "https://www.etsy.com/shop/NausicaaDistribution" target = "_blank">coaster set</a> come to mind.
 
-
-```r
-knitr::include_graphics("coasters.jpg")
-```
-
 <img src="coasters.jpg" alt="A set of four coasters including Gosset, Pearson, Bayes, and Fisher" width="639" />
 
 
 My coasters aside, a Google search on "famous statisticians" produces a few women on the list, but the demographics of the individuals presented are remarkably homogeneous.
-
-
-```r
-knitr::include_graphics("google.png")
-```
 
 <img src="google.png" alt="In a Google search for famous statisticians, the individuals listed include Tukey, Nightingale, Fisher, Cox, Pearson, Box, Bayes, Deming, and Gosset." width="562" />
 
@@ -54,11 +44,6 @@ Interview with David Blackwell can be found at<a href="https://www.youtube.com/w
 ### Why does representation matter?
 
 When individuals don't feel a part of the community, their identity gets mixed up with their ability.  The following xkcd commit encapsulates what can happen when individuals of the non-dominant demographic group engage with the content of the course / curriculum / minor / major.
-
-
-```r
-knitr::include_graphics("xkcd.png")
-```
 
 <div class="figure">
 <img src="xkcd.png" alt="In the first panel, a stick figure makes a mathematical mistake, and the other stick figure says &quot;you are bad at math&quot;.  In the second panel, a stick figure with long hair (presumably a female stick figure) makes the same mistake, and the other stick figure says &quot;girls are bad at math.&quot;" width="205" />
@@ -103,21 +88,11 @@ After presenting Liz Hare and her work to my students, I am able to teach them h
 In R, including alt text is done by providing information for the relevant R chunk.  After introducing students to Liz Hare's work, it takes very little overhead to communicate to them the ways that a graphic can be made more accessible by adding alt text to each figure.
 
 
-
-```r
-knitr::include_graphics("r_code.png")
-```
-
 <div class="figure">
 <img src="r_code.png" alt="To include alt text in Rmarkdown or Quarto files, the alt text information is given in the arguments of the R chunk." width="751" />
 <p class="caption"><span id="fig:unnamed-chunk-5"></span>Figure 2: R code for Ibo tweets in TidyTuesday analysis.</p>
 </div>
 
-
-
-```r
-knitr::include_graphics("captions.png")
-```
 
 <div class="figure">
 <img src="captions.png" alt="The figure contains information on how to communicate information about a graphic through alt text, report captions, and individual figure captions." width="760" />
@@ -134,18 +109,8 @@ The original news reports months after the hurricane was that the official death
 
 Their work provides a myriad of topics to unpack in a statistics classroom.  Some of the discussions I have had with my students include: who is doing the work to understand climate change at a global level; how is stratified sampling different from simple random samples and why can't we always take simple random samples; and why is the CI so large?
 
-
-```r
-knitr::include_graphics("maria.png")
-```
-
 <img src="maria.png" alt="New England Journal of Medicine paper from July 2018 titled &quot;Mortality in Puerto Rico after Hurricane Maria&quot; with Irizarry and co-authors" width="396" />
 
-
-
-```r
-knitr::include_graphics("maria_abstract.png")
-```
 
 <img src="maria_abstract.png" alt="Abstract of the New England Journal of Medicine paper.  In particular, they provide a point estimate for the mortality number to be 4645 excess deaths, with a CI of 793 to 8498." width="502" />
 
