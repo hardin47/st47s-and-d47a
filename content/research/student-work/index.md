@@ -126,7 +126,7 @@ Near-Earth Asteroids: An investigation of Fourier Analysis and the Lomb-Scargle 
 
 <h4>2011:</h4>
 <ul>
- 	<li>Kate Brieger (2011, EA, independent study): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/KateBrieger11.doc" target = "_blank">"The Evolution of Statistics in Medicine"</a> ; M.D. / Ph.D. candidate, University of Michigan, Epidemiology.</li>
+ 	<li>Kate Brieger (2011, EA, independent study): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/KateBrieger11.pdf" target = "_blank">"The Evolution of Statistics in Medicine"</a> ; M.D. / Ph.D. 2022, University of Michigan, Epidemiology; Currently: resident, Brigham and Women's Hospital, Harvard Medical School.</li>
  	<li>Christine Ju (2011, Scripps): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/ChristineJu_Scripps11.pdf" target = "_blank">"Determining Overrepresentation of Gene Ontology Terms using the Hypergeometric Distribution"</a>; M.S. 2013, Duke, Biostatistics; Currently: Senior Manger, Biostatistics, ALX Oncology.</li>
 </ul>
 
@@ -172,7 +172,7 @@ Near-Earth Asteroids: An investigation of Fourier Analysis and the Lomb-Scargle 
 
 <h4>2004:</h4>
 <ul>
- 	<li>Lee (Strassenburg) Shanahan (2004): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/Lee.Strassenburg_Thesis.pdf" target = "_blank">A Statistical Comparison of the Average Waiting Times Between Flares in Lupus Patients</a>", Currently: Venture Champion at Tenney 110, American Family Insurance.</li>
+ 	<li>Lee (Strassenburg) Shanahan (2004): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/Lee.Strassenburg_Thesis.pdf" target = "_blank">A Statistical Comparison of the Average Waiting Times Between Flares in Lupus Patients</a>", Currently: Technical Solutions Engineer at findhelp.</li>
 </ul>
 
 <h4>2003:</h4>
