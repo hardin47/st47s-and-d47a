@@ -7,6 +7,7 @@ featured: true
 categories: []
 tags: []
 summary: 'CURV is a database which seeks to celebrate scholars who are traditionally under represented in statistics and data science. The scholars represent the diversity of undergraduate students; they are individuals who are working to make statistics more accessible; and their works leads to making the world a better place.'
+format: hugo-md
 ---
 
 ```{r}
@@ -26,7 +27,6 @@ quarto render index.qmd --to markdown
 https://stackoverflow.com/questions/76801903/how-to-keep-the-markdown-header-when-rendering-from-qmd-to-md-in-quarto
 ```
 
-quarto
 
 In most of my courses, I've introduced a weekly activity of "Statistician of the Day."  The scholars who I present are those traditionally underrepresented in statistics and data science.  Many of them are people of color, but they also represent individuals who are pushing boundaries to make statistics and data science more accessible and inclusive, often because they themselves have navigated a world which was not accessible or not inclusive.
 

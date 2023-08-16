@@ -1,7 +1,7 @@
 ---
 author:
 - Jo Hardin
-date: 8/11/23
+date: 2023-08-11
 featured: true
 slug: curv
 summary: CURV is a database which seeks to celebrate scholars who are
@@ -12,8 +12,6 @@ summary: CURV is a database which seeks to celebrate scholars who are
 title: CURV - connecting, uplifting, and recognizing voices
 toc-title: Table of contents
 ---
-
-quarto
 
 In most of my courses, I've introduced a weekly activity of
 "Statistician of the Day." The scholars who I present are those
