@@ -11,30 +11,6 @@
     ]
   },
   {
-    "listing": "/projects.html",
-    "items": [
-      "/projects/CURV/index.html",
-      "/projects/dei/index.html",
-      "/projects/IMS/index.html",
-      "/projects/research/letters.html",
-      "/projects/research/index.html",
-      "/projects/TDS/index.html",
-      "/projects/tidytuesday/index.html"
-    ]
-  },
-  {
-    "listing": "/research.html",
-    "items": [
-      "/projects/research/index.html",
-      "/research/papers/index.html",
-      "/research/student-work/index.html"
-    ]
-  },
-  {
-    "listing": "/research/student-work/index.html",
-    "items": []
-  },
-  {
     "listing": "/courses.html",
     "items": [
       "/courses/data-sources/index.html",
@@ -46,6 +22,29 @@
       "/courses/M152-stattheory/index.html",
       "/courses/M154-compstat/index.html",
       "/courses/M158-linmodels/index.html"
+    ]
+  },
+  {
+    "listing": "/research/student-work/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research.html",
+    "items": [
+      "/projects/research/index.html",
+      "/research/papers/index.html",
+      "/research/student-work/index.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/CURV/index.html",
+      "/projects/dei/index.html",
+      "/projects/IMS/index.html",
+      "/projects/research/index.html",
+      "/projects/TDS/index.html",
+      "/projects/tidytuesday/index.html"
     ]
   }
 ]
