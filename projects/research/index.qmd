@@ -1,0 +1,69 @@
+---
+title: "Research Interests"
+description: "so many fun problems, so little time"
+weight: 1
+author: "Jo Hardin"
+draft: false
+featured: true
+# layout options: single or single-sidebar
+layout: single-sidebar
+image: "featured.jpg"
+links:
+- icon: link
+  icon_pack: fas
+  name: Online text - https://openintro-ims.netlify.app/
+  url: https://openintro-ims.netlify.app/
+- icon: link
+  icon_pack: fas
+  name:  Full information - https://www.openintro.org/book/ims/
+  url:  https://www.openintro.org/book/ims/
+---
+
+<figure>
+<img style = "padding: 10px;float: right;" alt = 'hrdag' width='300' src='featured.jpg' />
+</figure>
+
+:::{.link}
+::::{.link-header}
+#### {{< iconify academicons google-scholar >}} google scholar citations
+::::
+::::{.link-container}
+<a href = "https://scholar.google.com/citations?user=c5Y77poAAAAJ" target = "_blank">https://scholar.google.com/citations?user=c5Y77poAAAAJ</a>
+::::
+:::
+
+<br/>
+
+:::{.link}
+::::{.link-header}
+#### {{< iconify devicon github >}} github 
+::::
+::::{.link-container}
+<a href = "https://github.com/hardin47" target = "_blank">https://github.com/hardin47</a>
+::::
+:::
+
+
+
+
+## my background
+
+I have been at [Pomona College](https://www.pomona.edu/academics/departments/mathematics) since 2002 where I teach lots of different kinds of statistics, taught a little bit of math once, love teaching writing with statistics, and hope to soon teach some data science.
+
+My undergraduate degree is also from Pomona College, in Mathematics where I worked with Don Bentley.  I did my PhD in Statistics at [UC Davis](https://statistics.ucdavis.edu/) with [David Rocke](http://dmrocke.ucdavis.edu/).  
+
+My current [research](/research/) interests include:
+
+<h3>{{< iconify fa-solid chart-line >}}  &nbsp; Statistical methods for high-throughput data</h3>
+<h3> {{< iconify fa sitemap >}}  &nbsp; Inference in machine learning</h3>
+<h3> {{< iconify fa-solid chalkboard-teacher >}}  &nbsp; Statistics and data science education</h3>
+<h3>{{< iconify iconamoon sign-equal-bold >}}  &nbsp; Equity and flourising in statistics and data science</h3> 
+
+
+
+
+
+
+
+
+

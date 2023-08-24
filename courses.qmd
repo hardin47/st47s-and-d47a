@@ -1,0 +1,52 @@
+---
+title: "courses"
+listing: 
+  contents: courses # all Quarto docs in the `posts` directory will be included on your listing page
+  type: default # or `grid` or `table`; each type has its own set of yaml options to include
+  sort: "title" # can also sort on more than one field
+  categories: false # allows you to sort posts by assigned categories 
+website:
+  page-navigation: true
+  sidebar: false
+
+image: courses/sidebar-listing.jpg
+format:
+  html: 
+    toc: false
+description: |
+  
+css: index.css
+---
+
+::: {#hero-banner .column-screen}
+::: h1
+where can I find things?
+:::
+
+::: {.grid .column-page}
+
+::: {.g-col-6}
+Most of the course materials are on the dedicated course website. For many classes, there is also a textbook (typically available online for free). All solutions (HW, exams, etc.) will be posted on Canvas.
+:::
+
+::: {.g-col-6}
+<figure>
+<img src="courses/sidebar-listing.jpg" align="right" width="400">
+<figcaption>Art by @allison_horst</figcaption>
+</figure>
+
+:::
+
+:::
+
+```{=html}
+<style>
+
+#hero-banner {
+  padding-top: 35px;
+  background-color: #FAF9F0;
+}
+</style>
+```
+
+:::

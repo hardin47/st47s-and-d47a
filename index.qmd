@@ -1,0 +1,20 @@
+---
+title: "Jo Hardin"
+subtitle: "st47s, d47a, and educ47ion."
+about:
+  template: solana
+  image: img/johex.png
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/hardin47
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jo-hardin-b91a4b55/
+    - icon: envelope
+      text: contact
+      href: https://hardin47.netlify.app/contact/
+css: index.css
+---
+
+Welcome to my website!  I'm a Professor of Mathematics & Statistics at Pomona College.  I love data and teaching.  Find out about my interests by perusing the site.

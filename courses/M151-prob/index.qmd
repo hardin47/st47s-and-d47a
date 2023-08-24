@@ -1,0 +1,30 @@
+---
+title: "Math 151: Probability Theory"
+slug: math151
+weight: 1
+subtitle: ""
+description: "Math 151 is an introduction to probability for students with a calculus background and no prerequisites of probability or statistics. Though the course will be focused on the theoretical aspects of the material, there will be some real world applications in class and in the homework assignments. The idea is to have a strong mathematical understanding of the concepts while also understanding how the concepts are applied in the real world."
+date: ""
+draft: false
+featured: true
+show_post_date: false
+---
+
+## The Course
+
+<figure>
+<img src="continuous_discrete_featured.png" align="right" width = "600">
+<figcaption>Art by @allison_horst</figcaption>
+</figure>
+
+
+**Probability Theory** is an introduction to probability for students with a calculus background and no prerequisites of probability or statistics. Though the course will be focused on the theoretical aspects of the material, there will be some real world applications in class and in the homework assignments. The idea is to have a strong mathematical understanding of the concepts while also understanding how the concepts are applied in the real world.
+
+## Student Learning Outcomes.
+At the completion of this course, students will:
+
+
+
+## Course website
+
+Probability Theory was last taught in Fall 2020, materials can be found on the <a href = "https://research.pomona.edu/johardin/math151f20/" target = "_blank">course website</a>.

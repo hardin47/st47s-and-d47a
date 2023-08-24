@@ -1,0 +1,60 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Jo Hardin"
+  image: "img/favicon.png"
+  favicon: "img/favicon.png"
+  site-url: https://hardin47.netlify.app/
+  repo-url: https://github.com/hardin47/st47s-and-d47a
+  page-navigation: true
+  
+  navbar:
+    logo: "img/favicon.png"
+    background: "#F5F3E0"
+    foreground: "#BC4524"
+    right:
+      - href: about.qmd
+        text: about
+      - href: courses.qmd
+        text: courses
+      - href: research.qmd
+        text: research
+      - href: projects.qmd
+        text: projects
+      - href: blogs.qmd
+        text: blogs
+      - href: letters.qmd
+        text: rec letters
+     
+  page-footer:
+    right: "Built with 💚 and [Quarto](https://quarto.org/)."
+    left: "&copy; Copyright 2023, Jo Hardin"
+    background: "#F5F3E0" 
+        
+format:
+  html:
+    theme: 
+      - cosmo
+      - callout_blog.scss
+    backgroundcolor: "#F5F3E0"
+    monobackgroundcolor: "#F5F3E0"
+    fontcolor: "#220D07"
+    linkcolor: "#BC4524"
+    headercolor: "#BC4524"
+    subheadercolor: "#BC4524"
+    title-block-banner-color: "#F5F3E0"
+    code-block-border-left: "#676565"
+    code-block-bg: "#FAF9F0"
+    highlight-style: tango
+    code-copy: true
+    code-overflow: wrap
+    mainfont: "Atkinson Hyperlegible"
+    
+    css: styles.css
+    toc: true
+
+execute:
+  freeze: true
+  

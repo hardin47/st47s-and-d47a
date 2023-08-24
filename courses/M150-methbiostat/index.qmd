@@ -1,0 +1,39 @@
+---
+title: "Math 150: Methods in Biostatistics"
+slug: math150
+weight: 9
+subtitle: ""
+description: "Methods in Biostatistics is a second course in statistics focused on topics and data found in the life sciences.  No biology background is needed, but interest in the life sciences is important."
+date: ""
+draft: false
+featured: true
+show_post_date: false
+---
+
+## The Course
+
+<figure>
+<img src="p_value_mic_hog_featured.jpg" align="right" width = "600">
+<figcaption>Art by @allison_horst</figcaption>
+</figure>
+
+**Methods in Biostatistics** is a second course in biostatistics, designed to follow either an Introduction to Statistics or Introduction to Biostatistics course.  No biology background is needed, but examples and methods will be focused on those found in the life sciences.  In particular, the main statistical topics covered include a logistic regression, survival analysis, and methods to ameliorate multiple comparison issues.  
+
+
+## Student Learning Outcomes.
+By the end of the semester, students will be able to:
+
+* evaluate quantitative information with regards to clinical and biological data. We’ll be sure to keep in mind:
+   - Careful presentation of data
+   - Consideration of variability
+   - Meaningful comparisons
+* critically evaluate the medical literature with respect to design, analysis, and interpretation of results.
+* understand the role of inherent variability and keep it in perspective when inferring results to a population.
+* critically evaluate medical results given in the mainstream media.
+* read published studies with skepticism. Some people (in all fields!) wrongly believe that all studies published in a peer review publication must be 100% accurate and/or well designed studies. In this course, you will learn the tools to recognize, interpret, and critique statistical results in medical literature.
+
+
+## Course website
+
+Methods in Biostatistics was last taught in Spring 2023, materials can be found on the <a href = "https://m150-method-biostat.netlify.app/" target = "_blank">course website</a>.
+

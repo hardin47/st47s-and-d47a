@@ -1,0 +1,112 @@
+/*-- scss:defaults --*/
+
+@import 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap';
+
+$font-family: "Atkinson Hyperlegible", sans-serif;
+$popover-bg: #676565;
+$code-bg: #FAF9F0;
+$code-color: #676565;
+$toc-active-border: #676565;
+$toc-inactive-border: #676565;
+$navbar-hl: #BC4524;
+$sidebar-hl: #BC4524;
+$link-color: #BC4524;
+$hover-color: lighten($link-color, 40%);
+$panel-set: #BC4524;
+$header-color: #BC4524;
+$border-color-left: #676565;
+$background-color: #FAF9F0;
+
+/*-- scss:rules --*/
+
+a{
+  color: $link-color;
+  text-decoration: none;
+  
+  &:hover{
+    color: $hover-color;
+    border-bottom: 1px solid $hover-color;
+  }
+  
+}
+
+h1{
+  color: $link-color;
+  text-decoration: none;
+}
+
+h2{
+  color: $link-color;
+  text-decoration: none;
+}
+
+h3{
+  color: $link-color;
+  text-decoration: none;
+}
+
+
+.blog {
+  margin: 1em 0;
+  border: 2px solid gray;
+  border-left: 10px solid gray; 
+  border-color: black;
+  border-radius: 10px;
+}
+
+.blog-header {
+  margin-left: 0em;
+  padding-left:  60px;
+  padding-top:  5px;
+  padding-bottom: 0.1em;
+  color: black;
+  background-color: #FAF9F0;
+  border-color: #676565;
+  border-top-right-radius: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  background-image: url("img/pen.svg");
+}
+
+.blog-container {
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 0.1em;
+  color: black;
+  background-color: #FAF9F0;
+  border-color: #676565;
+  border-bottom-right-radius: 10px;
+}
+
+.link {
+  border: 2px solid gray;
+  border-left: 10px solid gray; 
+  border-color: rgb(103,101,101);
+  border-radius: 10px;
+  width: 500px;
+  height: 70px;
+  background-color: #FAF9F0;
+}
+
+.link-header {
+  margin-top:-20px;
+  width: 488px;
+  height: 50px;
+  color: black;
+  background-color: #FAF9F0;
+  border-top-right-radius: 10px;
+}
+
+.link-container {
+  margin-top:-25px;
+  width: 488px;
+  height: 35px;
+  padding: 5px;
+  color: black;
+  background-color: #FAF9F0;
+  border-bottom-right-radius: 10px;
+}
+

@@ -1,0 +1,51 @@
+[
+  {
+    "listing": "/blogs.html",
+    "items": [
+      "/blogs/2023-08-11-curv/index.html",
+      "/blogs/2022-07-31-dear-diary-solitude/index.html",
+      "/blogs/2022-06-06-the-islands/index.html",
+      "/blogs/2021-06-27-ims/index.html",
+      "/blogs/2021-07-18-rr-and-or/index.html",
+      "/blogs/2020-05-18-keep-busy-with-data-science/index.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/CURV/index.html",
+      "/projects/dei/index.html",
+      "/projects/IMS/index.html",
+      "/projects/research/letters.html",
+      "/projects/research/index.html",
+      "/projects/TDS/index.html",
+      "/projects/tidytuesday/index.html"
+    ]
+  },
+  {
+    "listing": "/research.html",
+    "items": [
+      "/projects/research/index.html",
+      "/research/papers/index.html",
+      "/research/student-work/index.html"
+    ]
+  },
+  {
+    "listing": "/research/student-work/index.html",
+    "items": []
+  },
+  {
+    "listing": "/courses.html",
+    "items": [
+      "/courses/data-sources/index.html",
+      "/courses/ID1-statsworld/index.html",
+      "/courses/M57-thinkingdata/index.html",
+      "/courses/M58B-introbiostats/index.html",
+      "/courses/M150-methbiostat/index.html",
+      "/courses/M151-prob/index.html",
+      "/courses/M152-stattheory/index.html",
+      "/courses/M154-compstat/index.html",
+      "/courses/M158-linmodels/index.html"
+    ]
+  }
+]

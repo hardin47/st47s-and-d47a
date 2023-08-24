@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jo Hardin">
+<meta name="dcterms.date" content="2022-06-02">
+
+<title>Jo Hardin - Teaching with The Islands</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../img/favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../img/favicon.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Jo Hardin</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">about</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blogs.html" rel="" target="">
+ <span class="menu-text">blogs</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-islands" id="toc-the-islands" class="nav-link active" data-scroll-target="#the-islands">The Islands</a></li>
+  <li><a href="#introductory-statistics-project" id="toc-introductory-statistics-project" class="nav-link" data-scroll-target="#introductory-statistics-project">Introductory Statistics Project</a>
+  <ul class="collapse">
+  <li><a href="#power-analysis" id="toc-power-analysis" class="nav-link" data-scroll-target="#power-analysis">Power Analysis</a></li>
+  <li><a href="#reproducibility" id="toc-reproducibility" class="nav-link" data-scroll-target="#reproducibility">Reproducibility</a></li>
+  <li><a href="#ethical-considerations" id="toc-ethical-considerations" class="nav-link" data-scroll-target="#ethical-considerations">Ethical considerations</a></li>
+  <li><a href="#pulling-everything-together-from-the-entire-semester" id="toc-pulling-everything-together-from-the-entire-semester" class="nav-link" data-scroll-target="#pulling-everything-together-from-the-entire-semester">Pulling everything together from the entire semester</a></li>
+  </ul></li>
+  <li><a href="#observations" id="toc-observations" class="nav-link" data-scroll-target="#observations">Observations</a>
+  <ul class="collapse">
+  <li><a href="#student-reflections" id="toc-student-reflections" class="nav-link" data-scroll-target="#student-reflections">Student Reflections</a></li>
+  <li><a href="#my-reflections" id="toc-my-reflections" class="nav-link" data-scroll-target="#my-reflections">My reflections</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Teaching with The Islands</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p> </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 2, 2022</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="the-islands" class="level2">
+<h2 class="anchored" data-anchor-id="the-islands">The Islands</h2>
+<figure class="figure">
+<img style="padding: 10px;float: right;" alt="hrdag" width="300" src="featured.png" class="figure-img">
+</figure>
+<p>The Islands is a virtual environment designed to engage students in experimental design and data collection. The basic idea is that people (and their pets!) live on villages spread out along three different islands. They go to school, get sick, have friends, have jobs, etc. The individuals are able to do tasks (e.g., drink vodka or run a mile or both!) and to answer questions. They sleep at night (to the dismay of your night-owl students who want to do their data collection in the wee hours); they sometimes back out of the study; and they sometimes lie to you (e.g., about their age).</p>
+<p>If now is the first time you are hearing about The Islands, I recommend that you read what others have written and ask to explore them on your own. You will be <strong>amazed</strong> at the sophistication of the virtual world contained on The Islands.</p>
+<ul>
+<li>Michael Bulmer created The Islands and describes them on causeweb.org, <a href="https://www.causeweb.org/cause/resources/library/r12661" target="_blank">The Islands – Learning about Experiment Design on a Virtual Population</a> as well as through the <a href="https://sites.google.com/site/islandsinschoolsprojectwebsite/home" target="_blank">Islands in Schools Project</a>.</li>
+<li>Michael Bulmer and Kimberly Haladyn (from the University of Queensland, Australia) first published their work creating the virtual world in TISE, <a href="https://escholarship.org/uc/item/2q0740hv" target="_blank">Life on an Island: a Simulated Population to Support Student Projects in Statistics</a>.<br>
+</li>
+<li>Causeweb.org has hosts multiple past webinars describing different educators use of The Islands in their own classrooms. Ann Brearley and Laura Le from the University of Minnesota spoke at USCOTS 2017 <a href="https://www.causeweb.org/cause/uscots/uscots17/breakout/1G" target="_blank">1G: Life on an Island: Using a Virtual World to Make Statistics Real</a>; Ryne VanKrevelen, Lisa Rosenberg, and Laura Taylor from Elon University gave a webinar in 2018 <a href="https://www.causeweb.org/cause/webinar/teaching/2018-08" target="_blank">Introductory Statistics Projects Using ‘The Islands’ Virtual World Versus Student-Collected Data</a>.</li>
+</ul>
+</section>
+<section id="introductory-statistics-project" class="level2">
+<h2 class="anchored" data-anchor-id="introductory-statistics-project">Introductory Statistics Project</h2>
+<p>For the last few years, I’ve used The Islands as a way to tie together many of the topics I cover in my introductory statistics course at Pomona College. I start the project early in the semester (the first exploration is done before spring break, and the pilot study is due a week after).<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> When we start, there is still a lot of material left to cover, so in some ways the students are in the dark. One of the requirements is that they must choose a continuous response variable; they also need a few explanatory variables (some numeric, some categorical) and a treatment variable of interest. The treatment doesn’t have to be randomly assigned (the study could be observational), but almost every group uses a randomly assigned treatment variable in order to be able to assess causation at the end.</p>
+<p>Among the very cool things on The Islands (really, go check it out yourself, there are way too many things to tell you about) is the Academy which includes journal articles describing studies that have taken place on The Islands in the last few years.<br>
+<!---One of my students published their analysis in the <a href = "" target = "_blank">Journal of XXX</a>, and I've made a copy of the article accessible.
+(You have to login to The Islands to see the full suite of literature in the Academy.)
+In Leu et al. you can see the framework of the assignment, and a completed write-up.
+---></p>
+<p>In what remains, I’ll describe some of the unique aspects of the project. Additionally, from both my perspective as well as from my students’ perspectives, I provide some of the feedback on successes and challenges of the project.</p>
+<section id="power-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="power-analysis">Power Analysis</h3>
+<p>One of my favorite aspects of The Islands project is the ability for students to do a power analysis on pilot data. I find power to be a difficult concept to teach. Not only are the technical aspects usually pretty hard, but the intuition is also really hard (especially for students who haven’t yet done any data collection of their own). The power analysis part of the project allows me, the instructor, to do all of the work, and the students just need to wrap their heads around what is happening. I have each group post their data to a Google sheet, and then I pull in the data and run a quick power analysis assuming the difference in <span class="math inline">\(\mu\)</span> values is the same as what we saw with the pilot data (the difference in <span class="math inline">\(\bar{x}\)</span> values). The students then change the sample size and the effect size to come up with scenarios that would give them a power of 0.7. Their reflection has them questioning whether or not the effect size is real and whether or not they have the resources to collect the number of observations needed for a power of 0.7.</p>
+<p>Below I’ve laid out the code and instruction that I give to students so that they can determine the needed sample size that would give their experiment a power of 0.7. In the sample data I’ve had half of the participants take 10g of Psilocybin Mushrooms (the other half is the control), then I have the participants balance on one leg for as long as they can (before and after the treatment, the response variable is the difference in time spent balancing).</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(janitor)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(googlesheets4)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">gs4_deauth</span>()</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># a fake data collection made up for this blog entry</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>pilot_data <span class="ot">&lt;-</span> googlesheets4<span class="sc">::</span><span class="fu">read_sheet</span>(<span class="st">"https://docs.google.com/spreadsheets/d/1U0KcehbSQkEjwDaFpUSklKmIkUTUv-C_5q2kyO1vn24/edit?usp=sharing0"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  janitor<span class="sc">::</span><span class="fu">clean_names</span>()</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>pilot_summary <span class="ot">&lt;-</span> pilot_data <span class="sc">%&gt;%</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(treatment) <span class="sc">%&gt;%</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="fu">n</span>(), <span class="at">mean_resp =</span> <span class="fu">mean</span>(difference, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>            <span class="at">s_resp =</span> <span class="fu">sd</span>(difference, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>pilot_summary</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 2 × 4
+  treatment                 `n()` mean_resp s_resp
+  &lt;chr&gt;                     &lt;int&gt;     &lt;dbl&gt;  &lt;dbl&gt;
+1 Control                      12      1.25   12.6
+2 Psilocybin Mushrooms 10 g    12     13.8    15.3</code></pre>
+</div>
+</div>
+<p>For use in the sample size calculations, pull out each number from the summary:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>n1 <span class="ot">&lt;-</span> pilot_summary[<span class="dv">1</span>,<span class="dv">2</span>] <span class="sc">%&gt;%</span> <span class="fu">pull</span>()</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>n2 <span class="ot">&lt;-</span> pilot_summary[<span class="dv">2</span>,<span class="dv">2</span>] <span class="sc">%&gt;%</span> <span class="fu">pull</span>()</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>xbar1 <span class="ot">&lt;-</span> pilot_summary[<span class="dv">1</span>,<span class="dv">3</span>] <span class="sc">%&gt;%</span> <span class="fu">pull</span>()</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>xbar2 <span class="ot">&lt;-</span> pilot_summary[<span class="dv">2</span>,<span class="dv">3</span>] <span class="sc">%&gt;%</span> <span class="fu">pull</span>()</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>s1 <span class="ot">&lt;-</span> pilot_summary[<span class="dv">1</span>,<span class="dv">4</span>] <span class="sc">%&gt;%</span> <span class="fu">pull</span>()</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>s2 <span class="ot">&lt;-</span> pilot_summary[<span class="dv">2</span>,<span class="dv">4</span>] <span class="sc">%&gt;%</span> <span class="fu">pull</span>()</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Notice that the observed difference in means is:</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>xbar1 <span class="sc">-</span> xbar2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] -12.52948</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Notice that the estimated variability for the difference in sample means is:</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sqrt</span>(s1<span class="sc">^</span><span class="dv">2</span> <span class="sc">/</span> n1 <span class="sc">+</span> s2<span class="sc">^</span><span class="dv">2</span><span class="sc">/</span>n2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 5.709265</code></pre>
+</div>
+</div>
+<section id="how-big-should-the-sample-size-be" class="level4">
+<h4 class="anchored" data-anchor-id="how-big-should-the-sample-size-be">How big should the sample size be?</h4>
+<p>The task is to figure out how big the sample size should be in order to reject <span class="math inline">\(H_0: \mu_1 = \mu_2\)</span> with power of 0.7. Reasonable assumptions will be made based on the information above.</p>
+<section id="step-1.-how-far-will-overlinex_1---overlinex_2-need-to-be-to-reject-h_0" class="level5">
+<h5 class="anchored" data-anchor-id="step-1.-how-far-will-overlinex_1---overlinex_2-need-to-be-to-reject-h_0">Step 1. How far will <span class="math inline">\(\overline{X}_1 - \overline{X}_2\)</span> need to be to reject <span class="math inline">\(H_0\)</span>?</h5>
+<p>In order to reject <span class="math inline">\(H_0\)</span> at the 0.05 level (two-sided test),</p>
+<p><span class="math display">\[\mbox{Z-score} &gt; 1.96\]</span></p>
+<p>Which means: <span class="math display">\[\overline{X}_1 - \overline{X}_2 &gt; 1.96 \mbox{ SE}\]</span></p>
+</section>
+<section id="step-2.-assume-that-the-variability-is-as-calculated-above-from-the-data-but-with-new-sample-sizes." class="level5">
+<h5 class="anchored" data-anchor-id="step-2.-assume-that-the-variability-is-as-calculated-above-from-the-data-but-with-new-sample-sizes.">Step 2. Assume that the variability is as calculated above from the data but with <strong>new</strong> sample sizes.</h5>
+<p>The <span class="math inline">\(SE(\overline{X}_1 - \overline{X}_2)\)</span> will change based on the values of <span class="math inline">\(n_1\)</span> and <span class="math inline">\(n_2\)</span>. Continue to use <span class="math inline">\(s_1\)</span> and <span class="math inline">\(s_2\)</span> calculated from the pilot data.</p>
+<p>Change the values of <code>n1_test</code> and <code>n2_test</code> to see that <code>SE_diff</code> changes!</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>n1_test <span class="ot">&lt;-</span> <span class="dv">10</span>  <span class="co"># try different numbers here!</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>n2_test <span class="ot">&lt;-</span> <span class="dv">10</span>  <span class="co"># try different numbers here!</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>SE_diff <span class="ot">&lt;-</span> <span class="fu">sqrt</span>(s1<span class="sc">^</span><span class="dv">2</span> <span class="sc">/</span> n1_test <span class="sc">+</span> s2<span class="sc">^</span><span class="dv">2</span><span class="sc">/</span>n2_test)</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>SE_diff</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 6.254187</code></pre>
+</div>
+</div>
+</section>
+<section id="step-3.-use-a-normal-curve-to-estimate-power." class="level5">
+<h5 class="anchored" data-anchor-id="step-3.-use-a-normal-curve-to-estimate-power.">Step 3. Use a normal curve to <strong>estimate</strong> power.</h5>
+<p>For a <strong>very rough</strong> approximation, use the normal curve to find out how often the difference in means will be above the cutoff (from Steps 1 and 2) for various true alternative hypotheses.</p>
+<p>If the true alternative difference is 0.1, then <code>xpnorm()</code> <strong>centered at 0.1</strong> (the curve below is not centered at zero) provides the probability that the sample difference will be above the cutoff.</p>
+<p>Under the setting: <span class="math inline">\(H_A: \mu_1 - \mu_2 = 0.1\)</span></p>
+<ul>
+<li>The alternative value of 0.1 is made up. What types of reasonable differences are suggested by the pilot data? Use those!</li>
+<li>Do the pilot data suggest that a reasonable difference is actually negative? If so, make sure your power calculation finds probability in the “less” direction instead of the “greater” direction (or alternatively, subtract <span class="math inline">\(\mu_2 - \mu_1\)</span> instead of <span class="math inline">\(\mu_1 - \mu_2\)</span>).</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(mosaic)</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>cutoff <span class="ot">&lt;-</span> <span class="fl">1.96</span> <span class="sc">*</span> SE_diff</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>true_alt_diff <span class="ot">&lt;-</span> <span class="fl">0.1</span>  <span class="co"># try different numbers here!</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>                       </span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>mosaic<span class="sc">::</span><span class="fu">xpnorm</span>(cutoff, <span class="at">mean =</span> true_alt_diff, <span class="at">sd =</span> SE_diff, <span class="at">lower.tail =</span> <span class="cn">FALSE</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="960"></p>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.02594708</code></pre>
+</div>
+</div>
+<p>With samples of size 10 each, the probability of rejecting <span class="math inline">\(H_0\)</span> is 0.0259471 (= the power!). Re-do steps 2 and 3 with different <span class="math inline">\(n_1\)</span> and <span class="math inline">\(n_2\)</span> values. What sample sizes produce a power of 0.7?</p>
+</section>
+</section>
+</section>
+<section id="reproducibility" class="level3">
+<h3 class="anchored" data-anchor-id="reproducibility">Reproducibility</h3>
+<p>All of the assignments are due as .pdf files which have been compiled from .Rmd files. The analyses start by pulling in the data directly from the Google sheet, and each student in the group is able to run the entire analysis from start to end. The students are comfortable working with RMarkdown, but this is the first time that their compiled analysis is a full report.</p>
+<p>The project described here is for a first course in Introductory Statistics. We do not use GitHub (yet!), but we do work entirely in RMarkdown documents. We have some difficulties in getting each individual in the group to work on one .Rmd document. We use RStudio PRO, but we have not been able to set-up group sharing projects. RStudio has <a href="https://www.rstudio.com/blog/real-time-collaborative-editing-on-rstudio-cloud/" target="_blank">just recently described</a> products that allow groups to work simultaneously on a single document.</p>
+<p>Regardless, working on one report that is reproducible allowed students to bring together not only the statistical ideas from the course but also the larger ideas on how data collection, analysis, and communication all combines into a single effort.</p>
+</section>
+<section id="ethical-considerations" class="level3">
+<h3 class="anchored" data-anchor-id="ethical-considerations">Ethical considerations</h3>
+<p>While the context, people, and data are all completely fabricated, there is still room to bring ethical considerations into the project.</p>
+<p>The University of Arizona Native Nations Institute has created a policy brief on <a href="https://static1.squarespace.com/static/5d2633cb0ef5e4000134fa02/t/5d72cb394452727586b69c2e/1567804217938/policy_brief_indigenous_data_sovereignty_in_the_united_states.pdf" target="_blank">Indigenous Data Sovereignty in the United States</a>. More materials can be found at <a href="https://usindigenousdata.org/" target="_blank">US Indigenous Data Sovereignty Network</a>.</p>
+<p>The ethical considerations may be as simple as having the class read the policy brief and talk about how, historically, data collection has disproportionately affected different groups. In particular, collecting data is often used as a way to sustain systems of power and privilege. Although the Islands do not represent actual humans, the way we talk and think about them could impact our students directly. Additionally, for students who are soon to be data practitioners, a conversation about the power of information can help them bring positive nuance into their future work as data scientists.</p>
+<p>Of course, one conversation about data sovereignty will not change all systems of oppression or even, necessarily, how a group of students approaches a dataset. However, the more often the ethical considerations can be infused as part of the data analysis, the more the students will reflect on the larger and humanistic aspects of the process. Indeed, the ethical considerations could be much expanded into written reflection, student presentations, or a research project.</p>
+</section>
+<section id="pulling-everything-together-from-the-entire-semester" class="level3">
+<h3 class="anchored" data-anchor-id="pulling-everything-together-from-the-entire-semester">Pulling everything together from the entire semester</h3>
+<p>One of the strengths of the project is its ability to pull together many of the topics covered from throughout the semester. The students are able to use hypothesis testing to assess whether or not their randomization scheme worked. They run a power analysis and see in real time what the “next” sample (i.e., the full dataset after the pilot study) looks like in terms of spread, center, and shape.</p>
+<p>The students practice making data visualizations and running tests. The last topic of the semester, multiple linear regression, shows up as a way for them to consider all of the variables collected.</p>
+<p>Most students are quite curious about connections to the existing literature (both in The Islands and in the real world). Some of the experiments pan out as expected, and some give strikingly different result from what is seen in the literature.</p>
+<p>And last, students get a taste for what it is like to work with data in the wild. For example, you might have noticed that the data provided had gender coded with capitals and lower-case starts. Non-systematic data coding was ubiquitous both within individual students and across group members. By making mistakes with the variable coding and writing code to clean the data, students deeply understand why having clean data to start with is so important.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>pilot_data <span class="sc">%&gt;%</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(treatment, gender) <span class="sc">%&gt;%</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean_age =</span> <span class="fu">mean</span>(age), <span class="at">sd_age =</span> <span class="fu">sd</span>(age))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 7 × 4
+# Groups:   treatment [2]
+  treatment                 gender mean_age sd_age
+  &lt;chr&gt;                     &lt;chr&gt;     &lt;dbl&gt;  &lt;dbl&gt;
+1 Control                   Female     34.6   22.8
+2 Control                   Male       42.7   33.2
+3 Control                   male       50.5   27.6
+4 Psilocybin Mushrooms 10 g Female     62.5   43.8
+5 Psilocybin Mushrooms 10 g Male       47.5   25.7
+6 Psilocybin Mushrooms 10 g female     77     NA  
+7 Psilocybin Mushrooms 10 g male       63     NA  </code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="observations" class="level2">
+<h2 class="anchored" data-anchor-id="observations">Observations</h2>
+<p>I conclude with some feedback provided by the students (and me) on the project. Overall, it was an excellent experience with mostly positive comments. Of course, there is always room for improvement in all the things we do.</p>
+<section id="student-reflections" class="level3">
+<h3 class="anchored" data-anchor-id="student-reflections">Student Reflections</h3>
+<section id="positive" class="level4">
+<h4 class="anchored" data-anchor-id="positive">positive</h4>
+<ul>
+<li>there are so many cool options for what to study in the Islands.</li>
+<li>like the idea of humans but <strong>not</strong> actually humans (freeing from the existing literature).</li>
+<li>it was fun to make the islanders do unethical activities.</li>
+<li>the project encouraged a mindset of curiosity and exploration.</li>
+<li>next time, they would collect more demographic or related variables.</li>
+<li>many students had personal motivation for their experiment choices.</li>
+<li>the students enjoyed working together with peers.</li>
+<li>the project reinforced skills that will transfer to other classes and future research.</li>
+</ul>
+</section>
+<section id="negative" class="level4">
+<h4 class="anchored" data-anchor-id="negative">negative</h4>
+<ul>
+<li>the power analysis was hard.</li>
+<li>because it wasn’t “real-world”, they couldn’t necessarily build on the literature.</li>
+<li>it took a long time to do tasks.</li>
+<li>the students forgot that they needed to come back to record follow-up.</li>
+<li>staying focused to get the right data was a challenge.</li>
+<li>coming up with a good research question was hard.</li>
+</ul>
+</section>
+</section>
+<section id="my-reflections" class="level3">
+<h3 class="anchored" data-anchor-id="my-reflections">My reflections</h3>
+<section id="positive-1" class="level4">
+<h4 class="anchored" data-anchor-id="positive-1">positive</h4>
+<ul>
+<li>students were able to reflect on needing bigger sample sizes (although for most of the non-significant studies, <span class="math inline">\(H_0\)</span> was probably true, making sample size almost a moot point)</li>
+<li>in-class presentations, the other students asked great questions about the experimental design or other nuances of the study.</li>
+<li>across the groups, there was an investigation of many different sampling types.
+<ul>
+<li>systematic sampling by looking at every 4th house</li>
+<li>cluster sampling by collecting all students on a particular island in a particular high school</li>
+<li>multi-stage sampling (systematically choosing a house and randomly choosing a person in a house)</li>
+</ul></li>
+<li>students reflected on whether the variables were realistic, e.g., the number of times a ball could be bounced in a minute seemed to be about half of what would be realistic for human students with a basketball.<br>
+</li>
+<li>the project reinforced working with R to code, make graphs, and present work in a reproducible format.</li>
+<li>the students were able to recognize that the data collection part:
+<ul>
+<li>takes a huge amount of time (way more than the analysis!),</li>
+<li>is really hard to do well, and</li>
+<li>matters more than the choice of analysis technique.</li>
+</ul></li>
+</ul>
+</section>
+<section id="negative-1" class="level4">
+<h4 class="anchored" data-anchor-id="negative-1">negative</h4>
+<ul>
+<li>students want quick experiments (e.g., weight loss on a given diet isn’t realistic over a few days).</li>
+<li>almost all the project results are not significant.</li>
+<li>there is a tendency to do a paired analysis (before and after).</li>
+<li>the power analysis above uses a Z score, but the analysis uses a t-test (which can be confusing for students who are only just being introduced to the topics).</li>
+<li>the tools do not yet exist to synchronously do group work in a shared Rmd file. hopefully this is changing with <a href="https://www.rstudio.com/blog/real-time-collaborative-editing-on-rstudio-cloud/" target="_blank">new tools from RStudio</a>.</li>
+</ul>
+
+
+</section>
+</section>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>The details of each assignment as well as their due dates can be found at: <a href="https://m58-intro-stats.netlify.app/project.html" target="_blank">https://m58-intro-stats.netlify.app/project.html</a>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

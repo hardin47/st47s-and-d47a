@@ -1,0 +1,38 @@
+---
+title: "Math 057: Thinking with Data"
+slug: math57
+weight: 5
+subtitle: ""
+description: "Thinking with Data is a general audience statistics courses taught as part of the Inside-Out Prison Exchange Program.  With half of the students coming from the Claremont Collegea and half coming from the California Rehabilitation Center, students learn statistical ideas side-by-side."
+date: ""
+draft: false
+featured: false
+show_post_date: false
+---
+
+## The Course
+
+<figure>
+<img src="bakers_7_featured.png" align="right" width = "600">
+<figcaption>Art by @allison_horst</figcaption>
+</figure>
+
+**Thinking with Data** is a course designed to help you understand statistical reasoning.  The emphasis will be on statistical thinking -- how to reason through the numbers you see in the media, in advertising, associated with medical claims, and from other sources.  The applications of statistics to real-world problems go beyond using formulas on a dataset. Statisticians become involved in research problems at the initial stages of formulating the research hypotheses to be addressed and continue their involvement through the design and presentation of the results. This course exposes the student to the complete spectrum of activities in which a statistician is involved. Many topics from introductory statistics will be covered including conditional probability, sampling, hypothesis testing, and ethical reporting.  Each topic will be contextualized within a context of interest where we see how data, analyses, and statistics generally can have large impacts on real lives. After taking Thinking with Data, you will, hopefully, encounter numbers much differently. 
+
+
+
+
+## Student Learning Outcomes.
+the goal of the course is for students to learn to critically evaluate numbers and related claims that are presented to them.  To meet the goal, students will demonstrate their ability to achieve the following objectives: 
+* Given a report on a set of data, identify the population from which the data were collected and whether the sampling frame is the same as the population of interest. 
+* Identify whether a study is experimental or observational.  List possible confounding variables and alternative causal mechanisms. 
+* Describe aspects of a graph which are informative and those which are misleading. 
+* Characterize different psychological aspects of probability estimation, and identify when those aspects are being used in reporting. 
+* Articulate different ethical aspects of the data collection, modeling, or reporting from a given data analysis.
+
+
+## Course website
+
+Thinking with Data was last taught in Fall 2022, materials can be found on the <a href = "https://m57-think-data.netlify.app/" target = "_blank">course website</a>.
+
+
