@@ -2,6 +2,7 @@
 title: "student work"
 subtitle: "nice job everyone!"
 description: ""
+image: featured.png
 listing:
   - id: gallery
     template: gallery.ejs
