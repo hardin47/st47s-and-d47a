@@ -11,7 +11,7 @@ image: "xminxmax.pdf"
 ---
 
 <figure>
-<img style = "padding: 10px;float: right;" alt = 'hrdag' width='300' src='xminxmax.pdf' />
+<img style = "padding: 10px;float: right;" alt = 'hrdag' width='300' src='xminxmax.pdf' /><figcaption>From Cruz et al., 2024.</figcaption>
 </figure>
 
 :::{.link}
