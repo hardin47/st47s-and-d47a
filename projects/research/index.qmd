@@ -7,12 +7,13 @@ draft: false
 featured: true
 # layout options: single or single-sidebar
 layout: single-sidebar
-image: "xminxmax.pdf"
 ---
 
 <figure>
-<img style = "padding: 10px;float: right;" alt = 'hrdag' width='300' src='xminxmax.pdf' /><figcaption>From Cruz et al., 2024.</figcaption>
+<img style = "padding: 10px;float: right;" alt = 'hrdag' width='300' src='xminxmax.png' /><figcaption>From Cruz et al., 2024.</figcaption>
 </figure>
+
+<p><a href="../../research/resume.pdf" target = "_blank">Link to Jo Hardin's CV</a></p>
 
 :::{.link}
 ::::{.link-header}
