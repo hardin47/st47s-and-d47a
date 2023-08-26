@@ -9,6 +9,7 @@ featured: true
 type: research
 ---
 
+
 <figure>
 <img src="featured.jpg" align="right" width = "400">
 <figcaption>From Lu and Hardin, 2021.</figcaption>
@@ -20,17 +21,9 @@ type: research
 <p>* Indicates work done as an undergraduate student.</p>
 
 
-```{r}
-#| echo: false
-#| include: false
-#| eval: false
 
-to get the icons to work I had to install a quarto extension
 
-quarto add mcanouil/quarto-iconify
 
-https://github.com/mcanouil/quarto-iconify
-```
 
 
 
@@ -110,7 +103,7 @@ https://github.com/mcanouil/quarto-iconify
 </ul>
 <strong>2012</strong>
 <ul>
- 	<li> {{< iconify fa-solid chalkboard-teacher >}}  *Brieger, K, J. Hardin. <strong><a href="https://hardin47.netlify.app/research/papers/files/Brieger3.pdf" target = "_blank"> Medicine and Statistics: the inextricable link </a> </strong> <em> Chance, 25</em>: 31-34, 2012.</li>
+ 	<li> {{< iconify fa-solid chalkboard-teacher >}}  *Brieger, K, J. Hardin. <strong><a href="http://pages.pomona.edu/~jsh04747/Research/Brieger3.docx" target = "_blank"> Medicine and Statistics: the inextricable link </a> </strong> <em> Chance, 25</em>: 31-34, 2012.</li>
  	<li>*Head, A., Hardin, J., Adolph, S. <strong><a href="http://pages.pomona.edu/~jsh04747/Research/Head%20et%20al%20EES%20v3.pdf" target = "_blank">New methods for estimating maximum performance and the correlation of sample measures</a></strong>, <em>Environmental and Ecological Statistics, 19</em>: 127-137, 2012.</li>
 </ul>
 
@@ -186,5 +179,6 @@ https://github.com/mcanouil/quarto-iconify
 <h3> {{< iconify fa sitemap >}}  &nbsp; Inference in machine learning</h3>
 <h3> {{< iconify fa-solid chalkboard-teacher >}}  &nbsp; Statistics and data science education</h3>
 <h3>{{< iconify iconamoon sign-equal-bold >}}  &nbsp; Equity and flourising in statistics and data science</h3> 
+
 
 
