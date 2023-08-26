@@ -7,20 +7,11 @@ draft: false
 featured: true
 # layout options: single or single-sidebar
 layout: single-sidebar
-image: "featured.jpg"
-links:
-- icon: link
-  icon_pack: fas
-  name: Online text - https://openintro-ims.netlify.app/
-  url: https://openintro-ims.netlify.app/
-- icon: link
-  icon_pack: fas
-  name:  Full information - https://www.openintro.org/book/ims/
-  url:  https://www.openintro.org/book/ims/
+image: "xminxmax.pdf"
 ---
 
 <figure>
-<img style = "padding: 10px;float: right;" alt = 'hrdag' width='300' src='featured.jpg' />
+<img style = "padding: 10px;float: right;" alt = 'hrdag' width='300' src='xminxmax.pdf' />
 </figure>
 
 :::{.link}

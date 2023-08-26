@@ -48,5 +48,4 @@ Through new ventures into data science (both research and teaching), I am curren
 }
 </style>
 ```
-
 :::

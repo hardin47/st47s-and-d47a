@@ -14,7 +14,7 @@ type: research
 <figcaption>From Lu and Hardin, 2021.</figcaption>
 </figure>
 
-<p><a href="resume.pdf" target = "_blank">Link to Jo Hardin's CV</a></p>
+<p><a href="research/resume.pdf" target = "_blank">Link to Jo Hardin's CV</a></p>
 
 <div style="text-align: start;"><strong><strong>(links&nbsp;to preprints, arXiv, or journal website)</strong></strong></div>
 <p>* Indicates work done as an undergraduate student.</p>
