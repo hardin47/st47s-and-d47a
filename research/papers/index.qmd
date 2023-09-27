@@ -17,7 +17,7 @@ type: research
 <p><a href="../../research/resume.pdf" target = "_blank">Link to Jo Hardin's CV</a></p>
 
 <div style="text-align: start;"><strong><strong>(links&nbsp;to preprints, arXiv, or journal website)</strong></strong></div>
-<p>* Indicates work done as an undergraduate student.</p>
+<p><sup>#</sup> Indicates work done as an undergraduate student.</p>
 
 
 ```{r}
@@ -36,17 +36,17 @@ https://github.com/mcanouil/quarto-iconify
 
 <strong>2023</strong>
 <ul>
-  <li>*Krupkin, I, Hardin, J. <a href = "https://arxiv.org/abs/2309.00736" target = "_blank"><strong>Prediction Error Estimation in Random Forests</strong></a>, submitted, 2023.</li>
-  <li>*Cruz, M., *Wei, A., Hardin, J., Radunskaya, A. <a href = "https://arxiv.org/abs/2206.03849" target = "_blank"><strong>Long-term Averages of the Stochastic Logistic Map</strong></a>, submitted, 2023.</li>
- 	<li> {{< iconify fa-solid chart-line >}} *Adams, J., *Hoang, J., *Petroni, E., *Ashby, E., Hardin, J., Stoebel, D. <a href = "https://www.biorxiv.org/content/10.1101/2023.02.17.528066v1" target = "_blank"><strong>The timing of transcription of RpoS-dependent genes varies across multiple stresses</strong></a>, submitted, 2023.</li>
-  <li>{{< iconify fa-solid chart-line >}} *Ashby, E., *Havens, J., Hardin, J., Schulz, D. <a href = "https://www.biorxiv.org/content/10.1101/2023.01.09.523188v1" target = "_blank"><strong>Chemical inhibition of bromodomain proteins in insect stage African trypanosomes perturbs silencing of the Variant Surface Glycoprotein repertoire and results in widespread changes in the transcriptome</strong></a>, <em>Microbiology Spectrum</em>, accepted, 2023.</li>
+  <li><sup>#</sup>Krupkin, I, Hardin, J. <a href = "https://arxiv.org/abs/2309.00736" target = "_blank"><strong>Prediction Error Estimation in Random Forests</strong></a>, under review, 2023.</li>
+  <li><sup>#</sup>Cruz, M., <sup>#</sup>Wei, A., Hardin, J., Radunskaya, A. <a href = "https://arxiv.org/abs/2206.03849" target = "_blank"><strong>Long-term Averages of the Stochastic Logistic Map</strong></a>, under review, 2023.</li>
+ 	<li> {{< iconify fa-solid chart-line >}} <sup>#</sup>Adams, J., <sup>#</sup>Hoang, J., <sup>#</sup>Petroni, E., <sup>#</sup>Ashby, E., Hardin, J., Stoebel, D. <a href = "hhttps://journals.asm.org/doi/10.1128/msystems.00663-23" target = "_blank"><strong>The timing of transcription of RpoS-dependent genes varies across multiple stresses in <i>Escherichia coli</i> K-12</strong></a>, <em>mSystems</em>, accepted, 2023.</li>
+  <li>{{< iconify fa-solid chart-line >}} <sup>#</sup>Ashby, E., <sup>#</sup>Havens, J., Hardin, J., Schulz, D. <a href = "https://www.biorxiv.org/content/10.1101/2023.01.09.523188v1" target = "_blank"><strong>Chemical inhibition of bromodomain proteins in insect stage African trypanosomes perturbs silencing of the Variant Surface Glycoprotein repertoire and results in widespread changes in the transcriptome</strong></a>, <em>Microbiology Spectrum</em>, accepted, 2023.</li>
  	<li>{{< iconify iconamoon sign-equal-bold >}}  Hardin, J., Shahriari, S. <a href = "https://doi.org/10.1080/10511970.2022.2082611" target = "_blank"><strong>Community, Collaboration, and Climate</strong></a>, <em>PRIMUS: Problems, Resources, and Issues in Mathematics Undergraduate Studies, 33</em>(5), 2023.</li>
   </ul>
 
 <strong>2022</strong>
 <ul>
 <li> {{< iconify fa-solid chalkboard-teacher >}}  Çetinkaya-Rundel, M., Hardin, J., Baumer, B., McNamara, A., Horton, N., Rundel, C.  <a href = "https://escholarship.org/uc/item/7kk4d922" target = "_blank"><strong>An Educator's Perspective on the Tidyverse</strong></a>, <em>Technology Innovations in Statistics Education, 14</em> 2022.</li>
-<li>{{< iconify fa-solid chart-line >}}  *Ashby, E., *Paddock, L., *Rollosson, L., *Tang, E., *Miller, G., *Wade, S., *Betts, H., *Porter, A., *Saada, C., Hardin, J., Schulz, D. <a href = "https://doi.org/10.1128/msphere.00023-22" target = "_blank"><strong>Genomic occupancy of the bromodomain protein Bdf3 is dynamic during differentiation of African trypanosomes from bloodstream to procyclic forms</strong></a>, <em>mSphere, 7</em> (3), 2022.</li>
+<li>{{< iconify fa-solid chart-line >}}  <sup>#</sup>Ashby, E., <sup>#</sup>Paddock, L., <sup>#</sup>Rollosson, L., <sup>#</sup>Tang, E., <sup>#</sup>Miller, G., <sup>#</sup>Wade, S., <sup>#</sup>Betts, H., <sup>#</sup>Porter, A., <sup>#</sup>Saada, C., Hardin, J., Schulz, D. <a href = "https://doi.org/10.1128/msphere.00023-22" target = "_blank"><strong>Genomic occupancy of the bromodomain protein Bdf3 is dynamic during differentiation of African trypanosomes from bloodstream to procyclic forms</strong></a>, <em>mSphere, 7</em> (3), 2022.</li>
 </ul>
 
 
@@ -54,7 +54,7 @@ https://github.com/mcanouil/quarto-iconify
 <ul>
   <li> {{< iconify fa-solid chalkboard-teacher >}}  Çetinkaya-Rundel, M., Hardin, J. <a href="https://www.openintro.org/book/ims/" target = "_blank"><strong>Introduction to Modern Statistics</strong></a> OpenIntro, 2021.</li>
  	<li> {{< iconify fa-solid chalkboard-teacher >}}  Kim, A.Y., Hardin, J. <a href="https://www.tandfonline.com/doi/full/10.1080/10691898.2020.1799728" target = "_blank"><strong>"Playing the whole game": A data collection and analysis exercise with Google Calendar</strong></a>, <em>Journal of Statistics and Data Science Education, 29</em>(S1), 2021.</li>
- 	<li> {{< iconify fa sitemap >}}  *Lu, B., Hardin, J. <a href="https://jmlr.org/papers/v22/18-558.html" target = "_blank"><strong>A Unified Framework for Random Forest Prediction Error Estimation</strong></a>, <em>Journal of Machine Learning Research, 22</em>(8), 2021.
+ 	<li> {{< iconify fa sitemap >}}  <sup>#</sup>Lu, B., Hardin, J. <a href="https://jmlr.org/papers/v22/18-558.html" target = "_blank"><strong>A Unified Framework for Random Forest Prediction Error Estimation</strong></a>, <em>Journal of Machine Learning Research, 22</em>(8), 2021.
 <ul>
  	<li><a href="http://computationalgenomics.bioinformatics.ucla.edu/portfolio-item/jo-hardin-prediction-intervals-for-random-forests-with-applications-to-high-throughput-data/" target = "_blank"><b></b>Prediction intervals for random forests with applications to high throughput data&nbsp;</a><a href="https://youtu.be/x7F1Z8pGS6Q" target="_blank" rel="noopener noreferrer"><img src="https://i1.wp.com/computationalgenomics.bioinformatics.ucla.edu/wp-content/uploads/sites/11/2016/08/icon-youtube.gif?w=1200" alt=""></a>(Computational Genomics Summer Institute @ IPAM, 2017)</li>
 </ul>
@@ -64,7 +64,7 @@ https://github.com/mcanouil/quarto-iconify
 <strong>2020</strong>
 <ul>
  	<li>{{< iconify iconamoon sign-equal-bold >}}  Hardin, J., Haushalter, K., Yong, D.<a href="https://new.seceij.net/articletype/projectreport/turning-stem-education-inside-out/" target = "_blank"><strong>Turning STEM Education Inside-Out: Teaching and Learning Inside of Prisons</strong></a>, <em>Science Education and Civic Engagement: An International Journal, 12 </em>(2); 2020.</li>
- 	<li>*Allison, K., *Hallman, M., *Koskelo E., Radunskaya, A., Hardin, J., Hudgings, J. <a href="https://aip.scitation.org/doi/10.1063/1.5135922"><strong>Increasing the speed of CCD-based thermoreflectance imaging</strong></a>, <em>Review of Scientific Instruments, 91</em>: 044901, 2020. https://doi.org/10.1063/1.5135922.</li>
+ 	<li><sup>#</sup>Allison, K., <sup>#</sup>Hallman, M., <sup>#</sup>Koskelo E., Radunskaya, A., Hardin, J., Hudgings, J. <a href="https://aip.scitation.org/doi/10.1063/1.5135922"><strong>Increasing the speed of CCD-based thermoreflectance imaging</strong></a>, <em>Review of Scientific Instruments, 91</em>: 044901, 2020. https://doi.org/10.1063/1.5135922.</li>
  	<li> {{< iconify fa-solid chalkboard-teacher >}}  Baumer, B., Bray, A., Çetinkaya-Rundel, M., and Hardin, J.<span class="Apple-converted-space">&nbsp; </span><a href="https://www.tandfonline.com/doi/full/10.1080/10691898.2020.1730734"  target = "_blank"><strong>Teaching Introductory Statistics with DataCamp</strong></a>, <em>Journal of Statistics Education, 28(1)</em>; 89-97, 2020.</li>
 </ul>
 <strong>2019</strong>
@@ -75,7 +75,7 @@ https://github.com/mcanouil/quarto-iconify
 <strong>2018</strong>
 <ul>
  	<li> {{< iconify fa-solid chalkboard-teacher >}}  Horton, N., Hardin, J. <strong><a href="http://iase-web.org/icots/10/proceedings/pdfs/ICOTS10_3A3.pdf" target = "_blank">Challenges and Opportunities for Statistics and Data Science Undergraduate Major and Minor Degree Programs</a></strong>.&nbsp;<em>Proceedings of&nbsp;the Tenth&nbsp;International Conference on Teaching Statistics</em>, 2018.</li>
- 	<li>{{< iconify fa-solid chart-line >}}  *Evans, C., Hardin, J., Stoebel, D.<strong><a href="https://academic.oup.com/bib/article/3056951/Selecting-between-sample-RNA-Seq-normalization" target = "_blank"> Selecting between-sample RNA-Seq normalization methods from the perspective of their assumptions.</a></strong>&nbsp;<em>Briefings in Bioinformatics, 19</em>(5): 776–792, 2018. &nbsp;(<a href="https://arxiv.org/abs/1609.00959" target = "_blank">paper @ arxiv.org</a>)
+ 	<li>{{< iconify fa-solid chart-line >}}  <sup>#</sup>Evans, C., Hardin, J., Stoebel, D.<strong><a href="https://academic.oup.com/bib/article/3056951/Selecting-between-sample-RNA-Seq-normalization" target = "_blank"> Selecting between-sample RNA-Seq normalization methods from the perspective of their assumptions.</a></strong>&nbsp;<em>Briefings in Bioinformatics, 19</em>(5): 776–792, 2018. &nbsp;(<a href="https://arxiv.org/abs/1609.00959" target = "_blank">paper @ arxiv.org</a>)
 <ul>
  	<li><a href="http://computationalgenomics.bioinformatics.ucla.edu/portfolio-item/jo-hardin-assumptions-in-normalizing-rnaseq-data/" target = "_blank">Tutorial on RNASeq Normalization and Differential Expression</a> (Computational Genomics Summer Institute @ IPAM, 2016)</li>
  	<li><a href="http://computationalgenomics.bioinformatics.ucla.edu/portfolio-item/jo-hardin-tutorial-on-rnaseq-normalization-and-differential-expression/" target = "_blank">Assumptions in Normalizing RNASeq Data</a> (Computational Genomics Summer Institute @ IPAM, 2016)</li>
@@ -92,18 +92,18 @@ https://github.com/mcanouil/quarto-iconify
 </ul>
 <strong>2017</strong>
 <ul>
- 	<li>{{< iconify fa-solid chart-line >}}  *Wong, G., Bonocora, R., *Schep, A., *Beeler, S., Lee, A., *Shull, L., *Batachari, L., *Dillon, M., *Evans, C., *Becker, C., Bush, E., Hardin, J., Wade, J., Stoebel, D. <strong><a href="http://jb.asm.org/content/199/7/e00755-16.abstract" target = "_blank">The genome-wide transcriptional response to varying RpoS levels in <em>Escherichia coli</em> K-12.</a></strong> <em>Journal of Bacteriology</em>, 199:e00755-16, 2017. &nbsp; (<a href="http://biorxiv.org/content/early/2016/10/21/082537" target = "_blank">paper @ biorxiv.org</a>)</li>
+ 	<li>{{< iconify fa-solid chart-line >}}  <sup>#</sup>Wong, G., Bonocora, R., <sup>#</sup>Schep, A., <sup>#</sup>Beeler, S., Lee, A., <sup>#</sup>Shull, L., <sup>#</sup>Batachari, L., <sup>#</sup>Dillon, M., <sup>#</sup>Evans, C., <sup>#</sup>Becker, C., Bush, E., Hardin, J., Wade, J., Stoebel, D. <strong><a href="http://jb.asm.org/content/199/7/e00755-16.abstract" target = "_blank">The genome-wide transcriptional response to varying RpoS levels in <em>Escherichia coli</em> K-12.</a></strong> <em>Journal of Bacteriology</em>, 199:e00755-16, 2017. &nbsp; (<a href="http://biorxiv.org/content/early/2016/10/21/082537" target = "_blank">paper @ biorxiv.org</a>)</li>
  	<li> {{< iconify fa-solid chalkboard-teacher >}}  Hardin, J., Kloke, J. “Statistical Analyses” in <strong>Current Protocols in Molecular Biology</strong>, Appendix 4A, John Wiley &amp; Sons, 2017.</li>
- 	<li>{{< iconify fa-solid chart-line >}}  *Evans, C., Hardin, J., Huber, M., Stoebel, D., *Wong, G. <strong> <a href="http://arxiv.org/abs/1410.3370" target = "_blank">Differential expression analysis for multiple conditions</a></strong>,&nbsp;unpublished, 2017. (<a href="http://arxiv.org/abs/1410.3370" target = "_blank">paper @ arxiv.org</a>)</li>
+ 	<li>{{< iconify fa-solid chart-line >}}  <sup>#</sup>Evans, C., Hardin, J., Huber, M., Stoebel, D., <sup>#</sup>Wong, G. <strong> <a href="http://arxiv.org/abs/1410.3370" target = "_blank">Differential expression analysis for multiple conditions</a></strong>,&nbsp;unpublished, 2017. (<a href="http://arxiv.org/abs/1410.3370" target = "_blank">paper @ arxiv.org</a>)</li>
 </ul>
 <strong>2016</strong>
 <ul>
- 	<li> {{< iconify fa sitemap >}}  *Coleman, J., *Replogle, J., Chandler, G., Hardin, J. <strong><a href="https://www.degruyter.com/view/j/sagmb.2016.15.issue-2/sagmb-2014-0081/sagmb-2014-0081.xml" target = "_blank">Resistant Multiple Sparse Canonical Correlation.</a></strong> <em>Statistical Applications in Genetics and Molecular Biology;15</em> (2): 123-38, 2016. (<a href="http://arxiv.org/abs/1410.3355" target = "_blank">paper @ arxiv.org</a>)</li>
+ 	<li> {{< iconify fa sitemap >}}  <sup>#</sup>Coleman, J., <sup>#</sup>Replogle, J., Chandler, G., Hardin, J. <strong><a href="https://www.degruyter.com/view/j/sagmb.2016.15.issue-2/sagmb-2014-0081/sagmb-2014-0081.xml" target = "_blank">Resistant Multiple Sparse Canonical Correlation.</a></strong> <em>Statistical Applications in Genetics and Molecular Biology;15</em> (2): 123-38, 2016. (<a href="http://arxiv.org/abs/1410.3355" target = "_blank">paper @ arxiv.org</a>)</li>
 </ul>
 <strong>2015</strong>
 <ul>
  	<li> {{< iconify fa-solid chalkboard-teacher >}}  Hardin, J., Hoerl, R., Horton, N.J., Nolan, D. <strong><a href="http://www.tandfonline.com/doi/full/10.1080/00031305.2015.1077729" target = "_blank">Data Science in Statistics Curricula: Preparing Students to 'Think with Data'.</a></strong> <em>The American Statistician, 69(4):343-353, 2015</em>. (<a href="http://arxiv.org/abs/1410.3127" target = "_blank">paper @ arxiv.org</a>)</li>
- 	<li> {{< iconify fa sitemap >}}  Hardin, J., Sarkis, G., *URC, P.C. <strong><a href="http://www.amstat.org/publications/jse/v23n2/hardin.pdf" target = "_blank">Network Analysis with the Enron Email Corpus.</a></strong> <em>Journal of Statistics Education, 23(2)</em>, 2015. (P.C. URC stands for the Pomona College Undergraduate Research Circle whose members for this project were Timothy Kaye, David Khatami, Daniel Metz, and Emily Proulx.) (<a href="http://arxiv.org/abs/1410.2759" target = "_blank">paper @ arxiv.org</a>)</li>
+ 	<li> {{< iconify fa sitemap >}}  Hardin, J., Sarkis, G., <sup>#</sup>URC, P.C. <strong><a href="http://www.amstat.org/publications/jse/v23n2/hardin.pdf" target = "_blank">Network Analysis with the Enron Email Corpus.</a></strong> <em>Journal of Statistics Education, 23(2)</em>, 2015. (P.C. URC stands for the Pomona College Undergraduate Research Circle whose members for this project were Timothy Kaye, David Khatami, Daniel Metz, and Emily Proulx.) (<a href="http://arxiv.org/abs/1410.2759" target = "_blank">paper @ arxiv.org</a>)</li>
 </ul>
 <strong>2013</strong>
 <ul>
@@ -111,18 +111,18 @@ https://github.com/mcanouil/quarto-iconify
 </ul>
 <strong>2012</strong>
 <ul>
- 	<li> {{< iconify fa-solid chalkboard-teacher >}}  *Brieger, K, J. Hardin. <strong><a href="https://hardin47.netlify.app/research/papers/files/Brieger3.pdf" target = "_blank"> Medicine and Statistics: the inextricable link </a> </strong> <em> Chance, 25</em>: 31-34, 2012.</li>
- 	<li>*Head, A., Hardin, J., Adolph, S. <strong><a href="http://pages.pomona.edu/~jsh04747/Research/Head%20et%20al%20EES%20v3.pdf" target = "_blank">New methods for estimating maximum performance and the correlation of sample measures</a></strong>, <em>Environmental and Ecological Statistics, 19</em>: 127-137, 2012.</li>
+ 	<li> {{< iconify fa-solid chalkboard-teacher >}}  <sup>#</sup>Brieger, K, J. Hardin. <strong><a href="https://hardin47.netlify.app/research/papers/files/Brieger3.pdf" target = "_blank"> Medicine and Statistics: the inextricable link </a> </strong> <em> Chance, 25</em>: 31-34, 2012.</li>
+ 	<li><sup>#</sup>Head, A., Hardin, J., Adolph, S. <strong><a href="http://pages.pomona.edu/~jsh04747/Research/Head%20et%20al%20EES%20v3.pdf" target = "_blank">New methods for estimating maximum performance and the correlation of sample measures</a></strong>, <em>Environmental and Ecological Statistics, 19</em>: 127-137, 2012.</li>
 </ul>
 
 <strong>2011</strong>
 <ul>
- 	<li>Karnovsky, N.J., *Brown, Z.W.,&nbsp;Welcker, J., Harding, A.M.A.,&nbsp;Walkusz, W.,&nbsp;Cavalcanti, A.,&nbsp;Hardin, J.,&nbsp;Kitaysky, A.,&nbsp;Gabrielsen, G.,&nbsp;Grémillet, D.&nbsp;<strong><a href="http://www.int-res.com/articles/meps_oa/m440p229.pdf" target = "_blank">Inter-colony comparison of diving behavior of an Arctic top predator: implications for warming in the Greenland Sea</a></strong>,&nbsp;<em>Marine Ecology Progress Series, 440:</em>&nbsp;229-240, 2011.&nbsp;&nbsp;DOI: 10.3354/meps0935.</li>
- 	<li>Grosfils, E.B., *Long, S.M., *Venechuk, E.M.,* Hurwitz, D.M., *Richards, J.W., *Kastl, Brian, *Drury, D.E., Hardin, J., 2011,&nbsp;<a href="http://astrogeology.usgs.gov/Projects/PlanetaryMapping/MapStatus/VenusStatus/V14.html" target = "_blank"><strong>Geologic map of the&nbsp;Ganiki&nbsp;Planitia&nbsp;quadrangle (V-14), Venus: U.S. Geological Survey Scientific Investigations Map 3121</strong></a>.Now available at USGS as an <a href= "https://usgs.maps.arcgis.com/apps/webappviewer/index.html?id=c14edac7e91b4fc5ade4042e3036ec58" target = "_blank">interactive map</a>.</li>
+ 	<li>Karnovsky, N.J., <sup>#</sup>Brown, Z.W.,&nbsp;Welcker, J., Harding, A.M.A.,&nbsp;Walkusz, W.,&nbsp;Cavalcanti, A.,&nbsp;Hardin, J.,&nbsp;Kitaysky, A.,&nbsp;Gabrielsen, G.,&nbsp;Grémillet, D.&nbsp;<strong><a href="http://www.int-res.com/articles/meps_oa/m440p229.pdf" target = "_blank">Inter-colony comparison of diving behavior of an Arctic top predator: implications for warming in the Greenland Sea</a></strong>,&nbsp;<em>Marine Ecology Progress Series, 440:</em>&nbsp;229-240, 2011.&nbsp;&nbsp;DOI: 10.3354/meps0935.</li>
+ 	<li>Grosfils, E.B., <sup>#</sup>Long, S.M., <sup>#</sup>Venechuk, E.M.,<sup>#</sup> Hurwitz, D.M., <sup>#</sup>Richards, J.W., <sup>#</sup>Kastl, Brian, <sup>#</sup>Drury, D.E., Hardin, J., 2011,&nbsp;<a href="http://astrogeology.usgs.gov/Projects/PlanetaryMapping/MapStatus/VenusStatus/V14.html" target = "_blank"><strong>Geologic map of the&nbsp;Ganiki&nbsp;Planitia&nbsp;quadrangle (V-14), Venus: U.S. Geological Survey Scientific Investigations Map 3121</strong></a>.Now available at USGS as an <a href= "https://usgs.maps.arcgis.com/apps/webappviewer/index.html?id=c14edac7e91b4fc5ade4042e3036ec58" target = "_blank">interactive map</a>.</li>
 </ul>
 <strong>2010</strong>
 <ul>
- 	<li>*Richards, J., Hardin, J.,&nbsp;Grosfils, E.&nbsp;<strong><a href="http://pages.pomona.edu/~jsh04747/Research/WeightedMBClustering_CompGeo_final.pdf" target = "_blank">Weighted Model-Based Clustering for Remote Sensing Image Analysis</a></strong>,<em>&nbsp;Computational Geosciences, 14</em>: 125-136, 2010.</li>
+ 	<li><sup>#</sup>Richards, J., Hardin, J.,&nbsp;Grosfils, E.&nbsp;<strong><a href="http://pages.pomona.edu/~jsh04747/Research/WeightedMBClustering_CompGeo_final.pdf" target = "_blank">Weighted Model-Based Clustering for Remote Sensing Image Analysis</a></strong>,<em>&nbsp;Computational Geosciences, 14</em>: 125-136, 2010.</li>
 </ul>
 &nbsp;
 
@@ -134,21 +134,21 @@ https://github.com/mcanouil/quarto-iconify
 
 <strong>2008</strong>
 <ul>
- 	<li>{{< iconify fa-solid chart-line >}}  *Yiu, G., *McCord, A., *Wise, A.,&nbsp;&nbsp;*Jindal, R., *Hardee, J.,&nbsp;*Kuo, A., *Yuen&nbsp;Shimogawa, M.,&nbsp;Cahoon, L., Wu, M., Kloke, J., Hardin, J., Mays&nbsp;Hoopes, L.L.;&nbsp;<strong><a href="http://pages.pomona.edu/~jsh04747/Research/yeastSep07.pdf" target = "_blank">Pathways Change in Expression During&nbsp;Replicative&nbsp;Aging in&nbsp;<em>Saccharomyces</em><em>&nbsp;cerevisiae</em></a></strong>,&nbsp;<em>Journal of Gerontology, 63A</em>: 21-34, 2008.</li>
+ 	<li>{{< iconify fa-solid chart-line >}}  <sup>#</sup>Yiu, G., <sup>#</sup>McCord, A., <sup>#</sup>Wise, A.,&nbsp;&nbsp;<sup>#</sup>Jindal, R., <sup>#</sup>Hardee, J.,&nbsp;<sup>#</sup>Kuo, A., <sup>#</sup>Yuen&nbsp;Shimogawa, M.,&nbsp;Cahoon, L., Wu, M., Kloke, J., Hardin, J., Mays&nbsp;Hoopes, L.L.;&nbsp;<strong><a href="http://pages.pomona.edu/~jsh04747/Research/yeastSep07.pdf" target = "_blank">Pathways Change in Expression During&nbsp;Replicative&nbsp;Aging in&nbsp;<em>Saccharomyces</em><em>&nbsp;cerevisiae</em></a></strong>,&nbsp;<em>Journal of Gerontology, 63A</em>: 21-34, 2008.</li>
 </ul>
 &nbsp;
 
 <strong>2007</strong>
 <ul>
- 	<li>{{< iconify fa-solid chart-line >}}  Hardin, J.,&nbsp;*Mitani, A., *Hicks, L.,&nbsp;*VanKoten, B.;&nbsp;<strong><a href="http://www.biomedcentral.com/content/pdf/1471-2105-8-220.pdf" target = "_blank">A Robust Measure of Correlation&nbsp;Between&nbsp;Two Genes on a Microarray</a></strong>,&nbsp;<em>BMC Bioinformatics</em>,&nbsp;<em>8</em>:220, 2007. (R code:&nbsp;<a href="http://pages.pomona.edu/~jsh04747/Research/biwt.r" target = "_blank">biwt.r</a>)</li>
+ 	<li>{{< iconify fa-solid chart-line >}}  Hardin, J.,&nbsp;<sup>#</sup>Mitani, A., <sup>#</sup>Hicks, L.,&nbsp;<sup>#</sup>VanKoten, B.;&nbsp;<strong><a href="http://www.biomedcentral.com/content/pdf/1471-2105-8-220.pdf" target = "_blank">A Robust Measure of Correlation&nbsp;Between&nbsp;Two Genes on a Microarray</a></strong>,&nbsp;<em>BMC Bioinformatics</em>,&nbsp;<em>8</em>:220, 2007. (R code:&nbsp;<a href="http://pages.pomona.edu/~jsh04747/Research/biwt.r" target = "_blank">biwt.r</a>)</li>
  	<li>Adolph, S., Hardin, J.;&nbsp;<strong><a href="http://pages.pomona.edu/~jsh04747/Research/Adolph&amp;Hardin_official.pdf" target = "_blank">Estimating Phenotypic Correlations: Correcting for Bias Due to&nbsp;Intraindividual&nbsp;Variability</a></strong>,&nbsp;<em>Functional Ecology</em>,&nbsp;<em>21</em>: 178-184, 2007.</li>
 </ul>
 &nbsp;
 
 <strong>2006</strong>
 <ul>
- 	<li>{{< iconify fa-solid chart-line >}}  *Wise, A., Hardin, J.,&nbsp;Hoopes, L.;&nbsp;<strong><a href="http://pages.pomona.edu/~jsh04747/Research/chancepaper3.pdf" target = "_blank">Yeast&nbsp;Through&nbsp;the Ages: a statistical analysis of genetic changes in aging yeast</a></strong>,&nbsp;<em>Chance</em>,&nbsp;<em>19</em>, 39-44, 2006.</li>
- 	<li>{{< iconify fa-solid chart-line >}}  Hardin, J.,&nbsp;Hoopes, L., *Murphy, R.;&nbsp;<strong><a href="http://www.stat.auckland.ac.nz/~iase/publications/17/3E1_HARD.pdf" target = "_blank">Analyzing DNA Microarrays with Undergraduate Statisticians</a></strong>,&nbsp;<em>Proceedings of&nbsp;the Seventh&nbsp;International Conference on Teaching Statistics</em>, 2006.</li>
+ 	<li>{{< iconify fa-solid chart-line >}}  <sup>#</sup>Wise, A., Hardin, J.,&nbsp;Hoopes, L.;&nbsp;<strong><a href="http://pages.pomona.edu/~jsh04747/Research/chancepaper3.pdf" target = "_blank">Yeast&nbsp;Through&nbsp;the Ages: a statistical analysis of genetic changes in aging yeast</a></strong>,&nbsp;<em>Chance</em>,&nbsp;<em>19</em>, 39-44, 2006.</li>
+ 	<li>{{< iconify fa-solid chart-line >}}  Hardin, J.,&nbsp;Hoopes, L., <sup>#</sup>Murphy, R.;&nbsp;<strong><a href="http://www.stat.auckland.ac.nz/~iase/publications/17/3E1_HARD.pdf" target = "_blank">Analyzing DNA Microarrays with Undergraduate Statisticians</a></strong>,&nbsp;<em>Proceedings of&nbsp;the Seventh&nbsp;International Conference on Teaching Statistics</em>, 2006.</li>
 </ul>
 &nbsp;
 
