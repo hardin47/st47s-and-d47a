@@ -29,11 +29,7 @@ format:
     theme: ../../callout_blog.scss
 ---
 
-<figure>
-<img style = "padding: 10px;float: right;" alt = 'hrdag' width='500' src='postoffices.png' />
-</figure>
 
-<br/>
 
 :::{.link}
 ::::{.link-header}
@@ -79,6 +75,15 @@ format:
 
 
 <br/>
+
+
+<figure>
+<img style = "padding: 10px;float: right;" alt = 'hrdag' width='500' src='postoffices.png' />
+</figure>
+
+<br>
+<p>   </p>
+
 
 I try my best to put in a few Tuesday hours working on a TidyTuesday dataset when I can.
 If you are in Claremont, I hope you will join us; reach out to me for information on time and place.
