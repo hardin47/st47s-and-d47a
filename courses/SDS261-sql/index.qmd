@@ -18,11 +18,11 @@ show_post_date: false
 </figure>
 
 
-**Data Science, the SQL** is a continuation of ideas learned in Foundations of Data Science.  The course develops abilities for using SQL databases within the data science pipeline.  The core of the course will focus on the why and the how associated with writing SELECT queries in SQL.  Additional topics will include subqueries, indexes, keys, and regular expressions. Students will learn how to run SQL queries from both the RStudio IDE as well as from a relational database management system client like MySQL Workbench or DuckDB. 
+**Data Science, the SQL** is a continuation of ideas learned in Foundations of Data Science.  The course develops abilities for using SQL databases within the data science pipeline.  The core of the course will focus on the why and the how associated with writing SELECT queries in SQL.  Additional topics will include subqueries, indexes, keys, and regular expressions. Students will learn how to run SQL queries from both the RStudio IDE as well as from a relational database management system client like DBeaver or DuckDB. 
 
 
 ## Student Learning Outcomes.
-By the end of the semester, students will:
+By the end of the term, students will:
 
 * **Database Concepts**: be able to explain basic database concepts such as tables, records, fields, and relationships.
 
@@ -33,11 +33,10 @@ By the end of the semester, students will:
   - Filtering and Sorting Data: be able to use SQL to filter and sort data based on specific criteria.
   - Joining Tables: understand how to perform inner and outer joins to combine data from multiple tables.
 
-* **Inserting and Updating Data**: be able to use SQL to insert new records into a table and update existing records. Students will learn how to use SQL to delete records from a table.
+* **Inserting and Updating Data**: be able to use SQL to insert new records into a table and update existing records. Use SQL to delete records from a table.
 
-* **Basics of Regular Expressions**: understand the fundamental concepts of regular expressions.  The will be able to identify and use basic metacharacters for pattern matching to write simple regular expressions for text search and matching.
+* **Basics of Regular Expressions**: understand the fundamental concepts of regular expressions.  Identify and use basic metacharacters for pattern matching to write simple regular expressions for text search and matching.
 
-* **Advanced Patterns and Quantifiers**: be able to apply quantifiers to match patterns of varying lengths.  They will explore alternation for matching multiple patterns and understand and use character classes for efficient matching.
 
 ## Course website
 
