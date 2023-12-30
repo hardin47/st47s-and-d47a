@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://hardin47.netlify.app/blogs.html</loc>
-    <lastmod>2023-12-30T02:38:51.332Z</lastmod>
+    <lastmod>2023-12-30T16:28:10.579Z</lastmod>
   </url>
   <url>
     <loc>https://hardin47.netlify.app/courses/M154-compstat/index.html</loc>
@@ -150,6 +150,10 @@
   </url>
   <url>
     <loc>https://hardin47.netlify.app/blogs/2024-02-01-shimsham/index.html</loc>
-    <lastmod>2023-12-30T02:38:50.459Z</lastmod>
+    <lastmod>2023-12-30T16:27:27.922Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hardin47.netlify.app/blogs/2024-03-01-shimsham/index.html</loc>
+    <lastmod>2023-12-30T16:28:13.597Z</lastmod>
   </url>
 </urlset>
