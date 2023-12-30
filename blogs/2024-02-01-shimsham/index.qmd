@@ -6,6 +6,7 @@ slug: shimsham
 featured: true
 categories: []
 tags: []
+image: featured.jpg
 description: "Through two recent pursuits, I reflect on what it is like to be a student.  When I'm in a tap dancing class that is too hard for me, I find it hard to focus on what I'm supposed to be learning.  When I try to learn SQL I recognize the power of generative AI. I've been teaching for 22 years, and it is refreshing and humbling to be in the student role again.  I recommend that all educators find a way to put themselves in the student role.  It will make you a better teacher."
 execute:
   echo: false
