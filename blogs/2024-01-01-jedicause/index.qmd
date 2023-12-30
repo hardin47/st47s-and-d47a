@@ -79,12 +79,6 @@ knitr::include_graphics("examp3-reading-list.jpg")
 
 
 
-
-
-
-
-
-
 The entries found on the JEDI-CAUSE website are varied. One can find curated lists of resources, activities geared to a specific topic, data sets, and links to resources found on other websites. 
 
 ## How can I contribute?
