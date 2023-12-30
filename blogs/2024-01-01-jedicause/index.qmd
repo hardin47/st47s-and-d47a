@@ -7,7 +7,7 @@ featured: true
 categories: []
 tags: []
 image: featured.png
-description: ""
+description: "A collaborative venture between the American Statistical Association's JEDI Outreach Group and Section on Statistics and Data Science Education (supported by the Consortium for the Advancement of Undergraduate Statistics Education), the JEDI-CAUSE website provides resources for teaching with a mindset toward Justice, Equity, Diversity, and Inclusion."
 execute:
   echo: false
   warning: false
