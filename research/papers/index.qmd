@@ -34,12 +34,15 @@ https://github.com/mcanouil/quarto-iconify
 
 
 
+<strong>2024</strong>
+<ul>
+  <li><sup>#</sup>Krupkin, I, Hardin, J. <a href = "https://arxiv.org/abs/2309.00736" target = "_blank"><strong>Prediction Error Estimation in Random Forests</strong></a>, under review, 2024.</li>
+  <li><sup>#</sup>Cruz, M., <sup>#</sup>Wei, A., Hardin, J., Radunskaya, A. <a href = "https://arxiv.org/abs/2206.03849" target = "_blank"><strong>Long-term Averages of the Stochastic Logistic Map</strong></a>, under review, 2024.</li>
+  </ul>
 <strong>2023</strong>
 <ul>
-  <li><sup>#</sup>Krupkin, I, Hardin, J. <a href = "https://arxiv.org/abs/2309.00736" target = "_blank"><strong>Prediction Error Estimation in Random Forests</strong></a>, under review, 2023.</li>
-  <li><sup>#</sup>Cruz, M., <sup>#</sup>Wei, A., Hardin, J., Radunskaya, A. <a href = "https://arxiv.org/abs/2206.03849" target = "_blank"><strong>Long-term Averages of the Stochastic Logistic Map</strong></a>, under review, 2023.</li>
- 	<li> {{< iconify fa-solid chart-line >}} <sup>#</sup>Adams, J., <sup>#</sup>Hoang, J., <sup>#</sup>Petroni, E., <sup>#</sup>Ashby, E., Hardin, J., Stoebel, D. <a href = "hhttps://journals.asm.org/doi/10.1128/msystems.00663-23" target = "_blank"><strong>The timing of transcription of RpoS-dependent genes varies across multiple stresses in <i>Escherichia coli</i> K-12</strong></a>, <em>mSystems</em>, accepted, 2023.</li>
-  <li>{{< iconify fa-solid chart-line >}} <sup>#</sup>Ashby, E., <sup>#</sup>Havens, J., Hardin, J., Schulz, D. <a href = "https://www.biorxiv.org/content/10.1101/2023.01.09.523188v1" target = "_blank"><strong>Chemical inhibition of bromodomain proteins in insect stage African trypanosomes perturbs silencing of the Variant Surface Glycoprotein repertoire and results in widespread changes in the transcriptome</strong></a>, <em>Microbiology Spectrum</em>, accepted, 2023.</li>
+<li> {{< iconify fa-solid chart-line >}} <sup>#</sup>Adams, J., <sup>#</sup>Hoang, J., <sup>#</sup>Petroni, E., <sup>#</sup>Ashby, E., Hardin, J., Stoebel, D. <a href = "https://doi.org/10.1128/msystems.00663-23" target = "_blank"><strong>The timing of transcription of RpoS-dependent genes varies across multiple stresses in <i>Escherichia coli</i> K-12</strong></a>, <em>mSystems 8</em>(5), 2023.</li>
+  <li>{{< iconify fa-solid chart-line >}} <sup>#</sup>Ashby, E., <sup>#</sup>Havens, J., Hardin, J., Schulz, D. <a href = "https://journals.asm.org/doi/10.1128/spectrum.00147-23" target = "_blank"><strong>Chemical inhibition of bromodomain proteins in insect stage African trypanosomes perturbs silencing of the Variant Surface Glycoprotein repertoire and results in widespread changes in the transcriptome</strong></a>, <em>Microbiology Spectrum 11</em>(3), 2023.</li>
  	<li>{{< iconify iconamoon sign-equal-bold >}}  Hardin, J., Shahriari, S. <a href = "https://doi.org/10.1080/10511970.2022.2082611" target = "_blank"><strong>Community, Collaboration, and Climate</strong></a>, <em>PRIMUS: Problems, Resources, and Issues in Mathematics Undergraduate Studies, 33</em>(5), 2023.</li>
   </ul>
 
