@@ -20,6 +20,12 @@ type: research
 <p><sup>#</sup> Indicates work done as an undergraduate student.</p>
 
 
+<h6>{{< iconify fa-solid chart-line >}}  &nbsp; Statistical methods for high-throughput data</h6>
+<h6> {{< iconify fa sitemap >}}  &nbsp; Inference in machine learning</h6>
+<h6> {{< iconify fa-solid chalkboard-teacher >}}  &nbsp; Statistics and data science education</h6>
+<h6>{{< iconify iconamoon sign-equal-bold >}}  &nbsp; Equity and flourishing in statistics and data science</h6> 
+
+
 ```{r}
 #| echo: false
 #| include: false
@@ -36,15 +42,18 @@ https://github.com/mcanouil/quarto-iconify
 
 <strong>2024</strong>
 <ul>
-  <li><sup>#</sup>Krupkin, I, Hardin, J. <a href = "https://arxiv.org/abs/2309.00736" target = "_blank"><strong>Prediction Error Estimation in Random Forests</strong></a>, under review, 2024.</li>
-  <li><sup>#</sup>Cruz, M., <sup>#</sup>Wei, A., Hardin, J., Radunskaya, A. <a href = "https://arxiv.org/abs/2206.03849" target = "_blank"><strong>Long-term Averages of the Stochastic Logistic Map</strong></a>, under review, 2024.</li>
+<li> {{< iconify iconamoon sign-equal-bold >}} Hardin, J. <a href = "" target = "_blank"><strong>CURV - connecting, uplifting, and recognizing voices</strong></a>, under review, 2024.</li>
+<li> {{< iconify iconamoon sign-equal-bold >}}  <sup>#</sup>Colando, S., Hardin, J. <a href = "https://arxiv.org/abs/2310.02444" target = "_blank"><strong>Philosophy as Integral to a Data Science Ethics Course</strong></a>, under review, 2024.</li>
+<li> {{< iconify fa sitemap >}}  <sup>#</sup>Krupkin, I., Hardin, J. <a href = "https://arxiv.org/abs/2309.00736" target = "_blank"><strong>Prediction Error Estimation in Random Forests</strong></a>, under review, 2024.</li>
+<li><sup>#</sup>Cruz, M., <sup>#</sup>Wei, A., Hardin, J., Radunskaya, A. <a href = "https://arxiv.org/abs/2206.03849" target = "_blank"><strong>Long-term Averages of the Stochastic Logistic Map</strong></a>, under review, 2024.</li>
   </ul>
+  
 <strong>2023</strong>
 <ul>
 <li> {{< iconify fa-solid chart-line >}} <sup>#</sup>Adams, J., <sup>#</sup>Hoang, J., <sup>#</sup>Petroni, E., <sup>#</sup>Ashby, E., Hardin, J., Stoebel, D. <a href = "https://doi.org/10.1128/msystems.00663-23" target = "_blank"><strong>The timing of transcription of RpoS-dependent genes varies across multiple stresses in <i>Escherichia coli</i> K-12</strong></a>, <em>mSystems 8</em>(5), 2023.</li>
-  <li>{{< iconify fa-solid chart-line >}} <sup>#</sup>Ashby, E., <sup>#</sup>Havens, J., Hardin, J., Schulz, D. <a href = "https://journals.asm.org/doi/10.1128/spectrum.00147-23" target = "_blank"><strong>Chemical inhibition of bromodomain proteins in insect stage African trypanosomes perturbs silencing of the Variant Surface Glycoprotein repertoire and results in widespread changes in the transcriptome</strong></a>, <em>Microbiology Spectrum 11</em>(3), 2023.</li>
- 	<li>{{< iconify iconamoon sign-equal-bold >}}  Hardin, J., Shahriari, S. <a href = "https://doi.org/10.1080/10511970.2022.2082611" target = "_blank"><strong>Community, Collaboration, and Climate</strong></a>, <em>PRIMUS: Problems, Resources, and Issues in Mathematics Undergraduate Studies, 33</em>(5), 2023.</li>
-  </ul>
+<li>{{< iconify fa-solid chart-line >}} <sup>#</sup>Ashby, E., <sup>#</sup>Havens, J., Hardin, J., Schulz, D. <a href = "https://journals.asm.org/doi/10.1128/spectrum.00147-23" target = "_blank"><strong>Chemical inhibition of bromodomain proteins in insect stage African trypanosomes perturbs silencing of the Variant Surface Glycoprotein repertoire and results in widespread changes in the transcriptome</strong></a>, <em>Microbiology Spectrum 11</em>(3), 2023.</li>
+<li> {{< iconify iconamoon sign-equal-bold >}}  Hardin, J., Shahriari, S. <a href = "https://doi.org/10.1080/10511970.2022.2082611" target = "_blank"><strong>Community, Collaboration, and Climate</strong></a>, <em>PRIMUS: Problems, Resources, and Issues in Mathematics Undergraduate Studies, 33</em>(5), 2023.</li>
+</ul>
 
 <strong>2022</strong>
 <ul>
@@ -110,7 +119,7 @@ https://github.com/mcanouil/quarto-iconify
 </ul>
 <strong>2013</strong>
 <ul>
- 	<li> {{< iconify fa sitemap >}}  Hardin, J., Garcia, S.R., Golan, D. <strong><a href="http://pages.pomona.edu/~jsh04747/research/AOAS638.pdf" target = "_blank"> A method for generating realistic correlation matrices</a> </strong> <em> Annals of Applied Statistics, 7</em>: 1733-1762, 2013. (<a href="http://arxiv.org/abs/1106.5834" target = "_blank">paper @ arxiv.org</a>)</li>
+ 	<li> {{< iconify fa sitemap >}}  Hardin, J., Garcia, S.R., Golan, D. <strong><a href="https://projecteuclid.org/journals/annals-of-applied-statistics/volume-7/issue-3/A-method-for-generating-realistic-correlation-matrices/10.1214/13-AOAS638.full" target = "_blank"> A method for generating realistic correlation matrices</a> </strong>, <em>Annals of Applied Statistics, 7</em>: 1733-1762, 2013.</li>
 </ul>
 <strong>2012</strong>
 <ul>
@@ -125,7 +134,7 @@ https://github.com/mcanouil/quarto-iconify
 </ul>
 <strong>2010</strong>
 <ul>
- 	<li><sup>#</sup>Richards, J., Hardin, J.,&nbsp;Grosfils, E.&nbsp;<strong><a href="http://pages.pomona.edu/~jsh04747/Research/WeightedMBClustering_CompGeo_final.pdf" target = "_blank">Weighted Model-Based Clustering for Remote Sensing Image Analysis</a></strong>,<em>&nbsp;Computational Geosciences, 14</em>: 125-136, 2010.</li>
+ 	<li> {{< iconify fa sitemap >}}  <sup>#</sup>Richards, J., Hardin, J.,&nbsp;Grosfils, E.&nbsp;<strong><a href="http://pages.pomona.edu/~jsh04747/Research/WeightedMBClustering_CompGeo_final.pdf" target = "_blank">Weighted Model-Based Clustering for Remote Sensing Image Analysis</a></strong>,<em>&nbsp;Computational Geosciences, 14</em>: 125-136, 2010.</li>
 </ul>
 &nbsp;
 
@@ -184,11 +193,5 @@ https://github.com/mcanouil/quarto-iconify
  	<li> {{< iconify fa sitemap >}}  Coleman, D., Dong, X., Hardin, J., Rocke, D.M., Woodruff, D.L.;&nbsp;<a href="http://research.pomona.edu/johardin/files/2012/08/Comp6.pdf" target = "_blank"><strong>Some Computational Issues in Cluster Analysis with no à priori Metric</strong></a>;&nbsp;<em>Computational Statistics and Data Analysis</em>,&nbsp;<em>31</em>: 1-11, 1999.</li>
 </ul>
 &nbsp;
-
-
-<h3>{{< iconify fa-solid chart-line >}}  &nbsp; Statistical methods for high-throughput data</h3>
-<h3> {{< iconify fa sitemap >}}  &nbsp; Inference in machine learning</h3>
-<h3> {{< iconify fa-solid chalkboard-teacher >}}  &nbsp; Statistics and data science education</h3>
-<h3>{{< iconify iconamoon sign-equal-bold >}}  &nbsp; Equity and flourising in statistics and data science</h3> 
 
 
