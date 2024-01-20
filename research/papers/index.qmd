@@ -43,9 +43,10 @@ https://github.com/mcanouil/quarto-iconify
 <strong>2024</strong>
 <ul>
 <li> {{< iconify iconamoon sign-equal-bold >}} Hardin, J. <a href = "" target = "_blank"><strong>CURV - connecting, uplifting, and recognizing voices</strong></a>, under review, 2024.</li>
-<li> {{< iconify iconamoon sign-equal-bold >}}  <sup>#</sup>Colando, S., Hardin, J. <a href = "https://arxiv.org/abs/2310.02444" target = "_blank"><strong>Philosophy as Integral to a Data Science Ethics Course</strong></a>, under review, 2024.</li>
+<li> {{< iconify fa-solid chalkboard-teacher >}}  <sup>#</sup>Colando, S., Hardin, J. <a href = "https://arxiv.org/abs/2310.02444" target = "_blank"><strong>Philosophy as Integral to a Data Science Ethics Course</strong></a>, under review, 2024.</li>
 <li> {{< iconify fa sitemap >}}  <sup>#</sup>Krupkin, I., Hardin, J. <a href = "https://arxiv.org/abs/2309.00736" target = "_blank"><strong>Prediction Error Estimation in Random Forests</strong></a>, under review, 2024.</li>
 <li><sup>#</sup>Cruz, M., <sup>#</sup>Wei, A., Hardin, J., Radunskaya, A. <a href = "https://arxiv.org/abs/2206.03849" target = "_blank"><strong>Long-term Averages of the Stochastic Logistic Map</strong></a>, under review, 2024.</li>
+  <li> {{< iconify fa-solid chalkboard-teacher >}}  Çetinkaya-Rundel, M., Hardin, J. <a href="https://www.openintro.org/book/ims/" target = "_blank"><strong>Introduction to Modern Statistics</strong></a> OpenIntro, 2nd edition, 2024.</li>
   </ul>
   
 <strong>2023</strong>
@@ -64,7 +65,7 @@ https://github.com/mcanouil/quarto-iconify
 
 <strong>2021</strong>
 <ul>
-  <li> {{< iconify fa-solid chalkboard-teacher >}}  Çetinkaya-Rundel, M., Hardin, J. <a href="https://www.openintro.org/book/ims/" target = "_blank"><strong>Introduction to Modern Statistics</strong></a> OpenIntro, 2021.</li>
+  <li> {{< iconify fa-solid chalkboard-teacher >}}  Çetinkaya-Rundel, M., Hardin, J. <a href="https://www.openintro.org/book/ims/" target = "_blank"><strong>Introduction to Modern Statistics</strong></a> OpenIntro, 1st edition, 2021.</li>
  	<li> {{< iconify fa-solid chalkboard-teacher >}}  Kim, A.Y., Hardin, J. <a href="https://www.tandfonline.com/doi/full/10.1080/10691898.2020.1799728" target = "_blank"><strong>"Playing the whole game": A data collection and analysis exercise with Google Calendar</strong></a>, <em>Journal of Statistics and Data Science Education, 29</em>(S1), 2021.</li>
  	<li> {{< iconify fa sitemap >}}  <sup>#</sup>Lu, B., Hardin, J. <a href="https://jmlr.org/papers/v22/18-558.html" target = "_blank"><strong>A Unified Framework for Random Forest Prediction Error Estimation</strong></a>, <em>Journal of Machine Learning Research, 22</em>(8), 2021.
 <ul>
