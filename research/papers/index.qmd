@@ -38,7 +38,8 @@ quarto add mcanouil/quarto-iconify
 https://github.com/mcanouil/quarto-iconify
 ```
 
-
+<p></p>
+<p></p>
 
 <strong>2024</strong>
 <ul>
