@@ -39,6 +39,7 @@ Furthermore, at least <strong>two weeks</strong> before the first letter is due,
 * List the programs to which you are applying, together with due dates. 
 * How long have I known you (years/months), and what is my relationship(s) to you (instructor, advisor, etc.)? Have you graded or mentored for me? If so, for what class(es) and when? 
 * For what class(es) have I had you, what final grade(s) did you earn, and how did you distinguish yourself in my class(es)? 
+* Did you do a project in my class?  What was it?  Did it have a "new" component?  What did you do for the "new" component?  What did you learn from doing the project?
 * How would you describe yourself? 
 * What are some of your academic accomplishments? 
 * What are some of your nonacademic accomplishments? 
