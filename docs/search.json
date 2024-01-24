@@ -235,14 +235,14 @@
     "href": "projects/tidytuesday/index.html#novice",
     "title": "TidyTuesday adventures",
     "section": "Novice",
-    "text": "Novice\n\nLog in to https://rstudio.cloud/ (if you are a Pomona student, use your abc0123@mymail email address to connect on the cloud with slightly higher bandwith / support).\n\nIf you go to Pomona College, log in to Pomona’s RStudio server at https://rstudio.pomona.edu/\nOr download R and RStudio (both free) onto your own computer. R is available at http://www.r-project.org/. Additionally, install RStudio in order to use RMarkdown, http://rstudio.org/.\n\nTo load the data in, create an R chunk and copy in the lines of code which are just below the phrase: # Or read in the data manually on the tidytuesday GitHub site for the particular day of interest. It will look something like this:\n```{r}\ndataset_1 &lt;- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/some_date/dataset_1.csv')\n\ndataset_2 &lt;- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/some_date/dataset_2.csv')\n```"
+    "text": "Novice\n\nLog in to https://posit.cloud/.\n\nIf you go to Pomona College, log in to Pomona’s RStudio server at https://rstudio.pomona.edu/\nOr download R and RStudio (both free) onto your own computer. R is available at http://www.r-project.org/. Additionally, install the RStudio IDE in order to use RMarkdown, https://posit.co/downloads/.\n\nTo load the data in, create an R chunk and copy in the lines of code which are just below the phrase: # Or read in the data manually on the tidytuesday GitHub site for the particular day of interest. It will look something like this:\n```{r}\ndataset_1 &lt;- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/some_date/dataset_1.csv')\n\ndataset_2 &lt;- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/some_date/dataset_2.csv')\n```"
   },
   {
     "objectID": "projects/tidytuesday/index.html#beginner",
     "href": "projects/tidytuesday/index.html#beginner",
     "title": "TidyTuesday adventures",
     "section": "Beginner",
-    "text": "Beginner\n\nGetting started with R: https://education.rstudio.com/learn/ and https://rstudio.cloud/learn/primers\nThe introverse package is truly meant for beginners to the tidyverse. https://sjspielman.github.io/introverse/index.html\nA fantastic ggplot2 tutorial"
+    "text": "Beginner\n\nGetting started with R: https://education.rstudio.com/learn/ and https://posit.cloud/learn/recipes\nThe introverse package is truly meant for beginners to the tidyverse. https://sjspielman.github.io/introverse/index.html\nA fantastic ggplot2 tutorial"
   },
   {
     "objectID": "projects/tidytuesday/index.html#intermediate",

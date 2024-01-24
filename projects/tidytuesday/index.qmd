@@ -97,9 +97,9 @@ If you are in Claremont, I hope you will join us; reach out to me for informatio
   
 ## Novice
 
-* Log in to <a href = "https://rstudio.cloud/" target = "_blank">https://rstudio.cloud/</a> (if you are a Pomona student, use your abc0123@mymail email address to connect on the cloud with slightly higher bandwith / support).  
+* Log in to <a href = "https://posit.cloud/" target = "_blank">https://posit.cloud/</a>.  
 * If you go to Pomona College, log in to Pomona's RStudio server at <a href = "https://rstudio.pomona.edu/" target = "_blank">https://rstudio.pomona.edu/</a>
-* Or download R and RStudio (both free) onto your own computer.  R is available at <a href="http://www.r-project.org/" target="_blank">http://www.r-project.org/</a>. Additionally, install RStudio in order to use RMarkdown, <a href="http://rstudio.org/" target="_blank">http://rstudio.org/</a>.  
+* Or download R and RStudio (both free) onto your own computer.  R is available at <a href="http://www.r-project.org/" target="_blank">http://www.r-project.org/</a>. Additionally, install the RStudio IDE in order to use RMarkdown, <a href="https://posit.co/downloads/" target="_blank">https://posit.co/downloads/</a>.  
 
 To load the data in, create an R chunk and copy in the lines of code which are just below the phrase: `# Or read in the data manually` on the `tidytuesday` GitHub site for the particular day of interest.  It will look something like this:
 
@@ -113,7 +113,7 @@ dataset_2 <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/
 
 ## Beginner
 
-* Getting started with R:  <a href = "https://education.rstudio.com/learn/" target = "_blank">https://education.rstudio.com/learn/</a> and <a href = "https://rstudio.cloud/learn/primers" target = "_blank">https://rstudio.cloud/learn/primers</a>
+* Getting started with R:  <a href = "https://education.rstudio.com/learn/" target = "_blank">https://education.rstudio.com/learn/</a> and <a href = "https://posit.cloud/learn/recipes" target = "_blank">https://posit.cloud/learn/recipes</a>
 
 * The **introverse** package is truly meant for beginners to the **tidyverse**.  <a href = "https://sjspielman.github.io/introverse/index.html" target = "_blank">https://sjspielman.github.io/introverse/index.html</a> 
 
@@ -123,7 +123,7 @@ dataset_2 <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/
 
 * Go through the R for Data Science book (highly recommended!): <a href = "https://r4ds.had.co.nz/" target = "_blank">https://r4ds.had.co.nz/</a>
 
-* All of the fantastic <a href = "https://www.rstudio.com/resources/cheatsheets/" target = "_blank">cheatsheets</a>
+* All of the fantastic <a href = "https://posit.co/resources/cheatsheets/" target = "_blank">cheatsheets</a>
 
 ## Experienced
 
