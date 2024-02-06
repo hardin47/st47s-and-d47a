@@ -43,10 +43,10 @@ https://github.com/mcanouil/quarto-iconify
 
 <strong>2024</strong>
 <ul>
-<li> {{< iconify iconamoon sign-equal-bold >}} Hardin, J. <a href = "" target = "_blank"><strong>CURV - connecting, uplifting, and recognizing voices</strong></a>, under review, 2024.</li>
-<li> {{< iconify fa-solid chalkboard-teacher >}}  <sup>#</sup>Colando, S., Hardin, J. <a href = "https://arxiv.org/abs/2310.02444" target = "_blank"><strong>Philosophy as Integral to a Data Science Ethics Course</strong></a>, under review, 2024.</li>
 <li> {{< iconify fa sitemap >}}  <sup>#</sup>Krupkin, I., Hardin, J. <a href = "https://arxiv.org/abs/2309.00736" target = "_blank"><strong>Prediction Error Estimation in Random Forests</strong></a>, under review, 2024.</li>
-<li><sup>#</sup>Cruz, M., <sup>#</sup>Wei, A., Hardin, J., Radunskaya, A. <a href = "https://arxiv.org/abs/2206.03849" target = "_blank"><strong>Long-term Averages of the Stochastic Logistic Map</strong></a>, under review, 2024.</li>
+<li> {{< iconify iconamoon sign-equal-bold >}} Hardin, J. <a href = "" target = "_blank"><strong>CURV - connecting, uplifting, and recognizing voices</strong></a>, <em>Chance</em>, under review, 2024.</li>
+<li> {{< iconify fa-solid chalkboard-teacher >}}  <sup>#</sup>Colando, S., Hardin, J. <a href = "https://arxiv.org/abs/2310.02444" target = "_blank"><strong>Philosophy as Integral to a Data Science Ethics Course</strong></a>, <em>Journal of Statistics and Data Science Education</em>, under review, 2024.</li>
+<li><sup>#</sup>Cruz, M., <sup>#</sup>Wei, A., Hardin, J., Radunskaya, A. <a href = "https://doi.org/10.1080/10236198.2024.2316379" target = "_blank"><strong>Long-term Averages of the Stochastic Logistic Map</strong></a>, <em>Journal of Difference Equations and Applications</em>, 2024.</li>
   <li> {{< iconify fa-solid chalkboard-teacher >}}  Çetinkaya-Rundel, M., Hardin, J. <a href="https://www.openintro.org/book/ims/" target = "_blank"><strong>Introduction to Modern Statistics</strong></a> OpenIntro, 2nd edition, 2024.</li>
   </ul>
   
