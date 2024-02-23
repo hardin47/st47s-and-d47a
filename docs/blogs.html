@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -48,7 +48,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -57,6 +63,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -95,6 +102,33 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -102,9 +136,9 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     <img src="./img/favicon.png" alt="" class="navbar-logo">
     </a>
@@ -119,33 +153,33 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">about</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">about</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./courses.html" rel="" target="">
- <span class="menu-text">courses</span></a>
+    <a class="nav-link" href="./courses.html"> 
+<span class="menu-text">courses</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html" rel="" target="">
- <span class="menu-text">research</span></a>
+    <a class="nav-link" href="./research.html"> 
+<span class="menu-text">research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html" rel="" target="">
- <span class="menu-text">projects</span></a>
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blogs.html" rel="" target="" aria-current="page">
- <span class="menu-text">blogs</span></a>
+    <a class="nav-link active" href="./blogs.html" aria-current="page"> 
+<span class="menu-text">blogs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./letters.html" rel="" target="">
- <span class="menu-text">rec letters</span></a>
+    <a class="nav-link" href="./letters.html"> 
+<span class="menu-text">rec letters</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -174,7 +208,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 
 
@@ -182,25 +218,25 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="" data-listing-date-sort="1709280000000" data-listing-file-modified-sort="1703955181289" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13">
+<div class="quarto-post image-right" data-index="0" data-categories="" data-listing-date-sort="1709280000000" data-listing-file-modified-sort="1703955181289" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2419">
 <div class="thumbnail">
-<p><a href="./blogs/2024-03-01-shimsham/index.html"> <img src="./blogs/2024-03-01-shimsham/featured.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./blogs/2024-03-01-shimsham/index.html" class="no-external"></a></p><a href="./blogs/2024-03-01-shimsham/index.html" class="no-external">
+<p><img src="./blogs/2024-03-01-shimsham/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="./blogs/2024-03-01-shimsham/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./blogs/2024-03-01-shimsham/index.html">
 <h3 class="no-anchor listing-title">
-Learning is humbling… and necessary for educators
+<a href="./blogs/2024-03-01-shimsham/index.html" class="no-external">Learning is humbling… and necessary for educators</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./blogs/2024-03-01-shimsham/index.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p>Through two recent pursuits, I reflect on what it is like to be a student. When I’m in a tap dancing class that is too hard for me, I find it hard to focus on what I’m supposed to be learning. When I try to learn SQL I recognize the power of generative AI. I’ve been teaching for 22 years, and it is refreshing and humbling to be in the student role again. I recommend that all educators find a way to put themselves in the student role. It will make you a better teacher.</p>
+<a href="./blogs/2024-03-01-shimsham/index.html" class="no-external">Through two recent pursuits, I reflect on what it is like to be a student. When I’m in a tap dancing class that is too hard for me, I find it hard to focus on what I’m supposed to be learning. When I try to learn SQL I recognize the power of generative AI. I’ve been teaching for 22 years, and it is refreshing and humbling to be in the student role again. I recommend that all educators find a way to put themselves in the student role. It will make you a better teacher.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./blogs/2024-03-01-shimsham/index.html">
+<a href="./blogs/2024-03-01-shimsham/index.html" class="no-external">
 <div class="listing-date">
 Mar 1, 2024
 </div>
@@ -210,25 +246,25 @@ Jo Hardin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="" data-listing-date-sort="1704096000000" data-listing-file-modified-sort="1706652749020" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="1" data-categories="" data-listing-date-sort="1704096000000" data-listing-file-modified-sort="1706652749020" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="764">
 <div class="thumbnail">
-<p><a href="./blogs/2024-01-01-jedicause/index.html"> <img src="./blogs/2024-01-01-jedicause/featured.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./blogs/2024-01-01-jedicause/index.html" class="no-external"></a></p><a href="./blogs/2024-01-01-jedicause/index.html" class="no-external">
+<p><img src="./blogs/2024-01-01-jedicause/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="./blogs/2024-01-01-jedicause/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./blogs/2024-01-01-jedicause/index.html">
 <h3 class="no-anchor listing-title">
-Resources for JEDI-Informed Teaching of Statistics and Data Science
+<a href="./blogs/2024-01-01-jedicause/index.html" class="no-external">Resources for JEDI-Informed Teaching of Statistics and Data Science</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./blogs/2024-01-01-jedicause/index.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p>A collaborative venture between the American Statistical Association’s JEDI Outreach Group and Section on Statistics and Data Science Education (supported by the Consortium for the Advancement of Undergraduate Statistics Education), the JEDI-CAUSE website provides resources for teaching with a mindset toward Justice, Equity, Diversity, and Inclusion.</p>
+<a href="./blogs/2024-01-01-jedicause/index.html" class="no-external">A collaborative venture between the American Statistical Association’s JEDI Outreach Group and Section on Statistics and Data Science Education (supported by the Consortium for the Advancement of Undergraduate Statistics Education), the JEDI-CAUSE website provides resources for teaching with a mindset toward Justice, Equity, Diversity, and Inclusion.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./blogs/2024-01-01-jedicause/index.html">
+<a href="./blogs/2024-01-01-jedicause/index.html" class="no-external">
 <div class="listing-date">
 Jan 1, 2024
 </div>
@@ -238,25 +274,25 @@ Jennifer Ward &amp; Jo Hardin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="" data-listing-date-sort="1691737200000" data-listing-file-modified-sort="1695923822390" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9">
+<div class="quarto-post image-right" data-index="2" data-categories="" data-listing-date-sort="1691737200000" data-listing-file-modified-sort="1695923822390" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1761">
 <div class="thumbnail">
-<p><a href="./blogs/2023-08-11-curv/index.html"> <p class="card-img-top"><img src="blogs/2023-08-11-curv/coasters.jpg" alt="A set of four coasters including Gosset, Pearson, Bayes, and Fisher"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./blogs/2023-08-11-curv/index.html" class="no-external"></a></p><a href="./blogs/2023-08-11-curv/index.html" class="no-external">
+<p class="card-img-top"><img src="blogs/2023-08-11-curv/coasters.jpg" alt="A set of four coasters including Gosset, Pearson, Bayes, and Fisher"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./blogs/2023-08-11-curv/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./blogs/2023-08-11-curv/index.html">
 <h3 class="no-anchor listing-title">
-CURV - connecting, uplifting, and recognizing voices
+<a href="./blogs/2023-08-11-curv/index.html" class="no-external">CURV - connecting, uplifting, and recognizing voices</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./blogs/2023-08-11-curv/index.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p>CURV is a database which seeks to celebrate scholars who are traditionally under represented in statistics and data science. The scholars represent the diversity of undergraduate students; they are individuals who are working to make statistics more accessible; and their works leads to making the world a better place.</p>
+<a href="./blogs/2023-08-11-curv/index.html" class="no-external">CURV is a database which seeks to celebrate scholars who are traditionally under represented in statistics and data science. The scholars represent the diversity of undergraduate students; they are individuals who are working to make statistics more accessible; and their works leads to making the world a better place.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./blogs/2023-08-11-curv/index.html">
+<a href="./blogs/2023-08-11-curv/index.html" class="no-external">
 <div class="listing-date">
 Aug 11, 2023
 </div>
@@ -266,25 +302,25 @@ Jo Hardin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="" data-listing-date-sort="1659250800000" data-listing-file-modified-sort="1693093609623" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="quarto-post image-right" data-index="3" data-categories="" data-listing-date-sort="1659250800000" data-listing-file-modified-sort="1693093609623" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1295">
 <div class="thumbnail">
-<p><a href="./blogs/2022-07-31-dear-diary-solitude/index.html"> <p class="card-img-top"><img src="blogs/2022-07-31-dear-diary-solitude/index_files/figure-html/unnamed-chunk-2-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./blogs/2022-07-31-dear-diary-solitude/index.html" class="no-external"></a></p><a href="./blogs/2022-07-31-dear-diary-solitude/index.html" class="no-external">
+<p class="card-img-top"><img src="blogs/2022-07-31-dear-diary-solitude/index_files/figure-html/unnamed-chunk-2-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./blogs/2022-07-31-dear-diary-solitude/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./blogs/2022-07-31-dear-diary-solitude/index.html">
 <h3 class="no-anchor listing-title">
-Dear Data - Solitude
+<a href="./blogs/2022-07-31-dear-diary-solitude/index.html" class="no-external">Dear Data - Solitude</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./blogs/2022-07-31-dear-diary-solitude/index.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p>Contribution to “In Here: Solitude”, a project to display part of the permanent collection of the Benton Art Museum at Pomona College.</p>
+<a href="./blogs/2022-07-31-dear-diary-solitude/index.html" class="no-external">Contribution to “In Here: Solitude”, a project to display part of the permanent collection of the Benton Art Museum at Pomona College.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./blogs/2022-07-31-dear-diary-solitude/index.html">
+<a href="./blogs/2022-07-31-dear-diary-solitude/index.html" class="no-external">
 <div class="listing-date">
 Jul 31, 2022
 </div>
@@ -294,25 +330,25 @@ Jo Hardin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1654153200000" data-listing-file-modified-sort="1693093609619" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14">
+<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1654153200000" data-listing-file-modified-sort="1693093609619" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2625">
 <div class="thumbnail">
-<p><a href="./blogs/2022-06-06-the-islands/index.html"> <p class="card-img-top"><img src="blogs/2022-06-06-the-islands/featured.png" alt="hrdag"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./blogs/2022-06-06-the-islands/index.html" class="no-external"></a></p><a href="./blogs/2022-06-06-the-islands/index.html" class="no-external">
+<p class="card-img-top"><img src="blogs/2022-06-06-the-islands/featured.png" alt="hrdag"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./blogs/2022-06-06-the-islands/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./blogs/2022-06-06-the-islands/index.html">
 <h3 class="no-anchor listing-title">
-Teaching with The Islands
+<a href="./blogs/2022-06-06-the-islands/index.html" class="no-external">Teaching with The Islands</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./blogs/2022-06-06-the-islands/index.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p>One of my favorite class activities involves the virtual world known as The Islands. Students, too, love the project.</p>
+<a href="./blogs/2022-06-06-the-islands/index.html" class="no-external">One of my favorite class activities involves the virtual world known as The Islands. Students, too, love the project.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./blogs/2022-06-06-the-islands/index.html">
+<a href="./blogs/2022-06-06-the-islands/index.html" class="no-external">
 <div class="listing-date">
 Jun 2, 2022
 </div>
@@ -322,25 +358,25 @@ Jo Hardin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="" data-listing-date-sort="1624777200000" data-listing-file-modified-sort="1693093609606" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="5" data-categories="" data-listing-date-sort="1624777200000" data-listing-file-modified-sort="1693093609606" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="598">
 <div class="thumbnail">
-<p><a href="./blogs/2021-06-27-ims/index.html"> <p class="card-img-top"><img src="blogs/2021-06-27-ims/ims-online.png" alt="hrdag"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./blogs/2021-06-27-ims/index.html" class="no-external"></a></p><a href="./blogs/2021-06-27-ims/index.html" class="no-external">
+<p class="card-img-top"><img src="blogs/2021-06-27-ims/ims-online.png" alt="hrdag"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./blogs/2021-06-27-ims/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./blogs/2021-06-27-ims/index.html">
 <h3 class="no-anchor listing-title">
-Introduction to Modern Statistics
+<a href="./blogs/2021-06-27-ims/index.html" class="no-external">Introduction to Modern Statistics</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./blogs/2021-06-27-ims/index.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p>Announcing Introduction to Modern Statistics by Mine Çetinkaya-Rundel and Jo Hardin</p>
+<a href="./blogs/2021-06-27-ims/index.html" class="no-external">Announcing Introduction to Modern Statistics by Mine Çetinkaya-Rundel and Jo Hardin</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./blogs/2021-06-27-ims/index.html">
+<a href="./blogs/2021-06-27-ims/index.html" class="no-external">
 <div class="listing-date">
 Jun 27, 2021
 </div>
@@ -350,25 +386,25 @@ Jo Hardin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="" data-listing-date-sort="1623308400000" data-listing-file-modified-sort="1693093609609" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="quarto-post image-right" data-index="6" data-categories="" data-listing-date-sort="1623308400000" data-listing-file-modified-sort="1693093609609" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1382">
 <div class="thumbnail">
-<p><a href="./blogs/2021-07-18-rr-and-or/index.html"> <p class="card-img-top"><img src="blogs/2021-07-18-rr-and-or/riskplacemat.png" alt="Six different pie charts are shown, each with a different number of equivalently sized pie pieces colored either blue or orange.  For example, one pie has three blue and two orange pieces.  Below that particular pie is written 3/5 = 0.6 which is the risk or the proportion of blue pie pieces."  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./blogs/2021-07-18-rr-and-or/index.html" class="no-external"></a></p><a href="./blogs/2021-07-18-rr-and-or/index.html" class="no-external">
+<p class="card-img-top"><img src="blogs/2021-07-18-rr-and-or/riskplacemat.png" alt="Six different pie charts are shown, each with a different number of equivalently sized pie pieces colored either blue or orange.  For example, one pie has three blue and two orange pieces.  Below that particular pie is written 3/5 = 0.6 which is the risk or the proportion of blue pie pieces."  class="thumbnail-image card-img"/></p>
+</a><p><a href="./blogs/2021-07-18-rr-and-or/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./blogs/2021-07-18-rr-and-or/index.html">
 <h3 class="no-anchor listing-title">
-Relative Risk and Odds Ratios
+<a href="./blogs/2021-07-18-rr-and-or/index.html" class="no-external">Relative Risk and Odds Ratios</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./blogs/2021-07-18-rr-and-or/index.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p>Why relative risk should not be calculated on data sampled using a case control study.</p>
+<a href="./blogs/2021-07-18-rr-and-or/index.html" class="no-external">Why relative risk should not be calculated on data sampled using a case control study.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./blogs/2021-07-18-rr-and-or/index.html">
+<a href="./blogs/2021-07-18-rr-and-or/index.html" class="no-external">
 <div class="listing-date">
 Jun 10, 2021
 </div>
@@ -378,25 +414,25 @@ Jo Hardin
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="" data-listing-date-sort="1589785200000" data-listing-file-modified-sort="1693093609591" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="quarto-post image-right" data-index="7" data-categories="" data-listing-date-sort="1589785200000" data-listing-file-modified-sort="1693093609591" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1340">
 <div class="thumbnail">
-<p><a href="./blogs/2020-05-18-keep-busy-with-data-science/index.html"> <p class="card-img-top"><img src="blogs/2020-05-18-keep-busy-with-data-science/githuboct.png" alt="hrdag"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./blogs/2020-05-18-keep-busy-with-data-science/index.html" class="no-external"></a></p><a href="./blogs/2020-05-18-keep-busy-with-data-science/index.html" class="no-external">
+<p class="card-img-top"><img src="blogs/2020-05-18-keep-busy-with-data-science/githuboct.png" alt="hrdag"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./blogs/2020-05-18-keep-busy-with-data-science/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./blogs/2020-05-18-keep-busy-with-data-science/index.html">
 <h3 class="no-anchor listing-title">
-Keeping busy with data science
+<a href="./blogs/2020-05-18-keep-busy-with-data-science/index.html" class="no-external">Keeping busy with data science</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./blogs/2020-05-18-keep-busy-with-data-science/index.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-Teach Data Science
+<a href="./blogs/2020-05-18-keep-busy-with-data-science/index.html" class="no-external">Teach Data Science</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./blogs/2020-05-18-keep-busy-with-data-science/index.html">
+<a href="./blogs/2020-05-18-keep-busy-with-data-science/index.html" class="no-external">
 <div class="listing-date">
 May 18, 2020
 </div>
@@ -490,10 +526,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -503,8 +538,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -517,6 +561,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -560,6 +723,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -585,6 +749,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -647,13 +837,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">© Copyright 2023, Jo Hardin</div>   
+    <div class="nav-footer-left">
+<p>© Copyright 2023, Jo Hardin</p>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
-    <div class="nav-footer-right">Built with 💚 and <a href="https://quarto.org/">Quarto</a>.</div>
+    <div class="nav-footer-right">
+<p>Built with 💚 and <a href="https://quarto.org/">Quarto</a>.</p>
+</div>
   </div>
 </footer>
+
 
 
 

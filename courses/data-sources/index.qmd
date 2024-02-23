@@ -23,7 +23,7 @@ show_post_date: false
 
 ## Data Challenges
 
-* <a href = "https://github.com/rfordatascience/tidytuesday" target = "_blank">TidyTuesday</a> A weekly data project aimed at the R ecosystem. I've written some suggestions and included a lot of resources for <a href = "https://hardin47.netlify.app/project/tidytuesday/" target = "_blank">getting started with TidyTuesday</a>
+* <a href = "https://github.com/rfordatascience/tidytuesday" target = "_blank">TidyTuesday</a> A weekly data project aimed at the R ecosystem. I've written some suggestions and included a lot of resources for <a href = "https://hardin47.netlify.app/projects/tidytuesday/" target = "_blank">getting started with TidyTuesday</a>
 
 * <a href = "https://www.drivendata.org/competitions/" target = "_blank">data for social good</a> provides real data and structures (similar to Kaggle) for working through models and coming up with predictions – all on data which benefits the social good.
 
