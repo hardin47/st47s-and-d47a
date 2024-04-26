@@ -24,6 +24,7 @@ show_post_date: false
 
 ## Student Learning Outcomes.
 the goal of the course is for students to learn to critically evaluate numbers and related claims that are presented to them.  To meet the goal, students will demonstrate their ability to achieve the following objectives: 
+
 * Given a report on a set of data, identify the population from which the data were collected and whether the sampling frame is the same as the population of interest. 
 * Identify whether a study is experimental or observational.  List possible confounding variables and alternative causal mechanisms. 
 * Describe aspects of a graph which are informative and those which are misleading. 
