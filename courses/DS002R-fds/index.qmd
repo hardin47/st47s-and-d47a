@@ -1,0 +1,39 @@
+---
+title: "DS 002R: Foundations of Data Science in R"
+slug: ds002r
+weight: 3
+subtitle: ""
+description: "Foundations of Data Science in R is a first course in data science focused on all aspects of the data science pipeline."
+date: ""
+draft: false
+featured: true
+show_post_date: false
+---
+
+## The Course
+
+<figure>
+<img src="tidydata_6.jpg" align="right" width = "600">
+<figcaption>Art by @allison_horst</figcaption>
+</figure>
+
+
+**Foundations of Data Science in R** is a first course in data science. Data play an increasingly important role in many fields. Being able to understand data and the ethical implications in data driven decisions is paramount to being an informed member of society.  As an introduction to data science with R, this course will introduce students to basic data science concepts. Prerequisite: CSCI004 or CSCI005 or CSCI051 or equivalent experience in programming. 
+
+
+## Student Learning Outcomes.
+By the end of the term, students will be able to:
+
+* scrape, process, and clean data from the web
+* wrangle data in a variety of formats
+* contextualize variation in data
+* construct point and interval estimates using resampling techniques
+* design accurate, clear and appropriate data graphics
+* query large relational databases (using SQL)
+* work fluently with regular expression
+* communicate data-driven decisions
+
+## Course website
+
+Foundations of Data Science in R was last taught in Fall 2024 at Pomona College.  Materials can be found on the <a href = "https://ds002r-fds.netlify.app/" target = "_blank">course website</a>.
+
