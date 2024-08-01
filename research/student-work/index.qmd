@@ -110,10 +110,15 @@ padding-bottom: 1em;
 
 ## Senior Thesis Projects
 
+<h4>2024:</h4>
+<ul>
+<li>Sara Colando (2024): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/sara_colando_2024.pdf" target = "_blank">"Selecting ChIP-Seq Normalization Methods from the Perspective of their Technical Conditions"</a>; Currently: PhD candidate, Statistics, Carnegie Mellon University.</li> 
+</ul>
+
 <h4>2023:</h4>
 <ul>
  	<li>Ian Krupkin (2023): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/ian_krupkin_2023.pdf" target = "_blank">"Prediction Error Estimation in Random Forests"</a>; Currently: Boston Consulting Group.</li> 	
- 	<li>Olivia Leu (2023): <a href="../../research/student-work/theses/olivia_leu_2023.pdf" target = "_blank">"Mathematics of Redistricting: Identifying Gerrymandering Through Outlier Analysis"</a>; </li> 	
+ 	<li>Olivia Leu (2023): <a href="../../research/student-work/theses/olivia_leu_2023.pdf" target = "_blank">"Mathematics of Redistricting: Identifying Gerrymandering Through Outlier Analysis"</a>; Currently: Data Analyst, Democracy Program at The Carter Center.</li> 	
  	<li>Summer Will (2023): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/summer_will_2023.pdf" target = "_blank">"Theoretical Properties of Oversampling Techniques"</a>; Currently: Digital Analytics Intern, CVS Health.</li> 	
  	<li>Julie Ye (2023): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/julie_ye_2023.pdf" target = "_blank">"Permutation Tests for Multiple Linear Regression Models"</a>; Currently: MS candidate, Yale University, Statistics & Data Science.</li>
 </ul>
@@ -146,7 +151,7 @@ Near-Earth Asteroids: An investigation of Fourier Analysis and the Lomb-Scargle 
 <h4>2019:</h4>
 <ul>
  	<li>Alex Gui (2019): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/alex_gui_2019.pdf" target = "_blank">"Local Prediction Confidence for Classification Random Forests"</a>; MS 2021, Stanford University, Statistics: Data Science, Currently: Data Scientist at Pinterest</li>
- 	<li>Frances Hung (2019): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/frances_hung_2019.pdf" target = "_blank">"Active Learning Experimental Design of Bayesian Networks"</a>; Currently: PhD candidate, Duke University, Statistics</li>
+ 	<li>Frances Hung (2019): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/frances_hung_2019.pdf" target = "_blank">"Active Learning Experimental Design of Bayesian Networks"</a>; MS 2021, Duke University, Statistics, Currently: JD candidate, UCLA</li>
  	<li>Vedant Vohra (2019): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/vedant_vohra_2019.pdf" target = "_blank">"Estimating the proportion who benefit from a treatment in a Randomized Controlled Trial"</a>; Currently: PhD candidate, UC San Diego, Economics</li>
  	<li>Justin Weltz (2019): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/justin_weltz_2019.pdf" target = "_blank">"Over-Policing and Fairness in Machine Learning"</a>; Currently: PhD candidate, Duke University, Statistics</li>
 </ul>
