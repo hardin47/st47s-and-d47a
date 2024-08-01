@@ -31,8 +31,8 @@ Through new ventures into data science (both research and teaching), I am curren
 
 ::: {.g-col-4}
 <figure>
-<img src="research/github_groundcrew_text.png" align="right" width="400">
-<figcaption>Art by @allison_horst</figcaption>
+<img src="research/itsgoingtowork2.png" align="right" width="400">
+<figcaption>Art by Federica Domecq Lacroze</figcaption>
 </figure>
 
 :::
