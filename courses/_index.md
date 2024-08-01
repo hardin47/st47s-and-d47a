@@ -4,7 +4,7 @@ description: |
   compilation of course materials
 author: Jo Hardin
 show_post_thumbnail: true
-thumbnail_left: true # for list-sidebar only
+thumbnail_left: false # for list-sidebar only
 show_author_byline: false
 show_post_date: false
 # for listing page layout
