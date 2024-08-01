@@ -1,7 +1,6 @@
 ---
 title: "DS 002R: Foundations of Data Science in R"
 slug: ds002r
-weight: 3
 subtitle: ""
 description: "Foundations of Data Science in R is a first course in data science focused on all aspects of the data science pipeline."
 date: ""

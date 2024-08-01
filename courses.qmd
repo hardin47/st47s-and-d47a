@@ -8,6 +8,7 @@ listing:
 website:
   page-navigation: true
   sidebar: false
+  border: true
 
 image: courses/sidebar-listing.jpg
 format:

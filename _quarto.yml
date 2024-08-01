@@ -30,7 +30,7 @@ website:
      
   page-footer:
     right: "Built with 💚 and [Quarto](https://quarto.org/)."
-    left: "&copy; Copyright 2023, Jo Hardin"
+    left: "&copy; Copyright 2024, Jo Hardin"
     background: "#F5F3E0" 
         
 format:
