@@ -28,7 +28,7 @@ where can I find things?
 
 
 <figure>
-<img src="courses/sidebar-listing.jpg" align="right" width="200">
+<img src="courses/sidebar-listing.jpg" align="right" width="400">
 </figure>
 <figcaption>Art by @allison_horst</figcaption>
 Most of the course materials are on the dedicated course website. For many classes, there is also a textbook (typically available online for free). All solutions (HW, exams, etc.) will be posted on Canvas.
@@ -45,4 +45,3 @@ Most of the course materials are on the dedicated course website. For many class
 </style>
 ```
 
-:::

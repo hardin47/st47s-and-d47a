@@ -32,6 +32,7 @@ cascade:
     text_link_label: ""
     text_link_url: ""
     show_sidebar_adunit: false # show ad container
+    sidebar-width: 10px
 ---
 
 ** No content below YAML for the series _index. This file is a leaf bundle, and provides settings for the listing page layout and sidebar content.**
