@@ -29,15 +29,14 @@ I have worked with medical doctors, biologists, geologists, and physicists in my
 
 Another area of my research focuses on the statistics and data science undergraduate curriculum -- making it more modern and more accessible.
 Through new ventures into data science (both research and teaching), I am currently exploring ways that today’s extensive data (both in scale and in occurrence) are shaping science and the world around us.
+
+<figure>
+<img src="research/itsgoingtowork2.png" align="right" width="200">
+<figurecaption> Art by Federica Domecq Lacroze </figurecaption>
+</figure>
 :::
 
 ::: {.g-col-4}
-<figure>
-<img src="research/itsgoingtowork2.png" align="right" width="200">
-</figure>
-<p></p>
-Art by Federica Domecq Lacroze
-
 :::
 
 
