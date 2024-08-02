@@ -17,12 +17,15 @@ css: index.css
 ---
 
 
-::: {.grid}
+:::: {.columns}
 
-::: {.g-col-8}
+::: {.column width = "10%"}
+:::
+
+::: {.column width = "80%"}
 <figure>
 <img src="research/itsgoingtowork2.png" align="right" width="400">
-<figurecaption> Art by Federica Domecq Lacroze </figurecaption>
+<figcaption> Art by Federica Domecq Lacroze </figcaption>
 </figure>
 One of the best things about being a statistician is the many different subject areas to pursue.  My <a href="/research/">research projects</a> are posted, but if you have time, it's really my <a href="/research/">students' research projects</a> that are worth investigating.  I highly recommend working with undergraduates on research as it is among the most fun and rewarding parts of my day.
 
@@ -35,10 +38,10 @@ Another area of my research focuses on the statistics and data science undergrad
 Through new ventures into data science (both research and teaching), I am currently exploring ways that today’s extensive data (both in scale and in occurrence) are shaping science and the world around us.
 :::
 
-::: {.g-col-4}
+::: {.column width = "10%"}
 :::
 
-
+::::
 
 
 
