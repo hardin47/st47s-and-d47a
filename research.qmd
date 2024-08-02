@@ -4,7 +4,7 @@ listing:
   contents: research # all Quarto docs in the `posts` directory will be included on your listing page
   type: default # or `grid` or `table`; each type has its own set of yaml options to include
   sort: "title" # can also sort on more than one field
-  categories: true # allows you to sort posts by assigned categories 
+  categories: false # allows you to sort posts by assigned categories 
 
 image: research/github_groundcrew_text.png
 format:
@@ -16,8 +16,10 @@ css: index.css
 
 ::: {#hero-banner .column-screen}
 ::: {.grid .column-page}
+::: {.headline .g-col-lg-6 .g-col-12 .g-col-md-12}
 
-::: {.g-col-8}
+::: h1
+
 One of the best things about being a statistician is the many different subject areas to pursue.  My <a href="/research/">research projects</a> are posted, but if you have time, it's really my <a href="/research/">students' research projects</a> that are worth investigating.  I highly recommend working with undergraduates on research as it is among the most fun and rewarding parts of my day.
 
 My areas of expertise include statistical analysis of high-throughput genetic data which don’t conform to technical conditions in standard methods.
@@ -34,6 +36,8 @@ Through new ventures into data science (both research and teaching), I am curren
 <img src="research/itsgoingtowork2.png" align="right" width="400">
 <figcaption>Art by Federica Domecq Lacroze</figcaption>
 </figure>
+
+:::
 
 :::
 
