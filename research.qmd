@@ -18,9 +18,6 @@ css: index.css
 ::: {.grid .column-page}
 ::: {.headline .g-col-lg-6 .g-col-12 .g-col-md-12}
 
-::: h1
-
-:::
 
 One of the best things about being a statistician is the many different subject areas to pursue.  My <a href="/research/">research projects</a> are posted, but if you have time, it's really my <a href="/research/">students' research projects</a> that are worth investigating.  I highly recommend working with undergraduates on research as it is among the most fun and rewarding parts of my day.
 
@@ -44,12 +41,6 @@ Through new ventures into data science (both research and teaching), I am curren
 </figure>
 :::
 
-:::
-
-
-:::
-
-:::
 
 ```{=html}
 <style>
