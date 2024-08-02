@@ -21,7 +21,7 @@ description: |
 css: index.css
 ---
 
-::: {#hero-banner .column-screen}
+
 ::: h1
 where can I find things?
 :::
@@ -41,7 +41,6 @@ Most of the course materials are on the dedicated course website. For many class
 
 :::
 
-:::
 
 ```{=html}
 <style>
