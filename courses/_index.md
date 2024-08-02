@@ -25,14 +25,13 @@ cascade:
   type: blog
   layout: single-series   # for a series, do not change
   author: Jo Hardin
-  show_author_byline: true
-  show_post_date: true
+  show_author_byline: false
+  show_post_date: false
   # for single-sidebar layout
   sidebar:
     text_link_label: ""
     text_link_url: ""
     show_sidebar_adunit: false # show ad container
-    sidebar-width: 10px
 ---
 
 ** No content below YAML for the series _index. This file is a leaf bundle, and provides settings for the listing page layout and sidebar content.**
