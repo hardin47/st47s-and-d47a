@@ -16,13 +16,6 @@ description: |
 css: index.css
 ---
 
-
-:::: {.columns}
-
-::: {.column width = "10%"}
-:::
-
-::: {.column width = "80%"}
 <figure>
 <img src="research/itsgoingtowork2.png" align="right" width="400">
 <figcaption> Art by Federica Domecq Lacroze </figcaption>
@@ -36,13 +29,6 @@ I have worked with medical doctors, biologists, geologists, and physicists in my
 
 Another area of my research focuses on the statistics and data science undergraduate curriculum -- making it more modern and more accessible.
 Through new ventures into data science (both research and teaching), I am currently exploring ways that today’s extensive data (both in scale and in occurrence) are shaping science and the world around us.
-:::
-
-::: {.column width = "10%"}
-:::
-
-::::
-
 
 
 
