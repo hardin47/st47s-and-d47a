@@ -1,5 +1,5 @@
 ---
-title: "Research Interests"
+title: "research interests"
 description: "so many fun problems, so little time"
 weight: 1
 author: ""

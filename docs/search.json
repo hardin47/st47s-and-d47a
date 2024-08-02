@@ -282,14 +282,14 @@
   {
     "objectID": "projects/research/index.html",
     "href": "projects/research/index.html",
-    "title": "Research Interests",
+    "title": "research interests",
     "section": "",
     "text": "From Cruz et al., 2024.\nLink to Jo Hardin’s CV"
   },
   {
     "objectID": "projects/research/index.html#my-background",
     "href": "projects/research/index.html#my-background",
-    "title": "Research Interests",
+    "title": "research interests",
     "section": "my background",
     "text": "my background\nI have been at Pomona College since 2002 where I teach lots of different kinds of statistics, taught a little bit of math once, love teaching writing with statistics, and hope to soon teach some data science.\nMy undergraduate degree is also from Pomona College, in Mathematics where I worked with Don Bentley. I did my PhD in Statistics at UC Davis with David Rocke.\nMy current research interests include:\n\n   Statistical methods for high-throughput data\n\n\n   Inference in machine learning\n\n\n   Statistics and data science education\n\n\n   Equity and flourising in statistics and data science"
   },
@@ -417,7 +417,7 @@
     "href": "research.html",
     "title": "research projects",
     "section": "",
-    "text": "Art by Federica Domecq Lacroze\n\n\nOne of the best things about being a statistician is the many different subject areas to pursue. My research projects are posted, but if you have time, it’s really my students’ research projects that are worth investigating. I highly recommend working with undergraduates on research as it is among the most fun and rewarding parts of my day.\nMy areas of expertise include statistical analysis of high-throughput genetic data which don’t conform to technical conditions in standard methods. I work on problems of normalizing data structures, clustering and classifying time course profiles, and creating metrics to measure a variety of signals. I chose to become a statistician because of the myriad potential collaborations across many fields. I have worked with medical doctors, biologists, geologists, and physicists in my research.\nAnother area of my research focuses on the statistics and data science undergraduate curriculum – making it more modern and more accessible. Through new ventures into data science (both research and teaching), I am currently exploring ways that today’s extensive data (both in scale and in occurrence) are shaping science and the world around us.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResearch Interests\n\n\n\n\n\nso many fun problems, so little time\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npapers + projects\n\n\nso many fun projects, so little time\n\n\nA collection of research papers, many of which were done primarily by undergraduate collaborators.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nstudent work\n\n\nnice job everyone!\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Art by Federica Domecq Lacroze\n\n\nOne of the best things about being a statistician is the many different subject areas to pursue. My research projects are posted, but if you have time, it’s really my students’ research projects that are worth investigating. I highly recommend working with undergraduates on research as it is among the most fun and rewarding parts of my day.\nMy areas of expertise include statistical analysis of high-throughput genetic data which don’t conform to technical conditions in standard methods. I work on problems of normalizing data structures, clustering and classifying time course profiles, and creating metrics to measure a variety of signals. I chose to become a statistician because of the myriad potential collaborations across many fields. I have worked with medical doctors, biologists, geologists, and physicists in my research.\nAnother area of my research focuses on the statistics and data science undergraduate curriculum – making it more modern and more accessible. Through new ventures into data science (both research and teaching), I am currently exploring ways that today’s extensive data (both in scale and in occurrence) are shaping science and the world around us.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npapers + projects\n\n\nso many fun projects, so little time\n\n\nA collection of research papers, many of which were done primarily by undergraduate collaborators.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresearch interests\n\n\n\n\n\nso many fun problems, so little time\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nstudent work\n\n\nnice job everyone!\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blogs/2021-06-27-ims/index.html",
@@ -557,7 +557,7 @@
     "href": "projects.html",
     "title": "projects",
     "section": "",
-    "text": "CURV\n\n\na database of scholars to highlight in the classroom\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEquity and Flourishing\n\n\na collection of resources relating to diversity, equity, and inclusion initiatives\n\n\n\nJo Hardin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIMS\n\n\na free, open-source, online textbook for introductory statistics with an emphasis on simulation based approaches\n\n\n\nMine Çentinkaya-Rundel and Jo Hardin\n\n\n\n\n\n\n\n\n\n\n\n\nResearch Interests\n\n\nso many fun problems, so little time\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeach Data Science\n\n\na data science blog - 2019 & 2020\n\n\n\nHunter Glanz, Jo Hardin, and Nick Horton\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTidyTuesday adventures\n\n\na collection of TidyTuesday plots and models\n\n\n\nJo Hardin\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "CURV\n\n\na database of scholars to highlight in the classroom\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEquity and Flourishing\n\n\na collection of resources relating to diversity, equity, and inclusion initiatives\n\n\n\nJo Hardin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIMS\n\n\na free, open-source, online textbook for introductory statistics with an emphasis on simulation based approaches\n\n\n\nMine Çentinkaya-Rundel and Jo Hardin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeach Data Science\n\n\na data science blog - 2019 & 2020\n\n\n\nHunter Glanz, Jo Hardin, and Nick Horton\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTidyTuesday adventures\n\n\na collection of TidyTuesday plots and models\n\n\n\nJo Hardin\n\n\n\n\n\n\n\n\n\n\n\n\nresearch interests\n\n\nso many fun problems, so little time\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -681,30 +681,30 @@
   {
     "objectID": "letters.html",
     "href": "letters.html",
-    "title": "Letters of Recommendation",
+    "title": "letters of recommendation",
     "section": "",
     "text": "Almost surely, no problem. I would be happy to write you a letter. Help me, help you. The more information you can provide for me, the better my letter will be. Also, send the same information about your situation to your other letter writers. It will make their letters better, too. You don’t need to send me long answers to every single question. However, the more you can expand on (particularly with specifics I can use in a letter), the better."
   },
   {
     "objectID": "letters.html#would-you-like-a-letter-of-recommendation",
     "href": "letters.html#would-you-like-a-letter-of-recommendation",
-    "title": "Letters of Recommendation",
+    "title": "letters of recommendation",
     "section": "",
     "text": "Almost surely, no problem. I would be happy to write you a letter. Help me, help you. The more information you can provide for me, the better my letter will be. Also, send the same information about your situation to your other letter writers. It will make their letters better, too. You don’t need to send me long answers to every single question. However, the more you can expand on (particularly with specifics I can use in a letter), the better."
   },
   {
     "objectID": "letters.html#who-sends-the-letter-to-the-organization",
     "href": "letters.html#who-sends-the-letter-to-the-organization",
-    "title": "Letters of Recommendation",
-    "section": "Who sends the letter to the organization?",
-    "text": "Who sends the letter to the organization?\nExcept in rare situations, I should be the one submitting the letter directly to the organization.\n\nThe ideal situation is for you to provide me a link (email address, web form, email from the organization, etc.) where I can post / submit the letter.\nIf the organization has asked you to submit the letter, please reach out to the organization asking whether they will make an exception to their policy so as to recieve the letter directly from me. When you submit the rest of the materials below, please include the response you’ve gotten from the organization about their policy on recieving a letter directly from me (instead of from you)."
+    "title": "letters of recommendation",
+    "section": "who sends the letter to the organization?",
+    "text": "who sends the letter to the organization?\nExcept in rare situations, I should be the one submitting the letter directly to the organization.\n\nThe ideal situation is for you to provide me a link (email address, web form, email from the organization, etc.) where I can post / submit the letter.\nIf the organization has asked you to submit the letter, please reach out to the organization asking whether they will make an exception to their policy so as to recieve the letter directly from me. When you submit the rest of the materials below, please include the response you’ve gotten from the organization about their policy on recieving a letter directly from me (instead of from you)."
   },
   {
     "objectID": "letters.html#send-to-me",
     "href": "letters.html#send-to-me",
-    "title": "Letters of Recommendation",
-    "section": "Send to me:",
-    "text": "Send to me:\nIf I have agreed to write a recommendation for you, please provide me with as much of the following as possible:\n\na unofficial copy of your transcript,\na copy of your personal statement (if applicable), and\nany necessary forms\n\nFurthermore, at least two weeks before the first letter is due, e-mail me your answers to the following questions (the more details the better):\n\nWhat are your name, pronouns, year, and major?\nFor what are you applying? (scholarship, graduate school, etc.)\nList the programs to which you are applying, together with due dates.\nHow long have I known you (years/months), and what is my relationship(s) to you (instructor, advisor, etc.)? Have you graded or mentored for me? If so, for what class(es) and when?\nFor what class(es) have I had you, what final grade(s) did you earn, and how did you distinguish yourself in my class(es)?\nDid you do a project in my class? What was it? Did it have a “new” component? What did you do for the “new” component? What did you learn from doing the project?\nHow would you describe yourself?\nWhat are some of your academic accomplishments?\nWhat are some of your nonacademic accomplishments?\nWhat makes me particularly qualified to write a letter for you?\nWhat makes you particularly qualified for this position/honor/award?\nWhat are your long term goals and will this position/honor/award help? If so, how?\nAdditional comments (REU’s, summer research, interesting jobs, hobbies, etc.)?\n\nPlease send me e-mail reminder(s) as deadlines approach, and feel free to chat with me about other ways you can make the letter writing process go as smoothly as possible for you and your letter writers. Good luck!\nThanks to Mike Orrison at HMC for the above ideas.\nSee Mine Dogucu’s blog post which includes extensive tips for both students and instructors on getting to excellent recommendation letters."
+    "title": "letters of recommendation",
+    "section": "send to me:",
+    "text": "send to me:\nIf I have agreed to write a recommendation for you, please provide me with as much of the following as possible:\n\na unofficial copy of your transcript,\na copy of your personal statement (if applicable), and\nany necessary forms\n\nFurthermore, at least two weeks before the first letter is due, e-mail me your answers to the following questions (the more details the better):\n\nWhat are your name, pronouns, year, and major?\nFor what are you applying? (scholarship, graduate school, etc.)\nList the programs to which you are applying, together with due dates.\nHow long have I known you (years/months), and what is my relationship(s) to you (instructor, advisor, etc.)? Have you graded or mentored for me? If so, for what class(es) and when?\nFor what class(es) have I had you, what final grade(s) did you earn, and how did you distinguish yourself in my class(es)?\nDid you do a project in my class? What was it? Did it have a “new” component? What did you do for the “new” component? What did you learn from doing the project?\nHow would you describe yourself?\nWhat are some of your academic accomplishments?\nWhat are some of your nonacademic accomplishments?\nWhat makes me particularly qualified to write a letter for you?\nWhat makes you particularly qualified for this position/honor/award?\nWhat are your long term goals and will this position/honor/award help? If so, how?\nAdditional comments (REU’s, summer research, interesting jobs, hobbies, etc.)?\n\nPlease send me e-mail reminder(s) as deadlines approach, and feel free to chat with me about other ways you can make the letter writing process go as smoothly as possible for you and your letter writers. Good luck!\nThanks to Mike Orrison at HMC for the above ideas.\nSee Mine Dogucu’s blog post which includes extensive tips for both students and instructors on getting to excellent recommendation letters."
   },
   {
     "objectID": "courses/SDS261-sql/index.html",

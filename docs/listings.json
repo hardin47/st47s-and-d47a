@@ -35,8 +35,8 @@
   {
     "listing": "/research.html",
     "items": [
-      "/projects/research/index.html",
       "/research/papers/index.html",
+      "/projects/research/index.html",
       "/research/student-work/index.html"
     ]
   },
@@ -46,9 +46,9 @@
       "/projects/CURV/index.html",
       "/projects/dei/index.html",
       "/projects/IMS/index.html",
-      "/projects/research/index.html",
       "/projects/TDS/index.html",
-      "/projects/tidytuesday/index.html"
+      "/projects/tidytuesday/index.html",
+      "/projects/research/index.html"
     ]
   }
 ]
