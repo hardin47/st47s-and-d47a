@@ -14,7 +14,7 @@ description: |
 css: index.css
 ---
 
-::: {.column-screen-inset}
+
 ::: {.grid}
 
 ::: {.g-col-8}
@@ -36,7 +36,6 @@ Through new ventures into data science (both research and teaching), I am curren
 </figure>
 :::
 
-:::
 
 
 
