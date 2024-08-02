@@ -35,6 +35,7 @@ Through new ventures into data science (both research and teaching), I am curren
 <figure>
 <img src="research/itsgoingtowork2.png" align="right" width="200">
 </figure>
+<p></p>
 Art by Federica Domecq Lacroze
 
 :::

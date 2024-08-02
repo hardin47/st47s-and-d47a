@@ -37,6 +37,7 @@ Most of the course materials are on the dedicated course website. For many class
 <figure>
 <img src="courses/sidebar-listing.jpg" align="right" width="200">
 </figure>
+<p></p>
 Art by @allison_horst
 :::
 
