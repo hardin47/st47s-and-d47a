@@ -14,6 +14,7 @@ description: |
 css: index.css
 ---
 
+::: {.column-screen-inset}
 ::: {.grid}
 
 ::: {.g-col-8}
@@ -30,7 +31,7 @@ Through new ventures into data science (both research and teaching), I am curren
 
 ::: {.g-col-4}
 <figure>
-<img src="research/itsgoingtowork2.png" align="right" width="400">
+<img src="research/itsgoingtowork2.png" align="right" width="300">
 <figcaption>Art by Federica Domecq Lacroze</figcaption>
 </figure>
 :::
