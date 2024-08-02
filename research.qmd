@@ -6,11 +6,11 @@ listing:
   sort: "title" # can also sort on more than one field
   categories: false # allows you to sort posts by assigned categories 
 
-image: research/github_groundcrew_text.png
+image: research/itsgoingtowork2.png
 format:
   html: 
     grid: 
-      sidebar-width: 50px
+      sidebar-width: 10px
     toc: false
 description: |
 css: index.css

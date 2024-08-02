@@ -13,6 +13,8 @@ website:
 image: courses/sidebar-listing.jpg
 format:
   html: 
+    grid: 
+      sidebar-width: 10px
     toc: false
 description: |
   
