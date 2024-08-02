@@ -9,6 +9,8 @@ listing:
 image: research/github_groundcrew_text.png
 format:
   html: 
+    grid: 
+      sidebar-width: 50px
     toc: false
 description: |
 css: index.css
