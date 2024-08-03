@@ -3,10 +3,6 @@ title: "student work"
 subtitle: "nice job everyone!"
 description: ""
 image: featured.png
-listing:
-  - id: gallery
-    template: gallery.ejs
-    contents: gallery.yml
 ---
 
 <!--The pdf files including the theses lives on gh-pages.  Need to switch branch, upload files,then switch back to the main branch. -->
@@ -34,6 +30,7 @@ source("carousel.R")
 carousel("gallery-carousel", 5000, 
          yaml.load_file("carousel.yml"))
 ```
+:::
 :::
 
 ::: {#gallery .column-page}
