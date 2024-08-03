@@ -109,7 +109,7 @@ padding-bottom: 1em;
 
 <h4>2024:</h4>
 <ul>
-<li>Sara Colando (2024): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/sara_colando_2024.pdf" target = "_blank">"Selecting ChIP-Seq Normalization Methods from the Perspective of their Technical Conditions"</a>; Currently: PhD candidate, Statistics, Carnegie Mellon University.</li> 
+<li>Sara Colando (2024): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/sara_colando_2024.pdf" target = "_blank">"Selecting ChIP-Seq Normalization Methods from the Perspective of their Technical Conditions"</a>; Currently: PhD candidate, Carnegie Mellon University, Statistics.</li> 
 </ul>
 
 <h4>2023:</h4>
