@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="All my web content is released under a Creative Commons Attribution-ShareAlike 4.0 International License.">
 
-<title>Jo Hardin - courses</title>
+<title>Jo Hardin - License</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +32,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./img/favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -69,71 +68,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="index.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -158,7 +98,7 @@ window.Quarto = {
 <span class="menu-text">about</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./courses.html" aria-current="page"> 
+    <a class="nav-link" href="./courses.html"> 
 <span class="menu-text">courses</span></a>
   </li>  
   <li class="nav-item">
@@ -188,15 +128,22 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">courses</h1>
+<h1 class="title">License</h1>
 </div>
 
+<div>
+  <div class="description">
+    All my web content is released under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -211,277 +158,14 @@ window.Quarto = {
 </header>
 
 
-<style>
-
-#hero-banner {
-  padding-top: 35px;
-  background-color: #FAF9F0;
-}
-</style>
-<section id="where-can-i-find-things" class="level1">
-<h1>where can I find things?</h1>
-<figure class="figure">
-<img src="courses/sidebar-listing.jpg" align="right" width="400" class="figure-img">
-</figure>
-<figcaption>
-Art by <span class="citation" data-cites="allison_horst">@allison_horst</span>
-</figcaption>
-<p>Most of the course materials are on the dedicated course website. For many classes, there is also a textbook (typically available online for free). All solutions (HW, exams, etc.) will be posted on Canvas.</p>
-<p><br> <br> <br></p>
+<p>All my web content is released under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+<center>
+<i class="fab fa-creative-commons fa-2x"></i><i class="fab fa-creative-commons-by fa-2x"></i><i class="fab fa-creative-commons-sa fa-2x"></i>
+</center>
 
 
 
-</section>
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1722700663527" data-listing-reading-time-sort="1" data-listing-word-count-sort="174">
-<div class="thumbnail">
-<p><a href="./courses/DS002R-fds/index.html" class="no-external"></a></p><a href="./courses/DS002R-fds/index.html" class="no-external">
-<p class="card-img-top"><img src="courses/DS002R-fds/tidydata_6.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./courses/DS002R-fds/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./courses/DS002R-fds/index.html" class="no-external">DS 002R: Foundations of Data Science in R</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./courses/DS002R-fds/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./courses/DS002R-fds/index.html" class="no-external">Foundations of Data Science in R is a first course in data science focused on all aspects of the data science pipeline.</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./courses/DS002R-fds/index.html" class="no-external"></a></p><a href="./courses/DS002R-fds/index.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1722700663666" data-listing-reading-time-sort="13" data-listing-word-count-sort="2574">
-<div class="thumbnail">
-<p><a href="./courses/data-sources/index.html" class="no-external"></a></p><a href="./courses/data-sources/index.html" class="no-external">
-<p class="card-img-top"><img src="courses/data-sources/tidydata_2_featured.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./courses/data-sources/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./courses/data-sources/index.html" class="no-external">Data Sources</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./courses/data-sources/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./courses/data-sources/index.html" class="no-external">TidyTuesday A weekly data project aimed at the R ecosystem. I’ve written some suggestions and included a lot of resources for getting started with TidyTuesday</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./courses/data-sources/index.html" class="no-external"></a></p><a href="./courses/data-sources/index.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1722700663536" data-listing-reading-time-sort="2" data-listing-word-count-sort="259">
-<div class="thumbnail">
-<p><a href="./courses/ID1-statsworld/index.html" class="no-external"></a></p><a href="./courses/ID1-statsworld/index.html" class="no-external">
-<p class="card-img-top"><img src="courses/ID1-statsworld/summary_statistics_featured.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./courses/ID1-statsworld/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./courses/ID1-statsworld/index.html" class="no-external">ID1: Statistics in the World</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./courses/ID1-statsworld/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./courses/ID1-statsworld/index.html" class="no-external">Headline: ‘Company Charged with Gender Bias in Hiring.’ Is the company biased? How can we tell? What do we measure? The research supporting the headline is probably less definitive than you’d expect. In this course, we will investigate the practical, ethical, and philosophical issues raised by the use of statistics and algorithmic thinking in realms such as medicine, sports, the law, genetics, and economics. We will explore issues from the mainstream media (newspapers, webpages, TV) as well as scientific articles in peer-reviewed journals. To do all of this, we will consider a wide range of statistical topics as well as encountering a range of uses and abuses of statistics in the world today.</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./courses/ID1-statsworld/index.html" class="no-external"></a></p><a href="./courses/ID1-statsworld/index.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-file-modified-sort="1722700663615" data-listing-reading-time-sort="2" data-listing-word-count-sort="330">
-<div class="thumbnail">
-<p><a href="./courses/M57-thinkingdata/index.html" class="no-external"></a></p><a href="./courses/M57-thinkingdata/index.html" class="no-external">
-<p class="card-img-top"><img src="courses/M57-thinkingdata/bakers_7_featured.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./courses/M57-thinkingdata/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./courses/M57-thinkingdata/index.html" class="no-external">Math 057: Thinking with Data</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./courses/M57-thinkingdata/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./courses/M57-thinkingdata/index.html" class="no-external">Thinking with Data is a general audience statistics courses taught as part of the Inside-Out Prison Exchange Program. With half of the students coming from the Claremont Collegea and half coming from the California Rehabilitation Center, students learn statistical ideas side-by-side.</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./courses/M57-thinkingdata/index.html" class="no-external"></a></p><a href="./courses/M57-thinkingdata/index.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-listing-file-modified-sort="1722700663616" data-listing-reading-time-sort="2" data-listing-word-count-sort="396">
-<div class="thumbnail">
-<p><a href="./courses/M58B-introbiostats/index.html" class="no-external"></a></p><a href="./courses/M58B-introbiostats/index.html" class="no-external">
-<p class="card-img-top"><img src="courses/M58B-introbiostats/type_2_errors_featured.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./courses/M58B-introbiostats/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./courses/M58B-introbiostats/index.html" class="no-external">Math 058B: Introduction to Biostatistics</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./courses/M58B-introbiostats/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./courses/M58B-introbiostats/index.html" class="no-external">Introduction to Biostatistics is a first course in statistics focused on topics and data found in the life sciences. No biological background is needed, but interest in the life sciences is important.</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./courses/M58B-introbiostats/index.html" class="no-external"></a></p><a href="./courses/M58B-introbiostats/index.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-listing-file-modified-sort="1722700663557" data-listing-reading-time-sort="2" data-listing-word-count-sort="231">
-<div class="thumbnail">
-<p><a href="./courses/M150-methbiostat/index.html" class="no-external"></a></p><a href="./courses/M150-methbiostat/index.html" class="no-external">
-<p class="card-img-top"><img src="courses/M150-methbiostat/p_value_mic_hog_featured.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./courses/M150-methbiostat/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./courses/M150-methbiostat/index.html" class="no-external">Math 150: Methods in Biostatistics</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./courses/M150-methbiostat/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./courses/M150-methbiostat/index.html" class="no-external">Methods in Biostatistics is a second course in statistics focused on topics and data found in the life sciences. No biology background is needed, but interest in the life sciences is important.</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./courses/M150-methbiostat/index.html" class="no-external"></a></p><a href="./courses/M150-methbiostat/index.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-listing-file-modified-sort="1722700663581" data-listing-reading-time-sort="1" data-listing-word-count-sort="111">
-<div class="thumbnail">
-<p><a href="./courses/M151-prob/index.html" class="no-external"></a></p><a href="./courses/M151-prob/index.html" class="no-external">
-<p class="card-img-top"><img src="courses/M151-prob/continuous_discrete_featured.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./courses/M151-prob/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./courses/M151-prob/index.html" class="no-external">Math 151: Probability Theory</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./courses/M151-prob/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./courses/M151-prob/index.html" class="no-external">Math 151 is an introduction to probability for students with a calculus background and no prerequisites of probability or statistics. Though the course will be focused on the theoretical aspects of the material, there will be some real world applications in class and in the homework assignments. The idea is to have a strong mathematical understanding of the concepts while also understanding how the concepts are applied in the real world.</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./courses/M151-prob/index.html" class="no-external"></a></p><a href="./courses/M151-prob/index.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-listing-file-modified-sort="1722700663582" data-listing-reading-time-sort="1" data-listing-word-count-sort="173">
-<div class="thumbnail">
-<p><a href="./courses/M152-stattheory/index.html" class="no-external"></a></p><a href="./courses/M152-stattheory/index.html" class="no-external">
-<p class="card-img-top"><img src="courses/M152-stattheory/rey_featured.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./courses/M152-stattheory/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./courses/M152-stattheory/index.html" class="no-external">Math 152: Statistical Theory</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./courses/M152-stattheory/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./courses/M152-stattheory/index.html" class="no-external">Statistical Theory is the course where the Introductory Statistics concepts are developed using first principles, probability theory, calculus, and linear algebra. Optimality of procedures is derived and discussed: which measure of ‘best’ should be used to evaluate a method?</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./courses/M152-stattheory/index.html" class="no-external"></a></p><a href="./courses/M152-stattheory/index.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-listing-file-modified-sort="1722700663602" data-listing-reading-time-sort="2" data-listing-word-count-sort="345">
-<div class="thumbnail">
-<p><a href="./courses/M154-compstat/index.html" class="no-external"></a></p><a href="./courses/M154-compstat/index.html" class="no-external">
-<p class="card-img-top"><img src="courses/M154-compstat/cluster_single_linkage_6_featured.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./courses/M154-compstat/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./courses/M154-compstat/index.html" class="no-external">Math 154: Computational Statistics</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./courses/M154-compstat/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./courses/M154-compstat/index.html" class="no-external">Computational Statistics can be thought of as an advanced data science course. We will work with many different types of data to become fluent in wrangling, visualizing, simulating, modeling, predicting, and most importantly communicating results.</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./courses/M154-compstat/index.html" class="no-external"></a></p><a href="./courses/M154-compstat/index.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="9" data-listing-file-modified-sort="1722700663608" data-listing-reading-time-sort="2" data-listing-word-count-sort="255">
-<div class="thumbnail">
-<p><a href="./courses/M158-linmodels/index.html" class="no-external"></a></p><a href="./courses/M158-linmodels/index.html" class="no-external">
-<p class="card-img-top"><img src="courses/M158-linmodels/dragon_regression_featured.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./courses/M158-linmodels/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./courses/M158-linmodels/index.html" class="no-external">Math 158: Linear Models</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./courses/M158-linmodels/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./courses/M158-linmodels/index.html" class="no-external">Linear models is a second course in statistics which extends a basic statistical linear model in many ways. The mathematics in the course moves quickly, and there will also be extended focus on good modeling practices and interpretation.</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./courses/M158-linmodels/index.html" class="no-external"></a></p><a href="./courses/M158-linmodels/index.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="10" data-listing-file-modified-sort="1722700663640" data-listing-reading-time-sort="2" data-listing-word-count-sort="306">
-<div class="thumbnail">
-<p><a href="./courses/SDS261-sql/index.html" class="no-external"></a></p><a href="./courses/SDS261-sql/index.html" class="no-external">
-<p class="card-img-top"><img src="courses/SDS261-sql/tidydata_6.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./courses/SDS261-sql/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./courses/SDS261-sql/index.html" class="no-external">SDS 261: Data Science, the SQL</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./courses/SDS261-sql/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./courses/SDS261-sql/index.html" class="no-external">Data Science, the SQL is a second course in data science focused on using SQL in the data science pipeline.</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./courses/SDS261-sql/index.html" class="no-external"></a></p><a href="./courses/SDS261-sql/index.html" class="no-external">
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

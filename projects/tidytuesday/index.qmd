@@ -113,7 +113,9 @@ dataset_2 <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/
 
 ## Beginner
 
-* Getting started with R:  <a href = "https://education.rstudio.com/learn/" target = "_blank">https://education.rstudio.com/learn/</a> and <a href = "https://posit.cloud/learn/recipes" target = "_blank">https://posit.cloud/learn/recipes</a>
+Try out these interactive tutorials to get started.
+
+* Introduction to Tidyverse:  <a href = "https://malooflab.ucdavis.edu/apps/tidyverse-tutorial/" target = "_blank">https://malooflab.ucdavis.edu/apps/tidyverse-tutorial/</a> and ggplot tutorial <a href = "https://malooflab.ucdavis.edu/apps/ggplot-tutorial/" target = "_blank">https://malooflab.ucdavis.edu/apps/ggplot-tutorial/</a> from the Maloof Lab.
 
 * The **introverse** package is truly meant for beginners to the **tidyverse**.  <a href = "https://sjspielman.github.io/introverse/index.html" target = "_blank">https://sjspielman.github.io/introverse/index.html</a> 
 
