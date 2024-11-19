@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Jo Hardin">
 <meta name="description" content="a collection of TidyTuesday plots and models">
 
-<title>Jo Hardin - TidyTuesday adventures</title>
+<title>TidyTuesday adventures – Jo Hardin</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,7 +35,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -76,7 +76,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="../../site_libs/quarto-contrib/iconify-1.0.0-beta.2/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -124,7 +123,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -155,7 +154,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -210,8 +209,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <div class="link">
-<section id="tidytuesday-adventures" class="level4 link-header">
-<h4 class="anchored" data-anchor-id="tidytuesday-adventures"><iconify-icon inline="" icon="octicon:link-16"></iconify-icon> TidyTuesday adventures</h4>
+<section id="iconify-octicon-link-16-tidytuesday-adventures" class="level4 link-header">
+<h4 class="anchored" data-anchor-id="iconify-octicon-link-16-tidytuesday-adventures">{{ &lt; iconify octicon link-16 &gt;}} TidyTuesday adventures</h4>
 </section>
 <div class="link-container">
 <p><a href="https://hardin47.github.io/TidyTuesday/" target="_blank">https://hardin47.github.io/TidyTuesday/</a></p>
@@ -219,8 +218,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <p><br></p>
 <div class="link">
-<section id="source-code" class="level4 link-header">
-<h4 class="anchored" data-anchor-id="source-code"><iconify-icon inline="" icon="devicon:github"></iconify-icon> source code</h4>
+<section id="iconify-devicon-github-source-code" class="level4 link-header">
+<h4 class="anchored" data-anchor-id="iconify-devicon-github-source-code">{{ &lt; iconify devicon github &gt;}} source code</h4>
 </section>
 <div class="link-container">
 <p><a href="https://github.com/hardin47/TidyTuesday/tree/gh-pages" target="_blank">https://github.com/hardin47/TidyTuesday/tree/gh-pages</a></p>
@@ -228,8 +227,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <p><br></p>
 <div class="link">
-<section id="official-tidytuesday-repo" class="level4 link-header">
-<h4 class="anchored" data-anchor-id="official-tidytuesday-repo"><iconify-icon inline="" icon="devicon:github"></iconify-icon> official TidyTuesday repo</h4>
+<section id="iconify-devicon-github-official-tidytuesday-repo" class="level4 link-header">
+<h4 class="anchored" data-anchor-id="iconify-devicon-github-official-tidytuesday-repo">{{ &lt; iconify devicon github &gt;}} official TidyTuesday repo</h4>
 </section>
 <div class="link-container">
 <p><a href="https://github.com/rfordatascience/tidytuesday" target="_blank">https://github.com/rfordatascience/tidytuesday</a></p>
@@ -237,11 +236,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <p><br></p>
 <div class="link">
-<section id="search-tidytuesday-on-mastodon-for-ideas" class="level4 link-header">
-<h4 class="anchored" data-anchor-id="search-tidytuesday-on-mastodon-for-ideas"><iconify-icon inline="" icon="logos:mastodon-icon"></iconify-icon> search “#tidytuesday” on mastodon for ideas</h4>
+<section id="iconify-logos-mastodon-icon-search-tidytuesday-on-mastodon-for-ideas" class="level4 link-header">
+<h4 class="anchored" data-anchor-id="iconify-logos-mastodon-icon-search-tidytuesday-on-mastodon-for-ideas">{{ &lt; iconify logos mastodon-icon &gt;}} search “#tidytuesday” on mastodon for ideas</h4>
 </section>
 <div class="link-container">
 <p><a href="https://fosstodon.org/tags/tidytuesday" target="_blank">https://fosstodon.org/tags/tidytuesday</a></p>
+</div>
+</div>
+<p><br></p>
+<div class="link">
+<section id="iconify-logos-google-icon-google-doc-for-sharing-code" class="level4 link-header">
+<h4 class="anchored" data-anchor-id="iconify-logos-google-icon-google-doc-for-sharing-code">{{ &lt; iconify logos google-icon &gt;}} Google doc for sharing code</h4>
+</section>
+<div class="link-container">
+<p><a href="tidytuesday scratch work" target="_blank">https://docs.google.com/document/d/1uSI2Etrxae74vip3IrPFEUeDMCkWn80Rp3TMjV2DCew/edit?usp=sharing</a></p>
 </div>
 </div>
 <p><br></p>
@@ -340,18 +348,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -383,7 +380,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp("https:\/\/hardin47\.netlify\.app\/");
@@ -391,7 +410,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
