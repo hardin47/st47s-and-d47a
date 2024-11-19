@@ -33,7 +33,7 @@ format:
 
 :::{.link}
 ::::{.link-header}
-#### {{ < iconify octicon link-16 >}} TidyTuesday adventures
+#### &nbsp; {{< iconify octicon link-16 >}} TidyTuesday adventures
 ::::
 ::::{.link-container}
 <a href = "https://hardin47.github.io/TidyTuesday/" target = "_blank">https://hardin47.github.io/TidyTuesday/</a>
@@ -44,7 +44,7 @@ format:
 
 :::{.link}
 ::::{.link-header}
-#### {{ < iconify devicon github >}} source code
+#### &nbsp; {{< iconify devicon github >}} source code
 ::::
 ::::{.link-container}
 <a href = "https://github.com/hardin47/TidyTuesday/tree/gh-pages" target = "_blank">https://github.com/hardin47/TidyTuesday/tree/gh-pages</a>
@@ -55,7 +55,7 @@ format:
 
 :::{.link}
 ::::{.link-header}
-#### {{ < iconify devicon github >}} official TidyTuesday repo
+#### &nbsp; {{< iconify devicon github >}} official TidyTuesday repo
 ::::
 ::::{.link-container}
 <a href = "https://github.com/rfordatascience/tidytuesday" target = "_blank">https://github.com/rfordatascience/tidytuesday</a>
@@ -66,7 +66,7 @@ format:
 
 :::{.link}
 ::::{.link-header}
-#### {{ < iconify logos mastodon-icon >}} search "#tidytuesday" on mastodon for ideas
+#### &nbsp; {{< iconify logos mastodon-icon >}} search "#tidytuesday" on mastodon for ideas
 ::::
 ::::{.link-container}
 <a href = "https://fosstodon.org/tags/tidytuesday" target = "_blank">https://fosstodon.org/tags/tidytuesday</a>
@@ -77,10 +77,10 @@ format:
 
 :::{.link}
 ::::{.link-header}
-#### {{ < iconify logos google-icon >}} Google doc for sharing code
+#### &nbsp; {{< iconify logos google-icon >}} Google doc for sharing code
 ::::
 ::::{.link-container}
-<a href = "tidytuesday scratch work" target = "_blank">https://docs.google.com/document/d/1uSI2Etrxae74vip3IrPFEUeDMCkWn80Rp3TMjV2DCew/edit?usp=sharing</a>
+<a href = "https://docs.google.com/document/d/1uSI2Etrxae74vip3IrPFEUeDMCkWn80Rp3TMjV2DCew/edit?usp=sharing" target = "_blank">TidyTuesday scratch work</a>
 ::::
 :::
 <br/>
