@@ -7,7 +7,7 @@ featured: true
 categories: []
 tags: []
 image: featured.png
-description: ""
+description: "In our data-driven world, it benefits all of us to provide training in statistics and data science for high school students. However, historical forces and momentum in the curriculum are keeping mathematics curricula focused on a calculus pinacle. I argue that it is in our national interest to help our young people become smart data consumers as they enter into a world optimized to take advantage of them."
 execute:
   echo: false
   warning: false
