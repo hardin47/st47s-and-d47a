@@ -2,12 +2,7 @@
 title: Let's teach them what they need to know
 author: Jo Hardin
 date: '2025-03-01'
-slug: sportsgambling
-featured: true
-categories: []
-tags: []
-image: featured.png
-description: ""
+format: docx
 execute:
   echo: false
   warning: false
@@ -15,21 +10,6 @@ execute:
 bibliography: sportsgambling.bib
 ---
 
-
-
-:::{.blog}
-::::{.blog-header}
-Association for Women in Mathematics
-::::
-
-::::{.blog-container}
-
-The following entry originally appeared in the 2025 March-April <a href = "https://awm-math.org/publications/newsletter/" target = "_blank">Newsletter for the Association for Women in Mathematics</a>.
-
-::::
-:::
- 
-<!-- image source: https://commons.wikimedia.org/wiki/File:Sports_and_games.svg -->
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(collapse = TRUE)
