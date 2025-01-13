@@ -1,6 +1,6 @@
 ---
 title: "JEDI-CAUSE"
-description: "The JEDI-CAUSE website supports, encourages, and recognizes the need of Justice, Equity, Diversity, and Inclusion (JEDI) in the practice and teaching of statistics and data science.  Because each person is a complex intersection of identities, such as mother, student, black, disabled, gender-queer, this website offers resources for you, to learn about and/or teach with a JEDI infused curriculum."
+description: "resources for Justice, Equity, Diversity, and Inclusion (JEDI) infused teaching."
 weight: 7
 author: "Jo Hardin"
 draft: false
