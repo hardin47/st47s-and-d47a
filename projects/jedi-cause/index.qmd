@@ -1,0 +1,23 @@
+---
+title: "JEDI-CAUSE"
+description: "The JEDI-CAUSE website supports, encourages, and recognizes the need of Justice, Equity, Diversity, and Inclusion (JEDI) in the practice and teaching of statistics and data science.  Because each person is a complex intersection of identities, such as mother, student, black, disabled, gender-queer, this website offers resources for you, to learn about and/or teach with a JEDI infused curriculum."
+weight: 7
+author: "Jo Hardin"
+draft: false
+# layout options: single or single-sidebar
+layout: single-sidebar
+image: "featured.png"
+---
+
+With <a href = "https://stats-tgeorge.github.io/personal_website/about.html" target = "_blank">Tyler George</a>, <a href = "https://www.linkedin.com/in/jessicakunke/" tareget = "_blank">Jess Kunke</a>, <a href = "https://www.linkedin.com/in/lauren-quesada-5604781b5/" target = "_blank">Lauren Quesada</a>, and <a href = "https://www.linkedin.com/in/jennifer-ward-b8600634/" target = "_blank">Jennifer Ward</a>, we have put together a set of resources to support, encourage, and recognize the need of Justice, Equity, Diversity, and Inclusion (JEDI) in the practice and teaching of statistics and data science. 
+
+Jennifer and I <a href = "https://indd.adobe.com/view/a4cf53fa-1384-4edf-b543-da212de8de35" target = "_blank">wrote about the website</a> and how to use it. But to get you started, we recommend:
+
+* **browse categories** and explore what's here, click on the <a href = "https://causeweb.org/jedi/search" target = "_blank">Search button</a> in the top right corner.
+* **share some materials**, click on the <a href = "https://causeweb.org/jedi/form/submit-content" target = "_blank">Submit Content button</a> in the top right corner.  An entry is not a formal write-up or manuscript, but instead, it is a way to share JEDI teaching.
+* **look for a class activity**, such as one that could be modified to fit your unique classroom, click on the <a href = "https://causeweb.org/jedi/search" target = "_blank">Search button</a> in the top right corner, and then filter the responses by Classroom Activities.
+* **explore a particular topic**, and to see how other people have used the topic in class, click on the <a href = "https://causeweb.org/jedi/search" target = "_blank">Search button</a> found in the top right corner, and then filter the responses by Social Justice.
+* **locate data sets**, click on the <a href = "https://causeweb.org/jedi/search" target = "_blank">Search button</a> in the top right corner, and then filter the responses by Data.
+* **find resources for growing personally or professionally**, click on the <a href = "https://causeweb.org/jedi/search" target = "_blank">Search button</a> in the top right corner, and then filter the responses by Professional Development.
+* **jump in somewhere right away**, click on the <a href = "https://www.causeweb.org/jedi/surprise-me" target = "_blank">Surprise Me! button</a> in the top right corner to be taken to a random resource!
+ 

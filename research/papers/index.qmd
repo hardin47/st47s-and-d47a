@@ -41,11 +41,19 @@ https://github.com/mcanouil/quarto-iconify
 <p></p>
 <p></p>
 
+<strong>2025</strong>
+<ul>
+<li> <sup>#</sup>Colando, S., Schulz, D., and Hardin, J. Selecting ChIP-Seq Normalization Methods from the Perspective of their Technical Conditions. Submitted, 2025.</li>
+<li>Hardin, J., <sup>#</sup>Quesada, L., <sup>#</sup>Ye, J., and Horton, N.J. The Exchangeability Assumption for Permutation Tests of Multiple Regression Models: Implications for Statistics and Data Science. Submitted, 2025.</li>
+
+</ul>
+
+
 <strong>2024</strong>
 <ul>
-<li> {{< iconify iconamoon sign-equal-bold >}} Hardin, J. <a href = "" target = "_blank"><strong>CURV - connecting, uplifting, and recognizing voices</strong></a>, <em>Chance</em>, under review, 2024.</li>
-<li> {{< iconify fa-solid chalkboard-teacher >}}  <sup>#</sup>Colando, S., Hardin, J. <a href = "https://arxiv.org/abs/2310.02444" target = "_blank"><strong>Philosophy as Integral to a Data Science Ethics Course</strong></a>, <em>Journal of Statistics and Data Science Education</em>, accepted, 2024.</li>
-<li><sup>#</sup>Cruz, M., <sup>#</sup>Wei, A., Hardin, J., Radunskaya, A. <a href = "https://doi.org/10.1080/10236198.2024.2316379" target = "_blank"><strong>Long-term Averages of the Stochastic Logistic Map</strong></a>, <em>Journal of Difference Equations and Applications</em>, 2024.</li>
+<li> {{< iconify iconamoon sign-equal-bold >}} Hardin, J. <a href = "https://doi.org/10.1080/09332480.2024.2348978" target = "_blank"><strong>CURV - connecting, uplifting, and recognizing voices</strong></a>, <em>Chance Magazine, Statistics Education Column, Taking a Chance in the Classroom 37</em>(2), 2024.</li>
+<li> {{< iconify fa-solid chalkboard-teacher >}}  <sup>#</sup>Colando, S., Hardin, J. <a href = "https://doi.org/10.1080/26939169.2024.2394542" target = "_blank"><strong>Philosophy within Data Science Ethics Courses</strong></a>, <em>Journal of Statistics and Data Science Education 32</em>(4), 2024.</li>
+<li><sup>#</sup>Cruz, M., <sup>#</sup>Wei, A., Hardin, J., Radunskaya, A. <a href = "https://doi.org/10.1080/10236198.2024.2316379" target = "_blank"><strong>Long-term Averages of the Stochastic Logistic Map</strong></a>, <em>Journal of Difference Equations and Applications 30</em>(6), 2024.</li>
   <li> {{< iconify fa-solid chalkboard-teacher >}}  Çetinkaya-Rundel, M., Hardin, J. <a href="https://www.openintro.org/book/ims/" target = "_blank"><strong>Introduction to Modern Statistics</strong></a> OpenIntro, 2nd edition, 2024.</li>
   </ul>
   
