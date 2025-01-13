@@ -124,7 +124,7 @@ padding-bottom: 1em;
 <ul>
  	<li>Will Gray (2022): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/will_gray_2022.pdf" target = "_blank">"Detecting Rotation Periods of
 Near-Earth Asteroids: An investigation of Fourier Analysis and the Lomb-Scargle Periodogram"</a>; </li> 	
- 	<li>Lauren Quesada (2022): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/lauren_quesada_2022.pdf" target = "_blank">"Permutation Tests: A Deep Dive into Applications in Multiple Linear Regression"</a>; Currently: PhD candidate, Colorado State University, Statistics.</li> 	
+ 	<li>Lauren Quesada (2022): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/lauren_quesada_2022.pdf" target = "_blank">"Permutation Tests: A Deep Dive into Applications in Multiple Linear Regression"</a>; Currently: PhD candidate, Colorado School of Mines, Statistics.</li> 	
  	<li>Moe Sunami (2022): "Conformal Prediction Intervals"</a>; Currently: Carbon Data Analyst, Watershed</li> 	
  	<li>Nick Waalkes (2022): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/nick_waalkes_draft4_2022.pdf" target = "_blank">"Simulation and Application Study of Online False Discovery Control Methods"</a>; Currently: Analyst, Ridgepeak Partners.</li>
 </ul>
@@ -134,20 +134,20 @@ Near-Earth Asteroids: An investigation of Fourier Analysis and the Lomb-Scargle 
  	<li>Ethan Ashby (2021): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/ethan_ashby_2021.pdf" target = "_blank">"Extracting hitherto unseen variant signals from the cancer genome using data de-sparsification strategies"</a>; Currently: PhD candidate, University of Washington, Biostatistics.</li>
  	<li>Annie Cohen (2021, Scripps): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/annie_cohen_2021.pdf" target = "_blank">"Investigating changes in the SEIRMD model applied to COVID-19"</a>; Currently: PhD candidate, University of Michigan, Biostatistics.</li> 	
  	<li>Emma Godfrey (2021): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/emma_godfrey_draft3_2021.pdf" target = "_blank">"Non-parametric Alternative Techniques for Propensity Score Estimation"</a>; Currently: Statistical Analyst, ZipRecruiter</li> 	
- 	<li>Nat Serrurier (2021, PPA Biology): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/nat_serrurier_2021.pdf" target = "_blank">"Palliative Care and Dementia: An Underutilized Method in the Fight Against a Health Crisis"</a>; .</li>
+ 	<li>Nat Serrurier (2021, PPA Biology): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/nat_serrurier_2021.pdf" target = "_blank">"Palliative Care and Dementia: An Underutilized Method in the Fight Against a Health Crisis"</a>; Currently: Doctor of Physical Therapy candidate, Columbia University, Vagelos College of Physicians and Surgeons.</li>
 </ul>
 
 <h4>2020:</h4>
 <ul>
- 	<li>Helen Lan (2020): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/helen_lan_2020.pdf" target = "_blank">"Multiple Comparison Test"</a>; Currently: Analyst, Cornerstone Research.</li>
- 	<li>Nolan McCafferty (2020): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/nolan_mccafferty_2020.pdf" target = "_blank">"Style Transfer with Neural Networks"</a>; Currently: Software Engineer, Amazon.</li>
- 	<li>Zach Senator (2020): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/zach_senator_2020.pdf" target = "_blank">"Random Forests and Beyond"</a>; Currently: Business Analyst, Strategy &amp; Operations, Deloitte.</li>
- 	<li>Amy Watt (2020): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/amy_watt_2020.pdf" target = "_blank">"The Expectation Maximization Algorithm in RNA-Sequencing Read Alignment"</a>; Currently: Data Scientist, Analytics, Facebook.</li>
+ 	<li>Helen Lan (2020): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/helen_lan_2020.pdf" target = "_blank">"Multiple Comparison Test"</a>; Currently: MBA candidate, University of Pennsylvania, The Wharton School.</li>
+ 	<li>Nolan McCafferty (2020): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/nolan_mccafferty_2020.pdf" target = "_blank">"Style Transfer with Neural Networks"</a>; Currently: Software Engineer, Omnistrate</li>
+ 	<li>Zach Senator (2020): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/zach_senator_2020.pdf" target = "_blank">"Random Forests and Beyond"</a>; Currently: Investment Banking Associate, J.P. Morgan.</li>
+ 	<li>Amy Watt (2020): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/amy_watt_2020.pdf" target = "_blank">"The Expectation Maximization Algorithm in RNA-Sequencing Read Alignment"</a>; Currently: PhD candidate, University of Washington, Biostatistics.</li>
 </ul>
 
 <h4>2019:</h4>
 <ul>
- 	<li>Alex Gui (2019): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/alex_gui_2019.pdf" target = "_blank">"Local Prediction Confidence for Classification Random Forests"</a>; MS 2021, Stanford University, Statistics: Data Science, Currently: Data Scientist at Pinterest</li>
+ 	<li>Alex Gui (2019): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/alex_gui_2019.pdf" target = "_blank">"Local Prediction Confidence for Classification Random Forests"</a>; MS 2021, Stanford University, Statistics: Data Science, Currently: Data Scientist, Meta.</li>
  	<li>Frances Hung (2019): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/frances_hung_2019.pdf" target = "_blank">"Active Learning Experimental Design of Bayesian Networks"</a>; MS 2021, Duke University, Statistics, Currently: JD candidate, UCLA</li>
  	<li>Vedant Vohra (2019): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/vedant_vohra_2019.pdf" target = "_blank">"Estimating the proportion who benefit from a treatment in a Randomized Controlled Trial"</a>; Currently: PhD candidate, UC San Diego, Economics</li>
  	<li>Justin Weltz (2019): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/justin_weltz_2019.pdf" target = "_blank">"Over-Policing and Fairness in Machine Learning"</a>; Currently: PhD candidate, Duke University, Statistics</li>
@@ -158,23 +158,23 @@ Near-Earth Asteroids: An investigation of Fourier Analysis and the Lomb-Scargle 
 
 <h4>2018:</h4>
 <ul>
- 	<li>Chris Barnes (2018): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/ChrisBarnes18.pdf" target = "_blank">"Artistic Style Transfer using Deep Learning"</a>; Currently: Analyst, KKR &amp; Co. L.P.</li>
+ 	<li>Chris Barnes (2018): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/ChrisBarnes18.pdf" target = "_blank">"Artistic Style Transfer using Deep Learning"</a>; Currently: Partner, Skye Global Management.</li>
  	<li>Kalyan Chadalavada (2018): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/KalyanChadalavada18.pdf" target = "_blank">"Partial Least Squares Regression in Football Projections"</a>; MS 2019, Tulane University, Pharmacology, Currently: Practice Manager, Springfield Pulmonary Medicine and Sleep Clinic.</li>
- 	<li>Luis Espino (2018): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/LuisEspino18.pdf" target = "_blank">"Racism without a Face: Predictive Statistics in the Criminal Justice System"</a>; Currently: Technology Associate, <a class="" href="https://www.fwd.us/" target = "_blank">fwd.us</a>, Community Department.</li>
- 	<li>Kashvi Tibrewal (2018): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/KashviTibrewal18.pdf" target = "_blank">"Evaluating Splitting Criteria in Classification Trees"</a>; Currently: IEQ Capital</li>
+ 	<li>Luis Espino (2018): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/LuisEspino18.pdf" target = "_blank">"Racism without a Face: Predictive Statistics in the Criminal Justice System"</a>; Currently: Director of Product Management, <a class="" href="https://www.fwd.us/" target = "_blank">fwd.us</a>, Community Department.</li>
+ 	<li>Kashvi Tibrewal (2018): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/KashviTibrewal18.pdf" target = "_blank">"Evaluating Splitting Criteria in Classification Trees"</a>; MBA 2024, University of Michigan, Stephen Ross School of Business. </li>
 </ul>
 
 <h4>2017:</h4>
 <ul>
- 	<li>Benji Lu (2017): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/BenjiLu17.pdf" target = "_blank">"Constructing Prediction Intervals for Random Forests"</a>; Ph.D. candidate, UC Berkeley, Statistics; JD candidate, Yale University.</li>
- 	<li>Maria Martinez (2017): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/MariaMartinez17.pdf" target = "_blank">"The EM algorithm and RNA sequencing"</a>; Currently: Software Engineer, Intuit.</li>
- 	<li>Yenny Zhang (2017): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/YennyZhang17.pdf" target = "_blank">"Integrating Random Forests into the Bag of Little Bootstraps"</a>; Currently: Software Engineer, Medallion.</li>
+ 	<li>Benji Lu (2017): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/BenjiLu17.pdf" target = "_blank">"Constructing Prediction Intervals for Random Forests"</a>; Ph.D. 2024, UC Berkeley, Statistics, JD 2024, Yale University. Currently: .</li>
+ 	<li>Maria Martinez Lainez (2017): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/MariaMartinez17.pdf" target = "_blank">"The EM algorithm and RNA sequencing"</a>; Currently: Software Engineer II, Intuit.</li>
+ 	<li>Yenny Zhang (2017): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/YennyZhang17.pdf" target = "_blank">"Integrating Random Forests into the Bag of Little Bootstraps"</a>; Currently: Senior Software Engineer, Medallion.</li>
 </ul>
 
 <h4>2016:</h4>
 <ul>
  	<li>Isaiah Boone (2016): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/IsaiahBoone16.pdf" target = "_blank">"SVM and the Application of Prediction Rules"</a>; Currently: Partner, Sequoia Capital.</li>
- 	<li>John Bryan (2016): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/JohnBryan16.pdf" target = "_blank">"Developing Inference Frameworks for Random Forests Using Bag of Little Bootstraps and Related Methods"</a>; M.D. candidate, Northwestern University Feinberg School of Medicine.</li>
+ 	<li>John Bryan (2016): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/JohnBryan16.pdf" target = "_blank">"Developing Inference Frameworks for Random Forests Using Bag of Little Bootstraps and Related Methods"</a>; M.D. 2023, Northwestern University Feinberg School of Medicine. Currently: ophthalmology resident, Northwestern University Department of Ophthalmology</li>
  	<li>Ciaran Evans (2016): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/CiaranEvans16.pdf" target = "_blank">"Normalization of RNA-Seq data in the case of asymmetric differential expression"</a>; Ph.D. 2021, Carnegie Mellon University, Statistics.  Currently: Assistant Professor of Mathematics &amp; Statistics, Wake Forest University.</li>
  	<li>Dylan Quantz (2016): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/DylanQuantz16.pdf" target = "_blank">"Analyzing Centrality in Complex Gene Networks"</a>; Currently: Player Development Trainee, Atlanta Braves.</li>
 </ul>
@@ -188,63 +188,63 @@ Near-Earth Asteroids: An investigation of Fourier Analysis and the Lomb-Scargle 
 <p style="padding-left: 60px"><a href="https://www.buzzsprout.com/2125627/12447066" target = "_blank">Interview of Jacob</a> as part of the The Johns Hopkins #100 Alumni Voices Project</p>
 
 <ul>
- 	<li>Chris Garnatz (2015): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/ChrisGarnatz15.pdf" target = "_blank">"Trusting the Black Box: Confidence with Bag of Little Bootstraps"</a>; Currently: Data Architect, Spring.</li>
- 	<li>Caroline Zaia (2015): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/CarolineZaia15.pdf" target = "_blank">"Multilevel Regression in Value Added Modeling for Teacher Assessment"</a>; Currently: Merchandise Planner, Stitch Fix</li>
+ 	<li>Chris Garnatz (2015): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/ChrisGarnatz15.pdf" target = "_blank">"Trusting the Black Box: Confidence with Bag of Little Bootstraps"</a>; Currently: Data Engineer, TRM Labs</li>
+ 	<li>Caroline Zaia (2015): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/CarolineZaia15.pdf" target = "_blank">"Multilevel Regression in Value Added Modeling for Teacher Assessment"</a>; Currently: Revenue & Margin Manager, Stitch Fix</li>
 </ul>
 
 <h4>2014:</h4>
 <ul>
  	<li>Maricela Cruz (2014): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/MaricelaCruz14.pdf" target = "_blank">"Long-term Averages of the Stochastic Logistic Map"</a>; Ph.D. 2019, University of California, Irvine, Statistics;  Currently: Assistant Investigator at Kaiser Permanente Washington Health Research Institute</li>
- 	<li>Thalia Rodriguez (2014): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/ThaliaRodriguez14.pdf" target = "_blank">"Towards a More Conceptual Way of Understanding and Implementing Inferential Rules"</a>; M.A. in Teaching 2016, the University of Southern California Rossier School of Education; Currently: Mathematics Teacher, Santa Ana Unified School District</li>
+ 	<li>Thalia Rodriguez (2014): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/ThaliaRodriguez14.pdf" target = "_blank">"Towards a More Conceptual Way of Understanding and Implementing Inferential Rules"</a>; MEd 2015, the University of Southern California Rossier School of Education; Currently: Mathematics Teacher, Heninger Elementary.</li>
  	<li>Brian Williamson (2014): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/BrianWilliamson14.pdf" target = "_blank">"Shrinkage Estimators for High-Dimensional Covariance Matrices"</a>; Ph.D. 2019, University of Washington, Biostatistics; Currently: Assistant Investigator, Kaiser Permanente Washington Health Research Institute</li>
 </ul>
 
 <h4>2013:</h4>
 <ul>
  	<li>Melinda Borello (2013, Pitzer): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/MelindaBorello_Pitzer13.pdf" target = "_blank">Standardization and Singular Value Decomposition in Canonical Correlation Analysis</a>";</li>
- 	<li>Jacob Coleman (2013): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/JakeColeman13.pdf" target = "_blank">"Robust Sparse Canonical Correlation Analysis and PITCHf/x"</a>; Ph.D. 2019, Duke University, Statistics; Currently: Senior Quantitative Analyst, Los Angeles Dodgers.</li>
- 	<li>Karl Kumbier (2013): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/KarlKumbier13.pdf" target = "_blank">"Detecting and Estimating Filamentary Structures in the Presence of Background Noise"</a>; Ph.D. 2019, UC Berkeley, Statistics; Currently: Postdoctoral researcher, UCSF.</li>
- 	<li>Guy Stevens (2013): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/GuyStevens13.pdf" target = "_blank">"Bayesian Statistics and Baseball"</a> ; Currently: Data Science Lead, Viaduct.</li>
+ 	<li>Jacob Coleman (2013): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/JakeColeman13.pdf" target = "_blank">"Robust Sparse Canonical Correlation Analysis and PITCHf/x"</a>; Ph.D. 2019, Duke University, Statistics; Currently: .</li>
+ 	<li>Karl Kumbier (2013): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/KarlKumbier13.pdf" target = "_blank">"Detecting and Estimating Filamentary Structures in the Presence of Background Noise"</a>; Ph.D. 2019, UC Berkeley, Statistics; Currently: Data Scientist, Pharmaceutical Chemistry, School of Pharmacy, UCSF.</li>
+ 	<li>Guy Stevens (2013): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/GuyStevens13.pdf" target = "_blank">"Bayesian Statistics and Baseball"</a> ; Currently: Owner & CEO, Winning Insight Consulting.</li>
  	<li>Yuanxi Zhang (2013): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/YuanxiZhang13.pdf" target = "_blank">"How Does a Bayesian Investor Time the Market"</a>; M.S. 2018, U Chicago, Economics.</li>
 </ul>
 
 <h4>2012:</h4>
 <ul>
- 	<li>Tim Stutz (2012): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/TimStutz12.pdf" target = "_blank">"Modeling the Evolution of Sexual Diploid Populations via a Stochastic Moran Process"</a>; Ph.D. candidate, UCLA, Biomathematics.</li>
+ 	<li>Tim Stutz (2012): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/TimStutz12.pdf" target = "_blank">"Modeling the Evolution of Sexual Diploid Populations via a Stochastic Moran Process"</a>; Ph.D. 2020, UCLA, Biomathematics. Currently: .</li>
 </ul>
 
 <h4>2011:</h4>
 <ul>
- 	<li>Kate Brieger (2011, EA, independent study): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/KateBrieger11.pdf" target = "_blank">"The Evolution of Statistics in Medicine"</a> ; M.D. / Ph.D. 2022, University of Michigan, Epidemiology; Currently: resident, Brigham and Women's Hospital, Harvard Medical School.</li>
- 	<li>Christine Ju (2011, Scripps): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/ChristineJu_Scripps11.pdf" target = "_blank">"Determining Overrepresentation of Gene Ontology Terms using the Hypergeometric Distribution"</a>; M.S. 2013, Duke, Biostatistics; Currently: Senior Manger, Biostatistics, ALX Oncology.</li>
+ 	<li>Kate Brieger (2011, EA, independent study): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/KateBrieger11.pdf" target = "_blank">"The Evolution of Statistics in Medicine"</a> ; M.D. / Ph.D. 2022, University of Michigan, Epidemiology; Currently: Clinical Fellow in Psychiatry, Brigham and Women's Hospital, Harvard Medical School.</li>
+ 	<li>Christine Ju (2011, Scripps): <a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/ChristineJu_Scripps11.pdf" target = "_blank">"Determining Overrepresentation of Gene Ontology Terms using the Hypergeometric Distribution"</a>; M.S. 2013, Duke, Biostatistics; Currently: Associate Director, Biostatistics, ALX Oncology.</li>
 </ul>
 
 <h4>2010:</h4>
 <ul>
  	<li>Minsoo Kim (2010): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/MinsooKim10.pdf" target = "_blank">Statistical Classification</a>"; M.S. 2015, U Georgia, Statistics; Currently: Scientific Computing Professional Associate, Carl Vinson Institute of Government.</li>
- 	<li>Mary Owen (2010): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/MaryOwen10.pdf" target = "_blank">Tukey's Biweight Correlation and the Breakdown</a>"; Currently: Pastry Cook, Marta.</li>
- 	<li>Mark Simon (2010): "Randomly Generating Computationally Stable Correlation Matrices"; Currently: Financial Analyst, Taal Capital Management.</li>
+ 	<li>Mary Owen (2010): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/MaryOwen10.pdf" target = "_blank">Tukey's Biweight Correlation and the Breakdown</a>"; Currently: Operations Assistant, Jennie's Kitchen.</li>
+ 	<li>Mark Simon (2010): "Randomly Generating Computationally Stable Correlation Matrices"; Currently: Senior Investment Analyst, Taal Capital Management.</li>
 </ul>
 
 <h4>2009:</h4>
 <ul>
- 	<li>Patrick Kimes (2009): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/Kimes_Final.pdf" target = "_blank">Understanding q-values as a More Intuitive Alternative to p-values</a>"; Ph.D. 2015 ("New Statistical Learning Approaches with Applications to RNA-Sequencing Data."  Advisor: J.S. Marron), UNC, Statistics; Currently: Senior Statistical Scientist, Genentech.</li>
+ 	<li>Patrick Kimes (2009): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/Kimes_Final.pdf" target = "_blank">Understanding q-values as a More Intuitive Alternative to p-values</a>"; Ph.D. 2015 ("New Statistical Learning Approaches with Applications to RNA-Sequencing Data."  Advisor: J.S. Marron), UNC, Statistics; Currently: Principal Statistical Scientist, Genentech.</li>
  	<li>Alison Kosel (2009): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/AliKosel_thesis.pdf" target = "_blank">Simulating Correlated Multivariate Normal Data</a>"; Ph.D. 2016 ("Local Estimation of Patient Prognosis" Advisor: Patrick Heagerty), U Washington, Biostatistics; Currently: Data Scientist, Facebook.</li>
- 	<li>Daniel Scinto (2009): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/ScinFin.pdf" target = "_blank">Stock Ranking and Portfolio Selection: Revising and Developing Z-scores</a>"; Currently: Partner, BFAM Partners.</li>
+ 	<li>Daniel Scinto (2009): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/ScinFin.pdf" target = "_blank">Stock Ranking and Portfolio Selection: Revising and Developing Z-scores</a>"; Currently: Portfolio Manager, Alphadyne Asset Management.</li>
 </ul>
 
 <h4>2008:</h4>
 <ul>
  	<li>Brianna Pasco (2008, Scripps): "A Basic Introduction and Comparison of Linear Discriminant Analysis and Support Vector Machines".</li>
  	<li>Nick Conway (2008): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/Nick%20Conway%2008.pdf" target = "_blank">A Resistant Measure of Distance in DNA Microarrays</a>".</li>
- 	<li>Austen Head (2008): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/Thesis-AustenHead08.pdf" target = "_blank">Correlation Correction of Sample Measures from Bivariate Distributions</a>"; Ph.D. 2014, Stanford, Statistics; Currently: Head of Data Science, PayJoy.</li>
- 	<li>Robert Kurtzman (2008): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/KURTFINAL_08.pdf" target = "_blank">The Advantages of a Biweight Metric in Clustering Microarray Data</a>"; Ph.D. 2015, UCLA, Economics; Currently:  Principal Economist, Federal Reserve Board.</li>
+ 	<li>Austen Head (2008): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/Thesis-AustenHead08.pdf" target = "_blank">Correlation Correction of Sample Measures from Bivariate Distributions</a>"; Ph.D. 2014, Stanford, Statistics; Currently: Staff Machine Learning Engineer, PayJoy.</li>
+ 	<li>Robert Kurtzman (2008): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/KURTFINAL_08.pdf" target = "_blank">The Advantages of a Biweight Metric in Clustering Microarray Data</a>"; Ph.D. 2015, UCLA, Economics; Currently: Group Manager, Federal Reserve Board.</li>
 </ul>
 
 <h4>2007:</h4>
 <ul>
- 	<li>Jeffery Joe Nanda (2007): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/nanda_07.pdf" target = "_blank">Correcting for Bias in Correlation Coefficients Due to Intraindividual Variability</a>"; MBA 2011, Stanford; Currently: Investment Manager, IFC Asset Management Company. </li>
- 	<li>Andrea Vijverberg (2007): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/vivjverberg_07.pdf" target = "_blank">Clustering Microarray Data</a>"; M.S. Computational Finance 2008; Currently: FX Options Trader, Bunge.</li>
+ 	<li>Jeffery Joe Nanda (2007): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/nanda_07.pdf" target = "_blank">Correcting for Bias in Correlation Coefficients Due to Intraindividual Variability</a>"; MBA 2011, Stanford; Currently: Head of Investments, American Triple. </li>
+ 	<li>Andrea Vijverberg Seo (2007): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/vivjverberg_07.pdf" target = "_blank">Clustering Microarray Data</a>"; M.S. Computational Finance 2008; Currently: Quantitative Model Analyst, Counterparty Risk, US Bank</li>
  	<li>Jonathan Buster Zalkind (2007): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/Zalkind_Thesis_Final.pdf" target = "_blank">Four Colors is not Enough: Visualizations of Simulated Spatial-Model Elections Under Different Voting Methods</a>"; MBA, The University of Chicago Booth School of Business, Currently: Vice President, Playco.</li>
 </ul>
 
@@ -266,12 +266,18 @@ Near-Earth Asteroids: An investigation of Fourier Analysis and the Lomb-Scargle 
 
 <h4>2003:</h4>
 <ul>
- 	<li>Veronica (Montes De Oca) Aispuro (2003): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/veronica_abstract.pdf" target = "_blank">Methods for Evaluating Health Care Claims Data</a>"  (an application of Bootstrapping); Ph.D. 2008, University of California, Riverside, Applied Statistics; Currently: Director of Stars Survey Analytics, UnitedHealth Group.</li>
+ 	<li>Veronica (Montes De Oca) Aispuro (2003): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/veronica_abstract.pdf" target = "_blank">Methods for Evaluating Health Care Claims Data</a>"  (an application of Bootstrapping); Ph.D. 2008, University of California, Riverside, Applied Statistics; Currently: Senior Director of Stars Survey Analytics, UnitedHealth Group.</li>
 </ul>
 
 ## Student Successes
 
 <p> 
+
+<h4>2024:</h4>
+<ul>
+<li>Jazelle Saligumba '26, Kellie Au '26, Julianne Louie '26, Chau Vu '26, Yunju Song '26 <a href = "http://datafest.stat.ucla.edu/2024-asa-datafesttm-results" target = "_blank">DataFest - The Don Ylvisaker Best Insight Award (Honorable Mention)</a></li>
+<li>Sara Colando '24 <a href = "https://scolando.github.io/data-science-ethics/" target = "_blank">compilation of data science ethics curricula</a>, to accompany our joint paper <a href = "https://doi.org/10.1080/26939169.2024.2394542" target = "_blank">Philosophy within Data Science Ethics Courses</a>.</li>
+</ul>
 
 <h4>2022:</h4>
 <ul>
