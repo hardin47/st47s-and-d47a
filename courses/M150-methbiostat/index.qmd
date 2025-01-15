@@ -35,5 +35,5 @@ By the end of the semester, students will be able to:
 
 ## Course website
 
-Methods in Biostatistics was last taught in Spring 2023, materials can be found on the <a href = "https://m150-method-biostat.netlify.app/" target = "_blank">course website</a>.
+Methods in Biostatistics was last taught in Spring 2025, materials can be found on the <a href = "https://m150-method-biostat.netlify.app/" target = "_blank">course website</a>.
 

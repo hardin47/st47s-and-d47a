@@ -37,7 +37,7 @@ By the end of the semester, students will be able to:
 
 ## Course website
 
-The main course website is at [Computational Statistics](https://m154-comp-stats.netlify.app/).  You will find:
+Computational Statistics was last taught in Fall 2024, and materials can be found on the <a href = "https://m154-comp-stats.netlify.app/" target = "_blank">course website</a> where you will find:
 
 * syllabus
 * class notes
