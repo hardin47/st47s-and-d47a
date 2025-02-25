@@ -15,6 +15,8 @@ show_post_date: false
 
 ## Data for Equity & Inclusion
 
+* <a href = "https://national.cpdp.co/" target = "_blank">National Police Index</a> "The National Police Index is a project and data tool showing police employment history data obtained from state police training and certification boards across the U.S. In total, 27 states have released centralized employment history data, 23 of which are currently represented on the data tool."
+* <a href = "https://www.responsible-datasets-in-context.com/team.html" target = "_blank">Responsibe Datasets in Context</a> "Understanding the social and historical context of data is essential for all responsible data work. We host datasets that are paired with rich documentation, data essays, and teaching resources, all of which draw on context and humanities perspectives and methods. We provide models for responsible data curation, documentation, story-telling, and analysis."
 * <a href = "https://www.slavevoyages.org/" target = "_blank"><bf>SlaveVoyages</bf></a>: "The SlaveVoyages website is a collaborative digital initiative that compiles and makes publicly accessible records of the largest slave trades in history. Search these records to learn about the broad origins and forced relocation of more than 12 million African people who were sent across the Atlantic in slave ships, and hundreds of thousands more who were trafficked within the Americas."  
 * <a href = "https://github.com/bryandmartin/gibboda" target = "_blank"><bf>gibboda</bf></a>: Gender Isn’t Binary But Other Data Are!  
 * <a href="http://hatespeechdata.com/" target = "_blank"><bf>hate speak corpora</bf></a>: particularly interesting for training NLP models 
@@ -53,6 +55,7 @@ The Annual Data Challenge Expo is open to anyone who is interested in participat
 
 ## R packages containing multiple datasets:
 
+* <a href = "https://www.unhcr.org/refugee-statistics/insights/explainers/refugees-r-package.html" target = "_blank">**refugees**</a> facilitates access to the <a href = "https://www.unhcr.org/refugee-statistics" target = "_blank">Refugee Data Finder</a> to access data on displacements of people tracked since 1951.
 * <a href = "https://lter.github.io/lterdatasampler/" target = "_blank">**lterdatasampler**</a> Data samples with features that are useful in introductory environmental data science and statistics courses.
 * [**gibboda**](https://github.com/bryandmartin/gibboda): Gender Isn’t Binary But Other Data Are!
 * [**openintro**](https://github.com/OpenIntroStat/openintro) an R package for data and supplemental functions for OpenIntro resources 
@@ -66,6 +69,7 @@ The Annual Data Challenge Expo is open to anyone who is interested in participat
 ## Dynamic Data Sets / Databases:
 
 * The amazing [TidyTuesday](https://github.com/rfordatascience/tidytuesday) datasets.  For example, data on [Juneteenth](https://github.com/rfordatascience/tidytuesday/tree/master/data/2020/2020-06-16) or [Wealth Inequality](https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-02-09)
+* <a href = "https://asdfree.com/index.html" target = "_blank">Large compilation of survey data</a>
 * <a href = "https://github.com/awesomedata/awesome-public-datasets" target = "_blank">Awesome Public Datasets</a>, a huge number of datasets automatically generated from blogs, answers, and user responses.
 * <a href = "https://worldatlas.org/" target = "_blank">World Atlas</a> is a public database with 2,500 datasets.  The datasets come from places like Gapminder, United Nations Data, Worldbank, and Open numbers, and it is <a href = "https://towardsdatascience.com/ive-built-a-public-world-atlas-with-2-500-datasets-to-explore-8b9ae799e345" target = "_blank">described here</a> in detail.
 * [College Scorecard](https://collegescorecard.ed.gov/).  A tremendous amount of information about all universities (though some of it collected only from students on financial aid).
@@ -85,6 +89,7 @@ The Annual Data Challenge Expo is open to anyone who is interested in participat
 
 ## New & Continuously Revised Static Data Sets / Databases:
 
+* <a href = "https://cmustatistics.github.io/data-repository/" target = "_blank">CMU S&SD Data Repository</a>
 * <a href = "https://www.childhealthdata.org/browse/survey" target = "_blank">National Survey of Children's Health</a> including a dozen or so variables on 85,000 kids.
 * <a href = "https://osf.io/gpxwa/" target = "_blank"><bf>Boston College COVID-19 Sleep and Well-Being Dataset</bf></a>
 * <a href = "https://www.norcalbiostat.com/data/" target = "_blank">Collection of datasets</a> compiled by <a href = "https://www.norcalbiostat.com/" target = "_blank">Robin Donatello</a> at CSU Chico.
