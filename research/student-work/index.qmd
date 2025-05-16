@@ -107,6 +107,14 @@ padding-bottom: 1em;
 
 ## Senior Thesis Projects
 
+<h4>2025:</h4>
+<ul>
+<li>Necdet Canim (2025): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/necdet_canim_2025.pdf" target = "_blank">"Exploration of Dimension Reduction Methods: Theory and Applications"</a>; Currently: </li>
+<li>Hubery Hu (2025): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/hubery_hu_2025.pdf" target = "_blank">"Bridging Latent Dirichlet Allocation and Network Community Detection: An exploration for latent structure discovery"</a>; Currently: PhD candidate, U Colorado, Boulder, Computer Science.</li>
+<li>Mira Terdiman (2025): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/mira_terdiman_2025.pdf" target = "_blank">"Sigmoid Modeling with sicegar: Key Issues and Improvements"</a>; Currently: MPH candidate, UC Berkeley, Biostats/Epidemiology.</li>
+<li>Kyle Torres (2025): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/kyle_torres_2025.pdf" target = "_blank">"Gibbs Sampling for LDA and Applications to RAG"</a>; Currently: MAS candidate, UCLA, Applied Statistics & Data Science.</li> 
+</ul>
+
 <h4>2024:</h4>
 <ul>
 <li>Sara Colando (2024): <a href="https://hardin47.github.io/st47s-and-d47a/student-work/sara_colando_2024.pdf" target = "_blank">"Selecting ChIP-Seq Normalization Methods from the Perspective of their Technical Conditions"</a>; Currently: PhD candidate, Carnegie Mellon University, Statistics.</li> 
