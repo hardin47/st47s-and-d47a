@@ -38,16 +38,15 @@ quarto add mcanouil/quarto-iconify
 https://github.com/mcanouil/quarto-iconify
 ```
 
-<p></p>
-<p></p>
+<br><br><br>
 
 <strong>2025</strong>
 <ul>
-<li> {{< iconify fa-solid chart-line >}} Karnovsky, N.J., Warzybok, P., Cavalcanti, A., Hardin, J., <sup>#</sup>Brown, Z.W., <sup>#</sup>Caves, E. <sup>#</sup>Flynn, C.M., Gallaher, G., McDuffie, N., McOmber, K., Bradley, R., Elliott, M., Saenz, B., and Jahncke, J. <strong>A Decade of Diving: Responses of Cassin's auklets to variable foraging conditions in the California Current System</strong>. Submitted, 2025.</li>
-<li> {{< iconify fa sitemap >}} <sup>#</sup>Kher, S., <sup>#</sup>Lee, A., and Hardin, J. <strong>Measuring the Impact of Missingness on Racial Bias in Traffic Stop Data</strong>. Revise and resubmit, 2025.</li>
-<li> {{< iconify fa-solid chart-line >}} <sup>#</sup>Colando, S., Schulz, D., and Hardin, J. <a href = "https://arxiv.org/abs/2501.02028" target = "_blank"><strong>Selecting ChIP-Seq Normalization Methods from the Perspective of their Technical Conditions</strong></a>. Revise and resubmit, 2025.</li>
-<li> {{< iconify fa sitemap >}} Hardin, J., <sup>#</sup>Quesada, L., <sup>#</sup>Ye, J., and Horton, N.J. <a href = "https://arxiv.org/abs/2406.07756" target = "_blank"><strong>The Exchangeability Assumption for Permutation Tests of Multiple Regression Models: Implications for Statistics and Data Science</strong></a>. Revise and resubmit, 2025.</li>
-
+<li> {{< iconify fa-solid chart-line >}} Karnovsky, N.J., Warzybok, P., Cavalcanti, A., Hardin, J., <sup>#</sup>Brown, Z.W., <sup>#</sup>Caves, E. <sup>#</sup>Flynn, C.M., <sup>#</sup>Gallaher, G., <sup>#</sup>McDuffie, N., <sup>#</sup>McOmber, K., Bradley, R., Elliott, M., Saenz, B., and Jahncke, J. <strong>A Decade of Diving: Responses of Cassin's auklets to variable foraging conditions in the California Current System</strong>. Accepted, <em>Frontiers in Bird Science</em>, 2025.</li>
+<li> {{< iconify fa sitemap >}} <sup>#</sup>Kher, S., <sup>#</sup>Lee, A., and Hardin, J. <a href = "https://arxiv.org/abs/2505.18281" target = "_blank"><strong>Measuring the Impact of Missingness in Traffic Stop Data</strong></a>. Resubmitted, 2025.</li>
+<li> {{< iconify fa-solid chart-line >}} <sup>#</sup>Colando, S., Schulz, D., and Hardin, J. <a href = "https://arxiv.org/abs/2501.02028" target = "_blank"><strong>Selecting ChIP-Seq Normalization Methods from the Perspective of their Technical Conditions</strong></a>. Resubmitted, 2025.</li>
+<li> {{< iconify fa sitemap >}} Hardin, J., <sup>#</sup>Quesada, L., <sup>#</sup>Ye, J., and Horton, N.J. <a href = "https://arxiv.org/abs/2406.07756" target = "_blank"><strong>The Exchangeability Assumption for Permutation Tests of Multiple Regression Models: Implications for Statistics and Data Science</strong></a>. Resubmitted, 2025.</li>
+<li> {{< iconify fa-solid chalkboard-teacher >}} Hardin, J. <a href = "https://arxiv.org/abs/2501.02126" target = "_blank"><strong>A Mathematical Lens for Teaching Data Science</strong></a>. Resubmitted, 2025.</li>
 </ul>
 
 
