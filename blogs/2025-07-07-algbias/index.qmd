@@ -265,6 +265,7 @@ ggplot(new.college.data, aes(x = talent,
   geom_abline(slope = 1, intercept = 0, color = "grey")
 ```
 
+Although the error rates are similar, when a single model is applied, the false positive rate for the Blues is almost double the false positive rate for the Reds! There are many more Blues getting into college when they shouldn't than Reds. Additionally, the False negative rate for the Reds is 10 percentage points higher than for the Blues. There are many more Reds who are not getting into college when they should than the Blues. It seems as though the single model is unfair against the Reds.
 
 One model:
 ```{r echo = FALSE}
