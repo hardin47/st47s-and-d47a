@@ -7,7 +7,7 @@ featured: true
 categories: []
 tags: []
 image: featured.png
-description: "Model bias can come from any of a plethora of places. Sometimes it is the training data which are problematic: sampling bias, measurment bias, historical bias, label bias. Sometimes there are problems in the modeling step itself: optimizing for particular criterion, overfitting or underfitting, choice of algorithm. Sometimes the problem can occur while data processing. For example, like here, different feature distributions for variables or imblance in classes."
+description: "Model bias can come from any of a plethora of places. Sometimes it is the training data which are problematic: sampling bias, measurment bias, historical bias, label bias. Sometimes there are problems in the modeling step itself: optimizing for particular criterion, overfitting or underfitting, choice of algorithm. Sometimes the problem can occur while data processing. For example, like here, different feature distributions for variables and imblance in classes."
 execute:
   echo: false
   warning: false
@@ -45,7 +45,7 @@ library(tidyverse)
 <br/>
 
 
-Consider an example taken directly (and mostly verbatim) from a blog by Aaron Roth [Algorithmic Unfairness Without Any Bias Baked In](http://aaronsadventures.blogspot.com/2019/01/discussion-of-unfairness-in-machine.html). We describe how forced "fairness" can have unintentional consequences.
+Consider an example taken directly (and mostly verbatim) from a blog by Aaron Roth [Algorithmic Unfairness Without Any Bias Baked In](http://aaronsadventures.blogspot.com/2019/01/discussion-of-unfairness-in-machine.html) [@roth2019]. We describe how forced "fairness" can have unintentional consequences.
 
 ## Set up of the model
 
@@ -64,7 +64,7 @@ A particular college wants to admit students with
 ... but they only have access to `grades` and `SAT` which are noisy estimates of `talent`.
 
 
-The college sets up a plan for accepting students. Fortunately for the college, they have training data which is a true random sample from the population (and includes all three variablees: `talent`, `grades`, and `SAT`). There is no bias in the selection of the training data from the population.
+The college sets up a plan for accepting students. Fortunately for the college, they have training data which is a true random sample from the population (and includes all three variables: `talent`, `grades`, and `SAT`). There is no bias in the selection of the training data from the population.
 
 In order to create a model which will help the college decide who to admit, they follow the following steps:
 
@@ -193,8 +193,9 @@ ggplot(new.college.data, aes(x = talent, y = predicted, color = color)) +
   geom_vline(xintercept = 115) +
   scale_color_identity(name = "Color Group",
                        guide = "legend") + 
-  labs(y = "new student prediction of talent",
-       x = "original observed talent")
+  labs(y = "prediction of talent - separate models",
+       x = "original observed talent") + 
+  geom_abline(slope = 1, intercept = 0, color = "grey")
 ```
 
 
@@ -242,7 +243,7 @@ global.lm |> broom::tidy()
 We notice that the coefficients look like the Red model. That's because Reds are the majority class, and so their data dominate the training data.
 
 
-Using one model, we can assess how the error rates change.
+Using one model, we can assess how the error rates change. Already, the plot shows that the Blue points are no longer centered in the middle of the Red points. The Blue points are predicted 
 
 ```{r echo=FALSE}
 new.pred <- new.college.data %>%
@@ -258,7 +259,10 @@ ggplot(new.college.data, aes(x = talent,
   geom_hline(yintercept = 115) + 
   geom_vline(xintercept = 115) +
   scale_color_identity(name = "Color Group",
-                       guide = "legend")
+                       guide = "legend") + 
+  labs(y = "prediction of talent - one model",
+       x = "original observed talent") + 
+  geom_abline(slope = 1, intercept = 0, color = "grey")
 ```
 
 
@@ -311,3 +315,16 @@ error.rates
 * the problem is exacerbated if we artificially force the algorithm to be group blind
 
 * well-intentioned "fairness" regulations prohibiting decision makers form taking sensitive attributes into account can actually make things less fair and less accurate at the same time
+
+
+## Simulation
+
+Only one dataset under one set of conditions has been simulated in the example. To fully understand the extent of the bias, we would need to do a larger simulation which might include:
+
+* repeat analysis to measure the variability of the error rates.
+* change the number of times a student can take the `SAT`
+* change the proportion of the population which is Blue
+* change the original relationship -- `talent` can be more / less dependent on `grades` than `SAT`
+
+What else would you like to know about the data, model, and simulation?
+

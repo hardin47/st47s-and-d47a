@@ -8,7 +8,7 @@
 
 <meta name="author" content="Jo Hardin">
 <meta name="dcterms.date" content="2025-07-07">
-<meta name="description" content="Model bias can come from any of a plethora of places. Sometimes it is the training data which are problematic: sampling bias, measurment bias, historical bias, label bias. Sometimes there are problems in the modeling step itself: optimizing for particular criterion, overfitting or underfitting, choice of algorithm. Sometimes the problem can occur while data processing. For example, like here, different feature distributions for variables or imblance in classes.">
+<meta name="description" content="Model bias can come from any of a plethora of places. Sometimes it is the training data which are problematic: sampling bias, measurment bias, historical bias, label bias. Sometimes there are problems in the modeling step itself: optimizing for particular criterion, overfitting or underfitting, choice of algorithm. Sometimes the problem can occur while data processing. For example, like here, different feature distributions for variables and imblance in classes.">
 
 <title>Algorithmic Bias – Jo Hardin</title>
 <style>
@@ -23,7 +23,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -143,6 +163,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#fitting-one-model" id="toc-fitting-one-model" class="nav-link" data-scroll-target="#fitting-one-model">Fitting one model</a></li>
   </ul></li>
   <li><a href="#what-did-we-learn" id="toc-what-did-we-learn" class="nav-link" data-scroll-target="#what-did-we-learn">What did we learn?</a></li>
+  <li><a href="#simulation" id="toc-simulation" class="nav-link" data-scroll-target="#simulation">Simulation</a></li>
   </ul>
 </nav>
     </div>
@@ -156,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Model bias can come from any of a plethora of places. Sometimes it is the training data which are problematic: sampling bias, measurment bias, historical bias, label bias. Sometimes there are problems in the modeling step itself: optimizing for particular criterion, overfitting or underfitting, choice of algorithm. Sometimes the problem can occur while data processing. For example, like here, different feature distributions for variables or imblance in classes.
+    Model bias can come from any of a plethora of places. Sometimes it is the training data which are problematic: sampling bias, measurment bias, historical bias, label bias. Sometimes there are problems in the modeling step itself: optimizing for particular criterion, overfitting or underfitting, choice of algorithm. Sometimes the problem can occur while data processing. For example, like here, different feature distributions for variables and imblance in classes.
   </div>
 </div>
 
@@ -194,7 +215,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p><br></p>
-<p>Consider an example taken directly (and mostly verbatim) from a blog by Aaron Roth <a href="http://aaronsadventures.blogspot.com/2019/01/discussion-of-unfairness-in-machine.html">Algorithmic Unfairness Without Any Bias Baked In</a>. We describe how forced “fairness” can have unintentional consequences.</p>
+<p>Consider an example taken directly (and mostly verbatim) from a blog by Aaron Roth <a href="http://aaronsadventures.blogspot.com/2019/01/discussion-of-unfairness-in-machine.html">Algorithmic Unfairness Without Any Bias Baked In</a> <span class="citation" data-cites="roth2019">(<a href="#ref-roth2019" role="doc-biblioref">Roth 2019</a>)</span>. We describe how forced “fairness” can have unintentional consequences.</p>
 <section id="set-up-of-the-model" class="level2">
 <h2 class="anchored" data-anchor-id="set-up-of-the-model">Set up of the model</h2>
 <p>In the population, we have only one type of person. They have the same <code>talent</code>, <code>grades</code>, and <code>SAT</code> scores.</p>
@@ -206,7 +227,7 @@ SAT ~ Normal (talent, 15)</code></pre>
 <p><code>talent &gt; 115</code></p>
 </blockquote>
 <p>… but they only have access to <code>grades</code> and <code>SAT</code> which are noisy estimates of <code>talent</code>.</p>
-<p>The college sets up a plan for accepting students. Fortunately for the college, they have training data which is a true random sample from the population (and includes all three variablees: <code>talent</code>, <code>grades</code>, and <code>SAT</code>). There is no bias in the selection of the training data from the population.</p>
+<p>The college sets up a plan for accepting students. Fortunately for the college, they have training data which is a true random sample from the population (and includes all three variables: <code>talent</code>, <code>grades</code>, and <code>SAT</code>). There is no bias in the selection of the training data from the population.</p>
 <p>In order to create a model which will help the college decide who to admit, they follow the following steps:</p>
 <ol type="1">
 <li>Run a regression on a training dataset (<code>talent</code> is known for existing students)</li>
@@ -308,7 +329,7 @@ error = fp + fn / total</p>
 ## 3 grades         0.334   0.00148      226.       0</code></pre>
 </div>
 <p>We notice that the coefficients look like the Red model. That’s because Reds are the majority class, and so their data dominate the training data.</p>
-<p>Using one model, we can assess how the error rates change.</p>
+<p>Using one model, we can assess how the error rates change. Already, the plot shows that the Blue points are no longer centered in the middle of the Red points. The Blue points are predicted</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -347,11 +368,27 @@ error = fp + fn / total</p>
 <li><p>the problem is exacerbated if we artificially force the algorithm to be group blind</p></li>
 <li><p>well-intentioned “fairness” regulations prohibiting decision makers form taking sensitive attributes into account can actually make things less fair and less accurate at the same time</p></li>
 </ul>
+</section>
+<section id="simulation" class="level2">
+<h2 class="anchored" data-anchor-id="simulation">Simulation</h2>
+<p>Only one dataset under one set of conditions has been simulated in the example. To fully understand the extent of the bias, we would need to do a larger simulation which might include:</p>
+<ul>
+<li>repeat analysis to measure the variability of the error rates.</li>
+<li>change the number of times a student can take the <code>SAT</code></li>
+<li>change the proportion of the population which is Blue</li>
+<li>change the original relationship – <code>talent</code> can be more / less dependent on <code>grades</code> than <code>SAT</code></li>
+</ul>
+<p>What else would you like to know about the data, model, and simulation?</p>
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-roth2019" class="csl-entry" role="listitem">
+Roth, Aaron. 2019. <span>“Discussion of Unfairness in Machine Learning.”</span> <a href="http://aaronsadventures.blogspot.com/2019/01/discussion-of-unfairness-in-machine.html">http://aaronsadventures.blogspot.com/2019/01/discussion-of-unfairness-in-machine.html</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
