@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Jo Hardin">
 <meta name="dcterms.date" content="2020-05-18">
 
-<title>Jo Hardin - Keeping busy with data science</title>
+<title>Keeping busy with data science – Jo Hardin</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -38,10 +38,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-9e1f2a4632985dffc2c80318c992baf5.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-3cea6d97f9966291a5f1d6585a73bb7b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="../../site_libs/quarto-contrib/iconify-1.0.0-beta.2/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -49,7 +49,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -58,6 +64,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -72,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     <img src="../../img/favicon.png" alt="" class="navbar-logo">
     </a>
@@ -83,39 +90,39 @@ ul.task-list li input[type="checkbox"] {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html" rel="" target="">
- <span class="menu-text">about</span></a>
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">about</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../courses.html" rel="" target="">
- <span class="menu-text">courses</span></a>
+    <a class="nav-link" href="../../courses.html"> 
+<span class="menu-text">courses</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../research.html" rel="" target="">
- <span class="menu-text">research</span></a>
+    <a class="nav-link" href="../../research.html"> 
+<span class="menu-text">research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../projects.html" rel="" target="">
- <span class="menu-text">projects</span></a>
+    <a class="nav-link" href="../../projects.html"> 
+<span class="menu-text">projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../blogs.html" rel="" target="">
- <span class="menu-text">blogs</span></a>
+    <a class="nav-link" href="../../blogs.html"> 
+<span class="menu-text">blogs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../letters.html" rel="" target="">
- <span class="menu-text">rec letters</span></a>
+    <a class="nav-link" href="../../letters.html"> 
+<span class="menu-text">rec letters</span></a>
   </li>  
 </ul>
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -171,20 +178,22 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <div class="blog">
 <div class="blog-header">
 <p>Teach Data Science</p>
 </div>
 <div class="blog-container">
-<p>The following entry originally appeared on May 18, 2020 at <a href="https://teachdatascience.com/keepbusy/">https://teachdatascience.com/keepbusy/</a>, a blog written by <a href="https://www.amherst.edu/people/facstaff/nhorton">Nick Horton</a> (<a href="https://twitter.com/askdrstats">twitter</a>), <a href="https://statistics.calpoly.edu/hunter-glanz">Hunter Glanz</a> (<a href="https://twitter.com/hglanz">twitter</a>), and <a href="https://www.pomona.edu/directory/people/johanna-s-hardin">Jo Hardin</a> (<a href="https://fosstodon.org/@hardin47">mastodon</a>).</p>
+<p>The following entry originally appeared on May 18, 2020 at <a href="https://teachdatascience.com/keepbusy/">https://teachdatascience.com/keepbusy/</a>, a blog written by <a href="https://www.amherst.edu/people/facstaff/nhorton">Nick Horton</a> (<a href="https://twitter.com/askdrstats">twitter</a>), <a href="https://statistics.calpoly.edu/hunter-glanz">Hunter Glanz</a> (<a href="https://twitter.com/hglanz">twitter</a>), and <a href="https://www.pomona.edu/directory/people/johanna-s-hardin">Jo Hardin</a> (<a href="https://bsky.app/profile/hardin47.bsky.social">Bluesky</a>).</p>
 </div>
 </div>
 <p><br></p>
 <div class="link">
-<section id="iconify-octicon-link-16-teach-data-science" class="level4 link-header">
-<h4 class="anchored" data-anchor-id="iconify-octicon-link-16-teach-data-science"><iconify-icon inline="" icon="octicon:link-16"></iconify-icon> Teach Data Science</h4>
+<section id="teach-data-science" class="level4 link-header">
+<h4 class="anchored" data-anchor-id="teach-data-science"><iconify-icon inline="" icon="octicon:link-16"></iconify-icon> Teach Data Science</h4>
 </section>
 <div class="link-container">
 <p><a href="https://teachdatascience.com/" target="_blank">https://teachdatascience.com/</a></p>
@@ -205,13 +214,14 @@ ul.task-list li input[type="checkbox"] {
 <p>While not necessarily the first task that you should undertake this summer, the first recommendation is to set up a GitHub account and use it to post anything you do. Each project should be a separate repository, and you should make sure to always have a README file so that others (and you six months from now) can easily see what you’ve done.</p>
 <p>If you are at all serious about doing data science at any point down the road, now is the time to start collecting your data projects into a single place so that your work can be highlighted.</p>
 <ul>
-<li><p>The ultimate site for getting GitHub up and running (and talking with RStudio) is: https://happygitwithr.com/</p></li>
-<li><p>If you’d like to set up your own website, try using https://rstudio.github.io/distill/website.html</p></li>
+<li><p>The ultimate site for getting GitHub up and running (and talking with RStudio) is: <a href="https://happygitwithr.com/" target="_blank">https://happygitwithr.com/</a></p></li>
+<li><p>If you’d like to set up your own website, try using <a href="https://quarto.org/docs/websites/" target="_blank">https://quarto.org/docs/websites/</a></p></li>
 </ul>
 <p>Are you more advanced?</p>
 <ul>
-<li><p>make your own website using bookdown, https://bookdown.org/yihui/bookdown/</p></li>
-<li><p>or a blog using blogdown, https://bookdown.org/yihui/blogdown/</p></li>
+<li><p>make your own website using bookdown, <a href="https://bookdown.org/yihui/bookdown/" target="_blank">https://bookdown.org/yihui/bookdown/</a></p></li>
+<li><p>or a blog using blogdown, <a href="https://bookdown.org/yihui/blogdown/" target="_blank">https://bookdown.org/yihui/blogdown/</a></p></li>
+<li><p>or better yet, a blog using Quarto <a href="https://quarto.org/docs/websites/website-blog.html" target="_blank">https://quarto.org/docs/websites/website-blog.html</a></p></li>
 </ul>
 </section>
 <section id="starting-with-r" class="level3">
@@ -219,11 +229,10 @@ ul.task-list li input[type="checkbox"] {
 <figure class="figure">
 <img style="padding: 10px;float: right;" alt="hrdag" width="300" src="dsloop.png" class="figure-img">
 </figure>
-<p>Particularly if you are new to R, an amazing book to work through is called “R for Data Science” by Grolemund &amp; Wickham (https://r4ds.had.co.nz/). There are many problems you can try out, and the text provides a wealth of ideas for working through data analysis problems. Even if you have been using R for many years, my guess is that the text contains many opportunities to learn how to work with new data structures.</p>
+<p>Particularly if you are new to R, an amazing book to work through is called “R for Data Science” by Grolemund &amp; Wickham (<a href="https://r4ds.hadley.nz/" target="_blank">https://r4ds.hadley.nz/</a>). There are many problems you can try out, and the text provides a wealth of ideas for working through data analysis problems. Even if you have been using R for many years, my guess is that the text contains many opportunities to learn how to work with new data structures.</p>
 <ul>
-<li><p>interactive tutorials for working through “R for Data Science” at https://rstudio.cloud/learn/primers</p></li>
-<li><p>for a good start to R in general, check out https://education.rstudio.com/learn/</p></li>
-<li><p>There is a more advanced version to the Grolemund &amp; Wickham text that you might want to try out if you are an advanced R user (“Advanced R” by Wickham, https://adv-r.hadley.nz/). The advanced version includes quite a bit on programming and why R works the way it does.</p></li>
+<li><p>for a good start to R in general, check out <a href="https://education.rstudio.com/learn/" target="_blank">https://education.rstudio.com/learn/</a></p></li>
+<li><p>There is a more advanced version to the Grolemund &amp; Wickham text that you might want to try out if you are an advanced R user (“Advanced R” by Wickham, <a href="https://adv-r.hadley.nz/" target="_blank">https://adv-r.hadley.nz/</a>). The advanced version includes quite a bit on programming and why R works the way it does.</p></li>
 </ul>
 </section>
 <section id="modeling-data" class="level3">
@@ -233,8 +242,8 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 <p>Interested in modeling?</p>
 <ul>
-<li><p>for modeling in R, visit the new tidymodels Get Started page: https://www.tidymodels.org/start/</p></li>
-<li><p>arguably the best text on statistical learning models (and freely available!) is “An Introduction to Statistical Learning with Applications in R” by James et al.&nbsp;http://faculty.marshall.usc.edu/gareth-james/ISL/</p></li>
+<li><p>for modeling in R, visit the <strong>tidymodels</strong> Get Started page: <a href="https://www.tidymodels.org/start/" target="_blank">https://www.tidymodels.org/start/</a></p></li>
+<li><p>arguably the best text on statistical learning models (and freely available!) is “An Introduction to Statistical Learning with Applications in R” by James et al.&nbsp;<a href="https://www.statlearning.com/" target="_blank">https://www.statlearning.com/</a></p></li>
 </ul>
 </section>
 <section id="natural-language-processing" class="level3">
@@ -244,13 +253,13 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 <p>Interested in text analysis / natural language processing?</p>
 <ul>
-<li><p>Tidytext tutorials: https://computational.journalism.wisc.edu/2018/11/16/tidytext-tutorials/</p></li>
-<li><p>Chapter 11: tidy text: https://datascienceineducation.com/c11.html</p></li>
-<li><p><code>stringr</code> cheat sheet: https://github.com/rstudio/cheatsheets/raw/master/strings.pdf</p></li>
-<li><p>Text datasets to get started with: https://github.com/EmilHvitfeldt/R-text-data</p></li>
-<li><p>Blog post(s) by Julia Silge: https://juliasilge.com/blog/evaluating-stm/</p></li>
-<li><p>Julia Silge &amp; David Robinson’s book: https://www.tidytextmining.com/</p></li>
-<li><p>Implementation of Google’s BERT framework into R: https://github.com/jonathanbratt/RBERT</p></li>
+<li><p>Great <strong>tidytext</strong> tutorials: <a href="https://computational.journalism.wisc.edu/2018/11/16/tidytext-tutorials/" target="_blank">https://computational.journalism.wisc.edu/2018/11/16/tidytext-tutorials/</a></p></li>
+<li><p>Chapter 11: Text analysis with social media data: <a href="https://datascienceineducation.com/c11.html" target="_blank">https://datascienceineducation.com/c11.html</a></p></li>
+<li><p><strong>stringr</strong> cheat sheet: <a href="https://rstudio.github.io/cheatsheets/html/strings.html" target="_blank">https://rstudio.github.io/cheatsheets/html/strings.html</a></p></li>
+<li><p>Text datasets to get started with: <a href="https://github.com/EmilHvitfeldt/R-text-data" target="_blank">https://github.com/EmilHvitfeldt/R-text-data</a></p></li>
+<li><p>Blog post(s) by Julia Silge: <a href="https://juliasilge.com/blog/evaluating-stm/" target="_blank">https://juliasilge.com/blog/evaluating-stm/</a></p></li>
+<li><p>Julia Silge &amp; David Robinson’s Text Mining book: <a href="https://www.tidytextmining.com/" target="_blank">https://www.tidytextmining.com/</a></p></li>
+<li><p>Implementation of Google’s BERT framework into R: <a href="https://github.com/jonathanbratt/RBERT" target="_blank">https://github.com/jonathanbratt/RBERT</a></p></li>
 </ul>
 </section>
 <section id="practice-doing-data-science" class="level3">
@@ -260,18 +269,18 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 <p>One of the most fun things you can do is to practice doing data science. Below are ideas you could work on for one afternoon or that you could commit a few weeks to figuring out. You should choose projects that seem fun and to which you might be able to provide a creative approach to solving.</p>
 <ul>
-<li><p>Tidy Tuesday: every Tuesday a new dataset is posted, and individuals (separately and collaboratively) work to visualize the dataset. Details at https://github.com/rfordatascience/tidytuesday.</p></li>
-<li><p>Kaggle.com: is an online community of data scientists who build models, working together to come up with optimal predictions. You can compete in an ongoing Kaggle competition, or you can work through an old competition where many teams have shared their work and their ideas.</p></li>
+<li><p>Tidy Tuesday: every Tuesday a new dataset is posted, and individuals (separately and collaboratively) work to visualize the dataset. Details at <a href="https://github.com/rfordatascience/tidytuesday" target="_blank">https://github.com/rfordatascience/tidytuesday</a></p></li>
+<li><p><a href="https://www.kaggle.com/" target="_blank">https://www.kaggle.com/</a>: is an online community of data scientists who build models, working together to come up with optimal predictions. You can compete in an ongoing Kaggle competition, or you can work through an old competition where many teams have shared their work and their ideas.</p></li>
 <li><p>Work through a COVID-19 analysis. It is worth noting that the current available case data is likely to be under-reported (both cases and deaths across most countries) which makes modeling the actual data somewhat problematic. Instead, you might try to model COVID-19 related data (e.g., flights in the US, unemployment, emissions, weather patterns, etc.).</p></li>
 </ul>
 <ul style="list-style-type:none">
 <li>
-Two good resources that have been collecting analyses and other information are: http://www.stat.cmu.edu/~kass/covid.html and https://github.com/mine-cetinkaya-rundel/covid19-r
+Two good resources that have been collecting analyses and other information (as of 2020) are: <a href="http://www.stat.cmu.edu/~kass/covid.html" target="_blank">http://www.stat.cmu.edu/~kass/covid.html</a> and <a href="https://github.com/mine-cetinkaya-rundel/covid19-r" target="_blank">https://github.com/mine-cetinkaya-rundel/covid19-r</a>
 </li>
 </ul>
 <ul>
-<li><p>data for social good: https://www.drivendata.org/competitions/ provides real data and structures (similar to Kaggle) for working through models and coming up with predictions – all on data which benefits the social good.</p></li>
-<li><p>Other data science competitions: https://towardsdatascience.com/top-competitive-data-science-platforms-other-than-kaggle-2995e9dad93c</p></li>
+<li><p>data for social good: <a href="https://www.drivendata.org/competitions/" target="_blank">https://www.drivendata.org/competitions/</a> provides real data and structures (similar to Kaggle) for working through models and coming up with predictions – all on data which benefits the social good.</p></li>
+<li><p>Other data science competitions: <a href="https://towardsdatascience.com/top-competitive-data-science-platforms-other-than-kaggle-2995e9dad93c" target="_blank">https://towardsdatascience.com/top-competitive-data-science-platforms-other-than-kaggle-2995e9dad93c</a></p></li>
 </ul>
 </section>
 <section id="interactive-graphics" class="level3">
@@ -281,11 +290,10 @@ Two good resources that have been collecting analyses and other information are:
 </figure>
 <p>Register for a (free) shiny account, and create a shiny dashboard to highlight the work you are doing!</p>
 <ul>
-<li><p>account: https://shiny.rstudio.com/</p></li>
-<li><p>gallery: https://shiny.rstudio.com/gallery/</p></li>
-<li><p>Shiny contest 2020 (deadline passed, but you can practice for next year!):</p></li>
+<li><p>account: <a href="https://shiny.posit.co/" target="_blank">https://shiny.posit.co/</a></p></li>
+<li><p>gallery: <a href="https://shiny.posit.co/r/gallery/" target="_blank">https://shiny.posit.co/r/gallery/</a></p></li>
+<li><p>Shiny contest 2020 (deadline passed, but you can practice for next year!): <a href="https://blog.rstudio.com/2020/02/12/shiny-contest-2020-is-here/" target="_blank">https://blog.rstudio.com/2020/02/12/shiny-contest-2020-is-here/</a></p></li>
 </ul>
-<p>https://blog.rstudio.com/2020/02/12/shiny-contest-2020-is-here/</p>
 </section>
 <section id="art-and-r" class="level3">
 <h3 class="anchored" data-anchor-id="art-and-r">7. Art and R</h3>
@@ -294,14 +302,10 @@ Two good resources that have been collecting analyses and other information are:
 </figure>
 <p>Interested in art? Make art with data and R!</p>
 <ul>
-<li><p>Getting started with generative art in R: https://djnavarro.net/post/unpredictable-paintings/</p></li>
-<li><p>No code, but inspiration: https://www.data-imaginist.com/art</p></li>
-<li><p>Follow posts on Twitter:</p></li>
-</ul>
-<p>https://twitter.com/search?q=%23generative%20%23rstats&amp;src=typed_query</p>
-<ul>
-<li><p>Illustrations — don’t want to code but draw instead? Illustrate your learnings! See https://github.com/allisonhorst/stats-illustrations for inspiration.</p></li>
-<li><p>Hand drawn data visualizations? See http://www.dear-data.com/theproject for inspiration.</p></li>
+<li><p>Getting started with generative art in R: <a href="https://blog.djnavarro.net/posts/2021-11-01_unpredictable-paintings/" target="_blank">https://blog.djnavarro.net/posts/2021-11-01_unpredictable-paintings/</a></p></li>
+<li><p>No code, but inspiration: <a href="https://thomaslinpedersen.art/" target="_blank">https://thomaslinpedersen.art/</a></p></li>
+<li><p>Illustrations — don’t want to code but draw instead? Illustrate your learnings! See <a href="https://github.com/allisonhorst/stats-illustrations" target="_blank">https://github.com/allisonhorst/stats-illustrations</a> for inspiration.</p></li>
+<li><p>Hand drawn data visualizations? See <a href="http://www.dear-data.com/theproject" target="_blank">http://www.dear-data.com/theproject</a> for inspiration.</p></li>
 </ul>
 </section>
 <section id="watch-videos-and-take-classes" class="level3">
@@ -311,12 +315,8 @@ Two good resources that have been collecting analyses and other information are:
 </figure>
 <p>Learn some new stuff from videos &amp; webinars!</p>
 <ul>
-<li><p>RStudio has a wealth of amazing videos https://resources.rstudio.com/</p></li>
-<li><p>Dave on Data’s youtube channel:</p></li>
-</ul>
-<p>https://www.youtube.com/channel/UCRhUp6SYaJ7zme4Bjwt28DQ</p>
-<ul>
-<li>Coursera + Johns Hopkins Data Science Specialization: https://www.coursera.org/specializations/jhu-data-science</li>
+<li><p>Dave on Data’s youtube channel: <a href="https://www.youtube.com/channel/UCRhUp6SYaJ7zme4Bjwt28DQ" target="_blank">https://www.youtube.com/channel/UCRhUp6SYaJ7zme4Bjwt28DQ</a></p></li>
+<li><p>Coursera + Johns Hopkins Data Science Specialization: <a href="https://www.coursera.org/specializations/jhu-data-science" target="_blank">https://www.coursera.org/specializations/jhu-data-science</a></p></li>
 </ul>
 </section>
 <section id="participate-in-the-data-science-community" class="level3">
@@ -324,13 +324,10 @@ Two good resources that have been collecting analyses and other information are:
 <figure class="figure">
 <img style="padding: 10px;float: right;" alt="hrdag" width="100" src="reprex.jpeg" class="figure-img">
 </figure>
-<p>Engage on RStudio Community (https://community.rstudio.com/) or https://stackoverflow.com/ – platforms for asking and answering all the questions. StackOverflow is more comprehensive, but it can be aggressive and unhelpful at times. RStudio Community is a great place for beginners and way less intimidating than SO.</p>
+<p>Engage on Posit Community (<a href="https://forum.posit.co/" target="_blank">https://forum.posit.co/</a>) or <a href="https://stackoverflow.com/" target="_blank">https://stackoverflow.com/</a> – platforms for asking and answering all the questions. StackOverflow is more comprehensive, but it can be aggressive and unhelpful at times. Posit Community is a great place for beginners and way less intimidating than SO.</p>
 <ul>
-<li>be sure you know how to make a minimal reproducible example:</li>
-</ul>
-<p>https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example</p>
-<ul>
-<li>use the <code>reprex</code> package in R: https://teachdatascience.com/reprex/</li>
+<li><p>be sure you know how to make a minimal reproducible example: <a href="https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example" target="_blank">https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example</a></p></li>
+<li><p>use the <strong>reprex</strong> package in R: <a href="https://teachdatascience.com/reprex/" target="_blank">https://teachdatascience.com/reprex/</a></p></li>
 </ul>
 </section>
 <section id="write-an-r-package" class="level3">
@@ -340,9 +337,9 @@ Two good resources that have been collecting analyses and other information are:
 </figure>
 <p>You’ll be surprised to learn that creating your own R package can be reasonably straightforward. Fantastic step-by-step instructions help facilitate putting the R package together.</p>
 <ul>
-<li><p>how to do it: https://r-pkgs.org/</p></li>
-<li><p>really great example to walk through: https://www.erikhoward.net/blog/how-to-create-an-r-data-package/</p></li>
-<li><p>write a package that contains (only) a cool dataset: https://teachdatascience.com/datapackage/</p></li>
+<li><p>how to do it: <a href="https://r-pkgs.org/" target="_blank">https://r-pkgs.org/</a></p></li>
+<li><p>instructions to walk through: <a href="https://docs.posit.co/ide/user/ide/guide/pkg-devel/writing-packages.html" target="_blank">https://docs.posit.co/ide/user/ide/guide/pkg-devel/writing-packages.html</a></p></li>
+<li><p>write a package that contains (only) a cool dataset: <a href="https://teachdatascience.com/datapackage/" target="_blank">https://teachdatascience.com/datapackage/</a></p></li>
 </ul>
 
 
@@ -384,18 +381,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -427,11 +413,48 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/hardin47\.netlify\.app\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -441,8 +464,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -454,7 +486,129 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -498,6 +652,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -523,6 +678,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -585,13 +766,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">© Copyright 2023, Jo Hardin</div>   
+    <div class="nav-footer-left">
+<p>© Copyright 2024, Jo Hardin</p>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
-    <div class="nav-footer-right">Built with 💚 and <a href="https://quarto.org/">Quarto</a>.</div>
+    <div class="nav-footer-right">
+<p>Built with 💚 and <a href="https://quarto.org/">Quarto</a>.</p>
+</div>
   </div>
 </footer>
+
 
 
 

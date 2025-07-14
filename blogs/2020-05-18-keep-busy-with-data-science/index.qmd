@@ -16,7 +16,7 @@ Teach Data Science
 
 ::::{.blog-container}
 
-The following entry originally appeared on May 18, 2020 at [https://teachdatascience.com/keepbusy/](https://teachdatascience.com/keepbusy/), a blog written by [Nick Horton](https://www.amherst.edu/people/facstaff/nhorton) ([twitter](https://twitter.com/askdrstats)), [Hunter Glanz](https://statistics.calpoly.edu/hunter-glanz) ([twitter](https://twitter.com/hglanz)), and [Jo Hardin](https://www.pomona.edu/directory/people/johanna-s-hardin) ([mastodon](https://fosstodon.org/@hardin47)). 
+The following entry originally appeared on May 18, 2020 at [https://teachdatascience.com/keepbusy/](https://teachdatascience.com/keepbusy/), a blog written by [Nick Horton](https://www.amherst.edu/people/facstaff/nhorton) ([twitter](https://twitter.com/askdrstats)), [Hunter Glanz](https://statistics.calpoly.edu/hunter-glanz) ([twitter](https://twitter.com/hglanz)), and [Jo Hardin](https://www.pomona.edu/directory/people/johanna-s-hardin) ([Bluesky](https://bsky.app/profile/hardin47.bsky.social)). 
 
 ::::
 :::
@@ -61,15 +61,17 @@ While not necessarily the first task that you should undertake this summer, the 
 
 If you are at all serious about doing data science at any point down the road, now is the time to start collecting your data projects into a single place so that your work can be highlighted.
  
-* The ultimate site for getting GitHub up and running (and talking with RStudio) is: https://happygitwithr.com/
+* The ultimate site for getting GitHub up and running (and talking with RStudio) is: <a href = "https://happygitwithr.com/" target = "_blank">https://happygitwithr.com/</a>
  
-* If you'd like to set up your own website, try using https://rstudio.github.io/distill/website.html
- 
+* If you'd like to set up your own website, try using <a href = "https://quarto.org/docs/websites/" target = "_blank">https://quarto.org/docs/websites/</a> 
+
 Are you more advanced?
  
-* make your own website using bookdown, https://bookdown.org/yihui/bookdown/
+* make your own website using bookdown, <a href = "https://bookdown.org/yihui/bookdown/" target = "_blank">https://bookdown.org/yihui/bookdown/</a>
  
-* or a blog using blogdown, https://bookdown.org/yihui/blogdown/
+* or a blog using blogdown, <a href = "https://bookdown.org/yihui/blogdown/" target = "_blank">https://bookdown.org/yihui/blogdown/</a>
+
+* or better yet, a blog using Quarto <a href = "https://quarto.org/docs/websites/website-blog.html" target = "_blank">https://quarto.org/docs/websites/website-blog.html</a>
  
  
 ### 2. Starting with R 
@@ -78,13 +80,12 @@ Are you more advanced?
 <img style = "padding: 10px;float: right;" alt = 'hrdag' width='300' src='dsloop.png' />
 </figure>
  
-Particularly if you are new to R, an amazing book to work through is called "R for Data Science" by Grolemund & Wickham (https://r4ds.had.co.nz/).  There are many problems you can try out, and the text provides a wealth of ideas for working through data analysis problems.  Even if you have been using R for many years, my guess is that the text contains many opportunities to learn how to work with new data structures.
+Particularly if you are new to R, an amazing book to work through is called "R for Data Science" by Grolemund & Wickham (<a href = "https://r4ds.hadley.nz/" target = "_blank">https://r4ds.hadley.nz/</a>).  There are many problems you can try out, and the text provides a wealth of ideas for working through data analysis problems.  Even if you have been using R for many years, my guess is that the text contains many opportunities to learn how to work with new data structures.
  
-* interactive tutorials for working through "R for Data Science" at https://rstudio.cloud/learn/primers
+
+* for a good start to R in general, check out  <a href = "https://education.rstudio.com/learn/" target = "_blank">https://education.rstudio.com/learn/</a>
  
-* for a good start to R in general, check out  https://education.rstudio.com/learn/
- 
-* There is a more advanced version to the Grolemund & Wickham text that you might want to try out if you are an advanced R user ("Advanced R" by Wickham, https://adv-r.hadley.nz/).   The advanced version includes quite a bit on programming and why R works the way it does.
+* There is a more advanced version to the Grolemund & Wickham text that you might want to try out if you are an advanced R user ("Advanced R" by Wickham, <a href = "https://adv-r.hadley.nz/" target = "_blank">https://adv-r.hadley.nz/</a>).   The advanced version includes quite a bit on programming and why R works the way it does.
  
  
 ### 3. Modeling Data 
@@ -95,9 +96,9 @@ Particularly if you are new to R, an amazing book to work through is called "R f
 
 Interested in modeling?
  
-* for modeling in R, visit the new tidymodels Get Started page: https://www.tidymodels.org/start/
+* for modeling in R, visit the **tidymodels** Get Started page: <a href = "https://www.tidymodels.org/start/" target = "_blank">https://www.tidymodels.org/start/</a>
  
-* arguably the best text on statistical learning models (and freely available!) is "An Introduction to Statistical Learning with Applications in R" by James et al. http://faculty.marshall.usc.edu/gareth-james/ISL/
+* arguably the best text on statistical learning models (and freely available!) is "An Introduction to Statistical Learning with Applications in R" by James et al. <a href = "https://www.statlearning.com/" target = "_blank">https://www.statlearning.com/</a>
  
  
 ### 4. Natural Language Processing
@@ -108,25 +109,24 @@ Interested in modeling?
 
 Interested in text analysis / natural language processing?
   
-* Tidytext tutorials:
-https://computational.journalism.wisc.edu/2018/11/16/tidytext-tutorials/
+* Great **tidytext** tutorials: <a href = "https://computational.journalism.wisc.edu/2018/11/16/tidytext-tutorials/" target = "_blank">https://computational.journalism.wisc.edu/2018/11/16/tidytext-tutorials/</a>
  
-* Chapter 11: tidy text:
-https://datascienceineducation.com/c11.html
+* Chapter 11: Text analysis with social media data:
+<a href = "https://datascienceineducation.com/c11.html" target = "_blank">https://datascienceineducation.com/c11.html</a>
 
-* `stringr` cheat sheet: https://github.com/rstudio/cheatsheets/raw/master/strings.pdf
- 
+* **stringr** cheat sheet: <a href = "https://rstudio.github.io/cheatsheets/html/strings.html" target =  "_blank">https://rstudio.github.io/cheatsheets/html/strings.html</a>
+
 * Text datasets to get started with:
-https://github.com/EmilHvitfeldt/R-text-data
+<a href = "https://github.com/EmilHvitfeldt/R-text-data" target = "_blank">https://github.com/EmilHvitfeldt/R-text-data</a>
  
 * Blog post(s) by Julia Silge:
-https://juliasilge.com/blog/evaluating-stm/
+<a href = "https://juliasilge.com/blog/evaluating-stm/" target = "_blank">https://juliasilge.com/blog/evaluating-stm/</a>
  
-* Julia Silge & David Robinson's book:
-https://www.tidytextmining.com/
+* Julia Silge & David Robinson's Text Mining book:
+<a href = "https://www.tidytextmining.com/" target = "_blank">https://www.tidytextmining.com/</a>
  
 * Implementation of Google's BERT framework into R:
-https://github.com/jonathanbratt/RBERT
+<a href = "https://github.com/jonathanbratt/RBERT" target = "_blank">https://github.com/jonathanbratt/RBERT</a>
  
  
 ### 5. Practice **doing** data science
@@ -137,20 +137,20 @@ https://github.com/jonathanbratt/RBERT
 
 One of the most fun things you can do is to practice doing data science.  Below are ideas you could work on for one afternoon or that you could commit a few weeks to figuring out.  You should choose projects that seem fun and to which you might be able to provide a creative approach to solving.
  
-* Tidy Tuesday:  every Tuesday a new dataset is posted, and individuals (separately and collaboratively) work to visualize the dataset.  Details at https://github.com/rfordatascience/tidytuesday.
+* Tidy Tuesday:  every Tuesday a new dataset is posted, and individuals (separately and collaboratively) work to visualize the dataset.  Details at <a href = "https://github.com/rfordatascience/tidytuesday" target = "_blank">https://github.com/rfordatascience/tidytuesday</a>
  
-* Kaggle.com: is an online community of data scientists who build models, working together to come up with optimal predictions.  You can compete in an ongoing Kaggle competition, or you can work through an old competition where many teams have shared their work and their ideas.
+* <a href = "https://www.kaggle.com/" target = "_blank">https://www.kaggle.com/</a>: is an online community of data scientists who build models, working together to come up with optimal predictions.  You can compete in an ongoing Kaggle competition, or you can work through an old competition where many teams have shared their work and their ideas.
  
 * Work through a COVID-19 analysis.  It is worth noting that the current available case data is likely to be under-reported (both cases and deaths across most countries) which makes modeling the actual data somewhat problematic.  Instead, you might try to model COVID-19 related data (e.g., flights in the US, unemployment, emissions, weather patterns, etc.).
 
 <ul style="list-style-type:none">
-         <li> Two good resources that have been collecting analyses and other information are: http://www.stat.cmu.edu/~kass/covid.html and https://github.com/mine-cetinkaya-rundel/covid19-r </li>
+         <li> Two good resources that have been collecting analyses and other information (as of 2020) are: <a href = "http://www.stat.cmu.edu/~kass/covid.html" target = "_blank">http://www.stat.cmu.edu/~kass/covid.html</a> and <a href = "https://github.com/mine-cetinkaya-rundel/covid19-r" target = "_blank">https://github.com/mine-cetinkaya-rundel/covid19-r</a> </li>
 </ul>  
  
-* data for social good:  https://www.drivendata.org/competitions/  provides real data and structures (similar to Kaggle) for working through models and coming up with predictions – all on data which benefits the social good.
+* data for social good:  <a href = "https://www.drivendata.org/competitions/" target = "_blank">https://www.drivendata.org/competitions/</a>  provides real data and structures (similar to Kaggle) for working through models and coming up with predictions – all on data which benefits the social good.
  
  
-* Other data science competitions: https://towardsdatascience.com/top-competitive-data-science-platforms-other-than-kaggle-2995e9dad93c  
+* Other data science competitions: <a href = "https://towardsdatascience.com/top-competitive-data-science-platforms-other-than-kaggle-2995e9dad93c" target = "_blank">https://towardsdatascience.com/top-competitive-data-science-platforms-other-than-kaggle-2995e9dad93c</a>  
  
 ### 6. Interactive graphics
 
@@ -160,13 +160,11 @@ One of the most fun things you can do is to practice doing data science.  Below 
 
 Register for a (free) shiny account, and create a shiny dashboard to highlight the work you are doing!
  
-* account: https://shiny.rstudio.com/
+* account: <a href = "https://shiny.posit.co/" target = "_blank">https://shiny.posit.co/</a>
  
-* gallery: https://shiny.rstudio.com/gallery/
+* gallery: <a href = "https://shiny.posit.co/r/gallery/" target = "_blank">https://shiny.posit.co/r/gallery/</a>
  
-* Shiny contest 2020 (deadline passed, but you can practice for next year!):
-
-https://blog.rstudio.com/2020/02/12/shiny-contest-2020-is-here/
+* Shiny contest 2020 (deadline passed, but you can practice for next year!): <a href = "https://blog.rstudio.com/2020/02/12/shiny-contest-2020-is-here/" target = "_blank">https://blog.rstudio.com/2020/02/12/shiny-contest-2020-is-here/</a>
  
  
  
@@ -178,17 +176,14 @@ https://blog.rstudio.com/2020/02/12/shiny-contest-2020-is-here/
 
 Interested in art?  Make art with data and R!
  
-* Getting started with generative art in R: https://djnavarro.net/post/unpredictable-paintings/
+* Getting started with generative art in R: <a href = "https://blog.djnavarro.net/posts/2021-11-01_unpredictable-paintings/" target = "_blank">https://blog.djnavarro.net/posts/2021-11-01_unpredictable-paintings/</a>
 
-* No code, but inspiration: https://www.data-imaginist.com/art
+* No code, but inspiration: <a href = "https://thomaslinpedersen.art/" target = "_blank">https://thomaslinpedersen.art/</a>
 
-* Follow posts on Twitter: 
 
-https://twitter.com/search?q=%23generative%20%23rstats&src=typed_query
+* Illustrations — don't want to code but draw instead? Illustrate your learnings! See <a href = "https://github.com/allisonhorst/stats-illustrations" target = "_blank">https://github.com/allisonhorst/stats-illustrations</a> for inspiration.
 
-* Illustrations — don't want to code but draw instead? Illustrate your learnings! See https://github.com/allisonhorst/stats-illustrations for inspiration.
-
-* Hand drawn data visualizations? See http://www.dear-data.com/theproject for inspiration.
+* Hand drawn data visualizations? See <a href = "http://www.dear-data.com/theproject" target = "_blank">http://www.dear-data.com/theproject</a> for inspiration.
  
  
 ### 8. Watch videos and take classes
@@ -199,13 +194,10 @@ https://twitter.com/search?q=%23generative%20%23rstats&src=typed_query
 
 Learn some new stuff from videos & webinars!
  
-* RStudio has a wealth of amazing videos https://resources.rstudio.com/
  
-* Dave on Data's youtube channel: 
-
-https://www.youtube.com/channel/UCRhUp6SYaJ7zme4Bjwt28DQ
+* Dave on Data's youtube channel:  <a href = "https://www.youtube.com/channel/UCRhUp6SYaJ7zme4Bjwt28DQ" target = "_blank">https://www.youtube.com/channel/UCRhUp6SYaJ7zme4Bjwt28DQ</a>
  
-* Coursera + Johns Hopkins Data Science Specialization: https://www.coursera.org/specializations/jhu-data-science
+* Coursera + Johns Hopkins Data Science Specialization: <a href = "https://www.coursera.org/specializations/jhu-data-science" target = "_blank">https://www.coursera.org/specializations/jhu-data-science</a>
  
  
  
@@ -216,13 +208,12 @@ https://www.youtube.com/channel/UCRhUp6SYaJ7zme4Bjwt28DQ
 </figure>
 
 
-Engage on RStudio Community (https://community.rstudio.com/) or  https://stackoverflow.com/ -- platforms for asking and answering all the questions.  StackOverflow is more comprehensive, but it can be aggressive and unhelpful at times.  RStudio Community is a great place for beginners and way less intimidating than SO.
+Engage on Posit Community (<a href = "https://forum.posit.co/" target = "_blank">https://forum.posit.co/</a>) or  <a href = "https://stackoverflow.com/" target = "_blank">https://stackoverflow.com/</a> -- platforms for asking and answering all the questions.  StackOverflow is more comprehensive, but it can be aggressive and unhelpful at times.  Posit Community is a great place for beginners and way less intimidating than SO.
  
 * be sure you know how to make a minimal reproducible example:
-
-https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example
+<a href = "https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example" target = "_blank">https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example</a>
  
-* use the `reprex` package in R: https://teachdatascience.com/reprex/
+* use the **reprex** package in R: <a href = "https://teachdatascience.com/reprex/" target = "_blank">https://teachdatascience.com/reprex/</a>
  
  
 ### 10. Write an R package!
@@ -234,11 +225,11 @@ https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-e
  
 You'll be surprised to learn that creating your own R package can be reasonably straightforward.  Fantastic step-by-step instructions help facilitate putting the R package together. 
  
-* how to do it:  https://r-pkgs.org/
+* how to do it:  <a href = "https://r-pkgs.org/" target = "_blank">https://r-pkgs.org/</a>
  
-* really great example to walk through: https://www.erikhoward.net/blog/how-to-create-an-r-data-package/
+* instructions to walk through: <a href = "https://docs.posit.co/ide/user/ide/guide/pkg-devel/writing-packages.html" target = "_blank">https://docs.posit.co/ide/user/ide/guide/pkg-devel/writing-packages.html</a>
  
-* write a package that contains (only) a cool dataset: https://teachdatascience.com/datapackage/
+* write a package that contains (only) a cool dataset: <a href = "https://teachdatascience.com/datapackage/" target = "_blank">https://teachdatascience.com/datapackage/</a>
  
 
 
