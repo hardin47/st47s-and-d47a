@@ -1,0 +1,35 @@
+---
+title: "DS 190: Capstone in Data Science"
+slug: ds190
+subtitle: ""
+description: "Capstone in Data Science supports each data science minor's capstone project. The project's topic is outside of statistics, mathematics, and computer science."
+date: ""
+draft: false
+featured: true
+show_post_date: false
+---
+
+## The Course
+
+<figure>
+<img src="starwars-teamwork.jpg" align="right" width = "600">
+<figcaption>Art by @allison_horst</figcaption>
+</figure>
+
+
+**Capstone in Data Science** is a course that supports the data science minor capstone courses.
+The capstone project is outside of statistics, mathematics, and computer science, emphasizing work in aligned disciplines. The students will bring together the work they have done in data scienc with problems in other disciplines, and they will consider the ethical implications of their questions and their work. Prerequisite: all DS minor core courses including statistics, linear algebra, computer science, data science, and ethics in data science. 
+
+
+## Student Learning Outcomes.
+
+* Statistical & Computational Proficiency: Students will develop expertise and apply their knowledge in statistical analysis, probability, and computational concepts relevant to data science, including efficiency and data structures.
+* Application of Computational Methods: Students will demonstrate the ability to apply algorithmic, mathematical, and scientific reasoning to computational problems using a programming language.
+* Ethical Decision-Making: Students will understand and practice ethical philosophies and frameworks for data-driven decision-making and evaluating scientific claims.
+* Effective Communication: Students will clearly and persuasively communicate data-driven analyses using literate programming and collaborate effectively with stakeholders across disciplines.
+
+
+## Course website
+
+Capstone in Data Science in R was last taught in Fall 2025 at Pomona College.  Materials can be found on the <a href = "https://ds190-capstone.netlify.app/" target = "_blank">course website</a>.
+
