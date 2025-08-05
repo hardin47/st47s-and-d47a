@@ -12,7 +12,7 @@ show_post_date: false
 ## The Course
 
 <figure>
-<img src="starwars-teamwork.png" align="right" width = "600">
+<img src="starwars-teamwork.jpg" align="right" width = "600">
 <figcaption>Art by @allison_horst</figcaption>
 </figure>
 
