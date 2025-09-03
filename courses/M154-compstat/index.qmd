@@ -51,9 +51,9 @@ Computational Statistics was last taught in Fall 2024, and materials can be foun
 
 As part of the learning goals of the class, we will be working with GitHub for all of the course assignments. Many of the assignments will be individual, but some of the homework assignments and the semester project will be done collaboratively.  The GitHub classroom is private; please send me your GitHub username so that you can be added to the site.
 
-## Sakai
+## Canvas
 
-We will also use the Sakai course management system.  Sakai will be used for materials which are not publicly available.  This includes:
+We will also use the Canvas course management system.  Canvas will be used for materials which are not publicly available.  This includes:
 
 * your current grades
 * solutions to assignments
