@@ -16,7 +16,7 @@ show_post_date: false
 
 So many datasets, so little time! I've tried to provide links to good sources of data. If you find a broken link, please let me know. Some government datasets have been taken down recently, so if you are looking for disappeared data, you might try the <a href = "https://www.datarescueproject.org/resources/#existing-alternative-data-sources" target = "_blank">Data Rescue Project</a>.
 
-## Data for Equity & Inclusion
+## Data for equity & inclusion
 
 * <a href = "https://national.cpdp.co/" target = "_blank">National Police Index</a> "The National Police Index is a project and data tool showing police employment history data obtained from state police training and certification boards across the U.S. In total, 27 states have released centralized employment history data, 23 of which are currently represented on the data tool."
 * <a href = "https://www.responsible-datasets-in-context.com/team.html" target = "_blank">Responsible Datasets in Context</a> "Understanding the social and historical context of data is essential for all responsible data work. We host datasets that are paired with rich documentation, data essays, and teaching resources, all of which draw on context and humanities perspectives and methods. We provide models for responsible data curation, documentation, story-telling, and analysis."
@@ -25,7 +25,7 @@ So many datasets, so little time! I've tried to provide links to good sources of
 * <a href="http://hatespeechdata.com/" target = "_blank"><bf>hate speak corpora</bf></a>: particularly interesting for training NLP models 
 * <a href = "https://policescorecard.org/" target = "_blank">Police Scorecard</a> is the first nationwide public evaluation of policing in the United States. The Scorecard calculates levels of police violence, accountability, racial bias and other policing outcomes for over 16,000 municipal and county law enforcement agencies, covering nearly 100% of the US population. 
 
-## Data Challenges
+## Data challenges
 
 * <a href = "https://github.com/rfordatascience/tidytuesday" target = "_blank">TidyTuesday</a> A weekly data project aimed at the R ecosystem. I've written some suggestions and included a lot of resources for <a href = "https://hardin47.netlify.app/projects/tidytuesday/" target = "_blank">getting started with TidyTuesday</a>
 
@@ -42,7 +42,7 @@ The Annual Data Challenge Expo is open to anyone who is interested in participat
 
 * <a href = "https://towardsdatascience.com/top-competitive-data-science-platforms-other-than-kaggle-2995e9dad93c" target = "_blank">Other data science competitions</a>
 
-## R packages for connecting to APIs:
+## R packages for connecting to APIs
 
 * [**coinmarketcapr**](https://github.com/amrrs/coinmarketcapr): Connecting to Coin Market Cap to get Cryptocurrencies Market Cap Prices .
 * [**rtweet**](https://github.com/ropensci/rtweet): R client for accessing Twitter (stream and REST) API.
@@ -56,7 +56,7 @@ The Annual Data Challenge Expo is open to anyone who is interested in participat
 * [**wbstats**](https://github.com/saghirb/Women-in-Parliament-Hex-Sticker): Women in Parliament dataset and link to worldbank 
 
 
-## R packages containing multiple datasets:
+## R packages containing multiple datasets
 
 * <a href = "https://www.unhcr.org/refugee-statistics/insights/explainers/refugees-r-package.html" target = "_blank">**refugees**</a> facilitates access to the <a href = "https://www.unhcr.org/refugee-statistics" target = "_blank">Refugee Data Finder</a> to access data on displacements of people tracked since 1951.
 * <a href = "https://lter.github.io/lterdatasampler/" target = "_blank">**lterdatasampler**</a> Data samples with features that are useful in introductory environmental data science and statistics courses.
@@ -69,7 +69,7 @@ The Annual Data Challenge Expo is open to anyone who is interested in participat
 
 
 
-## Dynamic Data Sets / Databases:
+## Dynamic datasets / databases
 
 * The amazing [TidyTuesday](https://github.com/rfordatascience/tidytuesday) datasets.  For example, data on [Juneteenth](https://github.com/rfordatascience/tidytuesday/tree/master/data/2020/2020-06-16) or [Wealth Inequality](https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-02-09)
 * <a href = "https://asdfree.com/index.html" target = "_blank">Large compilation of survey data</a>
@@ -90,7 +90,7 @@ The Annual Data Challenge Expo is open to anyone who is interested in participat
 * [Baby names](http://www.ssa.gov/oact/babynames/) (popularity by year and state), compiled by the Social Security Administration
  
 
-## New & Continuously Revised Static Data Sets / Databases:
+## New & continuously revised static datasets / databases
 
 * <a href = "https://cmustatistics.github.io/data-repository/" target = "_blank">CMU S&SD Data Repository</a>
 * <a href = "https://www.childhealthdata.org/browse/survey" target = "_blank">National Survey of Children's Health</a> including a dozen or so variables on 85,000 kids.
@@ -126,7 +126,7 @@ And this: <a href = "https://www.storybench.org/how-to-explore-a-dataset-from-th
 * Lots of fun data from <a href = "https://www.openintro.org/data" target = "_blank">OpenIntro</a>
 
 
-## Journals / Journal articles that provide corresponding data:
+## Journals / journal articles that provide corresponding data
 
 * The GitHub site and other info for many of 538's analyses.  
 <a href = "https://fivethirtyeight.com/" target = "_blank">FiveThirtyEight.com</a> has been very forward thinking in making the data and code used in many of their articles accessible on <a href = "https://github.com/fivethirtyeight/data" target = "_blank">GitHub</a>. With consultation from Andrew Flowers and Andrei Scheinkman of FiveThirtyEight, we go one step further in our package by pre-processing the data so that it more accessible statistics and data science novices and providing ample documentation in the help files.  
@@ -136,7 +136,7 @@ And this: <a href = "https://www.storybench.org/how-to-explore-a-dataset-from-th
 * Nature – Many articles have a "Data availability" section.  See <a href = "https://www.nature.com/articles/s41586-018-0352-3" target = "_blank">Hurricane-induced selection on the morphology of an island lizard</a> which includes a <a href = "https://datadryad.org/stash/dataset/doi:10.5061/dryad.2t41r64" target = "_blank">link to the data</a>. 
 * <a href = "http://jse.amstat.org/" target = "_blank">Journal of Statistics and Data Science Education</a> (check the archive) or <a href = "https://www.tandfonline.com/toc/ujse/current" target = "_blank">more recent papers</a>
 
-## Static Data Sets / Databases:
+## Static datasets / databases
 
 * <a href="http://www.statsci.org/data/" target = "_blank">DASL in Australia</a>
 * <a href="http://lib.stat.cmu.edu/datasets/" target = "_blank">Statlib Dataset Archive</a> – one of the original sources for archived data
@@ -145,7 +145,7 @@ And this: <a href = "https://www.storybench.org/how-to-explore-a-dataset-from-th
 * A <a href = "http://www.statsci.org/datasets.html" target = "_blank">data repository from statsci.org</a> – a statistics and bioinformatics group in Australia 
 
 
-## Visualizing Data:
+## Visualizing data
 
 * <a href="http://www.informationisbeautiful.net/" target = "_blank">Information is Beautiful</a> 
 * From Mark Ward at Purdue: <a href = "http://llc.stat.purdue.edu/2014/29000/visualsites.html" target="_blank">Websites for Visualizing Data</a>
