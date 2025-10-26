@@ -60,10 +60,10 @@ Additionally, from both my perspective as well as from my students' perspectives
 
 ### Power Analysis
 
-Power analyses requires, among other things, an $a priori$ estimate of the effect size of interest.
-Below I describe working through a power anlaysis using pilot data from The Islands, but I recognize that pilot studies are typically not ideal for clinical studies.
+Power analyses requires, among other things, an $a$ $priori$ estimate of the effect size of interest.
+Below I describe working through a power analysis using pilot data from The Islands, but I recognize that pilot studies are typically not ideal for clinical studies.
 @kraemer2006 describe the problems of using pilot studies to estimate effect sizes that lead to sample size calculations, and they recommend using knowledge of the setting for a more accurate approximation of the effect size.
-With the appropriate warnings and caveats, I nevertheless use pilot data from The Islands to help students work through an entire power analyis.
+With the appropriate warnings and caveats, I nevertheless use pilot data from The Islands to help students work through an entire power analysis.
 
 I find power to be a difficult concept to teach.
 Not only are the technical aspects usually pretty hard, but the intuition is also really hard (especially for students who haven't yet done any data collection of their own).
