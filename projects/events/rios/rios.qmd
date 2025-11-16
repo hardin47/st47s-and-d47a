@@ -1,0 +1,47 @@
+---
+title: "JEDI-CAUSE reading group"
+subtitle: "Spring 2026"
+format: 
+    html:
+      embed-resources: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+
+:::{.link2}
+::::{.link-header2}
+#### &nbsp; {{< iconify basil history-solid >}} <a href = "history.html">history of StatFest</a>
+::::
+:::
+
+<br/>
+
+:::{.link2}
+::::{.link-header2}
+#### &nbsp; {{< iconify dashicons testimonial>}} <a href = "testimonials.html">testimonials</a>
+::::
+:::
+
+<br/>
+
+:::{.link2}
+::::{.link-header2}
+#### &nbsp; {{< iconify pepicons-print people >}} <a href = "whoweare.html">who we are</a>
+::::
+:::
+
+<br/>
+
+:::{.link2}
+::::{.link-header2}
+#### &nbsp; {{< iconify material-symbols travel >}} <a href = "travel.html">travel details</a>
+::::
+:::
+
+
+
+<br/>
+
