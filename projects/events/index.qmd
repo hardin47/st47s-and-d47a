@@ -1,0 +1,34 @@
+---
+title: "Events"
+description: "conferences, workshops, reading groups"
+weight: 2
+author: "Jo Hardin"
+draft: false
+# layout options: single or single-sidebar
+layout: single-sidebar
+image: "featured.png"
+format: 
+  html: 
+    theme: ../../callout_blog.scss
+---
+
+
+
+
+## <a href = "https://wids47-2022.netlify.app/" target = "_blank">Women in Data Science (April 2022)</a>
+
+<figure>
+<img style = "padding: 10px;float: right;" alt = 'hrdag' width='500' src='featured.png' />
+</figure>
+
+<br>
+
+<p>   
+
+</p>
+
+## <a href = "statfest.html" target = "_blank">StatFest satellite conference (September 2018)</a>
+
+<figure>
+<img style = "padding: 10px;float: right;" alt = 'hrdag' width='500' src='statfest/images/statfest.png' />
+</figure>

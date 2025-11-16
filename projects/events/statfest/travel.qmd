@@ -1,0 +1,57 @@
+---
+title: "Travel and logistics information"
+format: 
+    html:
+      embed-resources: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+Amherst, Massachusetts, located in the Pioneer Valley, is a diverse, inclusive community offering numerous educational and cultural opportunities. 
+
+The town hosts three colleges and universities
+(Amherst College, Hampshire College, and the University of Massachusetts at Amherst) and features many cultural institutions, considerable history, and beautiful scenery and open spaces.  
+
+<img src="images/map.png" width="500" alt="map of Massachusetts and Amherst College">
+
+<h2>Nearest airports and transportation connections</h2>
+
+The closest airport (55 minutes) is Bradley International ([BDL](http://www.bradleyairport.com), Hartford CT/Springfield MA).  Boston's Logan airport ([BOS](http://www.massport.com/logan-airport)) is approximately two hours (depending on traffic) from Amherst College.  
+
+Options for airport connections from BDL include [Valley Transporter](https://www.valleytransporter.com/) (approximately $60 each direction) and rental cars (for those 25 or older).
+
+Note that there are relatively few departures from Bradley airport on Saturday evenings.  
+
+<h2>Hotels</h2>
+Fall weekends are very popular with visitors to New England and as a result, hotel availability is limited.  Participants in StatFest are encouraged <b>to make arrangements early and carefully review the deadlines for the room blocks that we have negotiated.</b>
+
+Participants should make their own arrangements directly with the hotel of their choice. Special discounted rates were negotiated with the hotels listed below. Rates quoted do not include hotel tax. Participants must state that they are with StatFest to receive the discounted rates. 
+
+We are not responsible for rate changes or for the quality of the accommodations. Hotels have varying cancellation and early checkout penalties; be sure to ask for details.
+
+It may be possible to arrange shuttles to StatFest to and from these hotels.  Shuttle transfers need to be requested by September 15th.
+
+
+<h3>Rodeway Inn</h3>
+
+We have established a limited room block for the nights of Friday, September 21st and Saturday, September 22nd at the Rodeway Inn (formerly Comfort Inn) at 237 Russell Street, State Route 9, Hadley, MA 01035.  The cutoff date is <b>August 21, 2018</b>.
+
+The hotel is approximately 10 minutes drive from the Amherst College campus.  The rate for 2 queen beds is $99.00 per night plus taxes of 11.7% as of May, 2018 and includes a deluxe continental breakfast buffet, free local calls, use of the heated indoor pool and fitness center plus high speed wireless internet access.  Call the hotel directly at 413-584-9816 and request the StatFest group block.
+
+<h3>Courtyard Marriott</h3>
+
+We have established a limited room block for the nights of Friday, September 21st and Saturday, September 22nd at the Courtyard Marriott 432 Russell Street, SR 9, Hadley, MA 01035.  The cutoff date is <b>August 22, 2018</b>.
+
+The hotel is approximately 8 minutes drive from the Amherst College campus.  The rate for 1 king bed is $230.00 per night plus taxes of 11.7% as of May, 2018, while the rate for 2 queen beds is $250.00 plus taxes.  Call the hotel directly at 413-256-5454 and identify affiliation with Amherst College Mathematics and Statistics.  
+
+<h2>Parking on campus</h2>
+
+Free parking will be available near the Science Center.
+Parking instructions will be sent out to attendees a week before the conference.
+
+
+<h2>Driving directions and more information</h2>
+
+Detailed driving directions and more information can be found at the [Visit Amherst College](https://www.amherst.edu/visiting) webpage.

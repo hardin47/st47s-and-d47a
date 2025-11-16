@@ -1,0 +1,80 @@
+---
+title: "Who we are"
+format: 
+    html:
+      embed-resources: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+
+<h2>StatFest 2018 Organizing Committee</h2>
+
+- Jesse Chittams (University of Pennsylvania)
+- Adrian Coles (Duke Clinical Research Institute)
+- Nancy Griesinger (Texas Southern University)
+- Felicia Griffin (Winston-Salem State University)
+- Nicholas Horton (Amherst College)
+- Reneé Moore (Emory University), chair
+- Adriana Pérez (The University of Texas Health Science Center at Houston)
+- Nagambal Shah (Spelman College, emerita)
+- Dionne Swift (Procter and Gamble)
+- Michael Thomas (Georgia Department of Behavioral Health and Developmental Disabilities)
+- Young Moo "Daniel" Yoo (Emory University)
+
+<h2>StatFest 2018 Local Organizing Committee</h2>
+
+- Jenny Baglivo (Boston College)
+- Laura Balzer (University of Massachusetts)
+- Brittney Bailey (Amherst College)
+- Emma Benn (Mount Sinai)
+- Ajanae Bennett (Prudential Insurance)
+- Joe Blitzstein (Harvard University)
+- Marcel Carcea (Western New England University)
+- Rick Cleary (Babson College)
+- Allen Downey (Olin College)
+- Randi Garcia (Smith College)
+- Bob Goldman (Simmons College)
+- Roee Gutman (Brown University)
+- Ofer Harel (University of Connecticut)
+- Jacqui Hicks (Boston University)
+- Nicholas Horton (Amherst College), chair
+- Manolis Kaparakis (Wesleyan University)
+- Albert Kim (Smith College)
+- Shu-Min Liao (Amherst College)
+- Robin Lock (St. Lawrence University)
+- Elvis Martinez (Travelers Insurance)
+- Katherine Merrill (University of Vermont)
+- Ethan Meyers (Hampshire College)
+- Grace Montoya (Amherst College)
+- Son Nguyen (Bryant University)
+- Liam O'Brien (Colby College)
+- Evan Ray (Mount Holyoke College)
+- Megan Scott (Harvard TH Chan School of Public Health)
+- Amy Wagaman (Amherst College)
+- Susan Wang (Yale University)
+- Ting Zhang (Boston University)
+
+<h2>StatFest 2018 Satellite Organizing Committee</h2>
+
+- Jo Hardin (Pomona College)
+- Talithia Williams (Harvey Mudd College)
+
+
+<h2>Special thanks</h2>
+
+Special thanks to 
+Caroline Hanna, Rachael Hanley, Roberta Diehl, Sandy Genelius, Suzanne Auerbach, and the Amherst College Office of Communications; Allen Hart, Angie Tissi-Gassoway, Bulaong Ramiz-Hall, Dina Levi, Laura Gomez, Marisa Parham, Norm Jones, and the Amherst College Office of Diversity and Inclusion; Emily Griffen, Robert Siudzinski, and the Amherst College Loeb Center for Career Exploration and Planning; Ralph Johnson; Catherine Epstein and the Amherst College Dean's Office; Biddy Martin and the Amherst College President's Office; Anne Torrey, Tanya Leise, and the Amherst College Department of Mathematics and Statistics; Kathy Sheldon and the Pomona College Department of Mathematics.
+
+<h2>[ASA Committee on Minorities in Statistics](http://ww2.amstat.org/committees/commdetails.cfm?txtComm=CCNDVR01)</h2>
+
+<h2>Notable Women in Statistics and Data Science</h2>
+
+- [Emma Benn](http://magazine.amstat.org/blog/2018/03/01/emma-benn)
+- [Montse Fuentes](http://magazine.amstat.org/blog/2018/03/01/montse-fuentes)
+- [Monica Jackson](http://magazine.amstat.org/blog/2018/03/01/monica-christine-jackson)
+- [Bhramar Mukherjee](http://magazine.amstat.org/blog/2018/03/01/bhramar-mukherjee)
+- [Kimberly Sellers](http://magazine.amstat.org/blog/2018/03/01/kimberly-f-sellers)
+- [Others](http://magazine.amstat.org/blog/2018/03/01/wis)

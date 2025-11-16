@@ -1,0 +1,20 @@
+---
+title: "Sponsors"
+format: 
+    html:
+      embed-resources: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+- [Amherst College](https://www.amherst.edu)
+- [American Statistical Association](https://www.amstat.org)
+- [Boston Chapter of the ASA](http://community.amstat.org/bostonchapter/home)
+- [Google](https://google.com)
+- [Icahn School of Medicine at Mount Sinai](https://www.mountsinai.org)
+- [Massachusetts Mutual Life Insurance Company](https://massmutual.com) [Lead sponsor]
+- [National Institute of Statistical Sciences](https://www.niss.org)
+- [RStudio](https://rstudio.com)
+- [University of Massachusetts/Amherst Department of Biostatistics](https://www.umass.edu/sphhs/biostatistics)

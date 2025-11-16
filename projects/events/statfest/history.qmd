@@ -1,0 +1,43 @@
+---
+title: "History"
+format: 
+    html:
+      embed-resources: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+<h2>StatFest history</h2>
+
+StatFest is a one-day conference aimed at encouraging students from under-represented groups to consider careers and graduate studies in the statistics and data science. The conference is an ongoing initiative of the American Statistical Association’s (ASA) Committee on Minorities in Statistics.
+
+The first StatFest was held in 2001 at Spelman College in Atlanta, GA. This Mini StatFest, as it was then called, exposed students from Spelman and the Atlanta University Center to dynamic role models and information on careers in statistics. 
+
+Since then, StatFest has grown into a one-day regional conference and has been held at several institutions around the country.
+
+
+<h2>Past StatFest Conference Venues</h2>
+- 2017 Emory University
+- 2016 Howard University
+- 2015 University of Chicago
+- 2014 North Carolina State University
+- 2013 Rice University
+- 2012 San Francisco State University
+- 2010 Spelman College
+- 2009 University of Iowa (part of Iowa *Field of Dreams* Conference) 
+- 2008 Lamar University
+- 2007 Eli Lilly and Company
+- 2006 University of Texas at El Paso (UTEP)
+- 2005 Florida A&M University
+- 2005 University of Hawaii, West Oahu
+- 2003 North Carolina State University
+- 2002 Meharry Medical College
+- 2002 Hampton University
+- 2001 Spelman College
+
+<h2>Useful historical links</h2>
+
+- http://magazine.amstat.org/blog/2017/08/01/statfest-2017/
+- http://magazine.amstat.org/blog/2016/12/01/statfest/

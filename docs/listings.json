@@ -48,10 +48,17 @@
     "items": [
       "/projects/CURV/index.html",
       "/projects/dei/index.html",
+      "/projects/events/index.html",
+      "/projects/events/statfest/history.html",
       "/projects/IMS/index.html",
       "/projects/jedi-cause/index.html",
+      "/projects/events/statfest/sponsors.html",
+      "/projects/events/statfest/index.html",
       "/projects/TDS/index.html",
+      "/projects/events/statfest/testimonials.html",
       "/projects/tidytuesday/index.html",
+      "/projects/events/statfest/travel.html",
+      "/projects/events/statfest/whoweare.html",
       "/projects/research/index.html"
     ]
   }
