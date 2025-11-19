@@ -27,6 +27,7 @@ links:
 format: 
   html: 
     theme: ../../callout_blog.scss
+listing: true
 ---
 
 

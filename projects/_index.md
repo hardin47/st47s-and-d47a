@@ -7,7 +7,7 @@ show_author_byline: true
 show_post_date: false
 # for listing page layout
 layout: list-grid # list, list-sidebar, list-grid
-
+    
 # for list-sidebar layout
 sidebar: 
   title: adventures outside the classroom
@@ -24,6 +24,7 @@ cascade:
   show_post_date: false
   show_comments: true # see site config to choose Disqus or Utterances
   # for single-sidebar layout only
+  listing: false
   sidebar:
     text_link_label: View all examples
     text_link_url: /project/

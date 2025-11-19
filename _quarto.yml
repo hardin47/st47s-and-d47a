@@ -32,7 +32,10 @@ website:
     right: "Built with 💚 and [Quarto](https://quarto.org/)."
     left: "&copy; Copyright 2025, Jo Hardin"
     background: "#F5F3E0" 
-        
+
+listing:
+  contents: "**/index.qmd"        
+
 format:
   html:
     theme: 
