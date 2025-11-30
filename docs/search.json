@@ -242,7 +242,7 @@
     "href": "projects/tidytuesday/index.html#beginner",
     "title": "TidyTuesday adventures",
     "section": "Beginner",
-    "text": "Beginner\nTry out these interactive tutorials to get started.\n\nIntroduction to Tidyverse: https://malooflab.ucdavis.edu/apps/tidyverse-tutorial/ and ggplot tutorial https://malooflab.ucdavis.edu/apps/ggplot-tutorial/ from the Maloof Lab.\nThe introverse package is truly meant for beginners to the tidyverse. https://sjspielman.github.io/introverse/index.html\nA fantastic ggplot2 tutorial"
+    "text": "Beginner\nTry out these interactive tutorials to get started.\n\nR Primers: A version of the old RStudio/Posit Primers, now with Quarto and webR. https://r-primers.andrewheiss.com/\nIntroduction to Tidyverse: https://malooflab.ucdavis.edu/apps/tidyverse-tutorial/ and ggplot tutorial https://malooflab.ucdavis.edu/apps/ggplot-tutorial/ from the Maloof Lab.\nThe introverse package is truly meant for beginners to the tidyverse. https://sjspielman.github.io/introverse/index.html\nA fantastic ggplot2 tutorial"
   },
   {
     "objectID": "projects/tidytuesday/index.html#intermediate",

@@ -125,6 +125,7 @@ dataset_2 <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/
 
 Try out these interactive tutorials to get started.
 
+* R Primers: A version of the old RStudio/Posit Primers, now with Quarto and webR. <a href = "https://r-primers.andrewheiss.com/" target = "_blank">https://r-primers.andrewheiss.com/</a>
 * Introduction to Tidyverse:  <a href = "https://malooflab.ucdavis.edu/apps/tidyverse-tutorial/" target = "_blank">https://malooflab.ucdavis.edu/apps/tidyverse-tutorial/</a> and ggplot tutorial <a href = "https://malooflab.ucdavis.edu/apps/ggplot-tutorial/" target = "_blank">https://malooflab.ucdavis.edu/apps/ggplot-tutorial/</a> from the Maloof Lab.
 
 * The **introverse** package is truly meant for beginners to the **tidyverse**.  <a href = "https://sjspielman.github.io/introverse/index.html" target = "_blank">https://sjspielman.github.io/introverse/index.html</a> 
