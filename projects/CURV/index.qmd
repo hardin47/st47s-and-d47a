@@ -2,6 +2,7 @@
 title: CURV
 subtitle: connecting, uplifting, and recognizing voices
 description: "a database of scholars to highlight in the classroom"
+author: Jo Hardin
 weight: 6
 draft: false
 # layout options: single or single-sidebar

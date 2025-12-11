@@ -13,30 +13,36 @@ format:
 ---
 
 
-## <a href = "rios/rios.html" target = "_blank">JEDI-CAUSE reading group (Spring 2026)</a>
+## <a href = "https://jedi-read-s26.netlify.app/organizers" target = "_blank">JEDI-CAUSE reading group (Spring 2026)</a>
 
-Supported by RIOS Institute for a racially-just, inclusive, and open STEM education.
+Co-led by Tyler George, Jo Hardin, Jessie Knuke, and Jennifer Ward, participants complete readings and discuss topics related to Justice, Equity, Diversity, and Inclusion (JEDI).
+Each participant will create teaching materials for statistics and data science through six intensive two-hour collaborative meetings in the Spring of 2026.
+Members will post their created materials (e.g., activities, cleaned data, professional development materials, or more) on the existing <a href = "https://causeweb.org/jedi/" target = "_blank">JEDI-CAUSE website </a> and on the <a href = "https://qubeshub.org/resources" target = "_blank">QUBES platform</a> to expand the availability and awareness of JEDI-related teaching materials for statistics and data science educators.
+The JEDI-CAUSE reading group is Supported by RIOS Institute for a racially-just, inclusive, and open STEM education.
+
 
 <figure>
-<img style = "padding: 10px;float: right;" alt = 'hrdag' width='200' src='rios/rios_logo_blue.png' />
+<img style = "padding: 10px;float: right;" alt = 'hrdag' width='200' src='rios_logo_blue.png' />
 </figure>
 
-<br>
-
-<p>   <br> </p>
+<div style="clear: both;"></div>
+<hr>
 
 ## <a href = "https://wids47-2022.netlify.app/" target = "_blank">Women in Data Science (April 2022)</a>
+
+WiDS Claremont is an independent event organized by Manisha Goel, Jo Hardin, and Michelle Zemel to coincide with the annual Global Women in Data Science (WiDS) Conference held at Stanford University and an estimated 150+ locations worldwide. All genders are invited to attend WiDS regional events, which features outstanding women doing outstanding work.
 
 <figure>
 <img style = "padding: 10px;float: right;" alt = 'hrdag' width='200' src='featured.png' />
 </figure>
 
-<br>
+<div style="clear: both;"></div>
+<hr>
 
-<p>   <br> </p>
 
 ## <a href = "statfest/statfest.html" target = "_blank">StatFest satellite conference (September 2018)</a>
 
+StatFest is a one day conference aimed at encouraging undergraduate students from historically underrepresented groups (African American, Hispanic, Native Americans) to consider careers and graduate studies in the statistical sciences.  StatFest 2018 will be taking place on Saturday, September 22nd.
 <figure>
 <img style = "padding: 10px;float: right;" alt = 'hrdag' width='200' src='statfest/images/statfest.png' />
 </figure>

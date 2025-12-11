@@ -101,6 +101,16 @@ h3{
   background-color: #FAF9F0;
 }
 
+.link3 {
+  border: 2px solid gray;
+  border-left: 10px solid gray; 
+  border-color: rgb(103,101,101);
+  border-radius: 10px;
+  width: 285px;
+  height: 40px;
+  background-color: #FAF9F0;
+}
+
 .link-header {
   margin-top:-20px;
   width: 488px;
@@ -113,6 +123,15 @@ h3{
 .link-header2 {
   margin-top:-20px;
   width: 245px;
+  height: 30px;
+  color: black;
+  background-color: #FAF9F0;
+  border-top-right-radius: 10px;
+}
+
+.link-header3 {
+  margin-top:-20px;
+  width: 270px;
   height: 30px;
   color: black;
   background-color: #FAF9F0;

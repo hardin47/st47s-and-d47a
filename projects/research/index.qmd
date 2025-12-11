@@ -2,7 +2,7 @@
 title: "research interests"
 description: "so many fun problems, so little time"
 weight: 1
-author: ""
+author: "Jo Hardin"
 draft: false
 featured: true
 # layout options: single or single-sidebar
