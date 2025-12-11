@@ -13,7 +13,7 @@ format:
 ---
 
 
-## <a href = "https://jedi-read-s26.netlify.app/organizers" target = "_blank">JEDI-CAUSE reading group (Spring 2026)</a>
+## <a href = "https://jedi-read-s26.netlify.app/" target = "_blank">JEDI-CAUSE reading group (Spring 2026)</a>
 
 Co-led by Tyler George, Jo Hardin, Jessie Knuke, and Jennifer Ward, participants complete readings and discuss topics related to Justice, Equity, Diversity, and Inclusion (JEDI).
 Each participant will create teaching materials for statistics and data science through six intensive two-hour collaborative meetings in the Spring of 2026.
