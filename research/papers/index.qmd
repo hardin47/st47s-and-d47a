@@ -11,7 +11,7 @@ type: research
 
 <figure>
 <img src="featured.jpg" align="right" width = "400">
-<figcaption>From Lu and Hardin, 2021.</figcaption>
+<figcaption>Image taken from Lu and Hardin, 2021.</figcaption>
 </figure>
 
 <p><a href="../../research/resume.pdf" target = "_blank">Link to Jo Hardin's CV</a></p>
