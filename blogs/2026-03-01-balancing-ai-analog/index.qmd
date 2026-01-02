@@ -1,0 +1,75 @@
+---
+title: Balancing AI and Analog
+author: Jo Hardin
+date: '2026-03-01'
+slug: ai-analog
+featured: true
+categories: []
+tags: []
+image: featured.png
+description: "Our students are graduating into a world where AI is ubiquitous. Indeed, anyone doing data will be using AI in their job. Students need to practice using AI, but AI is not great for deep learning. It is our obligation as educators to help our students practice using AI and to make sure that they learn course content without using AI. I describe how I use both AI and analog in my own courses, and I look forward to learning what others do in their classrooms."
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+
+
+:::{.blog}
+::::{.blog-header}
+Association for Women in Mathematics
+::::
+
+::::{.blog-container}
+
+The following entry originally appeared in the 2026 March-April <a href = "https://awm-math.org/publications/newsletter/" target = "_blank">Newsletter for the Association for Women in Mathematics</a>.
+
+::::
+:::
+ 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+<!--
+image from: https://pxhere.com/en/photo/758078
+-->
+
+<br/>
+
+It seems to me that I'm writing the n$^{th}$ (n quite big) article on teaching in the new age of AI. It is good news to see so many articles, because it means that many of us are thinking about the changes in our classrooms due to AI. And if we work together, maybe we can figure out how to navigate the new technology that has upended our classrooms. 
+
+My perspective is just one additional voice thinking about how to combine traditional teaching methods in the classroom (which I'll refer to as "Analog") with learning from LLMs (which I'll refer to as "AI"). I believe that there are good reasons to embrace both Analog and AI in college classes of all levels. Below I describe both the why and the how of implementing different learning approaches in my classrooms. I hope that some of the ideas I've presented will translate well to your classroom.
+
+## Artificial Intelligence
+
+Instructors who believe they can teach without students using AI are fooling themselves. The fast pace at which AI has become ubiquitous is shocking for those of us who did not even have cell phones in college. But for our students, AI is simply one more new technology to embrace on their educational path. College students today use AI for *everything*, and most importantly, they use it for their homework, their studying, their learning. 
+
+Another reason to embrace teaching with AI is that future employers expect candidates to be able to use AI efficiently and effectively. A candidate who has no experience with AI is at a substantial disadvantage as compared to their colleagues who can accomplish the same tasks in a much shorter timeframe with AI.
+
+So, maybe we all believe that AI should be used in the classroom. But how do we do it? I'll provide some suggestions below, but I recommend you reflect on your own experiences with AI and how they might be similar to what students are going through.
+
+* Autocomplete: autocomplete is so much better to use if you have a sense of the language already. Personally, when I'm coding in R (I'm an advanced coder), autocomplete is awesome. I know what I want to do, and I can easily keep or reject the AI suggestions. But when I'm coding in Python (I'm a newbie coder), autocomplete is terrible. I don't know what the language structure is, and I can't tell whether the suggestions are what I want to do. For students, who don't program yet, you might extend the analogy to natural languages. Autocomplete in their first language is probably quite helpful. Autocomplete in a new language may or may not provide the correct words. Talk to your students about the difference between AI use on a topic they know versus a topic they don't know anything about.
+* Pair work: set up opportunities for pairs of students to work through AI generated output (e.g., code, proof, derivation, etc.). As the students discuss each line of the output, they will process the structure of the results.
+* Practice: give them ways to practice using AI. Find assignments that make sense for AI use. Describe when it is okay to use AI and when it isn't. In my own classrooms, I allow all AI use in homework and projects. While it is possible that their AI use in homework assignments diminishes their learning of the core concepts, I am giving them experience in working with AI tools effectively.  The projects in my class are scaffolded in such a way that, even with the use of AI, students have to push the boundaries of the course content.
+* Model use of AI: model the use of AI in the classroom or in office hours. In particular, ask the AI *why* something is true. If the use of AI is focused on learning instead of on obtaining a solution, the AI can act as an additional instructor. Students with imposter syndrome can dig into the ideas without feeling embarrassed about asking "stupid questions."
+
+## Analog
+
+Regardless of where you are in your AI journey, there should be plenty of room to engage with analog learning styles in the classroom. The work done in an analog learning style is where students can really stretch their brains and practice without AI support. As with AI, instructors should discuss why the analog methods are important to learning. And connections can be made back to AI -- if the analog learning is done, the AI learning with be improved and even more efficient.
+
+Below I've detailed some of the ways that I make my class Analog. My focus is on having students report what they know so that I can assess them, but more importantly so that *they* know where they are in the learning process. The analog approaches allow the students to reflect on what they do know of the course material and what they want to know of the course material. With the personal reflection they can choose to learn more, either with TAs, with professor office hours, or with AI.
+
+* Worksheets: every day in every class I have each individual student work on a quick (5-10min) worksheet related to that day's class material. The worksheet is very low stakes (complete / incomplete) and serves myriad purposes. I get to know how the students are engaging with the materials; the students get a sense for their own understanding; I know who is attending class; and they provide sample questions the students can use for studying. I look at the worksheets between every class period, which can be time consuming. In my classroom, worksheets are a low-stakes assignment which is valuable for students to take risks.
+* Random seating: As the students walk into the classroom, they are assigned a random number. The tables are already numbered (with small stickers), and so the students sit randomly (with respect to the physical space of the room and with respect to which classmates they sit with). Students complete the worksheet with a new group of classmates each day, giving everyone a chance to get to know all students in the class.
+* Clickers: I use clickers^[For example, the clicker questions I use for introduction to statistics can be found at <a href = "https://m58-intro-stats.netlify.app/clicker_study" target = "_blank">https://m58-intro-stats.netlify.app/clicker_study</a>.] to infuse the class period with interactivity. It is important to me that the clickers not be connected to any phone or computer. I find that it is too easy for students to get distracted ("I just need to respond to that one text...") when using their personal devices (in my classroom I do not allow computers to be used or open at all). Instead, I use iClickers that are connected only to a base which receives the signal. If I didn't have access to iClickers, I would choose to have students use pieces of paper with big letters on them (e.g., "A", "B", etc.) instead of having them answer clicker questions on their phones. The clicker questions invariably lead to great discussions ("Why wasn't answer D correct?") and gives students a sense of both their understanding of the material and of their place in the classroom ("Am I getting more correct than most people?"). I do not use clickers for attendance, and so the clicker responses are truly anonymous. Clickers also act as a low-stakes assignment.
+* Quizzes: approximately every other week, I have an in-person quiz done using a pen or pencil. The students can bring in one sheet of notes (a "cheat sheet") where they've written anything they want. Ideally, if they have created a good cheat sheet, they won't actually ever look at it. The quizzes serve to ensure that students are learning the material well enough to take a test using no technology. The quizzes are not low-stakes, but there are enough of them that a single quiz cannot ruin a student's grade. Additionally, while I do sit in the classroom while the quiz is being taken, I allow for students to take as long as they need (i.e., I work to reduce the stress associated with a timed assessment).
+
+
+I don't claim to have figured out how to perfectly balance AI and analog learning. But I do claim to be thinking about it. I want to help my students be effective in a 21st century workplace, and I know that means they will need some fluency working with LLMs in technical ways. But I also know that if I don't continue to employ analog learning methods, my students will let AI do all of the work for them, clearly not an ideal situation for learning! For now, I've landed on a course design that allows for students to practice boosting their technical abilities using AI. And at the same time, I hold students accountable for the course content by having in-class written assessments. 
+
+As LLMs and other technologies continue to develop so do my own pedagogical approaches to using AI in the classroom. I appreciate learning from other educators who are grappling with the same issues that I am. As a statistician, my education community comes primarily through the American Statistical Association's Section on Statistics and Data Science. The open access flagship journal, *The Journal of Statistics and Data Science Education*^[<a href = "https://www.tandfonline.com/journals/ujse21" target = "_blank">https://www.tandfonline.com/journals/ujse21</a>] has had myriad recent publications on AI. Two conferences, eCOTS^[<a href = "https://www.causeweb.org/cause/ecots/ecots26" target = "_blank">https://www.causeweb.org/cause/ecots/ecots26</a>] (electronic Conference on Teaching Statistics: with its 2026 theme *Sparking Joy and Discovery In a World of AI*) and ICOTS^[<a href = "https://icots12.oa-event.com/" target = "_blank">https://icots12.oa-event.com/</a>] (International Conference on Teaching Statistics), promise many talks at the interface of teaching and AI. I hope that my reflections have helped you, and I look forward to discovering your reflections (in blogs, journal articles, and conference presentations), which will help me move forward in my own classroom.
+
+
