@@ -50,7 +50,7 @@ https://github.com/mcanouil/quarto-iconify
 <ul>
 <li> {{< iconify fa-solid chalkboard-teacher >}} Hardin, J. <a href = "" target = "_blank"><strong>Disciplinary Ethics in Data Science and Statistics</strong></a>, submitted, 2026.</li>
 <li> {{< iconify fa-solid chart-line >}}  <sup>#</sup>Butler, S., <sup>#</sup>Choi, P., <sup>#</sup>Matheis, T., <sup>#</sup>Terdiman, M., and Hardin, J. <a href = "https://github.com/hardin47/sicegar/blob/master/paper/paper.md" target = "_blank"><strong>Modifications to sicegar: Analysis of Single-Cell viral Growth Curves</strong></a>, submitted, 2026.</li>
-<li> {{< iconify fa sitemap >}} <sup>#</sup>Kher, S. and Hardin, J. <a href = "https://arxiv.org/abs/2505.18281" target = "_blank"><strong>Measuring the Impact of Missingness in Traffic Stop Data</strong></a>. <em>Harvard Data Science Review</em>, accepted, 2026.</li>
+<li> {{< iconify fa sitemap >}} <sup>#</sup>Kher, S. and Hardin, J. <a href = "https://doi.org/10.1162/99608f92.c45545cb" target = "_blank"><strong>Measuring the Impact of Missingness in Traffic Stop Data</strong></a>. <em>Harvard Data Science Review</em>, 2026.</li>
 </ul>
 
 
