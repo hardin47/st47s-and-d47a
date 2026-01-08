@@ -277,6 +277,21 @@ Near-Earth Asteroids: An investigation of Fourier Analysis and the Lomb-Scargle 
  	<li>Veronica (Montes De Oca) Aispuro (2003): "<a href="http://pages.pomona.edu/~jsh04747/Student%20Theses/veronica_abstract.pdf" target = "_blank">Methods for Evaluating Health Care Claims Data</a>"  (an application of Bootstrapping); Ph.D. 2008, University of California, Riverside, Applied Statistics; Currently: Senior Director of Stars Survey Analytics, UnitedHealth Group.</li>
 </ul>
 
+
+## DS Minor Capstones
+
+<p>
+<h4>2026:</h4>
+<ul>
+<li>Max Feng (major: mathematics), <a href = "https://hardin47.github.io/st47s-and-d47a/student-work/feng_semantics_2026.pdf" target = "_blank">Tracking Semantic Change of Technology Words</a>, a project to employ diachronic word embeddings to quantify and analyze semantic change in technology vocabulary from 2016 to 2025.</li>
+<li>Z Skigen (major: mathematics), <a href = "https://hardin47.github.io/st47s-and-d47a/student-work/skigen_baseball_2026.pdf" target = "_blank">TrackMan API to PostgreSQL ETL Pipeline
+for Pomona-Pitzer Baseball</a>, a <a href = "" target = "_blank">project</a> to create an automated Extract-Transform-Load (ETL) pipline that connects the Pomona-Pitzer baseball TrackMan system directly to a SQL database.</li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+
+
 ## Student Successes
 
 <p> 
