@@ -5,7 +5,7 @@ description: ""
 image: featured.png
 ---
 
-<!--The pdf files including the theses lives on gh-pages.  Need to switch branch, upload files,then switch back to the main branch. -->
+<!--The pdf files including the theses lives on gh-pages.  Need to switch branch, upload files to student-work,then switch back to the main branch. -->
 
 
 
@@ -13,12 +13,8 @@ image: featured.png
 ::: {.grid .column-page}
 ::: {.headline .g-col-lg-6 .g-col-12 .g-col-md-12}
 
-::: h1
-
-:::
 
 Undergraduate projects are the most fun and the most rewarding part of my day.
-:::
 
 ```{r}
 #| classes: '.g-col-lg-6 .g-col-12 .g-col-md-12'
@@ -32,9 +28,8 @@ carousel("gallery-carousel", 5000,
 ```
 :::
 :::
-
-::: {#gallery .column-page}
 :::
+
 
 ```{=html}
 <style>
@@ -95,8 +90,6 @@ padding-bottom: 1em;
 }
 </style>
 ```
-:::
-
 
 
 <br/>
@@ -280,12 +273,12 @@ Near-Earth Asteroids: An investigation of Fourier Analysis and the Lomb-Scargle 
 
 ## DS Minor Capstones
 
-<p>
+
 <h4>2026:</h4>
 <ul>
 <li>Max Feng (major: mathematics), <a href = "https://hardin47.github.io/st47s-and-d47a/student-work/feng_semantics_2026.pdf" target = "_blank">Tracking Semantic Change of Technology Words</a>, a project to employ diachronic word embeddings to quantify and analyze semantic change in technology vocabulary from 2016 to 2025.</li>
 <li>Z Skigen (major: mathematics), <a href = "https://hardin47.github.io/st47s-and-d47a/student-work/skigen_baseball_2026.pdf" target = "_blank">TrackMan API to PostgreSQL ETL Pipeline
-for Pomona-Pitzer Baseball</a>, a <a href = "" target = "_blank">project</a> to create an automated Extract-Transform-Load (ETL) pipline that connects the Pomona-Pitzer baseball TrackMan system directly to a SQL database.</li>
+for Pomona-Pitzer Baseball</a>, a <a href = "https://github.com/zskigen/Trackman-API-ETL/" target = "_blank">project</a> to create an automated Extract-Transform-Load (ETL) pipline that connects the Pomona-Pitzer baseball TrackMan system directly to a SQL database.</li>
 <li></li>
 <li></li>
 <li></li>
@@ -294,7 +287,6 @@ for Pomona-Pitzer Baseball</a>, a <a href = "" target = "_blank">project</a> to 
 
 ## Student Successes
 
-<p> 
 
 <h4>2024:</h4>
 <ul>
@@ -366,8 +358,7 @@ to the Enron Corpus</a> Winning Paper Undergraduate Statistics Research Project 
 DataFest - Best Use of External Data</li>
    <li> Drew DiPalma '13, Tim Stutz '12; DataFest - Best Visualization, honorable mention </li>
    </ul>
-</p>
+:::
 
-::: 
 
 
