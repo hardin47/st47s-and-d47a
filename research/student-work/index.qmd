@@ -286,7 +286,7 @@ Near-Earth Asteroids: An investigation of Fourier Analysis and the Lomb-Scargle 
 Individuals</a>, a <a href = "https://github.com/kaylapark753/ParkDScapstone25/" target = "_blank">project</a> to provide resources to support formerly incarcerated trans individuals.</li>
 <li>Z Skigen (major: mathematics), <a href = "https://hardin47.github.io/st47s-and-d47a/student-work/skigen_baseball_2026.pdf" target = "_blank">TrackMan API to PostgreSQL ETL Pipeline
 for Pomona-Pitzer Baseball</a>, a <a href = "https://github.com/zskigen/Trackman-API-ETL/" target = "_blank">project</a> to create an automated Extract-Transform-Load (ETL) pipline that connects the Pomona-Pitzer baseball TrackMan system directly to a SQL database.</li>
-<li>Wendy Zhang (major: cognitive science), <a href = "https://hardin47.github.io/st47s-and-d47a/student-work/zhang_fMRI_2026.pdf" target = "_blank">Multiverse Analysis in Functional Magnetic Resonance Imagine Across Cognitive Tasks</a>, a <a href = "https://github.com/mwzhang851/hcp_multi_pipelines" target = "_blank">project</a> to assess different choices of preprocessing and analysis on results of fMRI studies.</li>
+<li>Wendy Zhang (major: cognitive science), <a href = "https://hardin47.github.io/st47s-and-d47a/student-work/zhang_fMRI_2026.pdf" target = "_blank">Multiverse Analysis in Functional Magnetic Resonance Imagine Across Cognitive Tasks</a>, a <a href = "https://github.com/mwzhang851/hcp_multi_pipelines/blob/debug_docker/src/btwn_subject_analysis.ipynb" target = "_blank">project</a> to assess different choices of preprocessing and analysis on results of fMRI studies.</li>
 </ul>
 
 
