@@ -15,7 +15,7 @@ format:
 
 ## <a href = "https://jedi-read-s26.netlify.app/" target = "_blank">JEDI-CAUSE reading group (Spring 2026)</a>
 
-Co-led by Tyler George, Jo Hardin, Jessie Knuke, and Jennifer Ward, participants complete readings and discuss topics related to Justice, Equity, Diversity, and Inclusion (JEDI).
+Co-led by Tyler George, Jo Hardin, Jess Kunke, and Jennifer Ward, participants complete readings and discuss topics related to Justice, Equity, Diversity, and Inclusion (JEDI).
 Each participant will create teaching materials for statistics and data science through six intensive two-hour collaborative meetings in the Spring of 2026.
 Members will post their created materials (e.g., activities, cleaned data, professional development materials, or more) on the existing <a href = "https://causeweb.org/jedi/" target = "_blank">JEDI-CAUSE website </a> and on the <a href = "https://qubeshub.org/resources" target = "_blank">QUBES platform</a> to expand the availability and awareness of JEDI-related teaching materials for statistics and data science educators.
 The JEDI-CAUSE reading group is Supported by RIOS Institute for a racially-just, inclusive, and open STEM education.
